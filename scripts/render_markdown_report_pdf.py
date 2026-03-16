@@ -580,7 +580,7 @@ def markdown_to_story(source: Path) -> list:
     lines = source.read_text(encoding="utf-8").splitlines()
     story: list = [
         Spacer(1, 0.18 * inch),
-        Table([[brand_logo(), paragraph("High-Level Project Report", styles_map["cover_title"])]], colWidths=[1.2 * inch, 5.9 * inch], hAlign="LEFT"),
+        Table([[brand_logo(), paragraph("Project Report", styles_map["cover_title"])]], colWidths=[1.2 * inch, 5.9 * inch], hAlign="LEFT"),
         paragraph("BIM Compliance Geometric Reasoning", styles_map["cover_subtitle"]),
         intro_panel(styles_map),
         Spacer(1, 0.1 * inch),
