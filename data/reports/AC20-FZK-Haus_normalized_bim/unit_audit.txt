@@ -1,7 +1,6 @@
 Project: Projekt-FZK-Haus
 Project ID: 0lY6P5Ur90TAQnnnI6wtnb
 Units: Erdgeschoss, Dachgeschoss
-Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
 Overall unit status: UNKNOWN
 Audited space count: 5
 Retrieval mode: hybrid

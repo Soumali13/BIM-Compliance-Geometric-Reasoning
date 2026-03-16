@@ -28,7 +28,6 @@ Reasoning summary:
   override trace: QCC_B11_R2:3.8.6.5 <= 1300.0 mm -> QUEBEC_2020_ABOVE:3.8.6.5 <= 1300.0 mm
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Hotel_Suite_510_normalized_bim.json
 - Unit ID: Hotel_Suite_510
 - Space ID: Hotel_Suite_510_closet_space
 - Space name: Hotel Suite 510 Closet

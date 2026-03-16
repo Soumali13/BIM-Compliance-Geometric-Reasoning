@@ -46,7 +46,6 @@ Reasoning summary:
   override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_411_normalized_bim.json
 - Unit ID: Unit_411
 - Space ID: Unit_411_bedroom_primary_space
 - Space name: Unit 411 Bedroom Primary

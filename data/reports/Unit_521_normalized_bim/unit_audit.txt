@@ -1,7 +1,6 @@
 Project: Montreal Accessibility Demo Tower
 Project ID: Montreal_Accessibility_Demo
 Units: Unit_521
-Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
 Overall unit status: FAIL
 Audited space count: 10
 Retrieval mode: hybrid

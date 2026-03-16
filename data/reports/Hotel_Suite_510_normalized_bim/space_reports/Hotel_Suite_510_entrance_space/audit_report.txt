@@ -27,7 +27,6 @@ Unmatched facts:
   - suite_entry_door.latch_clearance_lateral_mm -> sliding_door_latch_clearance_lateral
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Hotel_Suite_510_normalized_bim.json
 - Unit ID: Hotel_Suite_510
 - Space ID: Hotel_Suite_510_entrance_space
 - Space name: Hotel Suite 510 Entrance

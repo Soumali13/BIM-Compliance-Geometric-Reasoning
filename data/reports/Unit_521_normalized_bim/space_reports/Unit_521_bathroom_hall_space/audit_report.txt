@@ -145,7 +145,6 @@ Reasoning summary:
   override trace: QCC_B11_R2:3.8.5.5 >= 1800.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1800.0 mm
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
 - Unit ID: Unit_521
 - Space ID: Unit_521_bathroom_hall_space
 - Space name: Unit 521 Bathroom Hall

@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import shutil
 import sys
 from collections import Counter
 from datetime import datetime, timezone
@@ -120,7 +119,6 @@ def _build_space_report_text(
     report: AuditReport,
     retrieved_articles,
     constraints,
-    normalized_path: Path,
     unit: NormalizedUnit,
     space: NormalizedSpace,
 ) -> str:
@@ -128,7 +126,6 @@ def _build_space_report_text(
         render_report(report),
         "",
         "Metadata",
-        f"- Source normalized BIM: {normalized_path}",
         f"- Unit ID: {unit.unit_id}",
         f"- Space ID: {space.space_id}",
         f"- Space name: {space.name}",
@@ -158,7 +155,7 @@ def _build_space_package(
 
     report_text_path = destination_dir / "audit_report.txt"
     report_text_path.write_text(
-        _build_space_report_text(report, retrieved_articles, constraints, normalized_path, unit, space),
+        _build_space_report_text(report, retrieved_articles, constraints, unit, space),
         encoding="utf-8",
     )
     render_space_audit_pdf(
@@ -193,7 +190,6 @@ def _build_space_package(
 
 
 def _render_unit_summary(
-    normalized_path: Path,
     project: NormalizedProject,
     space_results: list[tuple[NormalizedUnit, NormalizedSpace, AuditReport]],
     retrieval_mode: str,
@@ -206,7 +202,6 @@ def _render_unit_summary(
         f"Project: {project.name}",
         f"Project ID: {project.project_id}",
         f"Units: {unit_ids}",
-        f"Source normalized BIM: {normalized_path}",
         f"Overall unit status: {overall_status}",
         f"Audited space count: {len(space_results)}",
         f"Retrieval mode: {retrieval_mode}",
@@ -259,8 +254,9 @@ def _build_project_package(
     space_reports_dir = package_dir / "space_reports"
     input_spaces_dir.mkdir(exist_ok=True)
     space_reports_dir.mkdir(exist_ok=True)
-
-    shutil.copy2(normalized_path, package_dir / "source_normalized_project.json")
+    stale_source_artifact = package_dir / "source_normalized_project.json"
+    if stale_source_artifact.exists():
+        stale_source_artifact.unlink()
 
     space_results: list[tuple[NormalizedUnit, NormalizedSpace, AuditReport]] = []
     space_manifests: list[dict] = []
@@ -281,7 +277,7 @@ def _build_project_package(
         report = AuditReport.model_validate(json.loads((space_report_dir / "audit_report.json").read_text(encoding="utf-8")))
         space_results.append((unit, space, report))
 
-    unit_summary_text = _render_unit_summary(normalized_path, project, space_results, retrieval_mode, reasoning_mode)
+    unit_summary_text = _render_unit_summary(project, space_results, retrieval_mode, reasoning_mode)
     unit_summary_path = package_dir / "unit_audit.txt"
     unit_summary_path.write_text(unit_summary_text, encoding="utf-8")
     render_unit_audit_pdf(
@@ -300,7 +296,6 @@ def _build_project_package(
         "project_id": project.project_id,
         "project_name": project.name,
         "unit_ids": [unit.unit_id for unit in project.units],
-        "source_normalized_project": str(normalized_path),
         "overall_status": overall_status,
         "retrieval_mode": retrieval_mode,
         "reasoning_mode": reasoning_mode,
@@ -334,7 +329,6 @@ def _build_project_package(
         "project_name": project.name,
         "unit_ids": [unit.unit_id for unit in project.units],
         "artifacts": [
-            "source_normalized_project.json",
             "unit_audit.json",
             "unit_audit.txt",
             "unit_audit.pdf",

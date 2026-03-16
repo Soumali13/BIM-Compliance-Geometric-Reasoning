@@ -186,9 +186,26 @@ def page_chrome(canvas, doc) -> None:
 
 
 def paragraph(text: str, style: ParagraphStyle) -> Paragraph:
+    return Paragraph(_inline_markup(text).replace("\n", "<br/>"), style)
+
+
+def _inline_markup(text: str) -> str:
+    code_spans: list[str] = []
+
+    def _store_code(match: re.Match[str]) -> str:
+        code_spans.append(match.group(1))
+        return f"@@CODE{len(code_spans) - 1}@@"
+
+    text = re.sub(r"`([^`]+)`", _store_code, text)
     text = escape(text)
-    text = text.replace("`", "")
-    return Paragraph(text.replace("\n", "<br/>"), style)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+
+    for index, code_text in enumerate(code_spans):
+        text = text.replace(
+            f"@@CODE{index}@@",
+            f'<font name="Courier">{escape(code_text)}</font>',
+        )
+    return text
 
 
 def code_block(text: str, styles_map: dict[str, ParagraphStyle]) -> Table:
@@ -224,6 +241,27 @@ def _flow_node_box(label: str, styles_map: dict[str, ParagraphStyle], width: flo
                 ("RIGHTPADDING", (0, 0), (-1, -1), 8),
                 ("TOPPADDING", (0, 0), (-1, -1), 6),
                 ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+            ]
+        )
+    )
+    return table
+
+
+def _authority_node_box(label: str, styles_map: dict[str, ParagraphStyle], width: float, height: float) -> Table:
+    label = label.replace("<br/>", "<br />")
+    table = Table([[Paragraph(label, styles_map["body"])]], colWidths=[width], rowHeights=[height], hAlign="CENTER")
+    table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, -1), colors.white),
+                ("BOX", (0, 0), (-1, -1), 1.0, SECTION_COLORS["brand"]),
+                ("INNERGRID", (0, 0), (-1, -1), 0, colors.white),
+                ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+                ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 8),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+                ("TOPPADDING", (0, 0), (-1, -1), 2),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
             ]
         )
     )
@@ -281,10 +319,10 @@ def render_authority_precedence_diagram(styles_map: dict[str, ParagraphStyle]):
     ]
     rows = []
     for index, label in enumerate(labels):
-        height = 0.41 * inch if "QUEBEC_2015_2022" not in label else 0.43 * inch
-        rows.append([_flow_node_box(label, styles_map, 3.7 * inch, height)])
+        height = 0.32 * inch if "QUEBEC_2015_2022" not in label else 0.34 * inch
+        rows.append([_authority_node_box(label, styles_map, 3.7 * inch, height)])
         if index < len(labels) - 1:
-            rows.append([_vertical_arrow(width=0.65 * inch, height=0.24 * inch)])
+            rows.append([_vertical_arrow(width=0.65 * inch, height=0.2 * inch)])
 
     flow = Table(rows, colWidths=[4.0 * inch], hAlign="CENTER")
     flow.setStyle(
@@ -635,14 +673,14 @@ def markdown_to_story(source: Path) -> list:
 
         if stripped.startswith("- "):
             flush_paragraph()
-            story.append(Paragraph(escape(stripped[2:]).replace("`", ""), styles_map["bullet"], bulletText="•"))
+            story.append(Paragraph(_inline_markup(stripped[2:]), styles_map["bullet"], bulletText="•"))
             story.append(Spacer(1, 0.03 * inch))
             continue
 
         if len(stripped) > 2 and stripped[0].isdigit() and stripped[1:].lstrip().startswith("."):
             flush_paragraph()
             num, body = stripped.split(".", 1)
-            story.append(Paragraph(escape(body.strip()).replace("`", ""), styles_map["number"], bulletText=f"{num}."))
+            story.append(Paragraph(_inline_markup(body.strip()), styles_map["number"], bulletText=f"{num}."))
             story.append(Spacer(1, 0.03 * inch))
             continue
 

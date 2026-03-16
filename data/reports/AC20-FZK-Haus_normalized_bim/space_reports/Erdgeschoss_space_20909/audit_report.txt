@@ -86,7 +86,6 @@ Unmatched facts:
   - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
 - Unit ID: Erdgeschoss
 - Space ID: Erdgeschoss_space_20909
 - Space name: Schlafzimmer

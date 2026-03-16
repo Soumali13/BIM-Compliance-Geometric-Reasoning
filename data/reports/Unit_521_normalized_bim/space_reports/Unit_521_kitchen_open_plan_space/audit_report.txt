@@ -29,7 +29,6 @@ Reasoning summary:
   expected from: kitchen_sink
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
 - Unit ID: Unit_521
 - Space ID: Unit_521_kitchen_open_plan_space
 - Space name: Unit 521 Kitchen Open Plan

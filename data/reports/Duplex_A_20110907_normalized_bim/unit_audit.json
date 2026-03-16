@@ -7,11 +7,10 @@
     "T_FDN",
     "Roof"
   ],
-  "source_normalized_project": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json",
   "overall_status": "FAIL",
   "retrieval_mode": "hybrid",
   "reasoning_mode": "deterministic",
-  "generated_at": "2026-03-15T13:11:26-04:00",
+  "generated_at": "2026-03-15T20:58:00-04:00",
   "space_count": 12,
   "status_counts": {
     "PASS": 2,

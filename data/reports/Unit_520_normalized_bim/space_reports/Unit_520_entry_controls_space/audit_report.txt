@@ -64,7 +64,6 @@ Reasoning summary:
   override trace: QCC_B11_R2:3.8.4.4 >= 300.0 mm -> QCC_B11_R2:3.8.5.4 >= 300.0 mm -> QUEBEC_2020_ABOVE:3.8.4.4 >= 300.0 mm -> QUEBEC_2020_ABOVE:3.8.5.4 >= 300.0 mm
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_520_normalized_bim.json
 - Unit ID: Unit_520
 - Space ID: Unit_520_entry_controls_space
 - Space name: Unit 520 Entry Controls

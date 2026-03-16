@@ -8,7 +8,6 @@
     "Roof"
   ],
   "artifacts": [
-    "source_normalized_project.json",
     "unit_audit.json",
     "unit_audit.txt",
     "unit_audit.pdf",
@@ -17,7 +16,7 @@
   ],
   "retrieval_mode": "hybrid",
   "reasoning_mode": "deterministic",
-  "generated_at": "2026-03-15T13:11:26-04:00",
+  "generated_at": "2026-03-15T20:58:00-04:00",
   "space_reports": [
     {
       "space_id": "Level_1_space_67",

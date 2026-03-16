@@ -1,7 +1,6 @@
 Project: 0001
 Project ID: 1xS3BCk291UvhgP2a6eflL
 Units: Level_1, Level_2, T_FDN, Roof
-Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json
 Overall unit status: FAIL
 Audited space count: 12
 Retrieval mode: hybrid

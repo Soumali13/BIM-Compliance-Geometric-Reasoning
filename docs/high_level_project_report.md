@@ -4,13 +4,13 @@
 
 ### Executive Summary
 
-When a buyer, consultant, developer, or reviewer looks at a building or unit, one of the hardest questions is not simply "what does it look like?" but "is it actually compliant?" That question is difficult because compliance does not live in one place. It is distributed across national building codes, provincial construction rules, municipal bylaws, amendments, and project-specific geometry inside BIM or IFC models.
+When a buyer, consultant, developer, or reviewer looks at a building or unit, one of the hardest questions is not simply "what does it look like?" but **"is it actually compliant?"** That question is difficult because compliance does not live in one place. It is distributed across national building codes, provincial construction rules, municipal bylaws, amendments, and project-specific geometry inside BIM or IFC models.
 
 In practice, this means a person evaluating a property is forced to bridge three different worlds at once: legal text written for code interpretation, building models written for design and coordination, and risk decisions written in business language such as buy, approve, redesign, or escalate.
 
-This project addresses that gap by building an agentic BIM auditor as an Agentic RAG (Retrieval Augmented Generation) based compliance pipeline that ingests BIM/IFC data, turns normalized BIM into auditable geometric facts, retrieves relevant code articles from layered compliance corpora, resolves layered rule precedence across national, provincial, and municipal authorities, evaluates the model deterministically, and produces explainable reports with optional LLM-based reasoning for failed or uncertain cases.
+This project addresses that gap by building a BIM auditor as a **RAG (Retrieval Augmented Generation) based compliance pipeline** that ingests BIM/IFC data, turns normalized BIM into auditable geometric facts, retrieves relevant code articles from layered compliance corpora, resolves layered rule precedence across national, provincial, and municipal authorities, evaluates the model deterministically, and produces explainable reports with optional LLM-based reasoning for failed or uncertain cases.
 
-The result is a system that can help answer whether a unit is compliant, which rule actually applies, whether a municipal amendment overrode the provincial or national baseline, why a space is marked `FAIL` or `UNKNOWN`, and what additional measurements are needed before a property can be assessed confidently.
+The result is a system that can help answer whether a unit is compliant, which rule actually applies, whether a municipal amendment overrode the provincial or national baseline, why a space is marked **`FAIL`** or **`UNKNOWN`**, and what additional measurements are needed before a property can be assessed confidently.
 
 ---
 
@@ -43,7 +43,7 @@ The core challenge is not just "checking a rule." It is resolving this chain:
 
 ## 2. What This Project Solves
 
-This project implements an Agentic RAG based Compliance Pipeline.
+This project implements a **RAG based Compliance Pipeline**.
 
 At a high level, it ingests or normalizes BIM/IFC data into a structured intermediate schema, organizes code documents by authority and amendment layer, retrieves and resolves the active rules for a given space, and audits the geometry to produce human-readable reports.
 
@@ -79,7 +79,7 @@ flowchart TB
 
 ## 4. Solution Overview
 
-The project is built as an end-to-end compliance reasoning system.
+The project is built as an **end-to-end compliance reasoning system**.
 
 ### 4.1 Input side
 
@@ -91,7 +91,7 @@ Code corpora are split by authority and stored under `data/compliance_corpora/`.
 
 ### 4.3 Audit side
 
-The system extracts geometric facts from a normalized BIM space, retrieves relevant article chunks, derives executable constraints, resolves which rule is active, compares BIM facts against the resolved rule, and emits `PASS`, `FAIL`, or `UNKNOWN`.
+The system extracts geometric facts from a normalized BIM space, retrieves relevant article chunks, derives executable constraints, resolves which rule is active, compares BIM facts against the resolved rule, and emits **`PASS`, `FAIL`, or `UNKNOWN`**.
 
 ### 4.4 Reporting side
 
@@ -116,13 +116,13 @@ flowchart TD
 
 ### 5.1 Normalized BIM as the bridge layer
 
-A direct raw IFC model is too awkward for consistent legal checking, while a flat room-scene JSON is too weak for realistic BIM reasoning. The project uses a normalized BIM schema as the middle layer, preserving project, unit, and space hierarchy, persistent ids, IFC and Revit-style element typing, geometry-derived facts, raw properties, and derived compliance facts. That normalized layer is what makes the rest of the audit pipeline stable.
+A direct raw IFC model is too awkward for consistent legal checking, while a flat room-scene JSON is too weak for realistic BIM reasoning. The project uses a **normalized BIM schema** as the middle layer, preserving project, unit, and space hierarchy, persistent ids, IFC and Revit-style element typing, geometry-derived facts, raw properties, and derived compliance facts. That normalized layer is what makes the rest of the audit pipeline stable.
 
 ---
 
 ## 6. Retrieval and Rule Resolution
 
-This project does not rely on one retrieval signal only. It uses a hybrid approach that combines parameter overlap retrieval, vector similarity retrieval, and precedence-aware ranking.
+This project does not rely on one retrieval signal only. It uses a **hybrid approach** that combines parameter overlap retrieval, vector similarity retrieval, and precedence-aware ranking.
 
 ### Hybrid Retrieval Logic
 
@@ -132,11 +132,11 @@ The system computes `overlap_score`, `semantic_similarity_score`, and `final_sco
 
 ## 7. Deterministic Audit, Then Reasoning
 
-This project separates compliance evaluation from language generation.
+This project separates **compliance evaluation** from **language generation**.
 
 ### Deterministic layer
 
-The actual compliance decision remains deterministic:
+The actual compliance decision remains **deterministic**:
 
 - facts are extracted from BIM geometry or normalized fields
 - rules are derived from structured corpora
@@ -153,13 +153,13 @@ An optional reasoning layer then explains the result. It is used for:
 - next-measurement recommendations
 - unit-level and space-level summaries
 
-In `llm` mode, only `FAIL` and `UNKNOWN` spaces use the LLM. `PASS` spaces remain deterministic to reduce cost and avoid unnecessary language generation. This separation is important because it keeps the audit defensible while still making the result interpretable.
+In `llm` mode, only **`FAIL`** and **`UNKNOWN`** spaces use the LLM. `PASS` spaces remain deterministic to reduce cost and avoid unnecessary language generation. This separation is important because it keeps the audit defensible while still making the result interpretable.
 
 ---
 
 ## 8. What `UNKNOWN` Means
 
-A major practical feature of the project is that it does not force a false pass/fail result when evidence is incomplete. `UNKNOWN` means the rule appears relevant, the model does not provide enough evidence to evaluate it confidently, and the system can identify which measurement is missing. That is useful for real-world consulting because many property review decisions do not fail due to known non-compliance. They fail because the information package is incomplete. In a transaction or advisory context, `UNKNOWN` is often as important as `FAIL` because it flags unresolved risk.
+A major practical feature of the project is that it does not force a false pass/fail result when evidence is incomplete. **`UNKNOWN`** means the rule appears relevant, the model does not provide enough evidence to evaluate it confidently, and the system can identify which measurement is missing. That is useful for real-world consulting because many property review decisions do not fail due to known non-compliance. They fail because the information package is incomplete. In a transaction or advisory context, **`UNKNOWN` is often as important as `FAIL`** because it flags unresolved risk.
 
 ---
 
@@ -177,7 +177,7 @@ It helps answer which rule should be applied in a given jurisdiction, whether th
 
 ### For insurance and bank-related inspections
 
-It helps insurers and lenders identify whether a property carries unresolved compliance exposure that could affect underwriting, insurability, lending conditions, reserve assumptions, or post-closing remediation risk. In those workflows, `UNKNOWN` is often just as important as `FAIL`, because incomplete evidence can translate directly into pricing risk, conditional approval, or a requirement for further inspection.
+It helps insurers and lenders identify whether a property carries unresolved compliance exposure that could affect underwriting, insurability, lending conditions, reserve assumptions, or post-closing remediation risk. In those workflows, **`UNKNOWN` is often just as important as `FAIL`**, because incomplete evidence can translate directly into pricing risk, conditional approval, or a requirement for further inspection.
 
 ### For developers and architects
 

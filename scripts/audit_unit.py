@@ -62,7 +62,6 @@ def _auditable_spaces(project: NormalizedProject) -> list[tuple[NormalizedUnit, 
 
 
 def _render_summary(
-    normalized_path: Path,
     project: NormalizedProject,
     space_results: list[tuple[NormalizedUnit, NormalizedSpace, AuditReport]],
     retrieval_mode: str,
@@ -76,7 +75,6 @@ def _render_summary(
         f"Project: {project.name}",
         f"Project ID: {project.project_id}",
         f"Units: {unit_ids}",
-        f"Source normalized BIM: {normalized_path}",
         f"Overall unit status: {overall_status}",
         f"Audited space count: {len(space_results)}",
         f"Retrieval mode: {retrieval_mode}",
@@ -121,7 +119,7 @@ def main() -> None:
         print(render_report(report))
         print()
 
-    print(_render_summary(normalized_path, project, space_results, args.retrieval_mode, args.reasoning_mode))
+    print(_render_summary(project, space_results, args.retrieval_mode, args.reasoning_mode))
 
 
 if __name__ == "__main__":

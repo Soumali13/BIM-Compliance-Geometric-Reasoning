@@ -43,7 +43,6 @@ Unmatched facts:
   - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json
 - Unit ID: Level_1
 - Space ID: Level_1_space_212
 - Space name: Kitchen

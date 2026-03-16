@@ -4,11 +4,10 @@
   "unit_ids": [
     "Unit_410"
   ],
-  "source_normalized_project": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_410_normalized_bim.json",
   "overall_status": "PASS",
   "retrieval_mode": "hybrid",
   "reasoning_mode": "deterministic",
-  "generated_at": "2026-03-15T13:11:27-04:00",
+  "generated_at": "2026-03-15T20:58:01-04:00",
   "space_count": 6,
   "status_counts": {
     "PASS": 6,

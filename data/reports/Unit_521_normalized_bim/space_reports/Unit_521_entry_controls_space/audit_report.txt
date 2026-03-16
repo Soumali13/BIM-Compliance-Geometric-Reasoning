@@ -38,7 +38,6 @@ Reasoning summary:
   expected from: control
 
 Metadata
-- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
 - Unit ID: Unit_521
 - Space ID: Unit_521_entry_controls_space
 - Space name: Unit 521 Entry Controls
