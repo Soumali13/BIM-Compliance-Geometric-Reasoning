@@ -1,0 +1,21 @@
+Project: Montreal Accessibility Demo Tower
+Project ID: Montreal_Accessibility_Demo
+Units: Unit_410
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_410_normalized_bim.json
+Overall unit status: PASS
+Audited space count: 6
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Unit_410 :: Unit_410_bathroom_primary_space (Unit 410 Bathroom Primary): PASS
+- Unit_410 :: Unit_410_kitchen_open_plan_space (Unit 410 Kitchen): PASS
+- Unit_410 :: Unit_410_bedroom_primary_space (Unit 410 Bedroom Primary): PASS
+- Unit_410 :: Unit_410_suite_entry_space (Unit 410 Entry): PASS
+- Unit_410 :: Unit_410_entry_controls_space (Unit 410 Controls): PASS
+- Unit_410 :: Unit_410_balcony_space (Unit 410 Balcony): PASS
+
+Status counts:
+- PASS: 6
+- FAIL: 0
+- UNKNOWN: 0

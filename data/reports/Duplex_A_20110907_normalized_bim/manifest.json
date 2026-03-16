@@ -1,0 +1,347 @@
+{
+  "project_id": "1xS3BCk291UvhgP2a6eflL",
+  "project_name": "0001",
+  "unit_ids": [
+    "Level_1",
+    "Level_2",
+    "T_FDN",
+    "Roof"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:26-04:00",
+  "space_reports": [
+    {
+      "space_id": "Level_1_space_67",
+      "space_name": "Living Room",
+      "room_type": "Residential Living Room",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_1_space_212",
+      "space_name": "Kitchen",
+      "room_type": "Residential Kitchen",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.",
+      "recommended_next_measurements": [
+        "kitchen_clear_floor_space_diameter",
+        "kitchen_sink_trap_bottom_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_1_space_355",
+      "space_name": "Bathroom 1",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [
+        "bathtub_shower_reinforcement_height",
+        "lavatory_rim_height",
+        "lavatory_side_wall_distance",
+        "lavatory_trap_bottom_height",
+        "lavatory_trap_entry_back_wall_distance",
+        "shower_floor_length",
+        "shower_floor_width",
+        "shower_front_clearance_length",
+        "shower_front_clearance_width",
+        "turning_circle_diameter",
+        "water_closet_rear_reinforcement_height",
+        "water_closet_rear_reinforcement_width",
+        "water_closet_side_wall_or_equipment_distance",
+        "water_closet_to_lavatory_trap_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_1_space_1627",
+      "space_name": "Living Room",
+      "room_type": "Residential Living Room",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_1_space_1782",
+      "space_name": "Kitchen",
+      "room_type": "Residential Kitchen",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.",
+      "recommended_next_measurements": [
+        "kitchen_clear_floor_space_diameter",
+        "kitchen_sink_trap_bottom_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_1_space_1928",
+      "space_name": "Bathroom 1",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [
+        "bathtub_shower_reinforcement_height",
+        "lavatory_rim_height",
+        "lavatory_side_wall_distance",
+        "lavatory_trap_bottom_height",
+        "lavatory_trap_entry_back_wall_distance",
+        "shower_floor_length",
+        "shower_floor_width",
+        "shower_front_clearance_length",
+        "shower_front_clearance_width",
+        "turning_circle_diameter",
+        "water_closet_rear_reinforcement_height",
+        "water_closet_rear_reinforcement_width",
+        "water_closet_side_wall_or_equipment_distance",
+        "water_closet_to_lavatory_trap_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_1059",
+      "space_name": "Bathroom 2",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [
+        "bathtub_shower_reinforcement_height",
+        "lavatory_rim_height",
+        "lavatory_side_wall_distance",
+        "lavatory_trap_bottom_height",
+        "lavatory_trap_entry_back_wall_distance",
+        "shower_floor_length",
+        "shower_floor_width",
+        "shower_front_clearance_length",
+        "shower_front_clearance_width",
+        "turning_circle_diameter",
+        "water_closet_rear_reinforcement_height",
+        "water_closet_rear_reinforcement_width",
+        "water_closet_side_wall_or_equipment_distance",
+        "water_closet_to_lavatory_trap_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_1218",
+      "space_name": "Bedroom 2",
+      "room_type": "Residential Bedroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom failed because one or more active requirements were violated, including window_sill_height.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_1442",
+      "space_name": "Bedroom 1",
+      "room_type": "Residential Bedroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom failed because one or more active requirements were violated, including window_sill_height.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_2637",
+      "space_name": "Bathroom 2",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [
+        "bathtub_shower_reinforcement_height",
+        "lavatory_rim_height",
+        "lavatory_side_wall_distance",
+        "lavatory_trap_bottom_height",
+        "lavatory_trap_entry_back_wall_distance",
+        "shower_floor_length",
+        "shower_floor_width",
+        "shower_front_clearance_length",
+        "shower_front_clearance_width",
+        "turning_circle_diameter",
+        "water_closet_rear_reinforcement_height",
+        "water_closet_rear_reinforcement_width",
+        "water_closet_side_wall_or_equipment_distance",
+        "water_closet_to_lavatory_trap_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_2789",
+      "space_name": "Bedroom 2",
+      "room_type": "Residential Bedroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom failed because one or more active requirements were violated, including window_sill_height.",
+      "recommended_next_measurements": [
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Level_2_space_3013",
+      "space_name": "Bedroom 1",
+      "room_type": "Residential Bedroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom failed because one or more active requirements were violated, including window_sill_height.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}

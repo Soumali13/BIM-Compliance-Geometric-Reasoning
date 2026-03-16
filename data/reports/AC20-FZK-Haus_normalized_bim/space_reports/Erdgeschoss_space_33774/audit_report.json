@@ -1,0 +1,637 @@
+{
+  "scene_id": "Erdgeschoss_space_33774",
+  "room_type": "Residential Living Room",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "window_sill_height",
+      "source_element": "EG-Fenster-5",
+      "source_measurement": "geometry_bbox_min_z_mm",
+      "fact_value": 800.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1000.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Window sill height derived from IFC shape bounding box satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "window_sill_height",
+      "source_element": "EG-Fenster-9",
+      "source_measurement": "geometry_bbox_min_z_mm",
+      "fact_value": 800.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1000.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Window sill height derived from IFC shape bounding box satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [
+    {
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 12000.0,
+      "unit": "mm",
+      "source_element": "Wand-Ext-ERDG-4",
+      "source_measurement": "geometry_bbox_width_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2700.0,
+      "unit": "mm",
+      "source_element": "Wand-Ext-ERDG-4",
+      "source_measurement": "geometry_bbox_height_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+    },
+    {
+      "parameter": "ifc_overall_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-5",
+      "source_measurement": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "parameter": "ifc_overall_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-5",
+      "source_measurement": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-5",
+      "source_measurement": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-5",
+      "source_measurement": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "parameter": "ifc_overall_width",
+      "value": 2009.9999999999998,
+      "unit": "mm",
+      "source_element": "Terrassentuer",
+      "source_measurement": "overall_width_m",
+      "description": "IFCDOOR overall width"
+    },
+    {
+      "parameter": "ifc_overall_height",
+      "value": 2375.0,
+      "unit": "mm",
+      "source_element": "Terrassentuer",
+      "source_measurement": "overall_height_m",
+      "description": "IFCDOOR overall height"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 2010.0,
+      "unit": "mm",
+      "source_element": "Terrassentuer",
+      "source_measurement": "geometry_bbox_width_mm",
+      "description": "IFCDOOR geometry bounding-box width"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2375.0,
+      "unit": "mm",
+      "source_element": "Terrassentuer",
+      "source_measurement": "geometry_bbox_height_mm",
+      "description": "IFCDOOR geometry bounding-box height"
+    },
+    {
+      "parameter": "ifc_overall_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-9",
+      "source_measurement": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "parameter": "ifc_overall_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-9",
+      "source_measurement": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 74.99999999999818,
+      "unit": "mm",
+      "source_element": "EG-Fenster-9",
+      "source_measurement": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element": "EG-Fenster-9",
+      "source_measurement": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "parameter": "ifc_space_bbox_length",
+      "value": 7005.000000000001,
+      "unit": "mm",
+      "source_element": "derived_space_fact",
+      "source_measurement": "geometry_bbox_width_depth_mm",
+      "description": "Space long dimension derived from IFC shape bounding box"
+    },
+    {
+      "parameter": "ifc_space_bbox_width",
+      "value": 3710.0,
+      "unit": "mm",
+      "source_element": "derived_space_fact",
+      "source_measurement": "geometry_bbox_width_depth_mm",
+      "description": "Space short dimension derived from IFC shape bounding box"
+    },
+    {
+      "parameter": "ifc_space_bbox_area",
+      "value": 25.988550000000004,
+      "unit": "m2",
+      "source_element": "derived_space_fact",
+      "source_measurement": "geometry_bbox_width_depth_mm",
+      "description": "Approximate space footprint area derived from IFC shape bounding box"
+    },
+    {
+      "parameter": "ifc_space_bbox_height",
+      "value": 2500.0,
+      "unit": "mm",
+      "source_element": "derived_space_fact",
+      "source_measurement": "geometry_bbox_height_mm",
+      "description": "Space height derived from IFC shape bounding box"
+    }
+  ],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [
+      "ifc_geometry_bbox_width",
+      "ifc_geometry_bbox_height",
+      "ifc_overall_width",
+      "ifc_overall_height",
+      "ifc_space_bbox_length",
+      "ifc_space_bbox_width",
+      "ifc_space_bbox_area",
+      "ifc_space_bbox_height"
+    ],
+    "finding_explanations": [
+      {
+        "parameter": "window_sill_height",
+        "status": "PASS",
+        "explanation": "window_sill_height passed because the measured value 800.0 mm met the active QUEBEC_2020_ABOVE requirement of <= 1000.0 mm."
+      },
+      {
+        "parameter": "window_sill_height",
+        "status": "PASS",
+        "explanation": "window_sill_height passed because the measured value 800.0 mm met the active QUEBEC_2020_ABOVE requirement of <= 1000.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Erdgeschoss_space_33774",
+      "room_type": "Residential Living Room",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "ifc_geometry_bbox_width",
+          "value": 12000.0,
+          "unit": "mm",
+          "source_element": "Wand-Ext-ERDG-4",
+          "source_measurement": "geometry_bbox_width_mm",
+          "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_height",
+          "value": 2700.0,
+          "unit": "mm",
+          "source_element": "Wand-Ext-ERDG-4",
+          "source_measurement": "geometry_bbox_height_mm",
+          "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+        },
+        {
+          "parameter": "ifc_overall_width",
+          "value": 2000.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-5",
+          "source_measurement": "overall_width_m",
+          "description": "IFCWINDOW overall width"
+        },
+        {
+          "parameter": "ifc_overall_height",
+          "value": 1200.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-5",
+          "source_measurement": "overall_height_m",
+          "description": "IFCWINDOW overall height"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_width",
+          "value": 2000.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-5",
+          "source_measurement": "geometry_bbox_width_mm",
+          "description": "IFCWINDOW geometry bounding-box width"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_height",
+          "value": 1200.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-5",
+          "source_measurement": "geometry_bbox_height_mm",
+          "description": "IFCWINDOW geometry bounding-box height"
+        },
+        {
+          "parameter": "window_sill_height",
+          "value": 800.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-5",
+          "source_measurement": "geometry_bbox_min_z_mm",
+          "description": "Window sill height derived from IFC shape bounding box"
+        },
+        {
+          "parameter": "ifc_overall_width",
+          "value": 2009.9999999999998,
+          "unit": "mm",
+          "source_element": "Terrassentuer",
+          "source_measurement": "overall_width_m",
+          "description": "IFCDOOR overall width"
+        },
+        {
+          "parameter": "ifc_overall_height",
+          "value": 2375.0,
+          "unit": "mm",
+          "source_element": "Terrassentuer",
+          "source_measurement": "overall_height_m",
+          "description": "IFCDOOR overall height"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_width",
+          "value": 2010.0,
+          "unit": "mm",
+          "source_element": "Terrassentuer",
+          "source_measurement": "geometry_bbox_width_mm",
+          "description": "IFCDOOR geometry bounding-box width"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_height",
+          "value": 2375.0,
+          "unit": "mm",
+          "source_element": "Terrassentuer",
+          "source_measurement": "geometry_bbox_height_mm",
+          "description": "IFCDOOR geometry bounding-box height"
+        },
+        {
+          "parameter": "ifc_overall_width",
+          "value": 2000.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-9",
+          "source_measurement": "overall_width_m",
+          "description": "IFCWINDOW overall width"
+        },
+        {
+          "parameter": "ifc_overall_height",
+          "value": 1200.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-9",
+          "source_measurement": "overall_height_m",
+          "description": "IFCWINDOW overall height"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_width",
+          "value": 74.99999999999818,
+          "unit": "mm",
+          "source_element": "EG-Fenster-9",
+          "source_measurement": "geometry_bbox_width_mm",
+          "description": "IFCWINDOW geometry bounding-box width"
+        },
+        {
+          "parameter": "ifc_geometry_bbox_height",
+          "value": 1200.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-9",
+          "source_measurement": "geometry_bbox_height_mm",
+          "description": "IFCWINDOW geometry bounding-box height"
+        },
+        {
+          "parameter": "window_sill_height",
+          "value": 800.0,
+          "unit": "mm",
+          "source_element": "EG-Fenster-9",
+          "source_measurement": "geometry_bbox_min_z_mm",
+          "description": "Window sill height derived from IFC shape bounding box"
+        },
+        {
+          "parameter": "ifc_space_bbox_length",
+          "value": 7005.000000000001,
+          "unit": "mm",
+          "source_element": "derived_space_fact",
+          "source_measurement": "geometry_bbox_width_depth_mm",
+          "description": "Space long dimension derived from IFC shape bounding box"
+        },
+        {
+          "parameter": "ifc_space_bbox_width",
+          "value": 3710.0,
+          "unit": "mm",
+          "source_element": "derived_space_fact",
+          "source_measurement": "geometry_bbox_width_depth_mm",
+          "description": "Space short dimension derived from IFC shape bounding box"
+        },
+        {
+          "parameter": "ifc_space_bbox_area",
+          "value": 25.988550000000004,
+          "unit": "m2",
+          "source_element": "derived_space_fact",
+          "source_measurement": "geometry_bbox_width_depth_mm",
+          "description": "Approximate space footprint area derived from IFC shape bounding box"
+        },
+        {
+          "parameter": "ifc_space_bbox_height",
+          "value": 2500.0,
+          "unit": "mm",
+          "source_element": "derived_space_fact",
+          "source_measurement": "geometry_bbox_height_mm",
+          "description": "Space height derived from IFC shape bounding box"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "window_sill_height",
+          "article": "3.8.5.8",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "window_sill_height",
+          "article": "3.8.5.8",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "window_sill_height",
+          "status": "PASS",
+          "reason": "Window sill height derived from IFC shape bounding box satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1000.0,
+          "required_unit": "mm",
+          "fact_value": 800.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "window_sill_height",
+          "status": "PASS",
+          "reason": "Window sill height derived from IFC shape bounding box satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1000.0,
+          "required_unit": "mm",
+          "fact_value": 800.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "snippet": "1) In a living room and dining room referred to in Sentence 3.8.5.2.(1), a window sill, where provided, shall be installed not more than 1 000 mm above the floor, except where the spaces are located in the basement."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "18",
+          "title": "Article 18",
+          "snippet": "Article 18 of that Regulation is replaced by the following: \"18. The surfaces and dimensions of areas and rooms of a dwelling shall have a useful surface of at least 1o 13.5 m2, with no dimension less than 3 m, if it is a living area, whether it is a separate room or a combined area; 2o 3.25 m2,..."
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "snippet": "1) In a living room and dining room referred to in Sentence 3.8.5.2.(1), a window sill, where provided, shall be installed not more than 1 000 mm above the floor, except where the spaces are located in the basement."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "These Regulations are amended by adding after section 14 the following sections: \"14.1. Despite section 14, natural second-day lighting of a room in a dwelling is permitted when the following conditions are met in addition to the requirements set out in subparagraphs (a) and (b) of paragraph 4 of..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 20,
+    "matched_constraint_count": 4,
+    "evaluated_rule_count": 2,
+    "finding_count": 2,
+    "retrieved_article_count": 7,
+    "retrieved_articles": [
+      "QCC_B11_R2:3.8.5.8",
+      "MTL_11_018_X:18",
+      "QUEBEC_2020_ABOVE:3.8.5.8",
+      "MTL_11_018:14",
+      "MTL_11_018_X:14",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.8",
+        "title": "Living Rooms and Dining Rooms",
+        "priority": 2,
+        "overlap_score": 0.111111,
+        "similarity_score": 0.480909,
+        "final_score": 0.36997
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "18",
+        "title": "Article 18",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.517629,
+        "final_score": 0.362341
+      },
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.8",
+        "title": "Living Rooms and Dining Rooms",
+        "priority": 3,
+        "overlap_score": 0.111111,
+        "similarity_score": 0.439721,
+        "final_score": 0.341138
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.336217,
+        "final_score": 0.235352
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.288227,
+        "final_score": 0.201759
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.276033,
+        "final_score": 0.193223
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.273297,
+        "final_score": 0.191308
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 15,
+    "override_count": 2,
+    "normalized_space_name": "Wohnen",
+    "source_room_type": "Wohnen",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

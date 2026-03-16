@@ -1,0 +1,77 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "project_name": "Montreal Accessibility Demo Tower",
+  "unit_ids": [
+    "Hotel_Suite_510"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:27-04:00",
+  "space_reports": [
+    {
+      "space_id": "Hotel_Suite_510_bathroom_space",
+      "space_name": "Hotel Suite 510 Bathroom",
+      "room_type": "Hotel Bathroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The hotel bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Hotel_Suite_510_closet_space",
+      "space_name": "Hotel Suite 510 Closet",
+      "room_type": "Hotel Closet",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The hotel closet passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Hotel_Suite_510_entrance_space",
+      "space_name": "Hotel Suite 510 Entrance",
+      "room_type": "Hotel Suite Entrance",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The hotel suite entrance passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [
+        "door_side_clear_space_perpendicular_swing",
+        "door_side_clear_space_perpendicular_sliding",
+        "door_side_clear_space_perpendicular_other",
+        "sliding_door_latch_clearance_perpendicular",
+        "sliding_door_latch_clearance_lateral"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}

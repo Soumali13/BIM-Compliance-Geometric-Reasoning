@@ -1,0 +1,193 @@
+{
+  "space_id": "Unit_520_living_room_space",
+  "unit_id": "Unit_520",
+  "name": "Unit 520 Living Room",
+  "room_type": "Residential Living Room",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Unit_520",
+  "adjacent_to": [
+    "Unit_520_suite_entry_space",
+    "Unit_520_dining_room_space",
+    "Unit_520_bedroom_primary_space",
+    "Unit_520_bedroom_secondary_space",
+    "Unit_520_balcony_main_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 4200.0,
+    "y_mm": 0.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "living_room.json",
+  "source_room_id": "Unit_520_Living_Room",
+  "raw_properties": {
+    "source_room_type": "Residential Living Room",
+    "compliance_room_type": "Residential Living Room",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_520_living_room_space_floor_slab",
+      "source_label": "Unit_520_Living_Room_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 4200.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_service_wall",
+      "source_label": "Unit_520_Living_Room_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 5400.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_exterior_wall",
+      "source_label": "Unit_520_Living_Room_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7400.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_entry_wall",
+      "source_label": "Unit_520_Living_Room_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 4200.0,
+        "y_mm": 800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_ceiling_plane",
+      "source_label": "Unit_520_Living_Room_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 4200.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_unit520_living_room_window",
+      "source_label": "unit520_living_room_window",
+      "semantic_type": "window",
+      "ifc_type": "IfcWindow",
+      "revit_category": "Windows",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": "Unit_520_living_room_space_exterior_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 4500.0,
+        "y_mm": 200.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "sill_height_mm": 920
+      }
+    },
+    {
+      "element_id": "Unit_520_living_room_space_unit520_living_room_sofa",
+      "source_label": "unit520_living_room_sofa",
+      "semantic_type": "furniture",
+      "ifc_type": "IfcFurniture",
+      "revit_category": "Furniture",
+      "contained_in_space": "Unit_520_living_room_space",
+      "hosted_by": "Unit_520_living_room_space_floor_slab",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 4800.0,
+        "y_mm": 400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "width_mm": 2100
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Unit_520_living_room_space_fact_01",
+      "parameter": "window_sill_height",
+      "value": 920.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_living_room_space_unit520_living_room_window",
+      "source_element_label": "unit520_living_room_window",
+      "source_property": "sill_height_mm",
+      "description": "Window sill height"
+    }
+  ]
+}

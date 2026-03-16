@@ -1,0 +1,28 @@
+Scene: Unit_520_living_room_space (Residential Living Room)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+
+
+[PASS] Articles 3.8.5.8 - unit520_living_room_window.sill_height_mm
+  fact: 920.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_520_normalized_bim.json
+- Unit ID: Unit_520
+- Space ID: Unit_520_living_room_space
+- Space name: Unit 520 Living Room
+- Retrieved articles: 3.8.5.8, 3.8.5.8, 18, 14, 27.1, 14, 23
+- Derived constraints: 24
+- Findings: 1

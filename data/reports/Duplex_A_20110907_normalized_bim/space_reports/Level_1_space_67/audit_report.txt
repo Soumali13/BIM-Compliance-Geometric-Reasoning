@@ -1,0 +1,80 @@
+Scene: Level_1_space_67 (Residential Living Room)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+
+[PASS] Articles 3.8.5.8 - M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016.geometry_bbox_min_z_mm
+  fact: 100.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.8 - M_Fixed:750mm x 2200mm:750mm x 2200mm:147051.geometry_bbox_min_z_mm
+  fact: 100.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+
+Unmatched facts:
+  - Basic Wall:Exterior - Brick on Block:138237.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Exterior - Brick on Block:138237.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Exterior - Brick on Block:138310.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Exterior - Brick on Block:138310.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Interior - Partition (92mm Stud):139939.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Interior - Partition (92mm Stud):139939.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Floor:127mm Slab on Grade:143106.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Floor:127mm Slab on Grade:143106.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Interior - Partition (92mm Stud):143856.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Interior - Partition (92mm Stud):143856.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Interior - Partition (92mm Stud):144518.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Interior - Partition (92mm Stud):144518.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016.overall_width_m -> ifc_overall_width
+  - M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016.overall_height_m -> ifc_overall_height
+  - M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:147051.overall_width_m -> ifc_overall_width
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:147051.overall_height_m -> ifc_overall_height
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:147051.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:147051.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Floor:Finish Floor - Wood:170352.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Floor:Finish Floor - Wood:170352.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975.overall_width_m -> ifc_overall_width
+  - M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975.overall_height_m -> ifc_overall_height
+  - M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Interior - Partition (92mm Stud):204300.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Interior - Partition (92mm Stud):204300.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Basic Wall:Interior - Partition (92mm Stud):204493.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Basic Wall:Interior - Partition (92mm Stud):204493.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Floor:150mm Exterior Slab on Grade:216507.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Floor:150mm Exterior Slab on Grade:216507.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Floor:150mm Exterior Slab on Grade:216552.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Floor:150mm Exterior Slab on Grade:216552.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json
+- Unit ID: Level_1
+- Space ID: Level_1_space_67
+- Space name: Living Room
+- Retrieved articles: 3.8.5.8, 18, 3.8.5.8, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 2

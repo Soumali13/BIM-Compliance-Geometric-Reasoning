@@ -1,0 +1,56 @@
+Scene: Unit_521_bedroom_secondary_space (Residential Bedroom)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bedroom is unknown because required evidence is missing, including window_sill_height.
+  Precedence: The active rules came from QCC_B11_R2 with no higher-priority override applied.
+  Recommended next measurements: window_sill_height
+
+[PASS] Articles 3.8.5.6 - unit521_bedroom_secondary_zone.area_m2
+  fact: 11.3 m2
+  requirement: >= 11.0 m2
+  reason: Bedroom area satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 11.0 m2
+
+
+[PASS] Articles 3.8.5.6 - unit521_bedroom_secondary_zone.length_m
+  fact: 3.1 m
+  requirement: >= 3.0 m
+  reason: Bedroom length satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - unit521_bedroom_secondary_zone.width_m
+  fact: 3.0 m
+  requirement: >= 3.0 m
+  reason: Bedroom width satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[UNKNOWN] Articles 3.8.5.6 - missing.window_sill_height
+  fact: missing
+  requirement: <= 1000.0 mm
+  reason: Required fact for window_sill_height was not found in the scene.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+  expected from: window
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
+- Unit ID: Unit_521
+- Space ID: Unit_521_bedroom_secondary_space
+- Space name: Unit 521 Bedroom Secondary
+- Retrieved articles: 3.8.5.6, 18, 14, 14, 23, 27.1
+- Derived constraints: 24
+- Findings: 4

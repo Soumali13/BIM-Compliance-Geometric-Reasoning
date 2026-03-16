@@ -1,0 +1,25 @@
+Project: Montreal Accessibility Demo Tower
+Project ID: Montreal_Accessibility_Demo
+Units: Unit_520
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_520_normalized_bim.json
+Overall unit status: PASS
+Audited space count: 10
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Unit_520 :: Unit_520_bathroom_primary_space (Unit 520 Bathroom Primary): PASS
+- Unit_520 :: Unit_520_bathroom_hall_space (Unit 520 Bathroom Hall): PASS
+- Unit_520 :: Unit_520_kitchen_open_plan_space (Unit 520 Kitchen Open Plan): PASS
+- Unit_520 :: Unit_520_bedroom_primary_space (Unit 520 Bedroom Primary): PASS
+- Unit_520 :: Unit_520_bedroom_secondary_space (Unit 520 Bedroom Secondary): PASS
+- Unit_520 :: Unit_520_living_room_space (Unit 520 Living Room): PASS
+- Unit_520 :: Unit_520_dining_room_space (Unit 520 Dining Room): PASS
+- Unit_520 :: Unit_520_suite_entry_space (Unit 520 Suite Entry): PASS
+- Unit_520 :: Unit_520_entry_controls_space (Unit 520 Entry Controls): PASS
+- Unit_520 :: Unit_520_balcony_main_space (Unit 520 Balcony Main): PASS
+
+Status counts:
+- PASS: 10
+- FAIL: 0
+- UNKNOWN: 0

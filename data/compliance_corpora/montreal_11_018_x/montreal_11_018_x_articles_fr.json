@@ -1,0 +1,1587 @@
+{
+  "authority": "MTL_11_018_X",
+  "jurisdiction": "Montreal",
+  "priority": 5,
+  "effective_date": "2024-01-01",
+  "patch_action": "override",
+  "source_pdf": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/compliance_corpora/montreal_11_018_x/montreal_11_018_x.pdf",
+  "scope": [
+    "11-018-X"
+  ],
+  "generated_by": "scripts/extract_authority_chunks.py",
+  "articles": [
+    {
+      "article": "1",
+      "article_id": "1",
+      "title": "Article 1",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 1 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 le remplacement de la d\u00e9finition de \u00ab autorit\u00e9 comp\u00e9tente \u00bb par la suivante : \u00ab \u00ab autorit\u00e9 comp\u00e9tente \u00bb : au sens du Code et du pr\u00e9sent r\u00e8glement le directeur du Service de l\u2019urbanisme et de la mobilit\u00e9. Dans le Code, une r\u00e9f\u00e9rence \u00e0 la \u00ab R\u00e9gie du b\u00e2timent \u00bb ou \u00e0 la \u00ab R\u00e9gie \u00bb doit se comprendre comme \u00e9tant une r\u00e9f\u00e9rence \u00e0 l\u2019autorit\u00e9 comp\u00e9tente lorsqu\u2019il s\u2019agit d\u2019exigences pour lesquelles la ville a comp\u00e9tence; \u00bb; 2\u00b0 le remplacement de la d\u00e9finition de \u00ab b\u00e2timent exempt\u00e9 \u00bb par la suivante : \u00ab \u00ab b\u00e2timent exempt\u00e9 \u00bb : b\u00e2timent exempt\u00e9 de l'application du Chapitre I de la division I -B\u00e2timent du Code de construction du Qu\u00e9bec par l\u2019article 1.04 de ce m\u00eame Code; \u00bb; 3\u00b0 le remplacement de la d\u00e9finition de \u00ab Code \u00bb par la suivante : \u00ab \u00ab Code \u00bb : le Code national du b\u00e2timent \u2013 Canada 2010 \u00bb (CNRC 53301F) publi\u00e9 par la Commission canadienne des codes du b\u00e2timent et de pr\u00e9vention des incendies du Conseil national de recherches du Canada, tel qu\u2019il a \u00e9t\u00e9 adopt\u00e9 et modifi\u00e9 par les d\u00e9crets 953-2000, 293-2008 et 347-2015, aussi connu sous la d\u00e9signation Code de construction du Qu\u00e9bec, (RLRQ, c. B-1.1, r.2) (Chapitre I, B\u00e2timent, et Code national du b\u00e2timent \u2013 Canada 2010 (modifi\u00e9)). Ce Code est joint \u00e0 l\u2019annexe A du pr\u00e9sent r\u00e8glement; \u00bb; 4\u00b0 l\u2019ajout \u00e0 la suite de la d\u00e9finition de \u00ab construction \u00bb, de l\u2019alin\u00e9a suivant : \u00ab Sauf indication contraire, les termes \u00ab construction \u00bb ou \u00ab construit \u00bb utilis\u00e9s au sens de l\u2019action de construire incluent les termes \u00ab transformation \u00bb ou \u00ab transform\u00e9 \u00bb; \u00bb; 5\u00b0 l\u2019ajout, apr\u00e8s la d\u00e9finition du mot \u00ab construction \u00bb, de la d\u00e9finition suivante : \u00ab \u00ab espace habitable \u00bb : un espace ou une pi\u00e8ce destin\u00e9 \u00e0 la pr\u00e9paration ou \u00e0 la consommation de repas, au sommeil ou au s\u00e9jour en excluant notamment une salle de bain, une salle de toilette, un espace de rangement, une penderie et une buanderie; \u00bb; 6\u00b0 l\u2019ajout, apr\u00e8s la d\u00e9finition du mot \u00ab plaine inondable \u00bb, des d\u00e9finitions suivantes : \u00ab \u00ab surface utile \u00bb : surface des espaces habitables mesur\u00e9e entre les faces des murs dont la hauteur est conforme aux hauteurs minimales du tableau 9.5.3.1 de la division B du Code excluant la surface occup\u00e9e par les armoires de cuisine, l\u2019aire de plancher destin\u00e9e \u00e0 \u00eatre occup\u00e9e par une cuisini\u00e8re, un r\u00e9frig\u00e9rateur, un cong\u00e9lateur, un lave-linge et un s\u00e8che-linge, les commodes incorpor\u00e9es et les penderies; \u00bb; \u00ab \u00abtoit v\u00e9g\u00e9talis\u00e9\u00bb : partie d\u2019un syst\u00e8me de recouvrement de toit qui est con\u00e7ue pour permettre la croissance de la v\u00e9g\u00e9tation; \u00bb; \u00ab \u00abtoit v\u00e9g\u00e9talis\u00e9 de type 1\u00bb : toit v\u00e9g\u00e9talis\u00e9 dont le substrat de croissance a une \u00e9paisseur d\u2019au plus 150mm; \u00bb; \u00ab \u00abtoit v\u00e9g\u00e9talis\u00e9 de type 2\u00bb : toit v\u00e9g\u00e9talis\u00e9 dont le substrat de croissance a une \u00e9paisseur sup\u00e9rieure \u00e0 150mm; \u00bb.",
+      "amends_article_id": "1"
+    },
+    {
+      "article": "2",
+      "article_id": "2",
+      "title": "Article 2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        2
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 3 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 3. \u00c0 moins d\u2019indication contraire, le pr\u00e9sent r\u00e8glement s\u2019applique \u00e0 tous les b\u00e2timents et toutes les constructions, tant ceux auxquels le Code s\u2019applique en vertu de la Loi sur le b\u00e2timent (RLRQ, c. B-1.1) que ceux qui sont exempt\u00e9s de l\u2019application du chapitre I de la division I- B\u00e2timent du Code de construction du Qu\u00e9bec par l\u2019article 1.04 du Code. \u00bb.",
+      "amends_article_id": "3"
+    },
+    {
+      "article": "3",
+      "article_id": "3",
+      "title": "Article 3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 4 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 4. Sous r\u00e9serve de l\u2019article 4.2 et \u00e0 l\u2019exception de la partie 11 de la division B, le Code s\u2019applique \u00e0 un b\u00e2timent exempt\u00e9. Toute modification et toute nouvelle \u00e9dition du Code s\u2019appliquent \u00e0 l\u2019\u00e9gard d\u2019un b\u00e2timent exempt\u00e9 \u00e0 compter de la date qui est \u00e9tablie par r\u00e9solution du conseil de la Ville. \u00bb.",
+      "amends_article_id": "4"
+    },
+    {
+      "article": "4",
+      "article_id": "4",
+      "title": "Article 4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 4, des articles suivants : \u00ab 4.1. Sous r\u00e9serve de l\u2019article 13, la construction ou la transformation d\u2019un b\u00e2timent doit \u00eatre r\u00e9alis\u00e9e en conformit\u00e9 aux dispositions du pr\u00e9sent r\u00e8glement et aux solutions acceptables pertinentes de la division B du Code.",
+      "amends_article_id": "4"
+    },
+    {
+      "article": "4.2",
+      "article_id": "4.2",
+      "title": "Article 4.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Les exigences de la norme NFPA-130 \u2013 \u00e9dition 2017, \u00ab Standard for Fixed Guideway Transit and Passenger Rail Systems \u00bb jointe \u00e0 l\u2019annexe B du pr\u00e9sent r\u00e8glement remplacent les exigences du Code pour tous les travaux de construction et de transformation des stations de m\u00e9tro.\u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "5",
+      "article_id": "5",
+      "title": "Article 5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 5 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 5. Les articles de la pr\u00e9sente section s\u2019appliquent \u00e0 tous les b\u00e2timents. \u00bb.",
+      "amends_article_id": "5"
+    },
+    {
+      "article": "6",
+      "article_id": "6",
+      "title": "Article 6",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 7 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 7. Un mur construit \u00e0 la limite de propri\u00e9t\u00e9 ne bordant pas une voie publique, \u00e0 l\u2019exception de celui d\u2019un garage ou d\u2019un b\u00e2timent secondaire vis\u00e9 par les paragraphes 4 et 5 de l\u2019article 9.10.14.5. de la division B du Code, doit \u00eatre recouvert d\u2019un parement de b\u00e9ton ou de ma\u00e7onnerie li\u00e9e par du mortier, d\u2019au moins 90 mm d\u2019\u00e9paisseur, et avoir au moins la moiti\u00e9 du degr\u00e9 de r\u00e9sistance au feu requis pour un mur coupe-feu exig\u00e9 selon l\u2019usage principal pr\u00e9vu. \u00bb.",
+      "amends_article_id": "7"
+    },
+    {
+      "article": "7",
+      "article_id": "7",
+      "title": "Article 7",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 8 de ce r\u00e8glement est modifi\u00e9 afin de remplacer les mots \u00ab d\u2019un pare-neige ou de tout autre dispositif ou syst\u00e8me n\u00e9cessaire \u00bb par les mots \u00ab d\u2019un dispositif \u00bb.",
+      "amends_article_id": "8"
+    },
+    {
+      "article": "8",
+      "article_id": "8",
+      "title": "Article 8",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 9, de l\u2019article suivant : \u00ab 9.1. Le paragraphe 4 de l\u2019article 9.10.9.14. de la division B du Code relatif \u00e0 la possibilit\u00e9 de remplacer les s\u00e9parations coupe-feu par des barri\u00e8res \u00e9tanches \u00e0 la fum\u00e9e, pour les b\u00e2timents d\u2019au plus 3 logements et d\u2019au plus 2 \u00e9tages, ne s\u2019appliquent pas. \u00bb.",
+      "amends_article_id": "9"
+    },
+    {
+      "article": "9",
+      "article_id": "9",
+      "title": "Article 9",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 10 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 l\u2019ajout au premier alin\u00e9a apr\u00e8s les mots \u00ab faisant partie des garages \u00bb des mots \u00ab et de l\u2019aire de plancher des garages. \u00bb; 2\u00b0 le remplacement au troisi\u00e8me paragraphe du deuxi\u00e8me alin\u00e9a des mots \u00ab libres dont la surface totale \u00bb par les mots \u00ab dont la surface totale \u00e0 l\u2019air libre \u00bb ; 3\u00b0 le remplacement au troisi\u00e8me alin\u00e9a du mot \u00ab libres \u00bb par les mots \u00ab \u00e0 l\u2019air libre \u00bb.",
+      "amends_article_id": "10"
+    },
+    {
+      "article": "10",
+      "article_id": "10",
+      "title": "Article 10",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 11 de ce r\u00e8glement est modifi\u00e9 par l\u2019insertion apr\u00e8s les mots \u00ab de l\u2019article 3.2.5.5. \u00bb des mots \u00ab et du paragraphe 1 de l\u2019article 3.2.5.6. \u00bb.",
+      "amends_article_id": "11"
+    },
+    {
+      "article": "11",
+      "article_id": "11",
+      "title": "Article 11",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 11, de l\u2019article suivant : \u00ab 11.1. Sauf dans le cas d\u2019une issue horizontale conforme aux articles 3.4.1.6. et 3.4.6.10. de la division B du Code, tout parcours d\u2019une issue exig\u00e9e d\u2019un b\u00e2timent doit \u00eatre situ\u00e9e enti\u00e8rement sur la propri\u00e9t\u00e9 qu\u2019elle dessert. \u00bb.",
+      "amends_article_id": "11"
+    },
+    {
+      "article": "12",
+      "article_id": "12",
+      "title": "Article 12",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 13 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 13. S\u2019il est d\u00e9montr\u00e9 \u00e0 l'autorit\u00e9 comp\u00e9tente que les conditions d'am\u00e9nagement et d'occupation d\u2019un b\u00e2timent et les exigences stipul\u00e9es au Code ne peuvent \u00eatre raisonnablement appliqu\u00e9es, celle-ci peut appliquer des mesures diff\u00e9rentes ou des solutions de rechange \u00e0 ces conditions si elle est d'avis que ces mesures ou solutions fournissent un degr\u00e9 de s\u00e9curit\u00e9 et de salubrit\u00e9 suffisant. Les mesures diff\u00e9rentes et les solutions de rechange propos\u00e9es doivent \u00eatre approuv\u00e9es par l\u2019autorit\u00e9 comp\u00e9tente. \u00bb.",
+      "amends_article_id": "13"
+    },
+    {
+      "article": "13",
+      "article_id": "13",
+      "title": "Article 13",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 14 de ce r\u00e8glement est modifi\u00e9 par la suppression du troisi\u00e8me alin\u00e9a.",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14",
+      "article_id": "14",
+      "title": "Article 14",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 14, des articles suivants : \u00ab 14.1. Malgr\u00e9 l\u2019article 14, l\u2019\u00e9clairage naturel en second-jour d\u2019une pi\u00e8ce d\u2019un logement est permis quand les conditions suivantes sont r\u00e9unies en plus des exigences mentionn\u00e9es aux sous-paragraphes a et b du paragraphe 4 de l\u2019article 9.7.2.3. de la division B du Code : 1\u00b0 l\u2019aire \u00e9clair\u00e9e en second-jour et l\u2019aire comportant la surface vitr\u00e9e assurant l\u2019\u00e9clairage naturel forment des pi\u00e8ces combin\u00e9es au sens du Code; 2\u00b0 l\u2019ouverture entre les deux aires doit \u00eatre libre de tout obstacle; 3\u00b0 la surface vitr\u00e9e assurant l\u2019\u00e9clairage naturel est d\u2019au moins 10 % de la surface totale des pi\u00e8ces combin\u00e9es.",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14.2",
+      "article_id": "14.2",
+      "title": "Article 14.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Aucune saillie pouvant intercepter la lumi\u00e8re, tel un balcon, une corniche ou autre construction, situ\u00e9e \u00e0 moins de 1,5 m au-dessus d\u2019une fen\u00eatre exig\u00e9e ne doit projeter sur plus de 2 m, sauf si le minimum exigible de surface vitr\u00e9e est augment\u00e9 selon le tableau 14.2. TABLEAU 14.2 Pourcentage de fenestration avec saillie pouvant intercepter la lumi\u00e8re Projection de la saillie 2m et moins 2m - 2,5m 2,5m -3m 3m -3,5 m 3,5 -4m plus de 4m % fenestration exig\u00e9 selon l'article 14 8 8 9 10 11 12 13 5 5 6 7 8 9 10 10 10 11 12 13 14 15",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14.3",
+      "article_id": "14.3",
+      "title": "Article 14.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Toute surface vitr\u00e9e exig\u00e9e doit donner sur un d\u00e9gagement libre conforme aux conditions suivantes : 1o avoir au moins 1,5 m de profondeur sur une largeur \u00e9gale \u00e0 la largeur de surface vitr\u00e9e sans \u00eatre inf\u00e9rieure \u00e0 1,5 m; 2o \u00eatre \u00e0 ciel ouvert \u00e0 partir du haut de la surface vitr\u00e9e; 3o \u00eatre adjacent \u00e0 la surface vitr\u00e9e ou s\u00e9par\u00e9 de celle-ci par un espace libre, un balcon, une galerie ou un escalier ajour\u00e9. Ce d\u00e9gagement ne doit pas empi\u00e9ter hors des limites lat\u00e9rales ou arri\u00e8re du terrain, mais il peut empi\u00e9ter sur la voie publique. Les corniches et les avant-toits peuvent empi\u00e9ter sur le d\u00e9gagement sur une profondeur maximale de 600 mm.",
+      "amends_article_id": null
+    },
+    {
+      "article": "14.4",
+      "article_id": "14.4",
+      "title": "Article 14.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Pour chaque pi\u00e8ce d\u2019un logement dont toutes les pi\u00e8ces sont situ\u00e9es sous le niveau du sol ou d\u2019une maison de chambre dont une partie de la hauteur libre est sous le niveau du sol, le niveau du sol devant chaque fen\u00eatre exig\u00e9e doit \u00eatre \u00e0 au moins 1 m au-dessous du plafond de cette pi\u00e8ce. Le niveau du sol est d\u00e9termin\u00e9 sans tenir compte des d\u00e9pressions localis\u00e9es telles que les sauts-de-loup.",
+      "amends_article_id": null
+    },
+    {
+      "article": "14.5",
+      "article_id": "14.5",
+      "title": "Article 14.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Lors de l\u2019am\u00e9nagement d\u2019un nouveau logement, l\u2019appui des fen\u00eatres exig\u00e9es \u00e0 l\u2019article 9.9.10.1. de la division B du Code, pr\u00e9vues pour servir de sortie de secours \u00e0 une chambre, doit se trouver \u00e0 au plus 1,5 m du plancher. \u00bb.",
+      "amends_article_id": "9.9"
+    },
+    {
+      "article": "15",
+      "article_id": "15",
+      "title": "Article 15",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 16 de ce r\u00e8glement est modifi\u00e9 par le remplacement des mots \u00ab au tableau 9.6.3.1. \u00bb par les mots \u00ab au tableau 9.5.5.1. \u00bb.",
+      "amends_article_id": "16"
+    },
+    {
+      "article": "16",
+      "article_id": "16",
+      "title": "Article 16",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5,
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 17 de ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s le dernier alin\u00e9a, des deux alin\u00e9as suivants : \u00ab Les salles de bains et salles de toilettes dans une maison de chambres doivent se retrouver dans des locaux s\u00e9par\u00e9s. Ces installations doivent \u00eatre accessibles sans qu\u2019il soit n\u00e9cessaire de monter ou de descendre plus d\u2019un \u00e9tage \u00e0 partir des chambres desservies. Lorsqu\u2019une chambre d\u2019une maison de chambre est pourvue d\u2019un ou plusieurs des appareils sanitaires suivants : W.-C., baignoire ou douche, ceux-ci doivent \u00eatre install\u00e9s dans un espace ferm\u00e9. \u00bb.",
+      "amends_article_id": "17"
+    },
+    {
+      "article": "17",
+      "article_id": "17",
+      "title": "Article 17",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 17, des articles suivants : \u00ab 17.1. Les exigences de la partie 9 de la division B du Code s\u2019appliquent \u00e0 tous logements \u00e0 l\u2019\u00e9gard : 1o des \u00e9quipements sanitaires; 2o de l\u2019\u00e9clairage; 3o du chauffage.",
+      "amends_article_id": "17"
+    },
+    {
+      "article": "17.2",
+      "article_id": "17.2",
+      "title": "Article 17.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "\u00c0 l\u2019int\u00e9rieur d\u2019un logement, au moins un W.-C., une baignoire ou une douche, et un lavabo doivent \u00eatre situ\u00e9s dans un ou plusieurs espaces ferm\u00e9s.",
+      "amends_article_id": null
+    },
+    {
+      "article": "17.3",
+      "article_id": "17.3",
+      "title": "Article 17.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Une pi\u00e8ce ou un espace destin\u00e9 \u00e0 la pr\u00e9paration des repas doit \u00eatre muni : 1o d\u2019une armoire basse avec une surface de travail d\u2019une superficie d\u2019au moins 1 m\u00b2, \u00e0 l\u2019exclusion de la surface occup\u00e9e par l\u2019\u00e9vier; 2o d\u2019armoires d\u2019un volume d\u2019au moins 1,25 m\u00b3, incluant celle exig\u00e9e au paragraphe 1\u00b0. \u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "18",
+      "article_id": "18",
+      "title": "Article 18",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 18 de ce r\u00e8glement est remplac\u00e9 par le suivant: \u00ab 18. Les surfaces et les dimensions des aires et des pi\u00e8ces d\u2019un logement doivent comporter une surface utile d\u2019au moins : 1o 13,5 m\u00b2, sans dimension inf\u00e9rieure \u00e0 3 m, s\u2019il s\u2019agit d\u2019une aire de s\u00e9jour, que ce soit une pi\u00e8ce distincte ou d\u2019une aire combin\u00e9e; 2o 3,25 m\u00b2, sans dimension inf\u00e9rieure \u00e0 2,3 m mesur\u00e9e entre la face des murs ou entre la face d\u2019un mur et celle d\u2019une armoire incorpor\u00e9e ou d\u2019un appareil, s\u2019il s\u2019agit d\u2019un coin repas combin\u00e9 avec une autre aire; 3o 7 m\u00b2, sans dimension inf\u00e9rieure \u00e0 2,3 m mesur\u00e9e entre les faces des murs ou entre la face d\u2019un mur et celle d\u2019une armoire incorpor\u00e9e ou d\u2019un appareil, s\u2019il s\u2019agit d\u2019une salle \u00e0 manger isol\u00e9e; 4o 3,2 m\u00b2, sans aucune dimension inf\u00e9rieure \u00e0 2,3 m, s\u2019il s\u2019agit d\u2019une cuisine, qu\u2019elle soit isol\u00e9e ou combin\u00e9e avec d\u2019autres aires, sauf dans les logements o\u00f9 seulement une ou deux personnes peuvent coucher, auquel cas la surface utile minimale est de 2,7 m\u00b2, sans aucune dimension inf\u00e9rieure \u00e0 1,7 m; 5o 9,8 m\u00b2, sans aucune dimension inf\u00e9rieure \u00e0 2,7 m, s\u2019il s\u2019agit de la chambre principale; 6o 7 m\u00b2, sans aucune dimension inf\u00e9rieure \u00e0 2 m, s\u2019il s\u2019agit d\u2019une chambre autre que la chambre principale. \u00bb.",
+      "amends_article_id": "18"
+    },
+    {
+      "article": "19",
+      "article_id": "19",
+      "title": "Article 19",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 18, des articles suivants : \u00ab 18.1. Le corridor \u00e0 l\u2019int\u00e9rieur d\u2019un logement doit avoir une largeur minimale de 900 mm.",
+      "amends_article_id": "18"
+    },
+    {
+      "article": "18.2",
+      "article_id": "18.2",
+      "title": "Article 18.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Un logement de 2 pi\u00e8ces habitables distinctes doit avoir une surface utile d\u2019au moins 20m\u00b2 et une superficie suppl\u00e9mentaire minimale de 3m\u00b2 pour chaque pi\u00e8ce habitable additionnelle.",
+      "amends_article_id": null
+    },
+    {
+      "article": "18.3",
+      "article_id": "18.3",
+      "title": "Article 18.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "La surface utile d\u2019une chambre d\u2019une maison de chambres doit \u00eatre d\u2019au moins 9 m\u00b2, sauf si la chambre est occup\u00e9e par plus d\u2019une personne, auquel cas la surface utile doit \u00eatre d\u2019au moins 7 m\u00b2 par personne et la maison de chambres doit \u00eatre pourvue d\u2019un espace \u00e0 usage commun, telle une cuisine ou une salle de s\u00e9jour. \u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "20",
+      "article_id": "20",
+      "title": "Article 20",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 19, de l\u2019article suivant : \u00ab 19.1. Un local d\u2019entreposage provisoire destin\u00e9 aux mati\u00e8res r\u00e9siduelles doit \u00eatre am\u00e9nag\u00e9 dans tout b\u00e2timent : 1\u00b0 construit apr\u00e8s le (indiquer ici la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent r\u00e8glement) et occup\u00e9 par plus de 11 logements; 2\u00b0 dont l\u2019usage est modifi\u00e9 pour un usage r\u00e9sidentiel apr\u00e8s le (indiquer ici la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent r\u00e8glement) et comportant plus de 11 logements; 3\u00b0 faisant l\u2019objet d\u2019une transformation entra\u00eenant un accroissement de la hauteur de b\u00e2timent, de l\u2019aire de b\u00e2timent ou de l\u2019aire de plancher et qui comporte plus de 11 logements apr\u00e8s les travaux; 4\u00b0 comportant un \u00e9tablissement ayant une superficie \u00e9gale ou sup\u00e9rieure \u00e0 100 m\u00b2 o\u00f9 sont pr\u00e9par\u00e9s ou consomm\u00e9s des aliments et qui est soit : i) am\u00e9nag\u00e9 apr\u00e8s le (indiquer ici la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent r\u00e8glement) ; ii) r\u00e9am\u00e9nag\u00e9 apr\u00e8s le (indiquer ici la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent r\u00e8glement) et dont la valeur des travaux est sup\u00e9rieure \u00e0 100 000 $. \u00bb.",
+      "amends_article_id": "19"
+    },
+    {
+      "article": "21",
+      "article_id": "21",
+      "title": "Article 21",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 20 de ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s le sous-paragraphe d) du paragraphe 4\u00b0, du sous-paragraphe suivant : \u00ab e) la capacit\u00e9 de pompage pour \u00e9vacuer les eaux d\u2019infiltration. \u00bb.",
+      "amends_article_id": "20"
+    },
+    {
+      "article": "22",
+      "article_id": "22",
+      "title": "Article 22",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 21 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 l\u2019ajout, apr\u00e8s le paragraphe 2o du paragraphe suivant : \u00ab 3\u00b0 Une descente pluviale ne doit pas \u00eatre raccord\u00e9e directement ou indirectement au tuyau de drainage des semelles de fondation. \u00bb; 2\u00b0 l\u2019ajout, apr\u00e8s le premier alin\u00e9a, de l\u2019alin\u00e9a suivant : \u00ab Malgr\u00e9 le paragraphe 1\u00b0 du premier alin\u00e9a, le tuyau de drainage peut \u00eatre install\u00e9 \u00e0 l\u2019int\u00e9rieur des fondations dans le cas d\u2019un mur mitoyen ou d\u2019un mur ext\u00e9rieur construit \u00e0 la limite de propri\u00e9t\u00e9. \u00bb.",
+      "amends_article_id": "21"
+    },
+    {
+      "article": "23",
+      "article_id": "23",
+      "title": "Article 23",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 25, de la sous-section et des articles suivants : \u00ab SOUS-SECTION VII CONSTRUCTION DURABLE \u00ab 25.1. La structure du toit d\u2019un b\u00e2timent de construction incombustible de plus de 3 \u00e9tages en hauteur de b\u00e2timent et de plus de 250 m\u00b2 doit, lorsque la pente de toit est inf\u00e9rieure \u00e0 2 unit\u00e9s \u00e0 la verticale dans 12 unit\u00e9s \u00e0 l\u2019horizontale (2 :12) ou \u00e0 16,7%, \u00eatre con\u00e7ue pour recevoir un toit v\u00e9g\u00e9talis\u00e9 de type 1 en plus des charges prescrites par le Code.",
+      "amends_article_id": "25"
+    },
+    {
+      "article": "25.2",
+      "article_id": "25.2",
+      "title": "Article 25.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Lors d\u2019un accroissement en aire de b\u00e2timent de plus de 250 m\u00b2 \u00e0 un b\u00e2timent de construction incombustible de plus de 3 \u00e9tages en hauteur de b\u00e2timent, la structure du toit de la partie agrandie doit, lorsque la pente de toit est inf\u00e9rieure \u00e0 2 unit\u00e9s \u00e0 la verticale dans 12 unit\u00e9s \u00e0 l\u2019horizontale (2 :12) ou \u00e0 16,7%, \u00eatre con\u00e7ue pour recevoir un toit v\u00e9g\u00e9talis\u00e9 de type 1 en plus des charges prescrites par le Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.3",
+      "article_id": "25.3",
+      "title": "Article 25.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Les articles 25.1 et 25.2 ne s\u2019appliquent pas au toit : 1\u00b0 d\u2019une construction hors toit; 2\u00b0 d\u2019une mezzanine dont l\u2019aire ne d\u00e9passe pas 40% de l\u2019aire de l\u2019\u00e9tage qu\u2019elle surmonte.",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.4",
+      "article_id": "25.4",
+      "title": "Article 25.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "La r\u00e9sistance thermique totale de la toiture d\u2019un b\u00e2timent ayant un usage principal du groupe C, tel que d\u00e9fini au Code, doit \u00eatre \u00e9gale ou sup\u00e9rieure \u00e0 RSIT 9.0 (R-51).",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.5",
+      "article_id": "25.5",
+      "title": "Article 25.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 les dispositions de la partie 11 du Code, les lanterneaux, fen\u00eatres et portes-fen\u00eatres desservant une habitation doivent \u00eatre conforme \u00e0 l\u2019homologation \u00ab Energystar \u00bb selon les crit\u00e8res \u00e9tablis par Resources naturelles Canada pour la zone climatique 2 joints \u00e0 l\u2019Annexe C du pr\u00e9sent r\u00e8glement. \u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "24",
+      "article_id": "24",
+      "title": "Article 24",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 26 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 26. Malgr\u00e9 toute autre prescription des parties 1 \u00e0 10 de la division B du Code, les articles de la pr\u00e9sente section s\u2019appliquent aux b\u00e2timents exempt\u00e9s. \u00bb.",
+      "amends_article_id": "26"
+    },
+    {
+      "article": "25",
+      "article_id": "25",
+      "title": "Article 25",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 27, des sous-sections et des articles suivants : \u00ab SOUS-SECTION I CONSTRUCTION DURABLE \u2013 TOIT V\u00c9G\u00c9TALIS\u00c9",
+      "amends_article_id": "27"
+    },
+    {
+      "article": "27.1",
+      "article_id": "27.1",
+      "title": "Article 27.1",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "La structure du toit d\u2019un b\u00e2timent de plus de 3 \u00e9tages en hauteur de b\u00e2timent et de plus de 250 m\u00b2 doit, lorsque la pente de toit est inf\u00e9rieure \u00e0 2 unit\u00e9s \u00e0 la verticale dans 12 unit\u00e9s \u00e0 l\u2019horizontale (2 :12) ou \u00e0 16,7%, \u00eatre con\u00e7ue pour recevoir un toit v\u00e9g\u00e9talis\u00e9 de type 1 en plus des charges prescrites par le Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.2",
+      "article_id": "27.2",
+      "title": "Article 27.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Lors d\u2019un accroissement en aire de b\u00e2timent de plus de 250 m\u00b2 \u00e0 un b\u00e2timent ayant une hauteur de b\u00e2timent de plus de 3 \u00e9tages, la structure du toit de la partie agrandie doit, lorsque la pente de toit est inf\u00e9rieure \u00e0 2 unit\u00e9s \u00e0 la verticale dans 12 unit\u00e9s \u00e0 l\u2019horizontale (2 :12) ou \u00e0 16,7%, \u00eatre con\u00e7ue pour recevoir un toit v\u00e9g\u00e9talis\u00e9 de type 1 en plus des charges prescrites par le Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.3",
+      "article_id": "27.3",
+      "title": "Article 27.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Les articles 27.1 et 27.2 ne s\u2019appliquent pas au toit : 1\u00b0 d\u2019une construction hors toit; 2\u00b0 d\u2019une mezzanine dont l\u2019aire ne d\u00e9passe pas 40% de l\u2019aire de l\u2019\u00e9tage qu\u2019elle surmonte.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.4",
+      "article_id": "27.4",
+      "title": "Article 27.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Sauf pour un toit qui est constitu\u00e9 d\u2019une dalle de b\u00e9ton et qui a une hauteur d\u2019au plus de 2 m, mesur\u00e9e entre le niveau moyen du sol et la partie la plus \u00e9lev\u00e9e de la membrane d\u2019\u00e9tanch\u00e9it\u00e9, un toit v\u00e9g\u00e9talis\u00e9 doit respecter les normes suivantes : 1\u00b0 comporter les composantes suivantes install\u00e9es au-dessus d\u2019un assemblage traditionnel de toit : a) de la v\u00e9g\u00e9tation; b) un substrat ou un milieu de croissance; c) une couche de filtrage; d) un syst\u00e8me de drainage; e) un syst\u00e8me ou une couche de r\u00e9tention d\u2019eau; f) une barri\u00e8re qui emp\u00eache les racines de percer la membrane d\u2019\u00e9tanch\u00e9it\u00e9 du toit et qui est conforme \u00e0 la norme ANSI/GRHC/SPRI VR-1 2011 \u00ab Procedure for investigating resistance to root penetration on vegetative roofs \u00bb jointe \u00e0 l\u2019annexe D du pr\u00e9sent r\u00e8glement; 2\u00b0 ne pas \u00eatre am\u00e9nag\u00e9 sur un toit dont la couverture est compos\u00e9e de bardeaux ou de tuiles; 3\u00b0 sous r\u00e9serve du paragraphe 4o, \u00eatre am\u00e9nag\u00e9 sur un b\u00e2timent de construction incombustible; 4\u00b0 \u00eatre de type 1 lorsqu\u2019am\u00e9nag\u00e9 sur un b\u00e2timent de construction combustible; 5\u00b0 former une s\u00e9paration coupe-feu d\u2019un degr\u00e9 de r\u00e9sistance au feu \u00e9gal \u00e0 celui exig\u00e9 par le Code, sans \u00eatre inf\u00e9rieur \u00e0 45 minutes, lorsqu\u2019am\u00e9nag\u00e9 au- dessus du toit d\u2019un b\u00e2timent qui est de construction combustible et qui n\u2019est pas prot\u00e9g\u00e9 par gicleurs; 6\u00b0 comporter des ouvertures dans le platelage de toit pour permettre l\u2019\u00e9vacuation des gaz et de la fum\u00e9e lorsqu\u2019am\u00e9nag\u00e9 au-dessus d\u2019un vide sous toit qui est de construction combustible et qui n\u2019est pas prot\u00e9g\u00e9 par gicleurs. Ces ouvertures doivent : a) avoir une surface minimale de 0,7 m\u00b2 et aucune dimension inf\u00e9rieure \u00e0 760 mm; b) \u00eatre prot\u00e9g\u00e9es contre les intemp\u00e9ries; c) \u00eatre pourvues d\u2019un couvercle qui peut \u00eatre enlev\u00e9 facilement sans l\u2019aide d\u2019outil sp\u00e9cial; d) \u00eatre facilement accessibles et convenablement identifi\u00e9es; e) \u00eatre pr\u00e9vues \u00e0 raison d\u2019une ouverture par compartiment de vide sous toit vis\u00e9 au paragraphe 7o; 7\u00b0 dans le cas o\u00f9 un vide sous toit de construction combustible n\u2019est pas prot\u00e9g\u00e9 par gicleurs et a une aire sup\u00e9rieure \u00e0 300 m\u00b2, \u00eatre divis\u00e9 en compartiments dont individuelle est d\u2019au plus 300 m\u00b2. Ces compartiments doivent \u00eatre isol\u00e9s les uns des autres par des coupe-feu conformes au paragraphe 1 de l\u2019article 3.1.11.7. de la division B du Code. Toutefois ces ouvertures ne sont pas exig\u00e9es lorsque les caract\u00e9ristiques suivantes sont rencontr\u00e9es : a) le b\u00e2timent a une aire de b\u00e2timent d\u2019au plus 300 m\u00b2; b) le toit v\u00e9g\u00e9talis\u00e9 occupe au plus 50 % de l\u2019aire totale d\u2019un toit ou de celle d\u2019une section de toit lorsque cette derni\u00e8re est isol\u00e9e du reste du toit; l\u2019aire 8\u00b0 sous r\u00e9serve du paragraphe 9o, comporter des dispositifs appropri\u00e9s, con\u00e7us et positionn\u00e9s de l\u2019\u00e9rosion des composantes lorsqu\u2019am\u00e9nag\u00e9 sur un toit inclin\u00e9 formant un angle sup\u00e9rieur \u00e0 10 degr\u00e9s (17 %) par rapport \u00e0 l\u2019horizontale; fa\u00e7on \u00e0 emp\u00eacher 9\u00b0 comporter des dispositifs appropri\u00e9s, con\u00e7us et positionn\u00e9s de fa\u00e7on \u00e0 emp\u00eacher l\u2019\u00e9rosion des composantes et leur glissement lorsqu\u2019am\u00e9nag\u00e9 sur un toit inclin\u00e9 formant un angle sup\u00e9rieur \u00e0 14 degr\u00e9s (25 %) par rapport \u00e0 l\u2019horizontale; 10\u00b0 \u00eatre am\u00e9nag\u00e9 sur un toit con\u00e7u, selon les exigences de la partie 4 de la division B du Code et celles des normes mentionn\u00e9es dans la pr\u00e9sente sous- section; 11\u00b0 sous r\u00e9serve des paragraphes 12o et 13o, en plus des charges et surcharges mentionn\u00e9es \u00e0 la section 4.1. de la division B du Code, les calculs doivent aussi tenir compte des charges associ\u00e9es \u00e0 un toit v\u00e9g\u00e9talis\u00e9 en pleine saturation, qui sont d\u00e9termin\u00e9es conform\u00e9ment aux normes ASTM E2397- 11 \u00ab Standard practice for determination of dead loads and live loads associated with vegetative (green) roof systems \u00bb et ASTM E2399-11 \u00ab Standard test method for maximum media density for dead load analysis of vegetative (green) roof systems\u00bb jointes \u00e0 l\u2019annexe E du pr\u00e9sent r\u00e8glement; 12\u00b0 lorsque la charge associ\u00e9e au substrat de croissance satur\u00e9 ne peut \u00eatre d\u00e9termin\u00e9e en fonction des normes mentionn\u00e9es au paragraphe 11o, elle doit \u00eatre calcul\u00e9e sur la base d\u2019une densit\u00e9 de 2 000 kg/m\u00b3 (ou 125 livres/pi3); 13\u00b0 les calculs de la r\u00e9sistance structurale du toit doivent aussi tenir compte : a) des surcharges dues aux autres mat\u00e9riaux et aux \u00e9quipements destin\u00e9s \u00e0 un toit v\u00e9g\u00e9talis\u00e9; b) des surcharges dues \u00e0 l\u2019usage lorsque le toit v\u00e9g\u00e9talis\u00e9 est accessible conform\u00e9ment \u00e0 la sous-section 4.1.8. de la division B du Code; 14\u00b0 \u00eatre con\u00e7u pour r\u00e9sister aux effets de soul\u00e8vement caus\u00e9s par le vent et \u00e0 l\u2019\u00e9rosion, selon les r\u00e8gles de l\u2019art notamment celles d\u00e9crites dans la norme ANSI/SPRI RP-14 \u00ab Wind Design Standard for Vegetative Roofing Systems \u00bb jointe \u00e0 l\u2019annexe F du pr\u00e9sent r\u00e8glement; 15\u00b0 les calculs mentionn\u00e9s aux paragraphes 13 et 14o doivent \u00eatre faits par une personne comp\u00e9tente en la mati\u00e8re; 16\u00b0 la charge hydraulique en provenance des eaux du toit, doit \u00eatre calcul\u00e9e conform\u00e9ment au Chapitre III, Plomberie, du Code, en pr\u00e9sumant que le toit v\u00e9g\u00e9talis\u00e9 est enti\u00e8rement satur\u00e9 d\u2019eau avant la pr\u00e9cipitation de 15 minutes, d\u00e9termin\u00e9e selon les donn\u00e9es climatiques mentionn\u00e9es \u00e0 la sous- section 1.1.3. de la division B du Code; 17\u00b0 le drainage doit se faire ad\u00e9quatement sous la couche de substrat de croissance et ne doit permettre aucune infiltration de ce substrat ou de toute autre mati\u00e8re vers les avaloirs de toit; 18\u00b0 \u00e0 l\u2019int\u00e9rieur d\u2019un bassin d\u2019un toit v\u00e9g\u00e9talis\u00e9 ou d\u2019une section de toit v\u00e9g\u00e9talis\u00e9, les avaloirs ne doivent pas \u00eatre de type \u00e0 d\u00e9bit contr\u00f4l\u00e9 d\u00e9fini au Chapitre III, Plomberie, du Code; 19\u00b0 le syst\u00e8me de drainage doit \u00eatre s\u00e9lectionn\u00e9 selon la norme ASTM E2398- 11 \u00ab Standard Test Method for Water Capture and Media Retention of Geo- composite Drain Layers for Green Roof Systems \u00bb jointe \u00e0 l\u2019annexe G du pr\u00e9sent r\u00e8glement; 20\u00b0 lorsque des parapets sont pr\u00e9vus sur le pourtour d\u2019un toit, des analyses et calculs doivent \u00eatre faits conform\u00e9ment aux exigences de l\u2019article 4.1.6.4. de la division B du Code, afin de s\u2019assurer que la capacit\u00e9 structurale du toit puisse supporter la charge de l\u2019eau de pluie accumul\u00e9e, advenant le cas o\u00f9 les avaloirs de toit seraient bloqu\u00e9s; 21\u00b0 l\u2019aire individuelle d\u2019un toit v\u00e9g\u00e9talis\u00e9 ou d\u2019une section de toit v\u00e9g\u00e9talis\u00e9 ne doit pas d\u00e9passer : a) 300 m\u00b2 lorsque le b\u00e2timent est de construction combustible; b) 900 m\u00b2 lorsque le b\u00e2timent est de construction incombustible; 22\u00b0 aucune dimension d\u2019un toit v\u00e9g\u00e9talis\u00e9 ou d\u2019une section de toit v\u00e9g\u00e9talis\u00e9 ne doit \u00eatre sup\u00e9rieure \u00e0 30 m; 23\u00b0 lorsque le b\u00e2timent comporte un toit v\u00e9g\u00e9talis\u00e9 de type 2 ou a une aire de b\u00e2timent sup\u00e9rieure \u00e0 300 m\u00b2 et comporte un toit v\u00e9g\u00e9talis\u00e9 de type 1, il doit \u00eatre pr\u00e9vu une zone libre de v\u00e9g\u00e9tation d\u2019une largeur : a) d\u2019au moins 0,5 m autour des avaloirs de toit, mesur\u00e9e \u00e0 partir du centre de l\u2019avaloir; b) d\u2019au moins 0,5 m sur le pourtour d\u2019un toit v\u00e9g\u00e9talis\u00e9 ou d\u2019une section de toit v\u00e9g\u00e9talis\u00e9; c) d\u2019au moins 0,5 m entre un toit v\u00e9g\u00e9talis\u00e9 et tout \u00e9quipement situ\u00e9 sur le toit, notamment les appareillages de plomberie et de ventilation, les tuyaux, conduits, antennes et joints d\u2019expansion; d) d\u2019au moins 1 m entre 2 sections contigu\u00ebs de toit v\u00e9g\u00e9talis\u00e9 d\u00e9finies par les paragraphes 21o ou 22o; e) d\u2019au moins 1,2 m entre un toit v\u00e9g\u00e9talis\u00e9 et : i) une construction hors-toit; ii) l\u2019axe d\u2019un mur coupe-feu; iii) un mur ext\u00e9rieur appartenant au m\u00eame b\u00e2timent ; iv) une limite de propri\u00e9t\u00e9, \u00e0 l\u2019exception de celle bordant une voie publique; v) des lanterneaux, pergolas, terrasses; 24\u00b0 lorsque le b\u00e2timent a une aire de b\u00e2timent d\u2019au plus 300 m\u00b2 et comporte un toit v\u00e9g\u00e9talis\u00e9 de type 1, il doit \u00eatre pr\u00e9vu une zone libre de v\u00e9g\u00e9tation d\u2019une largeur : a) d\u2019au moins 0,35 m autour d\u2019un avaloir de toit mesur\u00e9e \u00e0 partir du centre de l\u2019avaloir; b) d\u2019au moins 0,5 m sur le pourtour d\u2019un toit v\u00e9g\u00e9talis\u00e9 ou d\u2019une section de toit v\u00e9g\u00e9talis\u00e9; c) d\u2019au moins 0,3 m entre un toit v\u00e9g\u00e9talis\u00e9 et tout \u00e9quipement situ\u00e9 sur le toit, notamment les appareillages de plomberie et de ventilation, les tuyaux, conduits, antennes, joints d\u2019expansion et les lanterneaux; d) d\u2019au moins 0,5 m entre un toit v\u00e9g\u00e9talis\u00e9 et une construction hors- toit; 25\u00b0 une zone libre de v\u00e9g\u00e9tation exig\u00e9e doit \u00eatre isol\u00e9e de la section adjacente du toit v\u00e9g\u00e9talis\u00e9 par une bordure dont la partie sup\u00e9rieure doit \u00eatre au moins au m\u00eame niveau que le dessus du substrat de croissance et dont la pr\u00e9sence ne nuit pas au drainage du toit; 26\u00b0 les zones libres de v\u00e9g\u00e9tation exig\u00e9es doivent \u00eatre rev\u00eatues de mat\u00e9riaux incombustibles; 27\u00b0 le dessus d\u2019une zone libre de v\u00e9g\u00e9tation exig\u00e9e autour d\u2019un avaloir doit \u00eatre constitu\u00e9 de mat\u00e9riaux incombustibles qui facilitent le drainage; 28\u00b0 la largeur des zones libres de v\u00e9g\u00e9tation peut \u00eatre r\u00e9duite \u00e0 0,5 m lorsque les \u00e9l\u00e9ments vis\u00e9s aux sous-paragraphes i), ii), et v) du sous-paragraphe e) du paragraphe 23o sont de construction incombustible ou sont rev\u00eatus de mat\u00e9riaux incombustibles; 29\u00b0 lorsqu\u2019un toit v\u00e9g\u00e9talis\u00e9 est accessible, il est consid\u00e9r\u00e9 comme ayant un usage au sens du Code. Un toit v\u00e9g\u00e9talis\u00e9 est consid\u00e9r\u00e9 comme accessible lorsque des personnes peuvent y avoir acc\u00e8s pour d\u2019autres fonctions que l\u2019entretien; 30\u00b0 un toit v\u00e9g\u00e9talis\u00e9 doit \u00eatre muni d\u2019un syst\u00e8me d\u2019irrigation int\u00e9gr\u00e9 ou d\u2019au moins un robinet d\u00e9di\u00e9 \u00e0 l\u2019arrosage, install\u00e9 sur le toit ou \u00e0 tout autre endroit appropri\u00e9; 31\u00b0 avant la pose d\u2019un toit v\u00e9g\u00e9talis\u00e9, le propri\u00e9taire doit effectuer ou faire effectuer, \u00e0 ses frais, un essai d\u2019\u00e9tanch\u00e9it\u00e9 selon l\u2019une des m\u00e9thodes reconnues par l\u2019industrie; Le pr\u00e9sent article ne s\u2019applique pas aux toitures ou parties de toiture destin\u00e9es \u00e0 la culture de v\u00e9g\u00e9tation dans les serres, bacs ou pots. SOUS-SECTION II SAILLIES COMBUSTIBLES \u2013 PATRIMOINE",
+      "amends_article_id": "3.1"
+    },
+    {
+      "article": "27.5",
+      "article_id": "27.5",
+      "title": "Article 27.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 le paragraphe 2 de l\u2019article 3.1.10.7. de la division B du Code, une saillie combustible d\u2019un b\u00e2timent combustible peut se trouver \u00e0 moins de 1,2 m de l\u2019axe du mur coupe-feu ou d\u2019une limite de propri\u00e9t\u00e9 dans les cas suivants : 1o la saillie est situ\u00e9e \u00e0 1m ou moins au-dessus du niveau du sol; 2o le b\u00e2timent comporte au plus 2 logements et la saillie ne se trouve pas \u00e0 moins de 1,2 m de l\u2019axe d\u2019un autre mur coupe-feu ou d\u2019une autre limite de propri\u00e9t\u00e9 ne bordant pas une voie publique.",
+      "amends_article_id": "3.1"
+    },
+    {
+      "article": "27.6",
+      "article_id": "27.6",
+      "title": "Article 27.6",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 l\u2019article 27.5 et le paragraphe 1 de l\u2019article 3.2.3.6., le paragraphe 6 de l\u2019article 9.10.14.5. et le paragraphe 5 de l\u2019article 9.10.15.5. de la division B du Code, les mains courantes et les marches d\u2019un escalier situ\u00e9es sur un mur ext\u00e9rieur faisant face \u00e0 une rue et desservant une aire de plancher situ\u00e9e \u00e0 au plus 1 \u00e9tage au-dessus du premier \u00e9tage, peuvent \u00eatre de construction combustible.",
+      "amends_article_id": "27.5"
+    },
+    {
+      "article": "27.7",
+      "article_id": "27.7",
+      "title": "Article 27.7",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Les garde-corps exig\u00e9s \u00e0 l\u2019article 9.8.8.1. de la division B du Code, desservant un usage autre qu\u2019un \u00e9tablissement industriel et qui prot\u00e8gent un niveau situ\u00e9 \u00e0 une hauteur d\u2019au plus 4,2 m au-dessus du niveau adjacent peuvent ne pas respecter les exigences relatives \u00e0 la conception des garde-corps du paragraphe 3 de l\u2019article 3.3.1.18. et de l\u2019article 9.8.8.6. de la division B du Code.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "27.8",
+      "article_id": "27.8",
+      "title": "Article 27.8",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Une armoire de rangement install\u00e9e sur un balcon peut \u00eatre assimil\u00e9e \u00e0 une saillie aux conditions suivantes : 1\u00b0 sa superficie est d\u2019au plus 2,5 m\u00b2; 2\u00b0 la partie du mur ext\u00e9rieur du b\u00e2timent auquel elle est adoss\u00e9e doit avoir la m\u00eame composition que celle de l\u2019ensemble du mur; 3\u00b0 sauf pour un b\u00e2timent qui comporte au plus 2 logements, toute partie du plancher et du toit situ\u00e9e \u00e0 moins de 1,2 m d\u2019une limite de propri\u00e9t\u00e9 ou de l\u2019axe d\u2019un mur coupe-feu doit \u00eatre de construction incombustible; 4\u00b0 la face int\u00e9rieure du mur qui est adjacent ou situ\u00e9 \u00e0 moins de 1,2 m d\u2019une limite de propri\u00e9t\u00e9 ne bordant pas une voie publique ou de l\u2019axe d\u2019un mur coupe-feu doit \u00eatre recouverte d\u2019un mat\u00e9riau incombustible assurant un degr\u00e9 de r\u00e9sistance au feu d\u2019au moins 1 heure; 5\u00b0 la face ext\u00e9rieure du mur qui est adjacente ou situ\u00e9e \u00e0 moins de 1,2 m d\u2019une limite de propri\u00e9t\u00e9 ne bordant pas une voie publique ou de l\u2019axe d\u2019un mur coupe-feu doit \u00eatre recouverte d\u2019un mat\u00e9riau incombustible assurant une r\u00e9sistance au feu d\u2019au moins 1 heure et d\u2019un parement incombustible r\u00e9sistant aux intemp\u00e9ries; 6\u00b0 lorsque 2 armoires de rangement sont superpos\u00e9es, la partie inf\u00e9rieure de l\u2019assemblage plancher-plafond qui les s\u00e9pare doit \u00eatre recouverte d\u2019un mat\u00e9riau incombustible assurant une r\u00e9sistance au feu d\u2019au moins 1 heure. SOUS-SECTION III CONCEPTION DES AIRES ET DES ESPACES DANS UNE HABITATION",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.9",
+      "article_id": "27.9",
+      "title": "Article 27.9",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 le deuxi\u00e8me alin\u00e9a de l\u2019article 14.1, dans une suite prot\u00e9g\u00e9e par gicleurs et pourvue d\u2019un syst\u00e8me de ventilation m\u00e9canique complet incluant l\u2019aire \u00e9clair\u00e9e en second-jour, l\u2019ouverture entre les deux aires formant des pi\u00e8ces combin\u00e9es peut \u00eatre munie de portes \u00e0 condition que celles-ci ne r\u00e9duisent pas la surface de l\u2019ouverture prescrite lorsqu\u2019elles sont en position ouverte. \u00bb.",
+      "amends_article_id": "14.1"
+    },
+    {
+      "article": "26",
+      "article_id": "26",
+      "title": "Article 26",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 28 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 le remplacement au premier alin\u00e9a des mots \u00ab n\u2019est pas \u00bb par les mots \u00ab peut ne pas \u00eatre \u00bb; 2\u00b0 l\u2019ajout apr\u00e8s le dernier paragraphe du premier alin\u00e9a du paragraphe suivant : \u00ab 6\u00b0 chaque suite qui comporte une mezzanine est isol\u00e9e du reste du b\u00e2timent par une s\u00e9paration coupe-feu d\u2019au moins 1 h. \u00bb; 3\u00b0 le remplacement du deuxi\u00e8me alin\u00e9a, par le suivant : \u00ab Toutefois, \u00e0 des fins d\u2019application des sous-sections 9.9.9. et 9.10.18. de la division B du Code, les mezzanines vis\u00e9es au premier alin\u00e9a constituent un \u00e9tage. \u00bb; 4\u00b0 le remplacement, au troisi\u00e8me alin\u00e9a, des mots \u00ab est am\u00e9nag\u00e9 au \u00bb par les mots \u00ab constitue le \u00bb; 5\u00b0 le remplacement du dernier alin\u00e9a par les suivants : \u00ab Malgr\u00e9 le paragraphe 2 de l\u2019article 9.10.18.2. de la division B du Code, un syst\u00e8me d\u2019alarme incendie est exig\u00e9 dans une habitation qui comporte des mezzanines vis\u00e9es au premier alin\u00e9a lorsque le b\u00e2timent a plus de 3 niveaux de plancher autres que ceux situ\u00e9s au-dessous du premier \u00e9tage et qu\u2019il contient plus de 4 logements. Lorsqu\u2019un tel syst\u00e8me d\u2019alarme incendie est requis, en plus des composantes exig\u00e9es par le Code, un d\u00e9tecteur de chaleur permettant \u00e0 la fois la d\u00e9tection d\u2019une temp\u00e9rature fixe maximale et l\u2019\u00e9l\u00e9vation de temp\u00e9rature, doit \u00eatre install\u00e9 dans chaque logement et dans chaque pi\u00e8ce ne faisant pas partie d\u2019un logement. \u00bb.",
+      "amends_article_id": "28"
+    },
+    {
+      "article": "27",
+      "article_id": "27",
+      "title": "Article 27",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 28, de l\u2019intitul\u00e9 suivant : \u00ab SOUS-SECTION IV MOYENS D\u2019\u00c9VACUATION \u00bb.",
+      "amends_article_id": "28"
+    },
+    {
+      "article": "28",
+      "article_id": "28",
+      "title": "Article 28",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 29, des articles suivants : \u00ab 29.1. Malgr\u00e9 l\u2019article 9.8.3.1. de la division B du Code, un escalier ext\u00e9rieur qui ne dessert que des logements et qui ne constitue pas leur seule issue peut \u00eatre tournant en totalit\u00e9 ou \u00eatre tournant en une ou plusieurs parties aux conditions suivantes : 1\u00b0 il dessert un niveau situ\u00e9 \u00e0 au plus un \u00e9tage au-dessus du premier \u00e9tage; 2\u00b0 il dessert au plus 2 logements par \u00e9tage; 3\u00b0 il comporte des girons \u00e9gaux d\u2019au moins 225 mm, lorsque mesur\u00e9s \u00e0 500 mm de l\u2019extr\u00e9mit\u00e9 la plus \u00e9troite; 4\u00b0 la rotation entre 2 niveaux s\u2019effectue dans le m\u00eame sens.",
+      "amends_article_id": "29"
+    },
+    {
+      "article": "29.2",
+      "article_id": "29.2",
+      "title": "Article 29.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 l\u2019article 9.8.3.1. de la division B du Code, un escalier h\u00e9lico\u00efdal autoris\u00e9 en vertu des paragraphes 3 ou 4 de l\u2019article 9.8.4.5. de la division B du Code, peut \u00eatre tournant en totalit\u00e9 ou \u00eatre tournant en une ou plusieurs parties lorsque chaque partie tournante permet de tourner d\u2019au moins 180 degr\u00e9s.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29.3",
+      "article_id": "29.3",
+      "title": "Article 29.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 le paragraphe 1 de l\u2019article 9.8.2.1. de la division B du Code, lorsqu\u2019un logement comporte au moins 2 moyens d\u2019\u00e9vacuation, l\u2019un d\u2019eux peut \u00eatre un escalier ext\u00e9rieur d\u2019une largeur libre minimale de 760 mm, aux conditions suivantes : 1\u00b0 l\u2019escalier ne dessert que des logements; 2\u00b0 l\u2019escalier dessert au plus 2 logements par aire de plancher.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29.4",
+      "article_id": "29.4",
+      "title": "Article 29.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Malgr\u00e9 le paragraphe 1 de l\u2019article 9.8.4.3. de la division B du Code, il n\u2019est pas obligatoire que les marches dansantes d\u2019un escalier d\u2019issue ext\u00e9rieur desservant au plus deux logements par \u00e9tage soient conformes \u00e0 l\u2019article 3.4.6.9. de la division B du Code, si elles r\u00e9pondent aux conditions suivantes: 1\u00b0 elles ont un giron d\u2019au moins 150 mm mesur\u00e9 au point le plus \u00e9troit; 2\u00b0 elles ont un giron d\u2019au moins 230 mm mesur\u00e9 \u00e0 300 mm du point le plus \u00e9troit; 3\u00b0 elles tournent dans la m\u00eame direction. \u00bb.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29",
+      "article_id": "29",
+      "title": "Article 29",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019insertion, apr\u00e8s le nouvel article 29.4, de l\u2019intitul\u00e9 suivant : \u00ab SOUS-SECTION V DISPOSITIONS DIVERSES \u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "30",
+      "article_id": "30",
+      "title": "Article 30",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 30 de ce r\u00e8glement est modifi\u00e9 par le remplacement, au premier alin\u00e9a, des mots \u00ab doit satisfaire toutes les exigences suivantes \u00bb par les mots \u00ab peut d\u00e9roger \u00e0 l\u2019article 10.4.1.3. de la division B du Code si les exigences suivantes sont satisfaites \u00bb.",
+      "amends_article_id": "30"
+    },
+    {
+      "article": "31",
+      "article_id": "31",
+      "title": "Article 31",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 31 de ce r\u00e8glement est modifi\u00e9 par le remplacement du premier alin\u00e9a par le suivant : \u00ab \u00c0 l\u2019\u00e9gard d\u2019une transformation autre qu\u2019un agrandissement en aire de b\u00e2timent, en aire de plancher ou en hauteur de b\u00e2timent, \u00e0 un b\u00e2timent ou une partie de b\u00e2timent dont un permis de construction a \u00e9t\u00e9 \u00e9mis avant le (indiquer ici la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent r\u00e8glement), les exigences relatives \u00e0 l\u2019am\u00e9nagement des pi\u00e8ces et \u00e0 la s\u00e9curit\u00e9 pr\u00e9vues aux chapitres VII, IX ainsi qu\u2019\u00e0 la section I du chapitre X.I du R\u00e8glement sur la salubrit\u00e9, l\u2019entretien et la s\u00e9curit\u00e9 des logements (03-096) de la Ville de Montr\u00e9al peuvent \u00eatre appliqu\u00e9es au lieu de celles du Code, dans l\u2019une ou l\u2019autre des situations suivantes : \u00bb.",
+      "amends_article_id": "31"
+    },
+    {
+      "article": "32",
+      "article_id": "32",
+      "title": "Article 32",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 32 de ce r\u00e8glement est modifi\u00e9 par la suppression au paragraphe 3\u00b0du premier alin\u00e9a, des mots \u00ab qui est \u00bb.",
+      "amends_article_id": "32"
+    },
+    {
+      "article": "33",
+      "article_id": "33",
+      "title": "Article 33",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 33 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 33. Malgr\u00e9 l\u2019article 32, un permis n\u2019est pas requis: 1\u00b0 pour l\u2019installation ou la construction d\u2019un b\u00e2timent temporaire sur un chantier n\u00e9cessaire \u00e0 la r\u00e9alisation de travaux de construction ou utilis\u00e9 pour la vente ou la location d\u2019unit\u00e9s de logement; 2\u00b0 pour l\u2019installation, la construction ou l\u2019agrandissement d\u2019un b\u00e2timent secondaire dont la superficie totalise au plus 15 m2. \u00bb.",
+      "amends_article_id": "33"
+    },
+    {
+      "article": "34",
+      "article_id": "34",
+      "title": "Article 34",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17,
+        18
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 34 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 le remplacement au paragraphe 5\u00b0 du deuxi\u00e8me alin\u00e9a, des mots \u00ab et le num\u00e9ro de t\u00e9l\u00e9phone \u00bb par les mots \u00ab , le num\u00e9ro de t\u00e9l\u00e9phone et l\u2019adresse courriel \u00bb; 2\u00b0 le remplacement au sous-paragraphe b) du paragraphe 6\u00b0 du deuxi\u00e8me alin\u00e9a des mots \u00ab et coupe \u00bb par les mots \u00ab , coupe et d\u00e9tail \u00bb; 3\u00b0 l\u2019ajout apr\u00e8s le sous-paragraphe b) du paragraphe 6\u00b0 du deuxi\u00e8me alin\u00e9a, du sous- paragraphe suivant : \u00ab c) le sous-paragraphe a) ne s\u2019applique pas aux travaux suivants : i) le remplacement des portes et fen\u00eatres sans modification de leurs dimensions; ii) le remplacement d\u2019un rev\u00eatement de toiture; iii) l\u2019am\u00e9nagement d\u2019un toit v\u00e9g\u00e9talis\u00e9; iv) tous autres travaux qui ne sont pas consid\u00e9r\u00e9s comme une transformation au sens du Code. \u00bb; 4\u00b0 le remplacement au sous-paragraphe a) du paragraphe 7\u00b0 du deuxi\u00e8me alin\u00e9a, des mots \u00ab plan d\u2019implantation \u00bb par les mots \u00ab plan projet d\u2019implantation \u00bb; 5\u00b0 le remplacement du sous-paragraphe b) du paragraphe 7\u00b0 du deuxi\u00e8me alin\u00e9a, par le suivant : \u00ab b) dans le cas d\u2019un agrandissement en superficie d'un b\u00e2timent existant : i) d\u2019un plan projet d\u2019implantation comprenant les m\u00eames renseignements exig\u00e9s au paragraphe 7\u00b0 du deuxi\u00e8me alin\u00e9a du pr\u00e9sent article lorsqu\u2019ils sont n\u00e9cessaires pour permettre de v\u00e9rifier si le projet est conforme \u00e0 la r\u00e9glementation municipale applicable; ii) d\u2019un certificat de localisation; \u00bb; 6\u00b0 le remplacement du paragraphe 9\u00b0 du deuxi\u00e8me alin\u00e9a, par le suivant : \u00ab 9\u00b0 dans le cas o\u00f9 la demande de permis est effectu\u00e9e par un mandataire, \u00eatre accompagn\u00e9e d\u2019une procuration du propri\u00e9taire du b\u00e2timent. Lorsqu\u2019il s\u2019agit d\u2019un immeuble d\u00e9tenu en copropri\u00e9t\u00e9 divise, le requ\u00e9rant ou son mandataire doit fournir l\u2019autorisation du syndicat de la copropri\u00e9t\u00e9 pour tous travaux devant \u00eatre ex\u00e9cut\u00e9s dans une partie commune. \u00bb; 7\u00b0 l\u2019ajout apr\u00e8s le paragraphe 4\u00b0 du troisi\u00e8me alin\u00e9a, du paragraphe suivant : \u00ab 5\u00b0 dans le cas de l\u2019am\u00e9nagement d\u2019un toit v\u00e9g\u00e9talis\u00e9 vis\u00e9 par le premier paragraphe du premier alin\u00e9a de l\u2019article 27.4, \u00eatre accompagn\u00e9e des documents suivants : a) la fiche de toit v\u00e9g\u00e9talis\u00e9 d\u00fbment compl\u00e9t\u00e9e et sign\u00e9e par le concepteur relativement \u00e0 la r\u00e9sistance structurale, aux effets de soul\u00e8vement dus au vent et \u00e0 la capacit\u00e9 portante du toit lorsque les parapets sont requis; b) les plans de structure du toit et des \u00e9l\u00e9ments qui le supportent. \u00bb.",
+      "amends_article_id": "34"
+    },
+    {
+      "article": "35",
+      "article_id": "35",
+      "title": "Article 35",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 35 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 35. Le comit\u00e9 ex\u00e9cutif peut d\u00e9terminer par ordonnance : 1\u00b0 la forme et le contenu du document intitul\u00e9 \u00ab fiche b\u00e2timent/d\u00e9claration de conformit\u00e9 \u00bb requis selon le sous-paragraphe a) du paragraphe 6\u00b0 du deuxi\u00e8me alin\u00e9a de l\u2019article 34; 2\u00b0 la forme et le contenu du document intitul\u00e9 \u00ab fiche toit v\u00e9g\u00e9talis\u00e9 \u00bb requis selon le sous-paragraphe a) du paragraphe 5\u00b0 du troisi\u00e8me alin\u00e9a de l\u2019article 34. \u00bb.",
+      "amends_article_id": "35"
+    },
+    {
+      "article": "36",
+      "article_id": "36",
+      "title": "Article 36",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 36 de ce r\u00e8glement est modifi\u00e9 par l\u2019ajout apr\u00e8s le deuxi\u00e8me alin\u00e9a, de l\u2019alin\u00e9a suivant : \u00ab L\u2019exigence du premier alin\u00e9a ne s\u2019applique pas lorsque la modification de la description des travaux d\u00e9coule d\u2019un commentaire ou d\u2019une demande de modification provenant d\u2019une instance d\u00e9cisionnelle ou d\u2019un comit\u00e9 consultatif de la Ville. \u00bb.",
+      "amends_article_id": "36"
+    },
+    {
+      "article": "37",
+      "article_id": "37",
+      "title": "Article 37",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 38 de ce r\u00e8glement est modifi\u00e9 par : 1\u00b0 le remplacement, aux paragraphes 1\u00b0, 2o et 4o du premier alin\u00e9a, de la d\u00e9signation alphanum\u00e9rique (L.R.Q., c. A-19.1) par la d\u00e9signation alphanum\u00e9rique suivante \u00ab (RLRQ, c. A-19.1); 2\u00b0 le remplacement, au paragraphe 3\u00b0 du premier alin\u00e9a, de la d\u00e9signation alphanum\u00e9rique (L.R.Q., c. Q-2) par la d\u00e9signation alphanum\u00e9rique suivante \u00ab (RLRQ, c. Q-2); 3\u00b0 l\u2019ajout apr\u00e8s le paragraphe 5\u00b0 du premier alin\u00e9a, du paragraphe suivant : \u00ab 6\u00b0 la demande de permis est accompagn\u00e9e de toute autorisation requise en vertu d\u2019un r\u00e8glement municipal. \u00bb.",
+      "amends_article_id": "38"
+    },
+    {
+      "article": "38",
+      "article_id": "38",
+      "title": "Article 38",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 40 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 40. Sur r\u00e9ception d\u2019une demande \u00e9crite du propri\u00e9taire ou de son mandataire, pr\u00e9sent\u00e9e avant l\u2019expiration du d\u00e9lai de p\u00e9remption, l\u2019autorit\u00e9 comp\u00e9tente peut prolonger une seule fois les d\u00e9lais de 18 et 36 mois mentionn\u00e9s au paragraphe 3\u00b0 du premier alin\u00e9a de l\u2019article 39, respectivement de 6 et 12 mois. \u00bb.",
+      "amends_article_id": "40"
+    },
+    {
+      "article": "39",
+      "article_id": "39",
+      "title": "Article 39",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19,
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 53 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 53. Le propri\u00e9taire et, le cas \u00e9ch\u00e9ant, l'entrepreneur doivent : 1\u00b0 faire en sorte que les plans et devis tels qu\u2019approuv\u00e9s relativement aux travaux vis\u00e9s par le permis soient disponibles sur le site des travaux, \u00e0 tout moment durant les heures de travail, aux fins d'inspection par l'autorit\u00e9 comp\u00e9tente; 2\u00b0 afficher d'une fa\u00e7on bien visible le permis ou une copie conforme de celui-ci sur le site durant toute la dur\u00e9e des travaux; 3\u00b0 informer l\u2019autorit\u00e9 comp\u00e9tente du d\u00e9but des travaux. \u00bb.",
+      "amends_article_id": "53"
+    },
+    {
+      "article": "40",
+      "article_id": "40",
+      "title": "Article 40",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 56 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 56. L'autorit\u00e9 comp\u00e9tente peut, au moyen d'un avis, ordonner au propri\u00e9taire, \u00e0 l'entrepreneur des travaux ou \u00e0 tout autre int\u00e9ress\u00e9, de suspendre des travaux de construction : 1\u00b0 effectu\u00e9s sans permis; 2\u00b0 non conformes au permis d\u00e9livr\u00e9; 3\u00b0 non conformes \u00e0 la r\u00e9glementation. \u00bb.",
+      "amends_article_id": "56"
+    },
+    {
+      "article": "41",
+      "article_id": "41",
+      "title": "Article 41",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "La sous-section II de la section III du chapitre III de ce r\u00e8glement est modifi\u00e9e par le remplacement du titre \u00ab CERTICAT DE LOCALISATION \u00bb par le titre suivant : \u00ab CERTIFICATS ET ATTESTATIONS \u00bb.",
+      "amends_article_id": null
+    },
+    {
+      "article": "42",
+      "article_id": "42",
+      "title": "Article 42",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 57 de ce r\u00e8glement est modifi\u00e9 par l\u2019ajout apr\u00e8s le paragraphe 6\u00b0, du paragraphe suivant : \u00ab 7\u00b0 toute autre cote ou mesure permettant de v\u00e9rifier si les travaux sont conformes \u00e0 la r\u00e9glementation municipale applicable. \u00bb.",
+      "amends_article_id": "57"
+    },
+    {
+      "article": "43",
+      "article_id": "43",
+      "title": "Article 43",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 58 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 58. Suite \u00e0 des travaux de construction dans une zone \u00e0 risque d\u2019inondation, le propri\u00e9taire doit pr\u00e9senter \u00e0 l\u2019autorit\u00e9 comp\u00e9tente, une attestation de la conformit\u00e9 de la construction aux mesures d\u2019immunisation pr\u00e9vues \u00e0 l\u2019article 20. Ce certificat doit \u00eatre produit par une personne comp\u00e9tente en la mati\u00e8re. \u00bb.",
+      "amends_article_id": "58"
+    },
+    {
+      "article": "44",
+      "article_id": "44",
+      "title": "Article 44",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s l\u2019article 60, de l\u2019article suivant : \u00ab 60.1. Lors de l\u2019am\u00e9nagement d\u2019un toit v\u00e9g\u00e9talis\u00e9, le propri\u00e9taire doit produire \u00e0 l\u2019autorit\u00e9 comp\u00e9tente, une copie du rapport de l\u2019essai d\u2019\u00e9tanch\u00e9it\u00e9 exig\u00e9 au paragraphe 31o de l\u2019article 27.4 \u00bb.",
+      "amends_article_id": "60"
+    },
+    {
+      "article": "45",
+      "article_id": "45",
+      "title": "Article 45",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 62 de ce r\u00e8glement est modifi\u00e9 par le remplacement des mots \u00ab conform\u00e9ment au Code et aux r\u00e8glements en vigueur au moment de cette reconstruction ou r\u00e9fection \u00bb par les mots \u00abconform\u00e9ment au pr\u00e9sent r\u00e8glement \u00bb.",
+      "amends_article_id": "62"
+    },
+    {
+      "article": "46",
+      "article_id": "46",
+      "title": "Article 46",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 69 de ce r\u00e8glement est remplac\u00e9 par le suivant : \u00ab 69. Quiconque contrevient \u00e0 l\u2019article 68 commet une infraction et est passible : 1\u00b0 s\u2019il s\u2019agit d\u2019une personne physique : a) pour une premi\u00e8re infraction, d\u2019une amende de 1 000 $; b) pour toute r\u00e9cidive, d\u2019une amende de 2 000 $; 2\u00b0 s\u2019il s\u2019agit d\u2019une personne morale : a) pour une premi\u00e8re infraction, d\u2019une amende de 2 000 $; b) pour toute r\u00e9cidive, d\u2019une amende de 4 000$. \u00bb.",
+      "amends_article_id": "69"
+    },
+    {
+      "article": "47",
+      "article_id": "47",
+      "title": "Article 47",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 70 de ce r\u00e8glement est abrog\u00e9.",
+      "amends_article_id": "70"
+    },
+    {
+      "article": "48",
+      "article_id": "48",
+      "title": "Article 48",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "L\u2019article 72 de ce r\u00e8glement est modifi\u00e9 par l\u2019ajout, apr\u00e8s le premier alin\u00e9a, de l\u2019alin\u00e9a suivant : \u00ab Les exigences normatives du r\u00e8glement en vigueur avant l\u2019entr\u00e9e en vigueur d'une modification au pr\u00e9sent r\u00e8glement peuvent \u00eatre utilis\u00e9es en lieu et place de celles pr\u00e9vues au nouveau r\u00e8glement, \u00e0 la condition que la demande de permis, incluant tous les documents d\u2019accompagnement requis par le pr\u00e9sent r\u00e8glement, soit soumise \u00e0 la Ville pour approbation dans les 6 mois de l\u2019entr\u00e9e en vigueur de cette modification r\u00e9glementaire.\u00bb.",
+      "amends_article_id": "72"
+    },
+    {
+      "article": "49",
+      "article_id": "49",
+      "title": "Article 49",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21,
+        22
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Ce r\u00e8glement est modifi\u00e9 afin d\u2019ajouter les annexes suivantes : ANNEXE A : Code de construction du Qu\u00e9bec, (RLRQ, c. B-1.1, r.2) (Chapitre I, B\u00e2timent, et Code national du b\u00e2timent \u2013 Canada 2010 (modifi\u00e9)). ANNEXE B : NFPA-130 \u2013 \u00e9dition 2017, \u00ab Standard for Fixed Guideway Transit and Passenger Rail Systems \u00bb. ANNEXE C : Homologation \u00abEnergystar \u00bb (crit\u00e8res \u00e9tablis par Resources naturelles Canada pour la zone climatique 2). ANNEXE D : ANSI/GRHC/SPRI VR-1 2011 \u00ab Procedure for investigating resistance to root penetration on vegetative roofs \u00bb. ANNEXE E : ASTM E2397-11 \u00ab Standard practice for determination of dead loads and live loads associated with vegetative (green) roof systems \u00bb et ASTM E2399-11 \u00ab standard test method for maximum media density for dead load analysis of vegetative (green) roof systems\u00bb. ANNEXE F : ANSI/SPRI RP-14 \u00ab Wind Design Standard for Vegetative Roofing Systems \u00bb. ANNEXE G : ASTM E2398-11 \u00ab Standard Test Method for Water Capture and Media Retention of Geo-composite Drain Layers for Green Roof Systems \u00bb. ___________________________ Ce r\u00e8glement a \u00e9t\u00e9 promulgu\u00e9 par l\u2019avis public affich\u00e9 \u00e0 l\u2019h\u00f4tel de ville et publi\u00e9 dans Le Devoir le \u2026\u2026\u2026\u2026\u2026. GDD 1184188001",
+      "amends_article_id": null
+    }
+  ]
+}

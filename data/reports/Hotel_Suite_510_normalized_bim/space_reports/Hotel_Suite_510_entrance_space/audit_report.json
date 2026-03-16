@@ -1,0 +1,314 @@
+{
+  "scene_id": "Hotel_Suite_510_entrance_space",
+  "room_type": "Hotel Suite Entrance",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "door_side_clear_space_diameter",
+      "source_element": "suite_entry_door",
+      "source_measurement": "side_clear_space_diameter_mm",
+      "fact_value": 1710.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1700.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Door-side clear space diameter satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1700.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1700.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [
+    {
+      "parameter": "door_side_clear_space_perpendicular_swing",
+      "value": 1110.0,
+      "unit": "mm",
+      "source_element": "suite_entry_door",
+      "source_measurement": "side_clear_space_perpendicular_swing_mm",
+      "description": "Door-side clear space perpendicular dimension for swinging door"
+    },
+    {
+      "parameter": "door_side_clear_space_perpendicular_sliding",
+      "value": 1110.0,
+      "unit": "mm",
+      "source_element": "suite_entry_door",
+      "source_measurement": "side_clear_space_perpendicular_sliding_mm",
+      "description": "Door-side clear space perpendicular dimension for sliding door"
+    },
+    {
+      "parameter": "door_side_clear_space_perpendicular_other",
+      "value": 1270.0,
+      "unit": "mm",
+      "source_element": "suite_entry_door",
+      "source_measurement": "side_clear_space_perpendicular_other_mm",
+      "description": "Door-side clear space perpendicular dimension for other door cases"
+    },
+    {
+      "parameter": "sliding_door_latch_clearance_perpendicular",
+      "value": 65.0,
+      "unit": "mm",
+      "source_element": "suite_entry_door",
+      "source_measurement": "latch_clearance_perpendicular_mm",
+      "description": "Sliding door latch-side clearance for perpendicular approach"
+    },
+    {
+      "parameter": "sliding_door_latch_clearance_lateral",
+      "value": 575.0,
+      "unit": "mm",
+      "source_element": "suite_entry_door",
+      "source_measurement": "latch_clearance_lateral_mm",
+      "description": "Sliding door latch-side clearance for lateral approach"
+    }
+  ],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The hotel suite entrance passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [
+      "door_side_clear_space_perpendicular_swing",
+      "door_side_clear_space_perpendicular_sliding",
+      "door_side_clear_space_perpendicular_other",
+      "sliding_door_latch_clearance_perpendicular",
+      "sliding_door_latch_clearance_lateral"
+    ],
+    "finding_explanations": [
+      {
+        "parameter": "door_side_clear_space_diameter",
+        "status": "PASS",
+        "explanation": "door_side_clear_space_diameter passed because the measured value 1710.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 1700.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Hotel_Suite_510_entrance_space",
+      "room_type": "Hotel Suite Entrance",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "value": 1710.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "side_clear_space_diameter_mm",
+          "description": "Door-side clear space diameter"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_swing",
+          "value": 1110.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "side_clear_space_perpendicular_swing_mm",
+          "description": "Door-side clear space perpendicular dimension for swinging door"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_sliding",
+          "value": 1110.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "side_clear_space_perpendicular_sliding_mm",
+          "description": "Door-side clear space perpendicular dimension for sliding door"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_other",
+          "value": 1270.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "side_clear_space_perpendicular_other_mm",
+          "description": "Door-side clear space perpendicular dimension for other door cases"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_perpendicular",
+          "value": 65.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "latch_clearance_perpendicular_mm",
+          "description": "Sliding door latch-side clearance for perpendicular approach"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_lateral",
+          "value": 575.0,
+          "unit": "mm",
+          "source_element": "suite_entry_door",
+          "source_measurement": "latch_clearance_lateral_mm",
+          "description": "Sliding door latch-side clearance for lateral approach"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "article": "3.8.6.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1700.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1700.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "status": "PASS",
+          "reason": "Door-side clear space diameter satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 1700.0,
+          "required_unit": "mm",
+          "fact_value": 1710.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "snippet": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), the clear floor space on each side of any door providing access to a suite shall have not less than 1 700 mm in diameter."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.6.3",
+          "title": "Doorways and Doors",
+          "snippet": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), the clear floor space on each side of any door providing access to a suite shall have not less than 1 700 mm in diameter."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 6,
+    "matched_constraint_count": 2,
+    "evaluated_rule_count": 1,
+    "finding_count": 1,
+    "retrieved_article_count": 5,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.6.3",
+      "QCC_B11_R2:3.8.6.3",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018:14",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.6.3",
+        "title": "Doorways and Doors",
+        "priority": 3,
+        "overlap_score": 0.166667,
+        "similarity_score": 0.484428,
+        "final_score": 0.389099
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.6.3",
+        "title": "Doorways and Doors",
+        "priority": 2,
+        "overlap_score": 0.166667,
+        "similarity_score": 0.477983,
+        "final_score": 0.384588
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.16972,
+        "final_score": 0.118804
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.166939,
+        "final_score": 0.116857
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.160172,
+        "final_score": 0.112121
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 10,
+    "override_count": 1,
+    "normalized_space_name": "Hotel Suite 510 Entrance",
+    "source_room_type": "Hotel Suite Entrance",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

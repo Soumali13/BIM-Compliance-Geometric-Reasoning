@@ -1,0 +1,47 @@
+Scene: Unit_411_entry_controls_space (Residential Controls)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential controls is unknown because required evidence is missing, including control_height, control_inside_corner_distance.
+  Precedence: The active rule set followed the precedence chain NBC_2020 -> QCC_B11_R2 -> QUEBEC_2015_2022 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: control_height, control_inside_corner_distance
+
+[UNKNOWN] Articles 3.8.4.4, 3.8.5.4 - missing.control_height
+  fact: missing
+  requirement: <= 1200.0 mm
+  reason: Required fact for control_height was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.4 Controls; 3.8.5.4 Controls
+  override trace: NBC_2020:3.8.3.8 <= 1200.0 mm -> QCC_B11_R2:3.8.4.4 <= 1200.0 mm -> QCC_B11_R2:3.8.5.4 <= 1200.0 mm -> QUEBEC_2015_2022:3.8.3.8 <= 1200.0 mm -> QUEBEC_2020_ABOVE:3.8.4.4 <= 1200.0 mm -> QUEBEC_2020_ABOVE:3.8.5.4 <= 1200.0 mm
+  expected from: control
+
+[UNKNOWN] Articles 3.8.4.4, 3.8.5.4 - missing.control_height
+  fact: missing
+  requirement: >= 400.0 mm
+  reason: Required fact for control_height was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.4 Controls; 3.8.5.4 Controls
+  override trace: NBC_2020:3.8.3.8 >= 400.0 mm -> QCC_B11_R2:3.8.4.4 >= 400.0 mm -> QCC_B11_R2:3.8.5.4 >= 400.0 mm -> QUEBEC_2015_2022:3.8.3.8 >= 400.0 mm -> QUEBEC_2020_ABOVE:3.8.4.4 >= 400.0 mm -> QUEBEC_2020_ABOVE:3.8.5.4 >= 400.0 mm
+  expected from: control
+
+[UNKNOWN] Articles 3.8.4.4, 3.8.5.4 - missing.control_inside_corner_distance
+  fact: missing
+  requirement: >= 300.0 mm
+  reason: Required fact for control_inside_corner_distance was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.4 Controls; 3.8.5.4 Controls
+  override trace: QCC_B11_R2:3.8.4.4 >= 300.0 mm -> QCC_B11_R2:3.8.5.4 >= 300.0 mm -> QUEBEC_2020_ABOVE:3.8.4.4 >= 300.0 mm -> QUEBEC_2020_ABOVE:3.8.5.4 >= 300.0 mm
+  expected from: control
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_411_normalized_bim.json
+- Unit ID: Unit_411
+- Space ID: Unit_411_entry_controls_space
+- Space name: Unit 411 Controls
+- Retrieved articles: 3.8.5.4, 3.8.5.4, 3.8.4.4, 3.8.3.8, 3.8.3.8, 3.8.4.4, 14, 23, 27.1
+- Derived constraints: 29
+- Findings: 3

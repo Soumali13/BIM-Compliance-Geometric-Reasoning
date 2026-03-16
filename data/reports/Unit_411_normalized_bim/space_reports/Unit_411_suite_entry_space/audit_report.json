@@ -1,0 +1,912 @@
+{
+  "scene_id": "Unit_411_suite_entry_space",
+  "room_type": "Residential Door Area",
+  "status": "FAIL",
+  "passed": false,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "door_side_clear_space_diameter",
+      "source_element": "suite_slider",
+      "source_measurement": "side_clear_space_diameter_mm",
+      "fact_value": 1425.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1500.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Door-side clear space diameter is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "door_side_clear_space_perpendicular_swing",
+      "source_element": "suite_slider",
+      "source_measurement": "side_clear_space_perpendicular_swing_mm",
+      "fact_value": 1010.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1050.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Door-side clear space perpendicular dimension for swinging door is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "door_side_clear_space_perpendicular_sliding",
+      "source_element": "suite_slider",
+      "source_measurement": "side_clear_space_perpendicular_sliding_mm",
+      "fact_value": 995.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1050.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Door-side clear space perpendicular dimension for sliding door is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "door_side_clear_space_perpendicular_other",
+      "source_element": "suite_slider",
+      "source_measurement": "side_clear_space_perpendicular_other_mm",
+      "fact_value": 1120.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1200.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Door-side clear space perpendicular dimension for other door cases is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "sliding_door_latch_clearance_perpendicular",
+      "source_element": "suite_slider",
+      "source_measurement": "latch_clearance_perpendicular_mm",
+      "fact_value": 45.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 50.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Sliding door latch-side clearance for perpendicular approach is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "sliding_door_latch_clearance_lateral",
+      "source_element": "suite_slider",
+      "source_measurement": "latch_clearance_lateral_mm",
+      "fact_value": 505.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 540.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Sliding door latch-side clearance for lateral approach is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential door area failed because one or more active requirements were violated, including door_side_clear_space_diameter, door_side_clear_space_perpendicular_swing, door_side_clear_space_perpendicular_sliding.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "door_side_clear_space_diameter",
+        "status": "FAIL",
+        "explanation": "door_side_clear_space_diameter failed because the measured value 1425.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1500.0 mm."
+      },
+      {
+        "parameter": "door_side_clear_space_perpendicular_swing",
+        "status": "FAIL",
+        "explanation": "door_side_clear_space_perpendicular_swing failed because the measured value 1010.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1050.0 mm."
+      },
+      {
+        "parameter": "door_side_clear_space_perpendicular_sliding",
+        "status": "FAIL",
+        "explanation": "door_side_clear_space_perpendicular_sliding failed because the measured value 995.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1050.0 mm."
+      },
+      {
+        "parameter": "door_side_clear_space_perpendicular_other",
+        "status": "FAIL",
+        "explanation": "door_side_clear_space_perpendicular_other failed because the measured value 1120.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1200.0 mm."
+      },
+      {
+        "parameter": "sliding_door_latch_clearance_perpendicular",
+        "status": "FAIL",
+        "explanation": "sliding_door_latch_clearance_perpendicular failed because the measured value 45.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 50.0 mm."
+      },
+      {
+        "parameter": "sliding_door_latch_clearance_lateral",
+        "status": "FAIL",
+        "explanation": "sliding_door_latch_clearance_lateral failed because the measured value 505.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 540.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_411_suite_entry_space",
+      "room_type": "Residential Door Area",
+      "status": "FAIL",
+      "facts_used": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "value": 1425.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "side_clear_space_diameter_mm",
+          "description": "Door-side clear space diameter"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_swing",
+          "value": 1010.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "side_clear_space_perpendicular_swing_mm",
+          "description": "Door-side clear space perpendicular dimension for swinging door"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_sliding",
+          "value": 995.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "side_clear_space_perpendicular_sliding_mm",
+          "description": "Door-side clear space perpendicular dimension for sliding door"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_other",
+          "value": 1120.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "side_clear_space_perpendicular_other_mm",
+          "description": "Door-side clear space perpendicular dimension for other door cases"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_perpendicular",
+          "value": 45.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "latch_clearance_perpendicular_mm",
+          "description": "Sliding door latch-side clearance for perpendicular approach"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_lateral",
+          "value": 505.0,
+          "unit": "mm",
+          "source_element": "suite_slider",
+          "source_measurement": "latch_clearance_lateral_mm",
+          "description": "Sliding door latch-side clearance for lateral approach"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "article": "3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_swing",
+          "article": "3.8.4.3,3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_sliding",
+          "article": "3.8.4.3,3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_other",
+          "article": "3.8.4.3,3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_perpendicular",
+          "article": "3.8.4.3,3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_lateral",
+          "article": "3.8.4.3,3.8.5.3",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1050.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 50.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 540.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "door_side_clear_space_diameter",
+          "status": "FAIL",
+          "reason": "Door-side clear space diameter is below minimum.",
+          "operator": ">=",
+          "required_value": 1500.0,
+          "required_unit": "mm",
+          "fact_value": 1425.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_swing",
+          "status": "FAIL",
+          "reason": "Door-side clear space perpendicular dimension for swinging door is below minimum.",
+          "operator": ">=",
+          "required_value": 1050.0,
+          "required_unit": "mm",
+          "fact_value": 1010.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_sliding",
+          "status": "FAIL",
+          "reason": "Door-side clear space perpendicular dimension for sliding door is below minimum.",
+          "operator": ">=",
+          "required_value": 1050.0,
+          "required_unit": "mm",
+          "fact_value": 995.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "door_side_clear_space_perpendicular_other",
+          "status": "FAIL",
+          "reason": "Door-side clear space perpendicular dimension for other door cases is below minimum.",
+          "operator": ">=",
+          "required_value": 1200.0,
+          "required_unit": "mm",
+          "fact_value": 1120.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_perpendicular",
+          "status": "FAIL",
+          "reason": "Sliding door latch-side clearance for perpendicular approach is below minimum.",
+          "operator": ">=",
+          "required_value": 50.0,
+          "required_unit": "mm",
+          "fact_value": 45.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "sliding_door_latch_clearance_lateral",
+          "status": "FAIL",
+          "reason": "Sliding door latch-side clearance for lateral approach is below minimum.",
+          "operator": ">=",
+          "required_value": 540.0,
+          "required_unit": "mm",
+          "fact_value": 505.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "snippet": "1) A sliding door shall have a clear space on the latch side extending the height of the doorway and not less than a) 50 mm beyond the edge of the door opening if the approach is perpendicular to the door, and b) 540 mm beyond the edge of the door opening if the approach is lateral. 2) Notwithsta..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.3",
+          "title": "Doorways and Doors",
+          "snippet": "1) A sliding door shall have a clear space on the latch side extending the height of the doorway and not less than a) 50 mm beyond the edge of the door opening if the approach is perpendicular to the door, and b) 540 mm beyond the edge of the door opening if the approach is lateral. 2) Notwithsta..."
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "snippet": "(See Note A-3.8.4.3.) 1) A sliding door shall have a clear space on the latch side extending the height of the doorway and not less than a) 50 mm beyond the edge of the door opening if the approach is perpendicular, and b) 540 mm beyond the edge of the door opening if the approach is parallel. 2)..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.3",
+          "title": "Doorways and Doors",
+          "snippet": "(See Note A-3.8.4.3.) 1) A sliding door shall have a clear space on the latch side extending the height of the doorway and not less than a) 50 mm beyond the edge of the door opening if the approach is perpendicular, and b) 540 mm beyond the edge of the door opening if the approach is parallel. 2)..."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 6,
+    "matched_constraint_count": 22,
+    "evaluated_rule_count": 11,
+    "finding_count": 6,
+    "retrieved_article_count": 7,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.5.3",
+      "QCC_B11_R2:3.8.5.3",
+      "QUEBEC_2020_ABOVE:3.8.4.3",
+      "QCC_B11_R2:3.8.4.3",
+      "MTL_11_018:14",
+      "MTL_11_018_X:23",
+      "MTL_11_018_X:27.1"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.3",
+        "title": "Doorways and Doors",
+        "priority": 3,
+        "overlap_score": 1.0,
+        "similarity_score": 0.590372,
+        "final_score": 0.71326
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.3",
+        "title": "Doorways and Doors",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.588619,
+        "final_score": 0.712034
+      },
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.4.3",
+        "title": "Doorways and Doors",
+        "priority": 3,
+        "overlap_score": 0.833333,
+        "similarity_score": 0.650788,
+        "final_score": 0.705551
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.4.3",
+        "title": "Doorways and Doors",
+        "priority": 2,
+        "overlap_score": 0.833333,
+        "similarity_score": 0.641931,
+        "final_score": 0.699351
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.186295,
+        "final_score": 0.130406
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.144147,
+        "final_score": 0.100903
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.143008,
+        "final_score": 0.100105
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 20,
+    "override_count": 11,
+    "normalized_space_name": "Unit 411 Entry",
+    "source_room_type": "Residential Door Area",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

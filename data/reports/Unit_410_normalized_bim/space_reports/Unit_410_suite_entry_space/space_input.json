@@ -1,0 +1,246 @@
+{
+  "space_id": "Unit_410_suite_entry_space",
+  "unit_id": "Unit_410",
+  "name": "Unit 410 Entry",
+  "room_type": "Residential Door Area",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_04",
+  "contained_in_unit": "Unit_410",
+  "adjacent_to": [
+    "Unit_410_living_room_space",
+    "Unit_410_entry_controls_space"
+  ],
+  "placement": {
+    "level_id": "Level_04",
+    "level_name": "Level 04",
+    "x_mm": 0.0,
+    "y_mm": 0.0,
+    "z_mm": 12000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "suite_entry.json",
+  "source_room_id": "Unit_410_Entry",
+  "raw_properties": {
+    "source_room_type": "Residential Door Area",
+    "compliance_room_type": "Residential Door Area",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_410_suite_entry_space_floor_slab",
+      "source_label": "Unit_410_Entry_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_service_wall",
+      "source_label": "Unit_410_Entry_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 1200.0,
+        "y_mm": 0.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_exterior_wall",
+      "source_label": "Unit_410_Entry_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 3200.0,
+        "y_mm": 0.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_entry_wall",
+      "source_label": "Unit_410_Entry_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 0.0,
+        "y_mm": 800.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_ceiling_plane",
+      "source_label": "Unit_410_Entry_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_label": "suite_slider",
+      "semantic_type": "door",
+      "ifc_type": "IfcDoor",
+      "revit_category": "Doors",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": "Unit_410_suite_entry_space_entry_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 300.0,
+        "y_mm": 200.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "side_clear_space_diameter_mm": 1510,
+        "side_clear_space_perpendicular_swing_mm": 1110,
+        "side_clear_space_perpendicular_sliding_mm": 1120,
+        "side_clear_space_perpendicular_other_mm": 1260,
+        "latch_clearance_perpendicular_mm": 70,
+        "latch_clearance_lateral_mm": 570,
+        "door_leaf_count": 2
+      }
+    },
+    {
+      "element_id": "Unit_410_suite_entry_space_entry_threshold",
+      "source_label": "entry_threshold",
+      "semantic_type": "threshold",
+      "ifc_type": "IfcBuildingElementProxy",
+      "revit_category": "Generic Models",
+      "contained_in_space": "Unit_410_suite_entry_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 600.0,
+        "y_mm": 400.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "height_mm": 13
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_01",
+      "parameter": "door_side_clear_space_diameter",
+      "value": 1510.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "side_clear_space_diameter_mm",
+      "description": "Door-side clear space diameter"
+    },
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_02",
+      "parameter": "door_side_clear_space_perpendicular_swing",
+      "value": 1110.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "side_clear_space_perpendicular_swing_mm",
+      "description": "Door-side clear space perpendicular dimension for swinging door"
+    },
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_03",
+      "parameter": "door_side_clear_space_perpendicular_sliding",
+      "value": 1120.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "side_clear_space_perpendicular_sliding_mm",
+      "description": "Door-side clear space perpendicular dimension for sliding door"
+    },
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_04",
+      "parameter": "door_side_clear_space_perpendicular_other",
+      "value": 1260.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "side_clear_space_perpendicular_other_mm",
+      "description": "Door-side clear space perpendicular dimension for other door cases"
+    },
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_05",
+      "parameter": "sliding_door_latch_clearance_perpendicular",
+      "value": 70.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "latch_clearance_perpendicular_mm",
+      "description": "Sliding door latch-side clearance for perpendicular approach"
+    },
+    {
+      "fact_id": "Unit_410_suite_entry_space_fact_06",
+      "parameter": "sliding_door_latch_clearance_lateral",
+      "value": 570.0,
+      "unit": "mm",
+      "source_element_id": "Unit_410_suite_entry_space_suite_slider",
+      "source_element_label": "suite_slider",
+      "source_property": "latch_clearance_lateral_mm",
+      "description": "Sliding door latch-side clearance for lateral approach"
+    }
+  ]
+}

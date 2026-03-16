@@ -1,0 +1,47 @@
+Project: 0001
+Project ID: 1xS3BCk291UvhgP2a6eflL
+Units: Level_1, Level_2, T_FDN, Roof
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json
+Overall unit status: FAIL
+Audited space count: 12
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Level_1 :: Level_1_space_67 (Living Room): PASS
+- Level_1 :: Level_1_space_212 (Kitchen): UNKNOWN
+  reason: The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.
+  next measurements: kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height
+- Level_1 :: Level_1_space_355 (Bathroom 1): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.
+  next measurements: bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance, lavatory_trap_bottom_height, lavatory_trap_entry_back_wall_distance, shower_floor_length, shower_floor_width, shower_front_clearance_length, shower_front_clearance_width, turning_circle_diameter, water_closet_rear_reinforcement_height, water_closet_rear_reinforcement_width, water_closet_side_wall_or_equipment_distance, water_closet_to_lavatory_trap_distance
+- Level_1 :: Level_1_space_1627 (Living Room): PASS
+- Level_1 :: Level_1_space_1782 (Kitchen): UNKNOWN
+  reason: The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.
+  next measurements: kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height
+- Level_1 :: Level_1_space_1928 (Bathroom 1): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.
+  next measurements: bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance, lavatory_trap_bottom_height, lavatory_trap_entry_back_wall_distance, shower_floor_length, shower_floor_width, shower_front_clearance_length, shower_front_clearance_width, turning_circle_diameter, water_closet_rear_reinforcement_height, water_closet_rear_reinforcement_width, water_closet_side_wall_or_equipment_distance, water_closet_to_lavatory_trap_distance
+- Level_2 :: Level_2_space_1059 (Bathroom 2): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.
+  next measurements: bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance, lavatory_trap_bottom_height, lavatory_trap_entry_back_wall_distance, shower_floor_length, shower_floor_width, shower_front_clearance_length, shower_front_clearance_width, turning_circle_diameter, water_closet_rear_reinforcement_height, water_closet_rear_reinforcement_width, water_closet_side_wall_or_equipment_distance, water_closet_to_lavatory_trap_distance
+- Level_2 :: Level_2_space_1218 (Bedroom 2): FAIL
+  reason: The residential bedroom failed because one or more active requirements were violated, including window_sill_height.
+  next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+- Level_2 :: Level_2_space_1442 (Bedroom 1): FAIL
+  reason: The residential bedroom failed because one or more active requirements were violated, including window_sill_height.
+  next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+- Level_2 :: Level_2_space_2637 (Bathroom 2): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.
+  next measurements: bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance, lavatory_trap_bottom_height, lavatory_trap_entry_back_wall_distance, shower_floor_length, shower_floor_width, shower_front_clearance_length, shower_front_clearance_width, turning_circle_diameter, water_closet_rear_reinforcement_height, water_closet_rear_reinforcement_width, water_closet_side_wall_or_equipment_distance, water_closet_to_lavatory_trap_distance
+- Level_2 :: Level_2_space_2789 (Bedroom 2): FAIL
+  reason: The residential bedroom failed because one or more active requirements were violated, including window_sill_height.
+  next measurements: ifc_overall_width, ifc_overall_height, ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+- Level_2 :: Level_2_space_3013 (Bedroom 1): FAIL
+  reason: The residential bedroom failed because one or more active requirements were violated, including window_sill_height.
+  next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+
+Status counts:
+- PASS: 2
+- FAIL: 4
+- UNKNOWN: 6

@@ -1,0 +1,127 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "project_name": "Montreal Accessibility Demo Tower",
+  "unit_ids": [
+    "Unit_411"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:28-04:00",
+  "space_reports": [
+    {
+      "space_id": "Unit_411_bathroom_primary_space",
+      "space_name": "Unit 411 Bathroom Primary",
+      "room_type": "Residential Bathroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom failed because one or more active requirements were violated, including turning_circle_diameter, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_411_kitchen_open_plan_space",
+      "space_name": "Unit 411 Kitchen",
+      "room_type": "Residential Kitchen",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen is unknown because required evidence is missing, including kitchen_sink_trap_bottom_height.",
+      "recommended_next_measurements": [
+        "kitchen_sink_trap_bottom_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_411_bedroom_primary_space",
+      "space_name": "Unit 411 Bedroom Primary",
+      "room_type": "Residential Bedroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom failed because one or more active requirements were violated, including bedroom_area, bedroom_length, bedroom_width.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_411_suite_entry_space",
+      "space_name": "Unit 411 Entry",
+      "room_type": "Residential Door Area",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential door area failed because one or more active requirements were violated, including door_side_clear_space_diameter, door_side_clear_space_perpendicular_swing, door_side_clear_space_perpendicular_sliding.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_411_entry_controls_space",
+      "space_name": "Unit 411 Controls",
+      "room_type": "Residential Controls",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential controls is unknown because required evidence is missing, including control_height, control_inside_corner_distance.",
+      "recommended_next_measurements": [
+        "control_height",
+        "control_inside_corner_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_411_balcony_space",
+      "space_name": "Unit 411 Balcony",
+      "room_type": "Residential Balcony",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}

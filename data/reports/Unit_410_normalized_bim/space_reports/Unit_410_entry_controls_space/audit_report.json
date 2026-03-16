@@ -1,0 +1,1049 @@
+{
+  "scene_id": "Unit_410_entry_controls_space",
+  "room_type": "Residential Controls",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_height",
+      "source_element": "entry_thermostat",
+      "source_measurement": "height_mm",
+      "fact_value": 1080.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1200.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control mounting height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_height",
+      "source_element": "entry_thermostat",
+      "source_measurement": "height_mm",
+      "fact_value": 1080.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 400.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control mounting height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_inside_corner_distance",
+      "source_element": "entry_thermostat",
+      "source_measurement": "inside_corner_distance_mm",
+      "fact_value": 360.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 300.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control distance from inside corner satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_height",
+      "source_element": "entry_lighting_scene",
+      "source_measurement": "height_mm",
+      "fact_value": 1050.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1200.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control mounting height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_height",
+      "source_element": "entry_lighting_scene",
+      "source_measurement": "height_mm",
+      "fact_value": 1050.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 400.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control mounting height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "control_inside_corner_distance",
+      "source_element": "entry_lighting_scene",
+      "source_measurement": "inside_corner_distance_mm",
+      "fact_value": 420.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 300.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Control distance from inside corner satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential controls passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rule set followed the precedence chain NBC_2020 -> QCC_B11_R2 -> QUEBEC_2015_2022 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "control_height",
+        "status": "PASS",
+        "explanation": "control_height passed because the measured value 1080.0 mm met the active QUEBEC_2020_ABOVE requirement of <= 1200.0 mm."
+      },
+      {
+        "parameter": "control_height",
+        "status": "PASS",
+        "explanation": "control_height passed because the measured value 1080.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 400.0 mm."
+      },
+      {
+        "parameter": "control_inside_corner_distance",
+        "status": "PASS",
+        "explanation": "control_inside_corner_distance passed because the measured value 360.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 300.0 mm."
+      },
+      {
+        "parameter": "control_height",
+        "status": "PASS",
+        "explanation": "control_height passed because the measured value 1050.0 mm met the active QUEBEC_2020_ABOVE requirement of <= 1200.0 mm."
+      },
+      {
+        "parameter": "control_height",
+        "status": "PASS",
+        "explanation": "control_height passed because the measured value 1050.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 400.0 mm."
+      },
+      {
+        "parameter": "control_inside_corner_distance",
+        "status": "PASS",
+        "explanation": "control_inside_corner_distance passed because the measured value 420.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 300.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_410_entry_controls_space",
+      "room_type": "Residential Controls",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "control_height",
+          "value": 1080.0,
+          "unit": "mm",
+          "source_element": "entry_thermostat",
+          "source_measurement": "height_mm",
+          "description": "Control mounting height"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "value": 360.0,
+          "unit": "mm",
+          "source_element": "entry_thermostat",
+          "source_measurement": "inside_corner_distance_mm",
+          "description": "Control distance from inside corner"
+        },
+        {
+          "parameter": "control_height",
+          "value": 1050.0,
+          "unit": "mm",
+          "source_element": "entry_lighting_scene",
+          "source_measurement": "height_mm",
+          "description": "Control mounting height"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "value": 420.0,
+          "unit": "mm",
+          "source_element": "entry_lighting_scene",
+          "source_measurement": "inside_corner_distance_mm",
+          "description": "Control distance from inside corner"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "control_height",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "article": "3.8.4.4,3.8.5.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "patch_action": "add",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 300.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "control_height",
+          "status": "PASS",
+          "reason": "Control mounting height satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1200.0,
+          "required_unit": "mm",
+          "fact_value": 1080.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "status": "PASS",
+          "reason": "Control mounting height satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 400.0,
+          "required_unit": "mm",
+          "fact_value": 1080.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "status": "PASS",
+          "reason": "Control distance from inside corner satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 300.0,
+          "required_unit": "mm",
+          "fact_value": 360.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "status": "PASS",
+          "reason": "Control mounting height satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1200.0,
+          "required_unit": "mm",
+          "fact_value": 1050.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "status": "PASS",
+          "reason": "Control mounting height satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 400.0,
+          "required_unit": "mm",
+          "fact_value": 1050.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "control_inside_corner_distance",
+          "status": "PASS",
+          "reason": "Control distance from inside corner satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 300.0,
+          "required_unit": "mm",
+          "fact_value": 420.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "snippet": "1) Controls for the operation of building services or safety devices, including electrical switches, thermostats, door hardware, electrical outlets and intercom switches, that are intended to be operated by the occupant shall be a) located along the barrier-free path of travel, b) mounted 400 mm..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.4",
+          "title": "Controls",
+          "snippet": "1) Controls for the operation of building services or safety devices, including electrical switches, thermostats, door hardware, electrical outlets and intercom switches, that are intended to be operated by the occupant shall be a) located along the barrier-free path of travel, b) mounted 400 mm..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "snippet": "1) Controls for the operation of building services or safety devices, including electrical switches, thermostats, door hardware, electrical outlets and intercom switches, that are intended to be operated by the occupant shall be a) located along the barrier-free path of travel, b) mounted 400 mm..."
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.4.4",
+          "title": "Controls",
+          "snippet": "1) Controls for the operation of building services or safety devices, including electrical switches, thermostats, door hardware, electrical outlets and intercom switches, that are intended to be operated by the occupant shall be a) located along the barrier-free path of travel, b) mounted 400 mm..."
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "snippet": "1) Controls described in this Section shall a) where located in a barrier-free path of travel, and unless otherwise stated, i) be mounted 400 mm to 1 200 mm above the floor, ii) be adjacent to and centered on either the length or the width of a clear floor space of 1 350 mm by 800 mm, and b) be o..."
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.8",
+          "title": "Controls",
+          "snippet": "1) Controls described in this Section shall a) where located in a storey where a barrier-free path of travel is required and unless otherwise stated, i) be in or adjacent to the barrier-free path of travel, ii) be mounted 400 mm to 1 200 mm above the floor, and iii) be adjacent to and centred on..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 4,
+    "matched_constraint_count": 32,
+    "evaluated_rule_count": 12,
+    "finding_count": 6,
+    "retrieved_article_count": 9,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.5.4",
+      "QCC_B11_R2:3.8.5.4",
+      "QCC_B11_R2:3.8.4.4",
+      "QUEBEC_2020_ABOVE:3.8.4.4",
+      "QUEBEC_2015_2022:3.8.3.8",
+      "NBC_2020:3.8.3.8",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018_X:23",
+      "MTL_11_018:14"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.4",
+        "title": "Controls",
+        "priority": 3,
+        "overlap_score": 1.0,
+        "similarity_score": 0.475604,
+        "final_score": 0.632923
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.4",
+        "title": "Controls",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.471786,
+        "final_score": 0.63025
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.4.4",
+        "title": "Controls",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.4717,
+        "final_score": 0.63019
+      },
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.4.4",
+        "title": "Controls",
+        "priority": 3,
+        "overlap_score": 1.0,
+        "similarity_score": 0.341006,
+        "final_score": 0.538704
+      },
+      {
+        "authority": "QUEBEC_2015_2022",
+        "article": "3.8.3.8",
+        "title": "Controls",
+        "priority": 3,
+        "overlap_score": 0.5,
+        "similarity_score": 0.423489,
+        "final_score": 0.446442
+      },
+      {
+        "authority": "NBC_2020",
+        "article": "3.8.3.8",
+        "title": "Controls",
+        "priority": 1,
+        "overlap_score": 0.5,
+        "similarity_score": 0.407635,
+        "final_score": 0.435345
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.227848,
+        "final_score": 0.159494
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.22138,
+        "final_score": 0.154966
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.146412,
+        "final_score": 0.102488
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "NBC_2020",
+      "QCC_B11_R2",
+      "QUEBEC_2015_2022",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 15,
+    "override_count": 6,
+    "normalized_space_name": "Unit 410 Controls",
+    "source_room_type": "Residential Controls",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

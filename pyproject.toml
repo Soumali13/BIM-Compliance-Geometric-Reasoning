@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bim-compliance-geometric-reasoning"
+version = "0.1.0"
+description = "BIM compliance and geometric reasoning prototype for accessibility-focused building code checks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2,<3",
+  "reportlab>=4.4,<5",
+  "sentence-transformers>=5,<6",
+  "unstructured[pdf]>=0.18,<0.19",
+]
+
+[project.optional-dependencies]
+ifc = [
+  "ifcopenshell>=0.8.4,<0.9",
+]
+
+[project.scripts]
+geometric-audit = "geometric_reasoner.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

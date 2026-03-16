@@ -1,0 +1,227 @@
+{
+  "scene_id": "Unit_411_balcony_space",
+  "room_type": "Residential Balcony",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "balcony_clear_floor_space_diameter",
+      "source_element": "balcony_clearance",
+      "source_measurement": "balcony_diameter_mm",
+      "fact_value": 1500.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1500.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Balcony clear floor space diameter satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "balcony_clear_floor_space_diameter",
+        "status": "PASS",
+        "explanation": "balcony_clear_floor_space_diameter passed because the measured value 1500.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 1500.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_411_balcony_space",
+      "room_type": "Residential Balcony",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "balcony_clear_floor_space_diameter",
+          "value": 1500.0,
+          "unit": "mm",
+          "source_element": "balcony_clearance",
+          "source_measurement": "balcony_diameter_mm",
+          "description": "Balcony clear floor space diameter"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "balcony_clear_floor_space_diameter",
+          "article": "3.8.5.9",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "balcony_clear_floor_space_diameter",
+          "status": "PASS",
+          "reason": "Balcony clear floor space diameter satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 1500.0,
+          "required_unit": "mm",
+          "fact_value": 1500.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "snippet": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), a balcony referred to in Sentence 3.8.5.2.(1) shall have a clear floor space not less than 1 500 mm in diameter."
+        },
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.9",
+          "title": "Balconies",
+          "snippet": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), a balcony referred to in Sentence 3.8.5.2.(1) shall have a clear floor space not less than 1 500 mm in diameter. 3.8.6. Hotels and Motels"
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 1,
+    "matched_constraint_count": 2,
+    "evaluated_rule_count": 1,
+    "finding_count": 1,
+    "retrieved_article_count": 5,
+    "retrieved_articles": [
+      "QCC_B11_R2:3.8.5.9",
+      "QUEBEC_2020_ABOVE:3.8.5.9",
+      "MTL_11_018:14",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.9",
+        "title": "Balconies",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.727697,
+        "final_score": 0.809388
+      },
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.9",
+        "title": "Balconies",
+        "priority": 3,
+        "overlap_score": 1.0,
+        "similarity_score": 0.642018,
+        "final_score": 0.749412
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.287368,
+        "final_score": 0.201158
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.283013,
+        "final_score": 0.198109
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.261478,
+        "final_score": 0.183035
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 10,
+    "override_count": 1,
+    "normalized_space_name": "Unit 411 Balcony",
+    "source_room_type": "Residential Balcony",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

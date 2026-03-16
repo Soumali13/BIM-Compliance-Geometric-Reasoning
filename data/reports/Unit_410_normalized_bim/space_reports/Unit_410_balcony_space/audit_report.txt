@@ -1,0 +1,28 @@
+Scene: Unit_410_balcony_space (Residential Balcony)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+
+
+[PASS] Articles 3.8.5.9 - balcony_clearance.balcony_diameter_mm
+  fact: 1510.0 mm
+  requirement: >= 1500.0 mm
+  reason: Balcony clear floor space diameter satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.9 Balconies
+  override trace: QCC_B11_R2:3.8.5.9 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.9 >= 1500.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_410_normalized_bim.json
+- Unit ID: Unit_410
+- Space ID: Unit_410_balcony_space
+- Space name: Unit 410 Balcony
+- Retrieved articles: 3.8.5.9, 3.8.5.9, 14, 27.1, 23
+- Derived constraints: 15
+- Findings: 1

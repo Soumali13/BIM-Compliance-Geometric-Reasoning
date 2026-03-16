@@ -1,0 +1,2120 @@
+{
+  "authority": "MTL_11_018",
+  "jurisdiction": "Montreal",
+  "priority": 4,
+  "effective_date": "2011-10-24",
+  "patch_action": "override",
+  "source_pdf": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/compliance_corpora/montreal_11_018/montreal_11_018.pdf",
+  "scope": [
+    "11-018"
+  ],
+  "generated_by": "scripts/translate_article_corpus.py",
+  "articles": [
+    {
+      "article": "1",
+      "article_id": "1",
+      "title": "Article 1",
+      "section": "CHAPTER I",
+      "section_title": "CHAPTER I",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In these Regulations, the following words or expressions have the meaning: \"competent authority\" means, within the meaning of the Code and these Regulations, the Director of the Development and Operations Service; in the Code, a reference to the \"Governance of the Building\" or \"Governance\" must be understood as a reference to the competent authority when it is a requirement for which the City has jurisdiction; \"exempt building\" means a building exempted from the application of Chapter I-Building of the Quebec Construction Code by the Regulations under the Building Act (R.S.Q., c. B-1.1, r. 0.01); \"Code\" means:\nThe National Building Code – Canada 2005\" (NRC 47666E) published by the Canadian Commission on Building and Fire Codes of the National Research Council, as adopted and amended by Order-in-Council 953-2000 and Order-in-Council 293-2008 (R.S.Q., c. B-1.1, r. 0.1.01), also known as the Quebec Construction Code - Chapter 1, Building, and the National Building Code – Canada 2005 (amended); \"solid fuel\" means any solid material with which fire can be made; \"construction\" means an ordered assembly of materials whose use requires a location on the ground or which is attached to something requiring a location on the ground;\n\"housing\" means a suite used or intended to be used as a home for one or more persons and comprising sanitary equipment and spaces where meals and sleep can be prepared and consumed; \"chambers' house\" means a building or part of a building defined as such in the borough regulations; if not defined in the regulations, it is a building or part of a building where at least 4 rooms are rented and services can be provided to persons who live in it, such as meals, maintenance and supervision; \"average ground level\" means the average ground level as defined in Part 1 of Division A of the Code.\nFor the purposes of this definition, localized depressions that are not to be taken into account in determining the average level of soil include depressions, including vehicle or pedestrian entrances that do not affect evacuation or access to fire control; \"flooding plain\": extent of land occupied by a lake or stream during a flood; \"low current zone\": part of a floodplain, beyond the limit of the large current zone, which may be flooded during a hundred years of recurrent flooding, the limits of which are established in the regulations of the borough; \"high current zone\":\nPart of a floodplain that can be flooded during a 20-year recurrence flood, the limits of which are set in the borough regulations.",
+      "amends_article_id": null
+    },
+    {
+      "article": "2",
+      "article_id": "2",
+      "title": "Article 2",
+      "section": "CHAPTER I",
+      "section_title": "CHAPTER I",
+      "source_pages": [
+        2
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The words used in these Regulations defined by the Code have, unless the context does not impose a different meaning, the same meaning as that provided for in the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "3",
+      "article_id": "3",
+      "title": "Article 3",
+      "section": "CHAPTER II / SECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        2
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Unless otherwise specified, these Regulations apply to all buildings and buildings, both those to which the Code applies under the Building Act (R.S.Q., c. B-1.1) and those exempted from the application of Chapter IBuilding of the Quebec Construction Code by the Regulations under the Building Act (R.S.Q., c. B-1.1, r. 0.01).",
+      "amends_article_id": null
+    },
+    {
+      "article": "4",
+      "article_id": "4",
+      "title": "Article 4",
+      "section": "CHAPTER II / SECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Code applies to an exempt vessel. Any amendment or new edition of the Code applies in respect of an exempt vessel from the date established by resolution of the City Council.",
+      "amends_article_id": null
+    },
+    {
+      "article": "5",
+      "article_id": "5",
+      "title": "Article 5",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In addition to the requirements of Parts 1 to 9 of Division B of the Code, sections 6 to 25 apply to all buildings.",
+      "amends_article_id": null
+    },
+    {
+      "article": "6",
+      "article_id": "6",
+      "title": "Article 6",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any wall should be constructed like a fire-proof wall. Any wall must be constructed of concrete or masonry bound by mortar.",
+      "amends_article_id": null
+    },
+    {
+      "article": "7",
+      "article_id": "7",
+      "title": "Article 7",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A wall built at the property boundary not bordering a highway, except that of a garage or a secondary building referred to in subsections (3) and (4) of section 9.10.14.5. of Division B of the Code, shall be covered by a concrete or masonry wall bound by mortar, with a nominal thickness of at least 100 mm, and have at least half the degree of fire resistance required for a fire-resistant wall required according to the intended main purpose.",
+      "amends_article_id": "9.10"
+    },
+    {
+      "article": "8",
+      "article_id": "8",
+      "title": "Article 8",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any vessel with a metal roof or a smooth surface and inclined towards the public road or a space for pedestrian or vehicle traffic shall be removed from that track or space at a distance not less than one third from the height between the ground and the lower part of the roof or be fitted with a snow-spray or any other device or system necessary to prevent the falling of snow or ice on the public road or on the above-mentioned space.",
+      "amends_article_id": null
+    },
+    {
+      "article": "9",
+      "article_id": "9",
+      "title": "Article 9",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Except for buildings covered by Part 10 of Division B of the Code, a building with several suites intended to be occupied by low-risk industrial establishments must be considered to be primarily used in Group F, Division 2, medium-risk industrial establishment.",
+      "amends_article_id": null
+    },
+    {
+      "article": "10",
+      "article_id": "10",
+      "title": "Article 10",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Subject to the second and third paragraphs, a covered motor vehicle lane that gives access to a house's parking garages shall be considered as part of the garages. Subject to the third paragraph, a covered motor vehicle lane, which provides access to a house's parking garages, shall not be considered as part of the garages or the garage floor area, where all the following conditions are met: 1° the garages are closed and insulated from the traffic lane; 2° the roof and the walls of the traffic lane are constructed of concrete;\n3° the exterior walls of the track have free openings with a total surface area of at least 25% of the total surface area of the inner surface of its surrounding walls, and these openings are spread over at least 3 exterior walls in such a way as to ensure a transverse ventilation; 4° the traffic lane is used only to allow access to garages.\nA covered motor vehicle lane that provides access to parking garages serving a dwelling shall not be considered as part of garages or garage flooring if the exterior walls of the track have open openings, the total surface area of which is at least 50% of the total surface area of the inner surface of its surrounding walls, and if these openings are spread over at least 3 exterior walls in such a way as to ensure cross-sectional ventilation.",
+      "amends_article_id": null
+    },
+    {
+      "article": "11",
+      "article_id": "11",
+      "title": "Article 11",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A street, private lane or courtyard that allows access to firefighting equipment in a building governed by Part 9 of Division B of the Code must comply with the requirements of paragraphs 2, 3 and 4 of Section 3.2.5.5. of Division B of the Code.",
+      "amends_article_id": "3.2"
+    },
+    {
+      "article": "12",
+      "article_id": "12",
+      "title": "Article 12",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Installation of any appliance or fireplace for the use of solid fuel within a building is prohibited. Despite the first paragraph, installation of a unit with a certified EPA or CAN/CSAB415.1 granular device is permitted. This section does not apply to a unit used for the cooking of food for commercial purposes installed in a building at a place where commercial use is permitted. For the purposes of this section, the facility includes replacement.",
+      "amends_article_id": null
+    },
+    {
+      "article": "13",
+      "article_id": "13",
+      "title": "Article 13",
+      "section": "CHAPTER II / SECTION II / SUBSECTION I",
+      "section_title": "MISCELLANEOUS PROVISIONS",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "If the competent authority is shown that the conditions of development and occupation stipulated in the Code cannot be reasonably applied, the Code may apply different measures to these conditions if it is of the opinion that these measures provide a sufficient level of safety and health.",
+      "amends_article_id": null
+    },
+    {
+      "article": "14",
+      "article_id": "14",
+      "title": "Article 14",
+      "section": "CHAPTER II / SECTION II / SUBSECTION II",
+      "section_title": "HOUSING AND HOUSES OF CHAMBRES",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1° 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2° 5% of the area served by rooms and other rooms not mentioned above; 3° 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1° lit second-day floor and 1° lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2° the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3° the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+      "amends_article_id": null
+    },
+    {
+      "article": "15",
+      "article_id": "15",
+      "title": "Article 15",
+      "section": "CHAPTER II / SECTION II / SUBSECTION II",
+      "section_title": "HOUSING AND HOUSES OF CHAMBRES",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any building in which dwellings share a common entrance must have a device for unlocking the door of the main entrance which can be operated from each dwelling and, where the building has more than 8 units sharing a common entrance, a device for interconnecting the sound of each dwelling with the main entrance. Any room house with more than 8 rooms must have a device for unlocking the door of the main entrance which can be operated from each room.",
+      "amends_article_id": null
+    },
+    {
+      "article": "16",
+      "article_id": "16",
+      "title": "Article 16",
+      "section": "CHAPTER II / SECTION II / SUBSECTION II",
+      "section_title": "HOUSING AND HOUSES OF CHAMBRES",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The dimensions of sliding doors in a housing shall be in accordance with Table 3.6.3.1 of Division B of the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "17",
+      "article_id": "17",
+      "title": "Article 17",
+      "section": "CHAPTER II / SECTION II / SUBSECTION II",
+      "section_title": "HOUSING AND HOUSES OF CHAMBRES",
+      "source_pages": [
+        5,
+        6
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A guest house shall be fitted with a W.C., and a bath or shower providing hot water and cold water for each group of 5 rooms offered for rent. Where the number of rooms does not constitute a multiple of 5 and the result of the number of appliances required is more than one-half, this result shall be rounded to the following whole number. A guest house of less than 5 rooms shall be provided with at least one W.C. and a bathtub or shower.\nA room of a room house with one or more of these private appliances is not included in the calculation of the number of rooms for the purpose of determining the number of common appliances required. In a room house, each room offered for rent must have a sink that provides hot water and cold water.",
+      "amends_article_id": null
+    },
+    {
+      "article": "18",
+      "article_id": "18",
+      "title": "Article 18",
+      "section": "CHAPTER II / SECTION II / SUBSECTION II",
+      "section_title": "HOUSING AND HOUSES OF CHAMBRES",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The other requirements for the fit-up of rooms in Chapters VI and VII of the Housing Safety, Maintenance and Safety Regulations (03-096) that are more stringent than those contained in these Regulations apply.",
+      "amends_article_id": null
+    },
+    {
+      "article": "19",
+      "article_id": "19",
+      "title": "Article 19",
+      "section": "CHAPTER II / SECTION II / SUBSECTION III",
+      "section_title": "RESIDUAL SUBSTANCES",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The storage space for the residual materials serving dwellings shall, when intended for the storage of putresible materials, be ventilated outwards of the building with a fan extracting the capacity of at least 3.9 L/s per m2 of floor space. If such ventilation is not provided, it shall be kept at a temperature of 2 °C to 7 °C. The premises serving main uses other than dwellings and intended for the storage of putrescible substances shall be kept at a temperature of 2 °C to 7 C. The spaces referred to in the first and second paragraphs shall also:\n1° have a smooth, non-porous and washable inner surface; 2° have a floor swallow.",
+      "amends_article_id": null
+    },
+    {
+      "article": "20",
+      "article_id": "20",
+      "title": "Article 20",
+      "section": "CHAPTER II / SECTION II / SUBSECTION IV",
+      "section_title": "INDUSTRIAL PLACES",
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where the borough regulations require immunization measures for a licensed construction in a flood-risk area, the following rules shall apply: 1. no part of an opening, including a window, sigh and a garage door, shall be below the low-current zone rating; 2. no component of a first-floor floor shall be below the low-current zone rating; 3. drains shall be fitted with non-return valves;\n4° the structures, foundations and floor slabs below the low current zone rating level shall be designed in accordance with the requirements of Division B, Part 4, of the Code and the design calculations and details shall demonstrate the capacity of the structures to withstand this flood by incorporating calculations relating to: (a) waterproofing; (b) structural stability; (c) the required reinforcement; and (d) the strength of concrete to tension and compression.\n5° in a vessel located in the low current zone, the section of the stormwater system receiving the water from a space below the low current zone rating shall be equipped with an automatic lift pump with a minimum capacity of 2.5 L/s. The drain pipe of this pump shall be connected to the stormwater system of the vessel above the low current zone rating level and shall be equipped with a return valve;\n6° sections of a storm sewer connection, a main storm collector and a rain drain below the low current area's rating level must be watertight and without drainage openings. When the immunisation of a construction involves the filling of the land, it must be limited to immediate protection around the construction and not extended to the whole terrain; the average slope, from the top of the embankment adjacent to the proposed construction, to its foot, must not be less than 33 1/3 % (relative of 1 vertical and 3 horizontal).",
+      "amends_article_id": null
+    },
+    {
+      "article": "21",
+      "article_id": "21",
+      "title": "Article 21",
+      "section": "CHAPTER II / SECTION II / SUBSECTION V",
+      "section_title": "PROTECTION AGAINST SOLID REFUGEES",
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where municipal regulations in force in the district territory require protection against sewage discharges into buildings, the following rules apply: 1. the foot of the outer foundation walls shall be drained by means of pipes or drains placed outside the foundations in accordance with the Code; such pipes or drains shall carry drainage water to a holding pit inside the building;\n2° the outside surfaces adjacent to the building below the surrounding land, such as a garage descent or an outside entrance, shall be drained by an escape pipe carrying stormwater to a pit inside the building.",
+      "amends_article_id": null
+    },
+    {
+      "article": "22",
+      "article_id": "22",
+      "title": "Article 22",
+      "section": "CHAPTER II / SECTION II / SUBSECTION VI",
+      "section_title": "STRENGTHENING ELEMENTS",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "For the purposes of this subsection, the building is a building's fortification or protection element: 1° materials used, assembled or maintained for the purpose of shielding or fortifying a building against gun projectiles, the use of explosives, the impact or thrust of vehicles or any other type of assault, including: (a) protective plates made of metal or any other material arranged inside or outside a building; (b) laminated glass or any other glass or other bulletproof material placed near windows, windows or doors;\n(c) flaps and curtains for the protection of bullets or for the resistance to explosives and shocks made of any material and attached to the windows, doors or any other opening of the building; (d) shielded or specially reinforced doors; 2° an observation tower.",
+      "amends_article_id": null
+    },
+    {
+      "article": "23",
+      "article_id": "23",
+      "title": "Article 23",
+      "section": "CHAPTER II / SECTION II / SUBSECTION VI",
+      "section_title": "STRENGTHENING ELEMENTS",
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any element of fortification or protection of a building that is used, in whole or in part, for any of the following purposes: 1° housing; 2° hotel, hotel-apartment; 3° room house; 4° restaurant, catering; 5° alcohol-alcoholic beverage outlets; 6° showroom; 7° establishment operating eroticism; 8° club within the meaning of the Alcohol Permits Act (R.S.Q., Chapter P-9.1); 9° dance hall; 10° meeting room; 11° community or socio-cultural activities hall; 12° office; 13° physical activity centre; 14° entertainment hall, family entertainment hall; 15° billiard hall; 16° recreational play hall.",
+      "amends_article_id": null
+    },
+    {
+      "article": "24",
+      "article_id": "24",
+      "title": "Article 24",
+      "section": "CHAPTER II / SECTION II / SUBSECTION VI",
+      "section_title": "STRENGTHENING ELEMENTS",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "For any use other than those provided for in Article 23, any element of fortification or protection of a building shall be prohibited where the use of one or more of these elements is not justified by the nature of the activities in that building, the value of the heritage it houses or the need to protect public health, life or safety. Without limiting the scope of the foregoing, a consulate, financial institution, exchange bureau, government building, jewellery, museum or laboratory of toxic or dangerous products shall be presumed to justify the use of one or more elements of fortification or protection.",
+      "amends_article_id": "23"
+    },
+    {
+      "article": "25",
+      "article_id": "25",
+      "title": "Article 25",
+      "section": "CHAPTER II / SECTION II / SUBSECTION VI",
+      "section_title": "STRENGTHENING ELEMENTS",
+      "source_pages": [
+        9,
+        10
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The competent authority may, by means of a notice, order the owner, contractor or any other interested person to suspend the installation or cease the use of any fortification or protection prohibited under sections 23 and 24. The competent authority may also, by such notice, order the removal of such elements within a period of not more than 10 days. If the person referred to in the first paragraph fails to comply with the notice within the prescribed time limit, the competent authority may take all necessary measures to bring the building into conformity with this subsection.\nThe cost of the work performed by the competent authority may be recovered from the owner and constitutes a priority claim on the building on which the work was performed, in the same capacity and in the same rank as the claims referred to in article 2651, paragraph 5, of the Civil Code of Québec. These costs are also secured by a legal mortgage on the building. EXAMPLES OF APPLICATION OF THE QUEBEC CONSTRUCTION CODE, CHAPTER I – BUILDING",
+      "amends_article_id": "2651"
+    },
+    {
+      "article": "26",
+      "article_id": "26",
+      "title": "Article 26",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        10
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite any other requirement of Parts 1 to 9 of Division B of the Code and Section 10.4.1.3. of Division B of the Code, sections 27 to 31 apply to exempt buildings.",
+      "amends_article_id": "10.4"
+    },
+    {
+      "article": "27",
+      "article_id": "27",
+      "title": "Article 27",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        10
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where a fuel construction is permitted for a building, a wall adjacent to or adjacent to the property boundary, for which the Code requires an uncombustible construction, may, notwithstanding that requirement, be composed of a fuel frame to which a siding in accordance with section 7 is attached.",
+      "amends_article_id": "7"
+    },
+    {
+      "article": "28",
+      "article_id": "28",
+      "title": "Article 28",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In a residential building which does not have any other main use, a mezzanine situated inside a suite shall not be considered as a floor in the calculation of the building height, if all the following conditions are met: 1. the building is governed by Part 9 of Division B of the Code and comprises not more than 8 dwellings; 2. the cumulative area of the mezzanines not superimposed within a suite does not exceed 40% of the surface of that suite, on the floor they rise above; 3. the projection of the mezzanines on the floor plane of the floor they rise above, does not exceed the peripheral limits of the suite;\n4° the building has not more than 4 floors, other than those below the first floor; 5° each mezzanine communicates with the part of the floor which it overcomes by an open staircase. However, for the purposes of subsections 9.9.9., 9.10.18., 9.10.19. and paragraph 3 of section 9.10.9.14. of division B of the Code, the mezzanine referred to in the first paragraph shall constitute a floor. When a mezzanine is fitted at the last level of a building with 4 floors other than those below the first floor, it shall be served by an exit, without the need to descend a floor to reach that exit.\nDespite section 9.10.18.2 (2) of Division B of the Code, a fire detection and alarm system is required in a dwelling with mezzanine referred to in the first subparagraph and with 4 floor levels other than those below the first floor, except for a dwelling each of which is served by an external exit leading to ground level and of which no more than 4 dwellings are served by a common means of internal evacuation.\nWhere such a system is required, in addition to the components required by the Code, a heat detector shall be installed in each dwelling and in each room not part of a dwelling, allowing both the detection of a maximum fixed temperature and the rise in temperature.",
+      "amends_article_id": "9.10"
+    },
+    {
+      "article": "29",
+      "article_id": "29",
+      "title": "Article 29",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        11
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The requirements of sections 9.9.4.2., 9.9.4.4. and 9.10.8.8. of Division B of the Code do not apply to an outside crossing that does not serve as the sole means of evacuation for a suite that is independent of the first.",
+      "amends_article_id": null
+    },
+    {
+      "article": "30",
+      "article_id": "30",
+      "title": "Article 30",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        11
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "When a municipal civil protection building, including a water treatment and storage plant, pumping station or fire station, is undergoing a transformation, its ability to withstand seismic loads must meet all of the following requirements: 1. it is not diminished by the effect of the transformation; 2. it is increased to a minimum of 60% of the seismic protection required by Part 4 of Division B of the Code, if the transformation results in any of the following situations: (a) increasing the building height; and (b) modifying the building's lateral load resistance system.",
+      "amends_article_id": null
+    },
+    {
+      "article": "31",
+      "article_id": "31",
+      "title": "Article 31",
+      "section": "CHAPTER II / SECTION III / SUBSECTION VI",
+      "section_title": "SPECIAL STANDARD REQUIREMENTS FOR BUILDING",
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In respect of a conversion other than an expansion to a building area, floor area or building height, which results in an increase in the number of authorized occupants, in a building that has been completed for at least 5 years, the requirements for the fit-up of rooms and safety set out in Chapter VII, IX and Chapter X.1, Sections I and II of the City of Montreal's Safe, Maintenance and Safety of Housing Regulations (03-096) prevail over those set out in the Code in either of the following situations:\nThe conversion of a part of a building within which residential use of a dwelling or house of rooms is already carried out; 2. the transformation of a part of a building within which residential use of a dwelling or house of rooms has already been exercised without any modification; however, in no case shall the transformation have the effect of reducing the existing level of safety or health of the building below the requirements of the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "32",
+      "article_id": "32",
+      "title": "Article 32",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        12
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "No person shall carry out without a licence: 1° the construction of a building; 2° the transformation of a building within the meaning of the Code; 3° the modification, replacement or addition of a building component of a building that is subject to a zoning regulation, an architectural settlement and integration plan or any other municipal regulations; 4° the relocation of a building; 5° the installation of a mobile house; 6° the conformity of a building.",
+      "amends_article_id": null
+    },
+    {
+      "article": "33",
+      "article_id": "33",
+      "title": "Article 33",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        12
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Notwithstanding section 32: 1° a permit is not required for the installation or construction of a temporary building on a site necessary for the performance of work for which a permit has already been issued. Such a building shall be removed no later than the first of the following periods: (a) 30 days after the completion of the work on the permit; (b) immediately after the revocation of the permit; (c) on the expiry date of the permit; and (2) a permit is not required for the installation, construction or expansion of a secondary building, the area of which is not more than 15 m2, serving a residential building.",
+      "amends_article_id": "32"
+    },
+    {
+      "article": "34",
+      "article_id": "34",
+      "title": "Article 34",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        13,
+        14,
+        15
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The application for a permit required by section 32 must be made by the owner or his agent. This application must: 1. identify by lot numbers the land on which the work is to be carried out; 2. indicate the uses of the project and the uses of the parts of any building covered by the project; 3. describe the work being planned; 4. indicate the estimated value of the work as defined in the annual tariff regulations; 5. indicate the name, address and telephone number of the owner, architect, engineer and any other designer or contractor; 6. be accompanied by:\n(a) the document entitled \"building record/declaration of conformity\", the form and content of which are determined by order of the Executive Committee in accordance with section 35 of these Regulations, supplemented and signed by: (i) the owner or his agent; (ii) the designer, if any; (b) any plan, elevation and cutting drawn at scale and any information necessary to verify that the project complies with the applicable municipal regulations; and (a) in the case of a new construction, a cadastre plan and an implantation plan prepared by a surveyor-geometer comprising, inter alia, (a)\n(i) the identification of the land cadastral, the size and the area of the land; (ii) the dimensions of existing and projected buildings and their location in relation to and between the boundaries of the land; (iii) the geodetic levels of the existing and projected ground floor of the proposed building, and any street, sewer, aqueduct adjacent to the land to which the application relates; (iv) the location of any existing or projected easement, grating the land; (v) the delimitation of the high water line and the shore, if any; (vi) the delimitation of the large and low current areas, if any; (vii) a survey of existing trees, if any;\n(viii) exterior fittings, including parking areas, access roads, loading and unloading areas and cart entrances; (ix) the location of any existing public property in front of the land concerned, including a tree, fire station, gas line, pole, apparatus or equipment related to electrical distribution, telecommunications, street lighting and traffic lights; (b) in the case of an expansion of an existing building,\n(i) a plan for the establishment and a certificate of location containing the same information as required by paragraph 7 of the second paragraph of this article when necessary to verify that the project complies with the applicable municipal regulations; 8° be accompanied by the payment of the amount fixed in the annual tariff regulations; 9° in the case of an application for a licence by an agent, be accompanied by a proxy from the owner of the vessel; 10° be accompanied by the calculations and plans for any stormwater retention facility, signed and sealed by a person authorized by law.\n1° in the case of the installation, construction or expansion of a building in a mobile home park, be accompanied by the following documents: (a) a written authorization from the owner of the mobile home park, or his representative, permitting the project to be carried out and attesting that the mobile home and its ancillary buildings, if any, are located within the limits of the rental site described in the lease; (b) a plan showing the boundaries of the land or rental site;\n2° where the borough regulations permit a vessel to be served by a septic facility and a groundwater collection facility, be accompanied by a plan for the location of the components of the installation and a description of their capacity, if any; 3° in the case of the construction, reconstruction or extension of a main building at a heterogeneous filling site, be accompanied by the following documents:\n(a) geotechnical surveys of the presence of underground gas, the possibility of soil compaction, soil aggression caused by sulphates and the presence of hazardous substances; (b) following surveys, recommendations for appropriate measures to be taken to make the site fit for construction; (c) written permission from the Minister of the Environment obtained in accordance with section 65 of the Environmental Quality Act (R.S.Q., c. Q-2); and (c) if required by Division II of this chapter, accompanied by the necessary documentation for the study of alternative measures or alternatives.",
+      "amends_article_id": "32"
+    },
+    {
+      "article": "35",
+      "article_id": "35",
+      "title": "Article 35",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Executive Committee may determine by order the form and content of the document entitled \"building certificate/declaration of conformity\" required under subparagraph 6(a) of the second subparagraph of Article 34.",
+      "amends_article_id": "34"
+    },
+    {
+      "article": "36",
+      "article_id": "36",
+      "title": "Article 36",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any revision of the permit application required by section 32 that includes a change in the description of the work set out in that application must be the subject of a new application in the same manner as the original application. In the event of a change in ownership of the building, the application for a permit is deemed to have been filed and the permit issued on behalf of the new owner. The permit may be amended, without charge, to change the name of the owner only.",
+      "amends_article_id": "32"
+    },
+    {
+      "article": "37",
+      "article_id": "37",
+      "title": "Article 37",
+      "section": "CHAPTER III / SECTION I / SUBSECTION I",
+      "section_title": "OBLIGATIONS AND",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where, under a written notice to the applicant for a permit, at the address of the applicant indicated on the permit application, the competent authority has requested to complete, specify or correct the information required and the applicant has not complied with that notice within a period which it shall fix, not more than 60 days from the date of service, the application for a permit shall lapse.",
+      "amends_article_id": null
+    },
+    {
+      "article": "38",
+      "article_id": "38",
+      "title": "Article 38",
+      "section": "CHAPTER III / SECTION I / SUBSECTION II",
+      "section_title": "CONDITIONS FOR SUPPLY OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The permit is issued to the owner if all of the following conditions are met: 1. the application complies with the zoning and construction regulations and, if applicable, with the regulations made under sections 116 and 145.21 of the Planning and Town Planning Act (R.S.Q., c. A-19.1); 2. the applicant has provided the information required to enable the competent authority to complete the form provided for in section 120.1 of the Planning and Town Planning Act (R.S.Q., c. A-19.1);\n3° where the land covered by the application for a construction permit is listed on the City's list of contaminated land under section 31.68 of the Environmental Quality Act (R.S.Q., c. Q-2) and is subject to a rehabilitation plan approved by the Minister, the application shall be accompanied by an expert's certificate that the project is compatible with the provisions of the rehabilitation plan referred to above;\n4° the application for a permit shall be accompanied by a written statement by the applicant that the permit applied for concerns a building intended for use as a residence for the elderly as defined in the second paragraph of section 118.1 of the Planning and Town Planning Act (R.S.Q., c. A-19.1); 5° where the application for a permit concerns a project subject to an architectural settlement and integration plan, the plans for the establishment and architecture of the building have been approved.",
+      "amends_article_id": "120.1"
+    },
+    {
+      "article": "39",
+      "article_id": "39",
+      "title": "Article 39",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A permit is expired and the owner's rights are lost in any of the following cases: 1° the work authorized by the permit is not commenced within 6 months of the date of issue of the permit; 2° the work is interrupted for more than 6 months; 3° the work is not completed within 12 months of the date of issue of the permit, except for a permit issued in respect of a building of a height of more than 3 floors or whose building area exceeds 600 m2 for which the time limit is not more than 24 months. In order to be completed, any work not carried out must then be re-licensed.",
+      "amends_article_id": null
+    },
+    {
+      "article": "40",
+      "article_id": "40",
+      "title": "Article 40",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The competent authority may, if circumstances warrant, extend the periods of 12 months and 24 months referred to in paragraph 3 of the first subparagraph of Article 39 by 6 months and 12 months respectively.",
+      "amends_article_id": "39"
+    },
+    {
+      "article": "41",
+      "article_id": "41",
+      "title": "Article 41",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In the event that the work has not commenced, a permit shall be renewed upon application if all of the following conditions are met: 1. the application for renewal is submitted before the expiry of the expiry period provided for in section 39; 2. the municipal regulations applicable on the date of renewal allow the project to be completed under the original authorization; 3. the amount fixed in the annual tariff regulation for such renewal shall be paid.",
+      "amends_article_id": "39"
+    },
+    {
+      "article": "42",
+      "article_id": "42",
+      "title": "Article 42",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A permit can only be renewed twice.",
+      "amends_article_id": null
+    },
+    {
+      "article": "43",
+      "article_id": "43",
+      "title": "Article 43",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where work is interrupted for more than 6 months or is not completed within the time limits laid down in paragraph 3 of the first subparagraph of Article 39, the competent authority may, on notice of 30 days, order the owner of the land, the contractor of the work or any other interested person to remove the constructions, installations, materials and apparatus which are on the ground, to close any excavation, to clean and level the land.",
+      "amends_article_id": "39"
+    },
+    {
+      "article": "44",
+      "article_id": "44",
+      "title": "Article 44",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "If a person referred to in section 43 fails to comply with the order received by the person or if the competent authority cannot find the owner or his representative, the work ordered may be performed by the City at the expense of the owner of the land. These costs constitute a priority claim on the immovable, in the same title and in the same rank as the claims referred to in section 2651, paragraph 5, of the Civil Code of Québec. These costs are also secured by a legal mortgage on the immovable.",
+      "amends_article_id": "43"
+    },
+    {
+      "article": "45",
+      "article_id": "45",
+      "title": "Article 45",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "After notifying the holder in writing, the competent authority may suspend or revoke a permit in any of the following situations: 1° where one of the conditions for the issuance of the permit has not been met; 2° where it has been granted in error or on the basis of incorrect information; 3° where the work performed is not in accordance with the approved plans.",
+      "amends_article_id": null
+    },
+    {
+      "article": "46",
+      "article_id": "46",
+      "title": "Article 46",
+      "section": "CHAPTER III / SECTION I / SUBSECTION III",
+      "section_title": "VALIDITY AND ADVANCEMENT OF A CONSTRUCTION PERMIT",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The holder of a revoked licence must return it to the competent authority within 10 days of revocation.",
+      "amends_article_id": null
+    },
+    {
+      "article": "47",
+      "article_id": "47",
+      "title": "Article 47",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any person wishing to propose to the competent authority different measures or alternatives must provide documents that meet the requirements of this section to demonstrate compliance with these measures or solutions.",
+      "amends_article_id": null
+    },
+    {
+      "article": "48",
+      "article_id": "48",
+      "title": "Article 48",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The documents referred to in section 47 shall include: 1. an analysis of the Code describing the methods of analysis and justifications for determining that the alternative measure or alternative proposed will achieve at least the level of performance required by the Code; and 2. information, if any, on any special maintenance or operation requirements, including any requirements for the commissioning of a component of a building, necessary to ensure that the different measure or alternative complies with the Code once the building is constructed.",
+      "amends_article_id": "47"
+    },
+    {
+      "article": "49",
+      "article_id": "49",
+      "title": "Article 49",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The analysis of the Code referred to in paragraph 1 of the first subparagraph of article 48 shall include the objectives, functional statements and acceptable solutions that apply, as well as any assumptions, limiting or restrictive factors, test procedure, technical study or performance parameter of the building that support an assessment of compliance with the Code.",
+      "amends_article_id": "48"
+    },
+    {
+      "article": "50",
+      "article_id": "50",
+      "title": "Article 50",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The analysis of the Code referred to in paragraph 1 of the first paragraph of article 48 shall include information on the competence, experience and background of the person or persons responsible for the proposed design.",
+      "amends_article_id": "48"
+    },
+    {
+      "article": "51",
+      "article_id": "51",
+      "title": "Article 51",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The information submitted under section 48 must be sufficiently detailed to convey the intent of the design and to support the validity, accuracy, relevance and accuracy of the Code's analysis.",
+      "amends_article_id": "48"
+    },
+    {
+      "article": "52",
+      "article_id": "52",
+      "title": "Article 52",
+      "section": "CHAPTER III / SECTION II / SUBSECTION III",
+      "section_title": "DIFFERENT MEASURES AND RECHANGE SOLUTIONS",
+      "source_pages": [
+        18
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where the design of a building includes different measures or proposed alternatives for which responsibility for different aspects of design is shared among several persons, the building owner or his agent shall designate a single person to coordinate design preparation, Code analysis and the documents referred to in this section.",
+      "amends_article_id": null
+    },
+    {
+      "article": "53",
+      "article_id": "53",
+      "title": "Article 53",
+      "section": "CHAPTER III / SECTION III / SUBSECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The owner and, if applicable, the contractor shall ensure that plans and specifications as approved for the work covered by the permit are available on the site of the work at any time during working hours for inspection by the competent authority and that the permit or a true copy of it is displayed in a visible manner on the site throughout the duration of the work.",
+      "amends_article_id": null
+    },
+    {
+      "article": "54",
+      "article_id": "54",
+      "title": "Article 54",
+      "section": "CHAPTER III / SECTION III / SUBSECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "On presentation of an identification document, the competent authority may, for the purposes of this Regulation, visit, examine and take photographs of any real or movable property. Any person shall allow the competent authority to enter a building without prejudice to the performance of his duties.",
+      "amends_article_id": null
+    },
+    {
+      "article": "55",
+      "article_id": "55",
+      "title": "Article 55",
+      "section": "CHAPTER III / SECTION III / SUBSECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The competent authority may, by notice, order the owner of a building built without a permit to apply for the required permit within a period of not more than 10 days set out in the notice.",
+      "amends_article_id": null
+    },
+    {
+      "article": "56",
+      "article_id": "56",
+      "title": "Article 56",
+      "section": "CHAPTER III / SECTION III / SUBSECTION I",
+      "section_title": "GENERAL",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The competent authority may, by notice, order the owner, the contractor or any other interested person to suspend construction work without a permit or not in accordance with the permit issued.",
+      "amends_article_id": null
+    },
+    {
+      "article": "57",
+      "article_id": "57",
+      "title": "Article 57",
+      "section": "CHAPTER III / SECTION III / SUBSECTION II",
+      "section_title": "CERTIFICATE FOR LOCATION",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In the case of the construction or expansion of a main building on the ground, the owner shall, within 30 days of the foundation being set up, provide the competent authority with a certificate of location prepared by a surveyor-geometer, including, inter alia: 1° cadastral identification, the size and area of the land; 2° the dimensions of the structures (existing and projected) and their location in relation to and between the boundaries of the land; 3° the geodetic levels of the top of the foundations, the land and any street adjacent to the land; 4° the location of any existing or projected easement, extending the land;\n5° the delimitation of the high water line and the shore, if any; 6° the delimitation of the large and low current zones, if any.",
+      "amends_article_id": null
+    },
+    {
+      "article": "58",
+      "article_id": "58",
+      "title": "Article 58",
+      "section": "CHAPTER III / SECTION III / SUBSECTION II",
+      "section_title": "CERTIFICATE FOR LOCATION",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "At the request of the competent authority, the owner shall submit a certificate of location indicating also any other rating or measure to verify that the work complies with the applicable municipal regulations.",
+      "amends_article_id": null
+    },
+    {
+      "article": "59",
+      "article_id": "59",
+      "title": "Article 59",
+      "section": "CHAPTER III / SECTION III / SUBSECTION III",
+      "section_title": "WORKSHOP, TEST AND EXPERTIZED",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "At the request of the competent authority, the owner shall provide, prior to the completion of the work, all documents to ensure that the building or construction complies with municipal regulations, including workshop drawings and installation plans of the structure, if any.",
+      "amends_article_id": null
+    },
+    {
+      "article": "60",
+      "article_id": "60",
+      "title": "Article 60",
+      "section": "CHAPTER III / SECTION III / SUBSECTION III",
+      "section_title": "WORKSHOP, TEST AND EXPERTIZED",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "At the request of the competent authority, the owner shall carry out or have carried out, at his own expense, tests, analyses or expertise on materials, assemblies, devices, systems, installations or apparatus. The owner shall submit to the competent authority such results in order to ensure that the building or construction complies with the applicable municipal regulations.",
+      "amends_article_id": null
+    },
+    {
+      "article": "61",
+      "article_id": "61",
+      "title": "Article 61",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The competent authority may, by means of a notice, order the owner of a building or construction not in accordance with the applicable municipal regulations to comply with it or demolish it within a period which it shall fix, not exceeding 90 days. The owner shall comply with the notice provided for in the first paragraph, failing which the competent authority may demolish the illegal buildings or constructions.",
+      "amends_article_id": null
+    },
+    {
+      "article": "62",
+      "article_id": "62",
+      "title": "Article 62",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where a derogatory building is destroyed or has lost at least half of its value as a result of a fire or other cause, its reconstruction or rehabilitation, as the case may be, must be carried out in accordance with the Code and the regulations in force at the time of such reconstruction or rehabilitation.",
+      "amends_article_id": null
+    },
+    {
+      "article": "63",
+      "article_id": "63",
+      "title": "Article 63",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Where a building or construction presents a dangerous condition, due to work, fire, lack of solidity or for any other cause, the owner shall take all necessary measures, including the demolition of all or part of that building or construction, to remove that dangerous condition. If the owner fails to comply with the first paragraph, the competent authority may carry out the work and take all necessary measures, including demolition, to ensure the safety of the public.",
+      "amends_article_id": null
+    },
+    {
+      "article": "64",
+      "article_id": "64",
+      "title": "Article 64",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The owner of a vacant building shall close it so as to prevent access by either of its openings, such as doors, windows, access to the roof, hatches and chimneys. Where a vacant building is not closed in accordance with the first subparagraph, the competent authority may itself close it.",
+      "amends_article_id": null
+    },
+    {
+      "article": "65",
+      "article_id": "65",
+      "title": "Article 65",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "In the case of a building that has become unfit for occupation, notice of the competent authority to the owner and the occupants shall be required before it is closed or demolished by the owner or the occupants.",
+      "amends_article_id": null
+    },
+    {
+      "article": "66",
+      "article_id": "66",
+      "title": "Article 66",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The cost of work performed by the competent authority under sections 61, 63 and 64 may be recovered from the owner and constitutes a priority claim on the immovable on which they were performed, in the same capacity and in the same rank as the claims referred to in paragraph 5 of article 2651 of the Civil Code of Québec. These costs are also secured by a legal mortgage on that immovable.",
+      "amends_article_id": "2651"
+    },
+    {
+      "article": "67",
+      "article_id": "67",
+      "title": "Article 67",
+      "section": "CHAPTER III / SECTION IV / SUBSECTION III",
+      "section_title": "ILLEGAL, DEROGATORIES OR DANGEROUS CONSTRUCTIONS",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "This section does not limit the application of other legislative or regulatory provisions under which the City may require the restoration of buildings or buildings or under which the Director of the Fire Safety Service is authorized to take or impose certain measures in the event of a serious or imminent danger to public safety.",
+      "amends_article_id": null
+    },
+    {
+      "article": "68",
+      "article_id": "68",
+      "title": "Article 68",
+      "section": "CHAPTER III / SECTION V / SUBSECTION III",
+      "section_title": "CRIMINAL PROVISIONS",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Every person commits an offence if: 1 makes a false declaration for obtaining a permit; 2 makes a false statement in a document prescribed by these Regulations or makes use of such a document when he or she knows that it is false; 3° in respect of a building or work covered by Chapter II, builds, modifies or permits the construction or modification of a building or work contrary to a standard set out in that Chapter; 4° contravenes any of the provisions of Chapter III.",
+      "amends_article_id": null
+    },
+    {
+      "article": "69",
+      "article_id": "69",
+      "title": "Article 69",
+      "section": "CHAPTER III / SECTION V / SUBSECTION III",
+      "section_title": "CRIMINAL PROVISIONS",
+      "source_pages": [
+        21,
+        22
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Every person who contravenes section 68 commits an offence and is liable to: 1. if the person is an individual: (a) for a first offence, a fine of $350 to $700; (b) for a first offence, a fine of $700 to $1,400; (c) for any further recidivism, a fine of $1,400 to $2,000; (c) for any further recidivism, a fine of $2,800 to $1,400; and (c) for any additional recidivism, a fine of $2,800 to $4,000.",
+      "amends_article_id": "68"
+    },
+    {
+      "article": "70",
+      "article_id": "70",
+      "title": "Article 70",
+      "section": "CHAPTER III / SECTION V / SUBSECTION III",
+      "section_title": "CRIMINAL PROVISIONS",
+      "source_pages": [
+        22
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Notwithstanding section 69, any person who contravenes section 68 in respect of a standard set out in sections 22 to 25 is guilty of an offence and is liable to a fine of $1,000 in the case of a natural person and a fine of $2,000 in the case of a legal person. For any recidivism, the offender is liable to a fine of $2,000 in the case of a natural person and a fine of $4,000 in the case of a legal person.",
+      "amends_article_id": "69"
+    },
+    {
+      "article": "71",
+      "article_id": "71",
+      "title": "Article 71",
+      "section": "CHAPTER III / SECTION V / SUBSECTION III",
+      "section_title": "CRIMINAL PROVISIONS",
+      "source_pages": [
+        22
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Notwithstanding section 69, anyone who contravenes section 32 commits an offence and is liable to a fine equal to the cost of applying for a permit. For any recidivism, the offender is liable to a fine equal to twice the amount of the fine provided for in the first paragraph. However, if the cost of applying for a permit is less than the minimum fines provided for in section 69, the minimum fines apply.",
+      "amends_article_id": "69"
+    },
+    {
+      "article": "72",
+      "article_id": "72",
+      "title": "Article 72",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        22
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The normative requirements of a construction regulation in force before the coming into force of these Regulations may be used in lieu of those provided for in these Regulations, provided that the application for a permit, including all accompanying documents required by these Regulations, is submitted to the City for approval within 6 months of the coming into force of these Regulations.",
+      "amends_article_id": null
+    },
+    {
+      "article": "73",
+      "article_id": "73",
+      "title": "Article 73",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        22
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Building Construction and Processing Regulations (R.R.V.M., c. C-9.2) are repealed with the exception of subsections 4 and 5 of the first paragraph of section 6.",
+      "amends_article_id": "6"
+    },
+    {
+      "article": "74",
+      "article_id": "74",
+      "title": "Article 74",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        22,
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Montreal Building Maintenance Regulations (07-034) are amended: 1° by replacing in section 12 the number \"13\" by the number \"11\"; 2° by adding after section 16 the following sections: \"16.1. A plumbing facility that is in a condition such as to cause health problems constitutes a nuisance and the owner must take all necessary measures to remove this unhealthy condition. For the purposes of the first paragraph, there is an unhealthy condition, including: 1° when there is no water in sanitary appliances;\n2° when the drain pipe is obstructed to the point where it is no longer possible to operate the water flushing of the appliances; 3° when the leaking of the piping allows the circulation of rodents, vermin, gas or smoke; 4° when the failure to seal a water connection or sewer connection results in water infiltration into the property served or other nearby property; 16.2 The owner of a building shall maintain and maintain in good working order any non-return valve; 16.3 The owner of a vacant building shall close the openings of the drain pipe.",
+      "amends_article_id": "12"
+    },
+    {
+      "article": "75",
+      "article_id": "75",
+      "title": "Article 75",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Buildings Fortification and Protection Elements Regulations (R.R.V.M., c. E-1.1) are repealed.",
+      "amends_article_id": null
+    },
+    {
+      "article": "76",
+      "article_id": "76",
+      "title": "Article 76",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Montreal Solid Fuel Appliances Regulations (09-012) are repealed.",
+      "amends_article_id": null
+    },
+    {
+      "article": "77",
+      "article_id": "77",
+      "title": "Article 77",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Montreal's Housing Safety, Maintenance and Safety Regulations (03-096) are amended by replacing in the first paragraph of section 1 the definitions \"competent authority\" and \"construction code\" with the following: \"competent authority\": the Director of the Development and Operations Service; \"construction code\": the Code as defined in the Buildings Construction Regulations applicable in the borough territory; and \"the construction code\": the Code as defined in the Buildings Construction Regulations applicable in the borough territory.",
+      "amends_article_id": "1"
+    },
+    {
+      "article": "78",
+      "article_id": "78",
+      "title": "Article 78",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Town's Rules of Procedure on the Delegation of Authority of the City Council to District Councils (02-002) is amended by replacing subparagraph 2(a) of the first paragraph of Article 1 with the following: \"(a) the construction of buildings with the exception of the approval of alternatives and the different measures provided for in such a regulation;\"",
+      "amends_article_id": "1"
+    },
+    {
+      "article": "79",
+      "article_id": "79",
+      "title": "Article 79",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        23
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 2527 of the City of Lachine are amended: 1° by repealing sections 1.1.4 and 1.2.3; 2° by deleting section 1.2.6 of the definition of \"soundproof wall\"; 3° by repealing sections 3.3, 3.7, 3.8 and 4.1 to 4.3.",
+      "amends_article_id": "1.2"
+    },
+    {
+      "article": "80",
+      "article_id": "80",
+      "title": "Article 80",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        24
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 643 of the City of Saint-Pierre are amended: 1° by repealing section 3.1; 2° by deleting the fifth paragraph of section 4.1; 3° by repealing sections 4.3, 4.4, 4.7, 4.9, 4.9.1, 4.9.1, 4.10.1, 4.10.3, 4.10.4 and 4.12 to 4.12.8; 4° by deleting the second, third, fourth, fifth, sixth and seventh paragraphs of section 4.13; 5° by repealing sections 4.14 to 4.16.2, 4.21.3, 4.21.5, 4.21.8, 4.21.10, 4.21.1, 4.23 and 4.24; 6° by deleting the second paragraph of section 4.25; 7° by repealing section 4.26; 8° by deleting the second paragraph of section 4.27.",
+      "amends_article_id": "3.1"
+    },
+    {
+      "article": "81",
+      "article_id": "81",
+      "title": "Article 81",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        24,
+        25,
+        26
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 2099 of the City of LaSalle are amended: 1° by repealing paragraph (a) of the first paragraph of section 1.1.5; 2° by repealing section 1.1.6; 3° by deleting the words \"and permits\" in paragraphs (c) and (d) of the first paragraph of section 2.2; 4° by replacing the title of chapter 3 with the following: \"Provisions relating to the issuance of a certificate of authorization, authorization or authorization to withdraw or withdraw a certificate of authorization\"; 5° by replacing the title of section 3.1 with the following: \"CERTIFICATES AND CONTROL PROCEDURES\"; 6° by repealing section 3.1.1;\n7° by deleting paragraph (d) from the second paragraph of Article 3.1.2; 8° by deleting the words \"a permit or\", \"a construction permit or\", \"a permit or\", \"a permit or\", \"a permit or\", \"a permit and\" and \"a permit or\"; 9° by deleting paragraphs (g), (h) and (i) from the second paragraph of Article 3.1.5.2.1.; 10° by deleting paragraph (h) from the first paragraph of Article 3.1.5.2.1.1; 11° by deleting the words \", as the case may be,\" in Article 3.1.5.3.1; 12° by repealing Articles 3.1.6 to 3.1.6.5; 13° by deleting paragraphs (a) and (f) from the first paragraph of Article 3.1.7;\n14° by deleting the words \"d a permit and\", \"licence or\", \"licence or\", \"licence or\", \"licence or\", \"licence or\", \"licence or\", \"licence or\" and \"licence or\"; 15° by repealing sections 3.1.9.1.1 and 3.1.9.1.2; 16° by replacing the title of section 3.1.10 with the following: \"CERTIFICATE TARIFF\"; 17° by deleting the words \"d a construction permit and\" in the first paragraph of section 3.1.10; 18° by deleting the words \"d a construction permit\" in section 3.1.11 and by replacing the words \"the National Building Code and any other\" with the words \"all\";\n19° by deleting the words \"permit, one\"; 20° by repealing Articles 3.2 to 3.2.10; 21° by repealing Article 4.1; 22° by deleting the words \"any permit and\" and \"permit and\"; 23° by deleting paragraph (e) from the first paragraph of Article 4.1.1.1; 24° by deleting the words \"permit or\" and \"constructing permit or\" in paragraph (f); 25° by repealing Articles 4.2.1 to 4.2.5; 26° by replacing the first paragraph of Article 4.2.6.1 by the following:\n\"Any main building of four (4) floors or more shall be equipped with a waste drop.\"; 27° by repealing sections 4.2.6.2 to 4.2.6.4.2; 28° by replacing section 4.2.6.5 with the following: \"Any main building constructed after June 1, 1997, of 7 or more dwellings or 6 or more units on a private street shall be equipped with a waste room.\"; 29° by repealing sections 4.2.2.7 to 4.3.2.8, 5.2.1 and 5.2.3; 30° by deleting in section 5.2.4 the words \"composed of any non-fuel material\"; 31° by repealing sections 5.3 and 5.5; 32° by deleting the fourth paragraph of section 6.4;\n33° by repealing the second and third paragraphs of Article 7.1.4.3; 34° by deleting the \"A\" set.",
+      "amends_article_id": "1.1"
+    },
+    {
+      "article": "82",
+      "article_id": "82",
+      "title": "Article 82",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        26,
+        27
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Regulation No. 1564, on construction within the boundaries of the territory of the municipality of the City of Montréal-Nord, is amended: 1° by repealing section 7; 2° by deleting in the first paragraph of section 18 the words \"expansion\", \"licence or\" and \"d-a permit or\"; 3° by deleting in section 29 the second and third sentences of the definition \"habitat\" and by deleting in that section the definition \"prefabricated house (modular, machined); 4° by repealing sections 30 and 59; 5° by repealing subsection (3) of section 69; 6° by repealing sections 70 and 72;\n7° by the replacement in Article 75 of the words and numbers \"of Articles 76, 77 and 78\" by \"of Article 76\"; 8° by the deletion in Article 76 of the number \", 59\"; 9° by the repeal of Articles 77 and 78.",
+      "amends_article_id": "7"
+    },
+    {
+      "article": "83",
+      "article_id": "83",
+      "title": "Article 83",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        27
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 1178 of the City of Outremont are amended: 1° by repealing section 1.3; 2° by deleting the second paragraph of section 2.1; 3° by repealing sections 2.2, 3.5 and 3.6.4; 4° by replacing the title of chapter 4 by the following: \"COMBATING A CERTIFICATE D\n8° by deleting in Article 4.5 the number \"4.1\"; 9° by repealing Articles 5.5 to 5.6.2, 5.8.4, 5.10, 5.12 to 6.2, 6.5 to 6.8.1, 6.9 to 6.11 and 6.12.1; 10° by repealing paragraph 2 of the first paragraph of Article 6.12.4; 11° by repealing Articles 6.13, 6.14.4, 6.19 and 6.22 to 6.22.5; 12° by deleting from Annex A; 13° by deleting in paragraph 1 of Annex B the words \"construction permit or\"; 14° by deleting the last three subparagraphs of paragraph 2 of Annex B; 15° by deleting in Annex B the paragraph \"3. Construction works\".",
+      "amends_article_id": "1.3"
+    },
+    {
+      "article": "84",
+      "article_id": "84",
+      "title": "Article 84",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 1884 of the City of St. Leonard are amended: 1. by replacing the first paragraph of section 1.2.5 with the following: \"For the interpretation of these Regulations, unless the context indicates a different meaning, any word or expression has the meaning and meaning assigned to it in Chapter 7 of those Regulations. If a word or expression is not specifically noted in that Chapter, it shall be used in the common sense attributed to that word or expression.\"; 2. by replacing the title of chapter 3 with the following: \"APPLICATIONS CONCERNING DWORKING\"; 2. by replacing the title of chapter 3 with the following:\nIN THE MATTER OF THE SUBMISSION OF A CERTIFICATE 3° by the replacement of Article 3.1 with the following: \"3.1 CERTIFICATE REQUIRED The provisions of Articles 3.1.2 to 3.2 exclusively concern the required certificates.\"; 4° by the deletion of the first paragraph of Article 3.1.1; 5° by the deletion, in the title of Article 3.1.3, of the words \"PERMIS OR\"; 6° by the deletion, in the first paragraph of Article 3.1.3, of the words \"a construction permit or\"; 7° by the deletion of paragraph (d) of the first paragraph of Article 3.1.3; 8° by the deletion, in the title of Article 3.2, of the words \"A CONSTRUCTION PERMIS OR\";\n9° by deleting the words \"a construction permit\" in Article 3.2; 10° by deleting the words \"A CONSTRUCTION PERMIT OR\" in the title of Article 3.2.1; 11° by deleting the words \"a construction permit\" in Article 3.2.1; 12° by deleting the words \"A PERMIS AND\"; 13° by deleting the words \"a construction permit\", \"a construction permit or\" and \"a permit or\"; 14° by deleting the words \"A PERMIS AND\" in the title of Article 3.2.3; 15° by deleting the words \"a construction permit or\" and \"a construction permit or\" in Article 3.2.3;\n16° by deleting subparagraphs (i) to (v) of paragraph (b) of the first paragraph of Article 3.2.3; 17° by deleting the words \"licence or\" in Article 3.2.3.1; 18° by deleting the words \"licence or\" in the title of Article 3.3; 19° by deleting the words \"licence or\" in Article 3.3.1; 20° by deleting the words \"licence or\", \"licence or\", \"as the case may be\", and \"licence or\" in Article 3.3.3; 21° by deleting the words \"licence or\" and \"licence or\" in Article 3.3.3; 22° by deleting the words \"D-UN PERMIS AND\" in the title of Article 3.4;\n23° by deleting in Article 3.4 the words \"d , a construction permit\"; 24° by repealing paragraphs (a) and (e) of the first paragraph of Article 3.4.1; 25° by deleting in the title of Article 3.5 the words \"D , a construction permit and\"; 26° by deleting in Article 3.5 the words \"d , a construction permit\"; 27° by deleting in the title of Article 3.5.1 the words \"DUTY OF CONSTRUCTION AND\"; 28° by deleting in Article 3.5.1 the words \"licens or\", \"licens or\" and \"construction permit or\"; 29° by replacing paragraph (b) of the first paragraph of Article 3.5.1 by the following:\n\"(b) the construction or installation of the pool or the ancillary antenna shall not be completed within two (2) months of the date of issue of the certificate;\"; 30° to Article 3.5.1, by deleting paragraph (d) of the first paragraph and by repealing the second paragraph; 31° to Article 3.6.1, by deleting the words \"d'un permis de construction ou\" and \"permis et\" and by replacing the words \", the zoning regulations and the National Building Code\" with the words \"and the zoning regulations\"; 32° by repealing Articles 3.6.2 to 3.6.4; 33° by deleting the words \"DU PERMIS ET\" in the title of Article 3.8;\n34° by deleting the words \"d-a construction permit and\" in section 3.8; 35° by deleting the words \"licence,\", \"licence or\" and \"the construction permit or\"; 36° by deleting paragraphs (d), (e), (f) and (h) of the first paragraph of section 3.9.1; 37° by repealing paragraph (c) of the first paragraph of section 3.9.2; 38° by repealing all sections of chapter 4 with the exception of: (a) section 4.1 which is replaced by the following: \"The National Fire Prevention Code of Canada 1990 and its amendments is an integral part of these regulations.\nSuch amendments shall come into force on a date determined by the Council by resolution.\"; (b) Articles 4.7 and 4.9; 39° by the repeal of the second paragraph of Article 6.5; 40° by the repeal of the \"A\" Schedule.",
+      "amends_article_id": "1.2"
+    },
+    {
+      "article": "85",
+      "article_id": "85",
+      "title": "Article 85",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        30
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Construction Regulations for the District of Anjou (07-011) are repealed.",
+      "amends_article_id": null
+    },
+    {
+      "article": "86",
+      "article_id": "86",
+      "title": "Article 86",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        30
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Buildings and Conversion Regulations in the St. Lawrence District Territory (08-004) are repealed.",
+      "amends_article_id": null
+    },
+    {
+      "article": "87",
+      "article_id": "87",
+      "title": "Article 87",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        30
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Construction Regulations for application in the District of Verdun and repealing Construction Regulations 1750 (05-036) are amended: 1° by repealing sections 17, 19, 21 to 23, 25, 26 and 27; 2° by replacing in section 28 the numbers \"30\" and \"32\" by \"29\" and \"30\"; 3° by deleting paragraphs (a) and (e) from the first paragraph of section 29; 4° by repealing sections 32, 33, 37 to 40 and 42 to 47; 5° by deleting paragraphs (d), (e) and (f) from the first paragraph of section 48; and 6° by repealing sections 50 to 52, 55 and 58.",
+      "amends_article_id": "28"
+    },
+    {
+      "article": "88",
+      "article_id": "88",
+      "title": "Article 88",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        31
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 93-554 of the City of Roxboro are amended: 1° by deleting in section 12 the definition of \"firewall or firewall\"; 2° by repealing paragraphs 1 and 4 of the first paragraph of section 17; 3° by repealing sections 18 to 21 and 23; 4° by deleting in section 27 the words \"and inflatable construction\"; 5° by repealing sections 32, 33, 35 and 36; 6° by deleting in section 38 the words \"composed of non-combustible materials\"; 7° by repealing sections 57 to 68.",
+      "amends_article_id": "12"
+    },
+    {
+      "article": "89",
+      "article_id": "89",
+      "title": "Article 89",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        31
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Regulation 1049 concerning the construction of the City of Pierrefonds is amended: 1° by repealing sections 15 to 17.1; 2° by deleting the first and fourth paragraphs of section 18; 3° by repealing sections 19 and 20; 4° by repealing the first paragraph of section 21; 5° by repealing sections 22 to 23.1, 25 to 27.1, 37 and 44.",
+      "amends_article_id": "18"
+    },
+    {
+      "article": "90",
+      "article_id": "90",
+      "title": "Article 90",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        31
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Buildings and Conversion Regulations applicable to the District Territory of Bizard Island–Sainte-Geneviève (08-006) are amended: 1° by repealing sections 1 to 5, 10 to 40, 42 and 44 to 47; 2° by replacing section 48 with \"41, 42, 43, 44 or 47\"; 3° by repealing sections 49 and 50; 4° by deleting paragraphs 1 to 5 of the first paragraph in section 52 and replacing paragraph 6 of the first paragraph with the following: \"6° contravenes any of the provisions of Division I of Chapter III and Division IV of Chapter IV.\"",
+      "amends_article_id": "48"
+    },
+    {
+      "article": "91",
+      "article_id": "91",
+      "title": "Article 91",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        32
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Construction Regulations No. 321 of the City of Bizard Island are amended: 1. by deleting the second paragraph of 2.3.3.2; 2. in the first paragraph of 2.3.6, by deleting paragraphs (b) and (f) and, in paragraph (c), the words \"composed only of non-fuel materials, except roof coating materials\"; 3. by repealing Schedules A-3, A-4 and A-6.",
+      "amends_article_id": "2.3"
+    },
+    {
+      "article": "92",
+      "article_id": "92",
+      "title": "Article 92",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        32
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Lachine Licence and Certificate Regulations No. 2528 are amended: 1° by repealing Chapter IV, except for paragraphs (f), (g) and (h) of the first paragraph of section 4.1.4; 2° by deleting in the table to section 5.1 the lines relating to projects relating to \"Renovation of a construction\" and \"Pubbing work\"; 3° by repealing sections 5.2.3 and 5.2.8; 4° by deleting paragraph 2o from the first paragraph of section 7.1; 5° by deleting in subparagraph 3o of the first paragraph of section 7.1 the line \"Renovation of a construction\";\n6° by deleting subparagraph (e) of paragraph 3o of the first subparagraph of Article 7.1.",
+      "amends_article_id": "4.1"
+    },
+    {
+      "article": "93",
+      "article_id": "93",
+      "title": "Article 93",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        32
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Anjou Permits and Certificates Regulations No. 1527 are amended: 1° by repealing sections 5.1 to 5.2.3; 2° by deleting subsections 1o and 2o from the first paragraph of section 5.3; 3° by repealing sections 5.4 to 5.8; 4° by deleting in the first paragraph of section 6.1 the words \"damaged in a fire\"; 5° by repealing in the title of section 6.2.2.2.3 the words \"fired\"; 6° by repealing in section 6.2.2.2.3 the words \"damaged in a fire\".",
+      "amends_article_id": "5.3"
+    },
+    {
+      "article": "94",
+      "article_id": "94",
+      "title": "Article 94",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        33
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Outremont Permits and Certificates Regulations No. 1176 are amended: 1° by deleting in section 2.3 the definitions \"Building Code\" and \"Emergency Stairway\"; 2° by repealing Chapters 5 and 6.",
+      "amends_article_id": "2.3"
+    },
+    {
+      "article": "95",
+      "article_id": "95",
+      "title": "Article 95",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        33
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Permits and Certificates Regulations for the whole of the District of Bizard Island / Ste-Geneviève (R.C.A., 280011) are amended: 1° by replacing in the first paragraph of section 1 the definition of \"Code\" with the following: \"Code\": As defined in the construction regulations applicable in the District Territory;\".",
+      "amends_article_id": "1"
+    },
+    {
+      "article": "96",
+      "article_id": "96",
+      "title": "Article 96",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        33
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Regulation No. 1565 respecting permits and certificates relating to the Town of Montréal-Nord Town Planning Regulations is amended: 1° by repealing the first three paragraphs of section 26; 2° by repealing section 36; 3° by deleting the words \"building permits or\", \"licences or\" and \"licences or\"; 4° by deleting the words \"CONTRUIRE OR\" in the title of chapter 4; 5° by deleting subparagraphs A, B, C, H, I and J) from subsection (1) of section 46; 6° by repealing section 66; 7° by deleting the number \"26\" in section 72.",
+      "amends_article_id": "26"
+    },
+    {
+      "article": "97",
+      "article_id": "97",
+      "title": "Article 97",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        33,
+        34
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Regulations RCA08-08-0003 on the Internal Economy of Saint Lawrence District Permits and Certificates are amended: 1° by deleting the words \"OR PERMIS\" in the title of section 2.6; 2° by deleting the words \"construction permit or on\" in the first paragraph of section 2.6; 3° by repealing paragraph 2 of the first paragraph of section 2.10; 4° by replacing paragraph 5o of the first paragraph of section 4.1 with the following: \"5° the relocation of a construction; 5.1° the demolition of a construction other than the demolition of a main building covered by regulation 03-08-0002; 5.2° the repair of a construction\";\n5° by repealing paragraph 5 of the first subparagraph of Article 4.2.",
+      "amends_article_id": "2.6"
+    },
+    {
+      "article": "98",
+      "article_id": "98",
+      "title": "Article 98",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        34
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Regulations on Permits and Certificates No. 1051 of the City of Pierrefonds are amended: 1° by repealing sections 23 and 24; 2° by deleting paragraph 5 of the first paragraph of section 25; 3° by repealing sections 26 to 28 and 30 to 35.2; 4° by deleting paragraphs 11o and 16o of the first paragraph of section 40; 5° by deleting the word \"remitted\" in paragraph 3o of the first paragraph of section 42; 6° by deleting paragraphs 11o and 13o of the first paragraph of section 42; 7° by deleting paragraphs 11o and 12o of the first paragraph of section 48.",
+      "amends_article_id": "25"
+    },
+    {
+      "article": "99",
+      "article_id": "99",
+      "title": "Article 99",
+      "section": "CHAPTER III / SECTION VI / SUBSECTION III",
+      "section_title": "TRANSITIONAL AND FINAL PROVISIONS",
+      "source_pages": [
+        34,
+        35
+      ],
+      "source_pdf": "montreal_11_018.pdf",
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "effective_date": "2011-10-24",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The City of Roxboro Licences and Certificates Regulations No. 93-558 are amended: 1° by deleting, in the definition of \"model house\" in the first paragraph of section 13, the words \"National Building Code of Canada forming part of\" and \"No. 93-554\"; 2° by deleting, in the title of section 21, the words \"d-a construction permit and\"; 3° by deleting, in the first paragraph of section 21, the words \"the construction permit or\"; 4° by repealing sections 29 and 30; 5° by deleting paragraph 4o from the first paragraph of section 31; 6° by repealing sections 32 to 38;\n____________________________ As a result of public notices posted at City Hall and published in Le Devoir on November 2 and 21, 2011, and pursuant to sections 137.10 et seq. of the Planning and Town Planning Act (R.S.Q. v. A-19.1), the by-law is deemed to be in accordance with the development plan of the City of Montréal effective December 3, 2011, and comes into force on that date.",
+      "amends_article_id": "13"
+    }
+  ],
+  "source_language": "fr",
+  "target_language": "en",
+  "translation_model": "Helsinki-NLP/opus-mt-fr-en",
+  "translated_from": "data/compliance_corpora/montreal_11_018/montreal_11_018_articles_fr.json"
+}

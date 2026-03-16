@@ -1,0 +1,179 @@
+{
+  "space_id": "Unit_521_dining_room_space",
+  "unit_id": "Unit_521",
+  "name": "Unit 521 Dining Room",
+  "room_type": "Residential Dining Room",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Unit_521",
+  "adjacent_to": [
+    "Unit_521_living_room_space",
+    "Unit_521_kitchen_open_plan_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 7600.0,
+    "y_mm": 0.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "dining_room.json",
+  "source_room_id": "Unit_521_Dining_Room",
+  "raw_properties": {
+    "source_room_type": "Residential Dining Room",
+    "compliance_room_type": "Residential Dining Room",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_521_dining_room_space_floor_slab",
+      "source_label": "Unit_521_Dining_Room_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7600.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_service_wall",
+      "source_label": "Unit_521_Dining_Room_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 8800.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_exterior_wall",
+      "source_label": "Unit_521_Dining_Room_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 10800.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_entry_wall",
+      "source_label": "Unit_521_Dining_Room_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7600.0,
+        "y_mm": 800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_ceiling_plane",
+      "source_label": "Unit_521_Dining_Room_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7600.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_unit521_dining_table",
+      "source_label": "unit521_dining_table",
+      "semantic_type": "table",
+      "ifc_type": "IfcFurniture",
+      "revit_category": "Furniture",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": "Unit_521_dining_room_space_floor_slab",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7900.0,
+        "y_mm": 200.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "seats": 4
+      }
+    },
+    {
+      "element_id": "Unit_521_dining_room_space_unit521_dining_pendant",
+      "source_label": "unit521_dining_pendant",
+      "semantic_type": "light_fixture",
+      "ifc_type": "IfcLightFixture",
+      "revit_category": "Lighting Fixtures",
+      "contained_in_space": "Unit_521_dining_room_space",
+      "hosted_by": "Unit_521_dining_room_space_ceiling_plane",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 8200.0,
+        "y_mm": 400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "height_mm": 2050
+      }
+    }
+  ],
+  "derived_facts": []
+}

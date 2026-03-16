@@ -1,0 +1,58 @@
+Scene: Erdgeschoss_space_33774 (Residential Living Room)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+
+[PASS] Articles 3.8.5.8 - EG-Fenster-5.geometry_bbox_min_z_mm
+  fact: 800.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.8 - EG-Fenster-9.geometry_bbox_min_z_mm
+  fact: 800.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+
+Unmatched facts:
+  - Wand-Ext-ERDG-4.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Ext-ERDG-4.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-5.overall_width_m -> ifc_overall_width
+  - EG-Fenster-5.overall_height_m -> ifc_overall_height
+  - EG-Fenster-5.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-5.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Terrassentuer.overall_width_m -> ifc_overall_width
+  - Terrassentuer.overall_height_m -> ifc_overall_height
+  - Terrassentuer.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Terrassentuer.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-9.overall_width_m -> ifc_overall_width
+  - EG-Fenster-9.overall_height_m -> ifc_overall_height
+  - EG-Fenster-9.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-9.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
+- Unit ID: Erdgeschoss
+- Space ID: Erdgeschoss_space_33774
+- Space name: Wohnen
+- Retrieved articles: 3.8.5.8, 18, 3.8.5.8, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 2

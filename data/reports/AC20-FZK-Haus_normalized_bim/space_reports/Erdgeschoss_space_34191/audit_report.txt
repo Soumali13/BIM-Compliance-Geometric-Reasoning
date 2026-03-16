@@ -1,0 +1,41 @@
+Scene: Erdgeschoss_space_34191 (Residential Corridor)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential corridor is unknown because required evidence is missing, including turning_circle_diameter.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: turning_circle_diameter
+
+[UNKNOWN] Articles 3.8.4.2, 3.8.5.2 - missing.turning_circle_diameter
+  fact: missing
+  requirement: >= 1500.0 mm
+  reason: Required fact for turning_circle_diameter was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.2 Barrier-Free Path of Travel; 3.8.5.2 Barrier-Free Path of Travel
+  override trace: QCC_B11_R2:3.8.4.2 >= 1500.0 mm -> QCC_B11_R2:3.8.5.2 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.4.2 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.2 >= 1500.0 mm
+  expected from: floor_space
+
+Unmatched facts:
+  - Wand-Int-ERDG-5.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Int-ERDG-5.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Haustuer.overall_width_m -> ifc_overall_width
+  - Haustuer.overall_height_m -> ifc_overall_height
+  - Haustuer.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Haustuer.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
+- Unit ID: Erdgeschoss
+- Space ID: Erdgeschoss_space_34191
+- Space name: Flur
+- Retrieved articles: 3.8.5.2, 3.8.4.2, 3.8.5.2, 3.8.4.2, 14, 23, 27.1
+- Derived constraints: 17
+- Findings: 1

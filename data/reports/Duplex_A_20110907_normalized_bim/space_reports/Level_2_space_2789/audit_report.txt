@@ -1,0 +1,94 @@
+Scene: Level_2_space_2789 (Residential Bedroom)
+Overall status: FAIL
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bedroom failed because one or more active requirements were violated, including window_sill_height.
+  Precedence: The active rules came from QCC_B11_R2 with no higher-priority override applied.
+  Recommended next measurements: ifc_overall_width, ifc_overall_height, ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+
+[FAIL] Articles 3.8.5.6 - M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686.geometry_bbox_min_z_mm
+  fact: 3200.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box is above maximum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+
+[FAIL] Articles 3.8.5.6 - M_Fixed:819mm x 759mm:819mm x 759mm:147994.geometry_bbox_min_z_mm
+  fact: 3200.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box is above maximum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+
+[FAIL] Articles 3.8.5.6 - M_Fixed:750mm x 2200mm:750mm x 2200mm:182101.geometry_bbox_min_z_mm
+  fact: 3200.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box is above maximum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 6.2 m
+  requirement: >= 3.0 m
+  reason: Bedroom length derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 3.7 m
+  requirement: >= 3.0 m
+  reason: Bedroom width derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 23.2 m2
+  requirement: >= 11.0 m2
+  reason: Bedroom area derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 11.0 m2
+
+
+Unmatched facts:
+  - M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686.overall_width_m -> ifc_overall_width
+  - M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686.overall_height_m -> ifc_overall_height
+  - M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - M_Fixed:819mm x 759mm:819mm x 759mm:147994.overall_width_m -> ifc_overall_width
+  - M_Fixed:819mm x 759mm:819mm x 759mm:147994.overall_height_m -> ifc_overall_height
+  - M_Fixed:819mm x 759mm:819mm x 759mm:147994.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Fixed:819mm x 759mm:819mm x 759mm:147994.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Floor:Finish Floor - Wood:169093.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Floor:Finish Floor - Wood:169093.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:182101.overall_width_m -> ifc_overall_width
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:182101.overall_height_m -> ifc_overall_height
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:182101.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - M_Fixed:750mm x 2200mm:750mm x 2200mm:182101.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Duplex_A_20110907_normalized_bim.json
+- Unit ID: Level_2
+- Space ID: Level_2_space_2789
+- Space name: Bedroom 2
+- Retrieved articles: 3.8.5.6, 18, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 6

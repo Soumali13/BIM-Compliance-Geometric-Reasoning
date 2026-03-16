@@ -1,0 +1,227 @@
+{
+  "scene_id": "Hotel_Suite_510_bathroom_space",
+  "room_type": "Hotel Bathroom",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "towel_rack_height",
+      "source_element": "accessible_towel_rack",
+      "source_measurement": "height_mm",
+      "fact_value": 1150.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1200.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Towel rack height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The hotel bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "towel_rack_height",
+        "status": "PASS",
+        "explanation": "towel_rack_height passed because the measured value 1150.0 mm met the active QUEBEC_2020_ABOVE requirement of <= 1200.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Hotel_Suite_510_bathroom_space",
+      "room_type": "Hotel Bathroom",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "towel_rack_height",
+          "value": 1150.0,
+          "unit": "mm",
+          "source_element": "accessible_towel_rack",
+          "source_measurement": "height_mm",
+          "description": "Towel rack height"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "towel_rack_height",
+          "article": "3.8.6.4",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "towel_rack_height",
+          "status": "PASS",
+          "reason": "Towel rack height satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1200.0,
+          "required_unit": "mm",
+          "fact_value": 1150.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "snippet": "1) Barrier-free suites of a hotel or motel shall be provided with a bathroom that a) conforms to Sentence 3.8.3.13.(1), b) has a mirror conforming to Sentence 3.8.3.16.(2), \u00a9 His Majesty the King in Right of Canada, as represented by the National Research Council of Canada, 2025 \u00a9 Sa Majest\u00e9 le R..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.6.4",
+          "title": "Bathrooms",
+          "snippet": "1) Barrier-free suites of a hotel or motel shall be provided with a bathroom that a) conforms to Sentence 3.8.3.13.(1), b) has a mirror conforming to Sentence 3.8.3.16.(2), c) has a bathtub conforming to Article 3.8.3.18. or a shower conforming to Sentence 3.8.3.17.(1), and d) has a towel rack mo..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 1,
+    "matched_constraint_count": 2,
+    "evaluated_rule_count": 1,
+    "finding_count": 1,
+    "retrieved_article_count": 5,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.6.4",
+      "QCC_B11_R2:3.8.6.4",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018:14",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.6.4",
+        "title": "Bathrooms",
+        "priority": 3,
+        "overlap_score": 1.0,
+        "similarity_score": 0.491964,
+        "final_score": 0.644375
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.6.4",
+        "title": "Bathrooms",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.486935,
+        "final_score": 0.640855
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.211046,
+        "final_score": 0.147732
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.16185,
+        "final_score": 0.113295
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.155337,
+        "final_score": 0.108736
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 10,
+    "override_count": 1,
+    "normalized_space_name": "Hotel Suite 510 Bathroom",
+    "source_room_type": "Hotel Bathroom",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

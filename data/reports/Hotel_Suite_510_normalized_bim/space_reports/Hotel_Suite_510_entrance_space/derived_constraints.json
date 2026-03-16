@@ -1,0 +1,304 @@
+[
+  {
+    "article": "3.8.6.3",
+    "title": "Doorways and Doors",
+    "parameter": "door_side_clear_space_diameter",
+    "operator": ">=",
+    "value": 1700.0,
+    "unit": "mm",
+    "citation_text": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), the clear floor space on each side of any door providing access to a suite shall have not less than 1 700 mm in diameter.",
+    "room_types": [
+      "Hotel Suite Entrance"
+    ],
+    "authority": "QUEBEC_2020_ABOVE",
+    "jurisdiction": "Quebec",
+    "priority": 3,
+    "effective_date": "2025-04-17",
+    "amends_article": null,
+    "patch_action": "replace",
+    "applies_if": {
+      "jurisdiction": "Quebec"
+    }
+  },
+  {
+    "article": "3.8.6.3",
+    "title": "Doorways and Doors",
+    "parameter": "door_side_clear_space_diameter",
+    "operator": ">=",
+    "value": 1700.0,
+    "unit": "mm",
+    "citation_text": "1) Notwithstanding Sentences 3.8.3.6.(14) to (16), the clear floor space on each side of any door providing access to a suite shall have not less than 1 700 mm in diameter.",
+    "room_types": [
+      "Hotel Suite Entrance"
+    ],
+    "authority": "QCC_B11_R2",
+    "jurisdiction": "Quebec",
+    "priority": 2,
+    "effective_date": "2015-11-27",
+    "amends_article": null,
+    "patch_action": "replace",
+    "applies_if": {
+      "jurisdiction": "Quebec"
+    }
+  },
+  {
+    "article": "27.1",
+    "title": "Article 27.1",
+    "parameter": "green_roof_trigger_area",
+    "operator": ">",
+    "value": 250.0,
+    "unit": "m2",
+    "citation_text": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "27.1",
+    "title": "Article 27.1",
+    "parameter": "green_roof_trigger_storeys",
+    "operator": ">",
+    "value": 3.0,
+    "unit": "storeys",
+    "citation_text": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "27.1",
+    "title": "Article 27.1",
+    "parameter": "green_roof_trigger_max_slope_ratio",
+    "operator": "<=",
+    "value": 0.16699999999999998,
+    "unit": "ratio",
+    "citation_text": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "27.1",
+    "title": "Article 27.1",
+    "parameter": "green_roof_required",
+    "operator": "==",
+    "value": 1.0,
+    "unit": "bool",
+    "citation_text": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "14",
+    "title": "Article 14",
+    "parameter": "natural_lighting_glazing_ratio",
+    "operator": ">=",
+    "value": 0.1,
+    "unit": "ratio",
+    "citation_text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1\u00b0 lit second-day floor and 1\u00b0 lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2\u00b0 the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3\u00b0 the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+    "room_types": [
+      "Residential Living Room",
+      "Residential Dining Room"
+    ],
+    "authority": "MTL_11_018",
+    "jurisdiction": "Montreal",
+    "priority": 4,
+    "effective_date": "2011-10-24",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "14",
+    "title": "Article 14",
+    "parameter": "natural_lighting_glazing_ratio",
+    "operator": ">=",
+    "value": 0.05,
+    "unit": "ratio",
+    "citation_text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1\u00b0 lit second-day floor and 1\u00b0 lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2\u00b0 the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3\u00b0 the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+    "room_types": [
+      "Residential Bedroom"
+    ],
+    "authority": "MTL_11_018",
+    "jurisdiction": "Montreal",
+    "priority": 4,
+    "effective_date": "2011-10-24",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "14",
+    "title": "Article 14",
+    "parameter": "room_house_natural_lighting_glazing_ratio",
+    "operator": ">=",
+    "value": 0.08,
+    "unit": "ratio",
+    "citation_text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1\u00b0 lit second-day floor and 1\u00b0 lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2\u00b0 the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3\u00b0 the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+    "room_types": [],
+    "authority": "MTL_11_018",
+    "jurisdiction": "Montreal",
+    "priority": 4,
+    "effective_date": "2011-10-24",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "14",
+    "title": "Article 14",
+    "parameter": "second_day_lighting_glazing_ratio",
+    "operator": ">=",
+    "value": 0.1,
+    "unit": "ratio",
+    "citation_text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1\u00b0 lit second-day floor and 1\u00b0 lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2\u00b0 the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3\u00b0 the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+    "room_types": [
+      "Residential Living Room",
+      "Residential Dining Room",
+      "Residential Bedroom"
+    ],
+    "authority": "MTL_11_018",
+    "jurisdiction": "Montreal",
+    "priority": 4,
+    "effective_date": "2011-10-24",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "14",
+    "title": "Article 14",
+    "parameter": "second_day_lighting_max_opening_distance",
+    "operator": "<=",
+    "value": 6.0,
+    "unit": "m",
+    "citation_text": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0 8% of the area served by a room in a room house.\nNo glass flooring is required for a bathroom, bathroom, kitchen, kitchen area, laundry room, games room in the basement, undeveloped basement, hall, corridor, boiler room, technical space, storage space and any other room or space similar to these. Natural second-day lighting of a room in a dwelling is permitted when the following conditions are met: 1\u00b0 lit second-day floor and 1\u00b0 lit second-day floor with glass flooring providing natural lighting form parts combined within the meaning of the Code;\n2\u00b0 the opening between the two areas is on a plane parallel to the glass surface providing natural lighting and is situated not more than 6 m from that surface; 3\u00b0 the glass surface providing natural lighting is not less than 10 % of the total surface of the combined parts.",
+    "room_types": [
+      "Residential Living Room",
+      "Residential Dining Room",
+      "Residential Bedroom"
+    ],
+    "authority": "MTL_11_018",
+    "jurisdiction": "Montreal",
+    "priority": 4,
+    "effective_date": "2011-10-24",
+    "amends_article": null,
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "23",
+    "title": "Article 23",
+    "parameter": "green_roof_trigger_area",
+    "operator": ">",
+    "value": 250.0,
+    "unit": "m2",
+    "citation_text": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units on the horizontal (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": "25",
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "23",
+    "title": "Article 23",
+    "parameter": "green_roof_trigger_storeys",
+    "operator": ">",
+    "value": 3.0,
+    "unit": "storeys",
+    "citation_text": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units on the horizontal (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": "25",
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "23",
+    "title": "Article 23",
+    "parameter": "green_roof_trigger_max_slope_ratio",
+    "operator": "<=",
+    "value": 0.16699999999999998,
+    "unit": "ratio",
+    "citation_text": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units on the horizontal (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": "25",
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  },
+  {
+    "article": "23",
+    "title": "Article 23",
+    "parameter": "green_roof_required",
+    "operator": "==",
+    "value": 1.0,
+    "unit": "bool",
+    "citation_text": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units on the horizontal (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+    "room_types": [],
+    "authority": "MTL_11_018_X",
+    "jurisdiction": "Montreal",
+    "priority": 5,
+    "effective_date": "2024-01-01",
+    "amends_article": "25",
+    "patch_action": "override",
+    "applies_if": {
+      "jurisdiction": "Montreal"
+    }
+  }
+]

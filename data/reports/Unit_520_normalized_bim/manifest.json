@@ -1,0 +1,190 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "project_name": "Montreal Accessibility Demo Tower",
+  "unit_ids": [
+    "Unit_520"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:28-04:00",
+  "space_reports": [
+    {
+      "space_id": "Unit_520_bathroom_primary_space",
+      "space_name": "Unit 520 Bathroom Primary",
+      "room_type": "Residential Bathroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_bathroom_hall_space",
+      "space_name": "Unit 520 Bathroom Hall",
+      "room_type": "Residential Bathroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_kitchen_open_plan_space",
+      "space_name": "Unit 520 Kitchen Open Plan",
+      "room_type": "Residential Kitchen",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_bedroom_primary_space",
+      "space_name": "Unit 520 Bedroom Primary",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_bedroom_secondary_space",
+      "space_name": "Unit 520 Bedroom Secondary",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_living_room_space",
+      "space_name": "Unit 520 Living Room",
+      "room_type": "Residential Living Room",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_dining_room_space",
+      "space_name": "Unit 520 Dining Room",
+      "room_type": "Residential Dining Room",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential dining room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_suite_entry_space",
+      "space_name": "Unit 520 Suite Entry",
+      "room_type": "Residential Door Area",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential door area passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_entry_controls_space",
+      "space_name": "Unit 520 Entry Controls",
+      "room_type": "Residential Controls",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential controls passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_520_balcony_main_space",
+      "space_name": "Unit 520 Balcony Main",
+      "room_type": "Residential Balcony",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}

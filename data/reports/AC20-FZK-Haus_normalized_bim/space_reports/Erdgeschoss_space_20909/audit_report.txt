@@ -1,0 +1,95 @@
+Scene: Erdgeschoss_space_20909 (Residential Bedroom)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rules came from QCC_B11_R2 with no higher-priority override applied.
+  Recommended next measurements: ifc_geometry_bbox_width, ifc_geometry_bbox_height, ifc_overall_width, ifc_overall_height, ifc_space_bbox_length, ifc_space_bbox_width, ifc_space_bbox_area, ifc_space_bbox_height
+
+[PASS] Articles 3.8.5.6 - EG-Fenster-8.geometry_bbox_min_z_mm
+  fact: 800.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.6 - EG-Fenster-3.geometry_bbox_min_z_mm
+  fact: 800.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 5.5 m
+  requirement: >= 3.0 m
+  reason: Bedroom length derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 4.0 m
+  requirement: >= 3.0 m
+  reason: Bedroom width derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - derived_space_fact.geometry_bbox_width_depth_mm
+  fact: 22.1 m2
+  requirement: >= 11.0 m2
+  reason: Bedroom area derived from IFC shape bounding box satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 11.0 m2
+
+
+Unmatched facts:
+  - Wendeltreppe.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wendeltreppe.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Wand-Int-ERDG-4.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Int-ERDG-4.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Wand-Int-ERDG-2.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Int-ERDG-2.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Innentuer-1.overall_width_m -> ifc_overall_width
+  - Innentuer-1.overall_height_m -> ifc_overall_height
+  - Innentuer-1.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Innentuer-1.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Wand-Ext-ERDG-3.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Ext-ERDG-3.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-8.overall_width_m -> ifc_overall_width
+  - EG-Fenster-8.overall_height_m -> ifc_overall_height
+  - EG-Fenster-8.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-8.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Wand-Ext-ERDG-2.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Wand-Ext-ERDG-2.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-3.overall_width_m -> ifc_overall_width
+  - EG-Fenster-3.overall_height_m -> ifc_overall_height
+  - EG-Fenster-3.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-3.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - Bodenplatte.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - Bodenplatte.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
+- Unit ID: Erdgeschoss
+- Space ID: Erdgeschoss_space_20909
+- Space name: Schlafzimmer
+- Retrieved articles: 3.8.5.6, 18, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 5

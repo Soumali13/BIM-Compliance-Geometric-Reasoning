@@ -1,0 +1,424 @@
+{
+  "scene_id": "Unit_520_bedroom_secondary_space",
+  "room_type": "Residential Bedroom",
+  "status": "PASS",
+  "passed": true,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2"
+        }
+      ],
+      "parameter": "bedroom_area",
+      "source_element": "unit520_bedroom_secondary_zone",
+      "source_measurement": "area_m2",
+      "fact_value": 11.5,
+      "fact_unit": "m2",
+      "operator": ">=",
+      "required_value": 11.0,
+      "required_unit": "m2",
+      "status": "PASS",
+      "reason": "Bedroom area satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QCC_B11_R2",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 11.0,
+          "unit": "m2"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2"
+        }
+      ],
+      "parameter": "bedroom_length",
+      "source_element": "unit520_bedroom_secondary_zone",
+      "source_measurement": "length_m",
+      "fact_value": 3.2,
+      "fact_unit": "m",
+      "operator": ">=",
+      "required_value": 3.0,
+      "required_unit": "m",
+      "status": "PASS",
+      "reason": "Bedroom length satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QCC_B11_R2",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 3.0,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2"
+        }
+      ],
+      "parameter": "bedroom_width",
+      "source_element": "unit520_bedroom_secondary_zone",
+      "source_measurement": "width_m",
+      "fact_value": 3.1,
+      "fact_unit": "m",
+      "operator": ">=",
+      "required_value": 3.0,
+      "required_unit": "m",
+      "status": "PASS",
+      "reason": "Bedroom width satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QCC_B11_R2",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 3.0,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2"
+        }
+      ],
+      "parameter": "window_sill_height",
+      "source_element": "unit520_bedroom_secondary_window",
+      "source_measurement": "sill_height_mm",
+      "fact_value": 950.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 1000.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Window sill height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QCC_B11_R2",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+    "precedence_explanation": "The active rules came from QCC_B11_R2 with no higher-priority override applied.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "bedroom_area",
+        "status": "PASS",
+        "explanation": "bedroom_area passed because the measured value 11.5 m2 met the active QCC_B11_R2 requirement of >= 11.0 m2."
+      },
+      {
+        "parameter": "bedroom_length",
+        "status": "PASS",
+        "explanation": "bedroom_length passed because the measured value 3.2 m met the active QCC_B11_R2 requirement of >= 3.0 m."
+      },
+      {
+        "parameter": "bedroom_width",
+        "status": "PASS",
+        "explanation": "bedroom_width passed because the measured value 3.1 m met the active QCC_B11_R2 requirement of >= 3.0 m."
+      },
+      {
+        "parameter": "window_sill_height",
+        "status": "PASS",
+        "explanation": "window_sill_height passed because the measured value 950.0 mm met the active QCC_B11_R2 requirement of <= 1000.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_520_bedroom_secondary_space",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "facts_used": [
+        {
+          "parameter": "bedroom_area",
+          "value": 11.5,
+          "unit": "m2",
+          "source_element": "unit520_bedroom_secondary_zone",
+          "source_measurement": "area_m2",
+          "description": "Bedroom area"
+        },
+        {
+          "parameter": "bedroom_length",
+          "value": 3.2,
+          "unit": "m",
+          "source_element": "unit520_bedroom_secondary_zone",
+          "source_measurement": "length_m",
+          "description": "Bedroom length"
+        },
+        {
+          "parameter": "bedroom_width",
+          "value": 3.1,
+          "unit": "m",
+          "source_element": "unit520_bedroom_secondary_zone",
+          "source_measurement": "width_m",
+          "description": "Bedroom width"
+        },
+        {
+          "parameter": "window_sill_height",
+          "value": 950.0,
+          "unit": "mm",
+          "source_element": "unit520_bedroom_secondary_window",
+          "source_measurement": "sill_height_mm",
+          "description": "Window sill height"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "bedroom_area",
+          "article": "3.8.5.6",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 11.0,
+          "unit": "m2"
+        },
+        {
+          "parameter": "bedroom_length",
+          "article": "3.8.5.6",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 3.0,
+          "unit": "m"
+        },
+        {
+          "parameter": "bedroom_width",
+          "article": "3.8.5.6",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 3.0,
+          "unit": "m"
+        },
+        {
+          "parameter": "window_sill_height",
+          "article": "3.8.5.6",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [],
+      "findings": [
+        {
+          "parameter": "bedroom_area",
+          "status": "PASS",
+          "reason": "Bedroom area satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 11.0,
+          "required_unit": "m2",
+          "fact_value": 11.5,
+          "fact_unit": "m2"
+        },
+        {
+          "parameter": "bedroom_length",
+          "status": "PASS",
+          "reason": "Bedroom length satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 3.0,
+          "required_unit": "m",
+          "fact_value": 3.2,
+          "fact_unit": "m"
+        },
+        {
+          "parameter": "bedroom_width",
+          "status": "PASS",
+          "reason": "Bedroom width satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 3.0,
+          "required_unit": "m",
+          "fact_value": 3.1,
+          "fact_unit": "m"
+        },
+        {
+          "parameter": "window_sill_height",
+          "status": "PASS",
+          "reason": "Window sill height satisfies the requirement.",
+          "operator": "<=",
+          "required_value": 1000.0,
+          "required_unit": "mm",
+          "fact_value": 950.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.6",
+          "title": "Bedrooms",
+          "snippet": "1) A bedroom referred to in Sentence 3.8.5.2.(1) shall have an area not less than 11 m\u00b2 having a length and a width not less than 3 m. 2) Except where the bedroom is located in the basement, a window sill, where provided, shall be installed not more than 1 000 mm above the floor."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "18",
+          "title": "Article 18",
+          "snippet": "Article 18 of that Regulation is replaced by the following: \"18. The surfaces and dimensions of areas and rooms of a dwelling shall have a useful surface of at least 1o 13.5 m2, with no dimension less than 3 m, if it is a living area, whether it is a separate room or a combined area; 2o 3.25 m2,..."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "These Regulations are amended by adding after section 14 the following sections: \"14.1. Despite section 14, natural second-day lighting of a room in a dwelling is permitted when the following conditions are met in addition to the requirements set out in subparagraphs (a) and (b) of paragraph 4 of..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 4,
+    "matched_constraint_count": 4,
+    "evaluated_rule_count": 4,
+    "finding_count": 4,
+    "retrieved_article_count": 6,
+    "retrieved_articles": [
+      "QCC_B11_R2:3.8.5.6",
+      "MTL_11_018_X:18",
+      "MTL_11_018:14",
+      "MTL_11_018_X:14",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.6",
+        "title": "Bedrooms",
+        "priority": 2,
+        "overlap_score": 1.0,
+        "similarity_score": 0.621217,
+        "final_score": 0.734852
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "18",
+        "title": "Article 18",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.436806,
+        "final_score": 0.305764
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.348982,
+        "final_score": 0.244287
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.330971,
+        "final_score": 0.231679
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.26005,
+        "final_score": 0.182035
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.232685,
+        "final_score": 0.16288
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2"
+    ],
+    "resolved_rule_count": 20,
+    "override_count": 1,
+    "normalized_space_name": "Unit 520 Bedroom Secondary",
+    "source_room_type": "Residential Bedroom",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

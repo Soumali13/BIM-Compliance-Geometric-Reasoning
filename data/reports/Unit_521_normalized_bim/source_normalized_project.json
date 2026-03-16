@@ -1,0 +1,2355 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "name": "Montreal Accessibility Demo Tower",
+  "source_format": "normalized_bim_intermediate_schema",
+  "levels": [
+    {
+      "level_id": "Level_05",
+      "name": "Level 05",
+      "elevation_mm": 15000.0
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "Unit_521",
+      "name": "Unit 521",
+      "level_id": "Level_05",
+      "contained_in_project": "Montreal_Accessibility_Demo",
+      "source_manifest": "Unit_521_normalized_bim.json",
+      "spaces": [
+        {
+          "space_id": "Unit_521_bathroom_primary_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Bathroom Primary",
+          "room_type": "Residential Bathroom",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_bedroom_primary_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 6500.0,
+            "y_mm": 3600.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "bathroom_primary.json",
+          "source_room_id": "Unit_521_Bathroom_Primary",
+          "raw_properties": {
+            "source_room_type": "Residential Bathroom",
+            "compliance_room_type": "Residential Bathroom",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_bathroom_primary_space_floor_slab",
+              "source_label": "Unit_521_Bathroom_Primary_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 6500.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_service_wall",
+              "source_label": "Unit_521_Bathroom_Primary_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7700.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_exterior_wall",
+              "source_label": "Unit_521_Bathroom_Primary_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 9700.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_entry_wall",
+              "source_label": "Unit_521_Bathroom_Primary_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 6500.0,
+                "y_mm": 4400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_ceiling_plane",
+              "source_label": "Unit_521_Bathroom_Primary_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 6500.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_turning_circle",
+              "source_label": "unit521_bathroom_primary_turning_circle",
+              "semantic_type": "floor_space",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": "Unit_521_bathroom_primary_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 6800.0,
+                "y_mm": 3800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "diameter_mm": 1505
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_sink",
+              "source_label": "unit521_bathroom_primary_sink",
+              "semantic_type": "lavatory",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": "Unit_521_bathroom_primary_space_service_wall",
+              "adjacent_to": [
+                "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+                "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower"
+              ],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7100.0,
+                "y_mm": 4000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "rim_height_mm": 845,
+                "side_wall_distance_mm": 490,
+                "trap_bottom_height_mm": 245
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+              "source_label": "unit521_bathroom_primary_wc",
+              "semantic_type": "water_closet",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": "Unit_521_bathroom_primary_space_service_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7400.0,
+                "y_mm": 4200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "to_lavatory_trap_distance_mm": 1420,
+                "side_wall_or_equipment_distance_mm": 1110,
+                "rear_reinforcement_width_mm": 1010,
+                "rear_reinforcement_height_mm": 1115
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_label": "unit521_bathroom_primary_shower",
+              "semantic_type": "shower",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_primary_space",
+              "hosted_by": "Unit_521_bathroom_primary_space_service_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7700.0,
+                "y_mm": 4400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "floor_width_mm": 910,
+                "floor_length_mm": 920,
+                "front_clearance_width_mm": 760,
+                "front_clearance_length_mm": 1220,
+                "wall_reinforcement_height_mm": 1805
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_01",
+              "parameter": "turning_circle_diameter",
+              "value": 1505.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_turning_circle",
+              "source_element_label": "unit521_bathroom_primary_turning_circle",
+              "source_property": "diameter_mm",
+              "description": "Turning diameter"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_02",
+              "parameter": "lavatory_rim_height",
+              "value": 845.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_sink",
+              "source_element_label": "unit521_bathroom_primary_sink",
+              "source_property": "rim_height_mm",
+              "description": "Lavatory rim height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_03",
+              "parameter": "lavatory_side_wall_distance",
+              "value": 490.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_sink",
+              "source_element_label": "unit521_bathroom_primary_sink",
+              "source_property": "side_wall_distance_mm",
+              "description": "Lavatory side-wall clearance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_04",
+              "parameter": "lavatory_trap_bottom_height",
+              "value": 245.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_sink",
+              "source_element_label": "unit521_bathroom_primary_sink",
+              "source_property": "trap_bottom_height_mm",
+              "description": "Lavatory trap bottom height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_05",
+              "parameter": "water_closet_to_lavatory_trap_distance",
+              "value": 1420.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+              "source_element_label": "unit521_bathroom_primary_wc",
+              "source_property": "to_lavatory_trap_distance_mm",
+              "description": "Water closet to lavatory trap distance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_06",
+              "parameter": "water_closet_side_wall_or_equipment_distance",
+              "value": 1110.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+              "source_element_label": "unit521_bathroom_primary_wc",
+              "source_property": "side_wall_or_equipment_distance_mm",
+              "description": "Water closet to side wall or equipment distance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_07",
+              "parameter": "water_closet_rear_reinforcement_width",
+              "value": 1010.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+              "source_element_label": "unit521_bathroom_primary_wc",
+              "source_property": "rear_reinforcement_width_mm",
+              "description": "Water closet rear reinforcement width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_08",
+              "parameter": "water_closet_rear_reinforcement_height",
+              "value": 1115.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_wc",
+              "source_element_label": "unit521_bathroom_primary_wc",
+              "source_property": "rear_reinforcement_height_mm",
+              "description": "Water closet rear reinforcement height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_09",
+              "parameter": "shower_floor_width",
+              "value": 910.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_element_label": "unit521_bathroom_primary_shower",
+              "source_property": "floor_width_mm",
+              "description": "Shower floor width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_10",
+              "parameter": "shower_floor_length",
+              "value": 920.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_element_label": "unit521_bathroom_primary_shower",
+              "source_property": "floor_length_mm",
+              "description": "Shower floor length"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_11",
+              "parameter": "shower_front_clearance_width",
+              "value": 760.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_element_label": "unit521_bathroom_primary_shower",
+              "source_property": "front_clearance_width_mm",
+              "description": "Shower front clearance width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_12",
+              "parameter": "shower_front_clearance_length",
+              "value": 1220.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_element_label": "unit521_bathroom_primary_shower",
+              "source_property": "front_clearance_length_mm",
+              "description": "Shower front clearance length"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_primary_space_fact_13",
+              "parameter": "bathtub_shower_reinforcement_height",
+              "value": 1805.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_primary_space_unit521_bathroom_primary_shower",
+              "source_element_label": "unit521_bathroom_primary_shower",
+              "source_property": "wall_reinforcement_height_mm",
+              "description": "Shower wall reinforcement height"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_bathroom_hall_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Bathroom Hall",
+          "room_type": "Residential Bathroom",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_bedroom_secondary_space",
+            "Unit_521_suite_entry_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 10800.0,
+            "y_mm": 6200.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "bathroom_hall.json",
+          "source_room_id": "Unit_521_Bathroom_Hall",
+          "raw_properties": {
+            "source_room_type": "Residential Bathroom",
+            "compliance_room_type": "Residential Bathroom",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_bathroom_hall_space_floor_slab",
+              "source_label": "Unit_521_Bathroom_Hall_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 6200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_service_wall",
+              "source_label": "Unit_521_Bathroom_Hall_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 12000.0,
+                "y_mm": 6200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_exterior_wall",
+              "source_label": "Unit_521_Bathroom_Hall_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 14000.0,
+                "y_mm": 6200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_entry_wall",
+              "source_label": "Unit_521_Bathroom_Hall_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 7000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_ceiling_plane",
+              "source_label": "Unit_521_Bathroom_Hall_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 6200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_turning_circle",
+              "source_label": "unit521_bathroom_hall_turning_circle",
+              "semantic_type": "floor_space",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": "Unit_521_bathroom_hall_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 11100.0,
+                "y_mm": 6400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "diameter_mm": 1430
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_sink",
+              "source_label": "unit521_bathroom_hall_sink",
+              "semantic_type": "lavatory",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": "Unit_521_bathroom_hall_space_service_wall",
+              "adjacent_to": [
+                "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+                "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower"
+              ],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 11400.0,
+                "y_mm": 6600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "rim_height_mm": 875,
+                "side_wall_distance_mm": 430,
+                "trap_bottom_height_mm": 315,
+                "trap_entry_back_wall_distance_mm": 380
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+              "source_label": "unit521_bathroom_hall_wc",
+              "semantic_type": "water_closet",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": "Unit_521_bathroom_hall_space_service_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 11700.0,
+                "y_mm": 6800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "to_lavatory_trap_distance_mm": 1320,
+                "side_wall_or_equipment_distance_mm": 1020,
+                "rear_reinforcement_width_mm": 930,
+                "rear_reinforcement_height_mm": 1020
+              }
+            },
+            {
+              "element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_label": "unit521_bathroom_hall_shower",
+              "semantic_type": "shower",
+              "ifc_type": "IfcSanitaryTerminal",
+              "revit_category": "Plumbing Fixtures",
+              "contained_in_space": "Unit_521_bathroom_hall_space",
+              "hosted_by": "Unit_521_bathroom_hall_space_service_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 12000.0,
+                "y_mm": 7000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "floor_width_mm": 860,
+                "floor_length_mm": 875,
+                "front_clearance_width_mm": 700,
+                "front_clearance_length_mm": 1100,
+                "wall_reinforcement_height_mm": 1710
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_01",
+              "parameter": "turning_circle_diameter",
+              "value": 1430.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_turning_circle",
+              "source_element_label": "unit521_bathroom_hall_turning_circle",
+              "source_property": "diameter_mm",
+              "description": "Turning diameter"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_02",
+              "parameter": "lavatory_rim_height",
+              "value": 875.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_sink",
+              "source_element_label": "unit521_bathroom_hall_sink",
+              "source_property": "rim_height_mm",
+              "description": "Lavatory rim height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_03",
+              "parameter": "lavatory_side_wall_distance",
+              "value": 430.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_sink",
+              "source_element_label": "unit521_bathroom_hall_sink",
+              "source_property": "side_wall_distance_mm",
+              "description": "Lavatory side-wall clearance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_04",
+              "parameter": "lavatory_trap_bottom_height",
+              "value": 315.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_sink",
+              "source_element_label": "unit521_bathroom_hall_sink",
+              "source_property": "trap_bottom_height_mm",
+              "description": "Lavatory trap bottom height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_05",
+              "parameter": "lavatory_trap_entry_back_wall_distance",
+              "value": 380.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_sink",
+              "source_element_label": "unit521_bathroom_hall_sink",
+              "source_property": "trap_entry_back_wall_distance_mm",
+              "description": "Lavatory trap entry distance from back wall"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_06",
+              "parameter": "water_closet_to_lavatory_trap_distance",
+              "value": 1320.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+              "source_element_label": "unit521_bathroom_hall_wc",
+              "source_property": "to_lavatory_trap_distance_mm",
+              "description": "Water closet to lavatory trap distance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_07",
+              "parameter": "water_closet_side_wall_or_equipment_distance",
+              "value": 1020.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+              "source_element_label": "unit521_bathroom_hall_wc",
+              "source_property": "side_wall_or_equipment_distance_mm",
+              "description": "Water closet to side wall or equipment distance"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_08",
+              "parameter": "water_closet_rear_reinforcement_width",
+              "value": 930.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+              "source_element_label": "unit521_bathroom_hall_wc",
+              "source_property": "rear_reinforcement_width_mm",
+              "description": "Water closet rear reinforcement width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_09",
+              "parameter": "water_closet_rear_reinforcement_height",
+              "value": 1020.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_wc",
+              "source_element_label": "unit521_bathroom_hall_wc",
+              "source_property": "rear_reinforcement_height_mm",
+              "description": "Water closet rear reinforcement height"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_10",
+              "parameter": "shower_floor_width",
+              "value": 860.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_element_label": "unit521_bathroom_hall_shower",
+              "source_property": "floor_width_mm",
+              "description": "Shower floor width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_11",
+              "parameter": "shower_floor_length",
+              "value": 875.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_element_label": "unit521_bathroom_hall_shower",
+              "source_property": "floor_length_mm",
+              "description": "Shower floor length"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_12",
+              "parameter": "shower_front_clearance_width",
+              "value": 700.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_element_label": "unit521_bathroom_hall_shower",
+              "source_property": "front_clearance_width_mm",
+              "description": "Shower front clearance width"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_13",
+              "parameter": "shower_front_clearance_length",
+              "value": 1100.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_element_label": "unit521_bathroom_hall_shower",
+              "source_property": "front_clearance_length_mm",
+              "description": "Shower front clearance length"
+            },
+            {
+              "fact_id": "Unit_521_bathroom_hall_space_fact_14",
+              "parameter": "bathtub_shower_reinforcement_height",
+              "value": 1710.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bathroom_hall_space_unit521_bathroom_hall_shower",
+              "source_element_label": "unit521_bathroom_hall_shower",
+              "source_property": "wall_reinforcement_height_mm",
+              "description": "Shower wall reinforcement height"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_kitchen_open_plan_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Kitchen Open Plan",
+          "room_type": "Residential Kitchen",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_dining_room_space",
+            "Unit_521_living_room_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 7600.0,
+            "y_mm": 3000.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "kitchen_open_plan.json",
+          "source_room_id": "Unit_521_Kitchen_Open_Plan",
+          "raw_properties": {
+            "source_room_type": "Residential Kitchen",
+            "compliance_room_type": "Residential Kitchen",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_floor_slab",
+              "source_label": "Unit_521_Kitchen_Open_Plan_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_service_wall",
+              "source_label": "Unit_521_Kitchen_Open_Plan_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 8800.0,
+                "y_mm": 3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_exterior_wall",
+              "source_label": "Unit_521_Kitchen_Open_Plan_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_entry_wall",
+              "source_label": "Unit_521_Kitchen_Open_Plan_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 3800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_ceiling_plane",
+              "source_label": "Unit_521_Kitchen_Open_Plan_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_unit521_kitchen_turning_area",
+              "source_label": "unit521_kitchen_turning_area",
+              "semantic_type": "floor_space",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": "Unit_521_kitchen_open_plan_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7900.0,
+                "y_mm": 3200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "kitchen_diameter_mm": 1510
+              }
+            },
+            {
+              "element_id": "Unit_521_kitchen_open_plan_space_unit521_kitchen_sink_base",
+              "source_label": "unit521_kitchen_sink_base",
+              "semantic_type": "cabinet",
+              "ifc_type": "IfcFurniture",
+              "revit_category": "Casework",
+              "contained_in_space": "Unit_521_kitchen_open_plan_space",
+              "hosted_by": "Unit_521_kitchen_open_plan_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 8200.0,
+                "y_mm": 3400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "depth_mm": 610,
+                "note": "Sink trap height not measured."
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_kitchen_open_plan_space_fact_01",
+              "parameter": "kitchen_clear_floor_space_diameter",
+              "value": 1510.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_kitchen_open_plan_space_unit521_kitchen_turning_area",
+              "source_element_label": "unit521_kitchen_turning_area",
+              "source_property": "kitchen_diameter_mm",
+              "description": "Kitchen clear floor space diameter"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_bedroom_primary_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Bedroom Primary",
+          "room_type": "Residential Bedroom",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_living_room_space",
+            "Unit_521_bathroom_primary_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 4200.0,
+            "y_mm": 3600.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "bedroom_primary.json",
+          "source_room_id": "Unit_521_Bedroom_Primary",
+          "raw_properties": {
+            "source_room_type": "Residential Bedroom",
+            "compliance_room_type": "Residential Bedroom",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_bedroom_primary_space_floor_slab",
+              "source_label": "Unit_521_Bedroom_Primary_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_service_wall",
+              "source_label": "Unit_521_Bedroom_Primary_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 5400.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_exterior_wall",
+              "source_label": "Unit_521_Bedroom_Primary_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7400.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_entry_wall",
+              "source_label": "Unit_521_Bedroom_Primary_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 4400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_ceiling_plane",
+              "source_label": "Unit_521_Bedroom_Primary_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_zone",
+              "source_label": "unit521_bedroom_primary_zone",
+              "semantic_type": "bedroom",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": "Unit_521_bedroom_primary_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4500.0,
+                "y_mm": 3800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "area_m2": 11.9,
+                "length_m": 3.3,
+                "width_m": 3.1
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_window",
+              "source_label": "unit521_bedroom_primary_window",
+              "semantic_type": "window",
+              "ifc_type": "IfcWindow",
+              "revit_category": "Windows",
+              "contained_in_space": "Unit_521_bedroom_primary_space",
+              "hosted_by": "Unit_521_bedroom_primary_space_exterior_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4800.0,
+                "y_mm": 4000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "sill_height_mm": 930
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_bedroom_primary_space_fact_01",
+              "parameter": "bedroom_area",
+              "value": 11.9,
+              "unit": "m2",
+              "source_element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_zone",
+              "source_element_label": "unit521_bedroom_primary_zone",
+              "source_property": "area_m2",
+              "description": "Bedroom area"
+            },
+            {
+              "fact_id": "Unit_521_bedroom_primary_space_fact_02",
+              "parameter": "bedroom_length",
+              "value": 3.3,
+              "unit": "m",
+              "source_element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_zone",
+              "source_element_label": "unit521_bedroom_primary_zone",
+              "source_property": "length_m",
+              "description": "Bedroom length"
+            },
+            {
+              "fact_id": "Unit_521_bedroom_primary_space_fact_03",
+              "parameter": "bedroom_width",
+              "value": 3.1,
+              "unit": "m",
+              "source_element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_zone",
+              "source_element_label": "unit521_bedroom_primary_zone",
+              "source_property": "width_m",
+              "description": "Bedroom width"
+            },
+            {
+              "fact_id": "Unit_521_bedroom_primary_space_fact_04",
+              "parameter": "window_sill_height",
+              "value": 930.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_bedroom_primary_space_unit521_bedroom_primary_window",
+              "source_element_label": "unit521_bedroom_primary_window",
+              "source_property": "sill_height_mm",
+              "description": "Window sill height"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_bedroom_secondary_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Bedroom Secondary",
+          "room_type": "Residential Bedroom",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_living_room_space",
+            "Unit_521_bathroom_hall_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 10800.0,
+            "y_mm": 3600.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "bedroom_secondary.json",
+          "source_room_id": "Unit_521_Bedroom_Secondary",
+          "raw_properties": {
+            "source_room_type": "Residential Bedroom",
+            "compliance_room_type": "Residential Bedroom",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_floor_slab",
+              "source_label": "Unit_521_Bedroom_Secondary_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_service_wall",
+              "source_label": "Unit_521_Bedroom_Secondary_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 12000.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_exterior_wall",
+              "source_label": "Unit_521_Bedroom_Secondary_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 14000.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_entry_wall",
+              "source_label": "Unit_521_Bedroom_Secondary_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 4400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_ceiling_plane",
+              "source_label": "Unit_521_Bedroom_Secondary_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 3600.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_unit521_bedroom_secondary_zone",
+              "source_label": "unit521_bedroom_secondary_zone",
+              "semantic_type": "bedroom",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": "Unit_521_bedroom_secondary_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 11100.0,
+                "y_mm": 3800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "area_m2": 11.3,
+                "length_m": 3.1,
+                "width_m": 3.0
+              }
+            },
+            {
+              "element_id": "Unit_521_bedroom_secondary_space_unit521_bedroom_secondary_desk",
+              "source_label": "unit521_bedroom_secondary_desk",
+              "semantic_type": "furniture",
+              "ifc_type": "IfcFurniture",
+              "revit_category": "Furniture",
+              "contained_in_space": "Unit_521_bedroom_secondary_space",
+              "hosted_by": "Unit_521_bedroom_secondary_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 11400.0,
+                "y_mm": 4000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "width_mm": 1200
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_bedroom_secondary_space_fact_01",
+              "parameter": "bedroom_area",
+              "value": 11.3,
+              "unit": "m2",
+              "source_element_id": "Unit_521_bedroom_secondary_space_unit521_bedroom_secondary_zone",
+              "source_element_label": "unit521_bedroom_secondary_zone",
+              "source_property": "area_m2",
+              "description": "Bedroom area"
+            },
+            {
+              "fact_id": "Unit_521_bedroom_secondary_space_fact_02",
+              "parameter": "bedroom_length",
+              "value": 3.1,
+              "unit": "m",
+              "source_element_id": "Unit_521_bedroom_secondary_space_unit521_bedroom_secondary_zone",
+              "source_element_label": "unit521_bedroom_secondary_zone",
+              "source_property": "length_m",
+              "description": "Bedroom length"
+            },
+            {
+              "fact_id": "Unit_521_bedroom_secondary_space_fact_03",
+              "parameter": "bedroom_width",
+              "value": 3.0,
+              "unit": "m",
+              "source_element_id": "Unit_521_bedroom_secondary_space_unit521_bedroom_secondary_zone",
+              "source_element_label": "unit521_bedroom_secondary_zone",
+              "source_property": "width_m",
+              "description": "Bedroom width"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_living_room_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Living Room",
+          "room_type": "Residential Living Room",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_suite_entry_space",
+            "Unit_521_dining_room_space",
+            "Unit_521_bedroom_primary_space",
+            "Unit_521_bedroom_secondary_space",
+            "Unit_521_balcony_main_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 4200.0,
+            "y_mm": 0.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "living_room.json",
+          "source_room_id": "Unit_521_Living_Room",
+          "raw_properties": {
+            "source_room_type": "Residential Living Room",
+            "compliance_room_type": "Residential Living Room",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_living_room_space_floor_slab",
+              "source_label": "Unit_521_Living_Room_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_service_wall",
+              "source_label": "Unit_521_Living_Room_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 5400.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_exterior_wall",
+              "source_label": "Unit_521_Living_Room_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7400.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_entry_wall",
+              "source_label": "Unit_521_Living_Room_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_ceiling_plane",
+              "source_label": "Unit_521_Living_Room_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_unit521_living_room_window",
+              "source_label": "unit521_living_room_window",
+              "semantic_type": "window",
+              "ifc_type": "IfcWindow",
+              "revit_category": "Windows",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": "Unit_521_living_room_space_exterior_wall",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4500.0,
+                "y_mm": 200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "sill_height_mm": 1080
+              }
+            },
+            {
+              "element_id": "Unit_521_living_room_space_unit521_living_room_sectional",
+              "source_label": "unit521_living_room_sectional",
+              "semantic_type": "furniture",
+              "ifc_type": "IfcFurniture",
+              "revit_category": "Furniture",
+              "contained_in_space": "Unit_521_living_room_space",
+              "hosted_by": "Unit_521_living_room_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4800.0,
+                "y_mm": 400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "width_mm": 2600
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_living_room_space_fact_01",
+              "parameter": "window_sill_height",
+              "value": 1080.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_living_room_space_unit521_living_room_window",
+              "source_element_label": "unit521_living_room_window",
+              "source_property": "sill_height_mm",
+              "description": "Window sill height"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_dining_room_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Dining Room",
+          "room_type": "Residential Dining Room",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_living_room_space",
+            "Unit_521_kitchen_open_plan_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 7600.0,
+            "y_mm": 0.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "dining_room.json",
+          "source_room_id": "Unit_521_Dining_Room",
+          "raw_properties": {
+            "source_room_type": "Residential Dining Room",
+            "compliance_room_type": "Residential Dining Room",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_dining_room_space_floor_slab",
+              "source_label": "Unit_521_Dining_Room_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_service_wall",
+              "source_label": "Unit_521_Dining_Room_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 8800.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_exterior_wall",
+              "source_label": "Unit_521_Dining_Room_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 10800.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_entry_wall",
+              "source_label": "Unit_521_Dining_Room_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_ceiling_plane",
+              "source_label": "Unit_521_Dining_Room_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7600.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_unit521_dining_table",
+              "source_label": "unit521_dining_table",
+              "semantic_type": "table",
+              "ifc_type": "IfcFurniture",
+              "revit_category": "Furniture",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": "Unit_521_dining_room_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7900.0,
+                "y_mm": 200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "seats": 4
+              }
+            },
+            {
+              "element_id": "Unit_521_dining_room_space_unit521_dining_pendant",
+              "source_label": "unit521_dining_pendant",
+              "semantic_type": "light_fixture",
+              "ifc_type": "IfcLightFixture",
+              "revit_category": "Lighting Fixtures",
+              "contained_in_space": "Unit_521_dining_room_space",
+              "hosted_by": "Unit_521_dining_room_space_ceiling_plane",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 8200.0,
+                "y_mm": 400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "height_mm": 2050
+              }
+            }
+          ],
+          "derived_facts": []
+        },
+        {
+          "space_id": "Unit_521_suite_entry_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Suite Entry",
+          "room_type": "Residential Door Area",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_living_room_space",
+            "Unit_521_entry_controls_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "suite_entry.json",
+          "source_room_id": "Unit_521_Suite_Entry",
+          "raw_properties": {
+            "source_room_type": "Residential Door Area",
+            "compliance_room_type": "Residential Door Area",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_suite_entry_space_floor_slab",
+              "source_label": "Unit_521_Suite_Entry_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_suite_entry_space_service_wall",
+              "source_label": "Unit_521_Suite_Entry_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 1200.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_suite_entry_space_exterior_wall",
+              "source_label": "Unit_521_Suite_Entry_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 3200.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_suite_entry_space_entry_wall",
+              "source_label": "Unit_521_Suite_Entry_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_suite_entry_space_ceiling_plane",
+              "source_label": "Unit_521_Suite_Entry_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_label": "unit521_entry_slider",
+              "semantic_type": "door",
+              "ifc_type": "IfcDoor",
+              "revit_category": "Doors",
+              "contained_in_space": "Unit_521_suite_entry_space",
+              "hosted_by": "Unit_521_suite_entry_space_entry_wall",
+              "adjacent_to": [
+                "Unit_521_suite_entry_space_unit521_entry_wall"
+              ],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 300.0,
+                "y_mm": 200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "side_clear_space_diameter_mm": 1435,
+                "side_clear_space_perpendicular_swing_mm": 1010,
+                "side_clear_space_perpendicular_sliding_mm": 1000,
+                "side_clear_space_perpendicular_other_mm": 1120,
+                "latch_clearance_perpendicular_mm": 45,
+                "latch_clearance_lateral_mm": 505
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_01",
+              "parameter": "door_side_clear_space_diameter",
+              "value": 1435.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "side_clear_space_diameter_mm",
+              "description": "Door-side clear space diameter"
+            },
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_02",
+              "parameter": "door_side_clear_space_perpendicular_swing",
+              "value": 1010.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "side_clear_space_perpendicular_swing_mm",
+              "description": "Door-side clear space perpendicular dimension for swinging door"
+            },
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_03",
+              "parameter": "door_side_clear_space_perpendicular_sliding",
+              "value": 1000.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "side_clear_space_perpendicular_sliding_mm",
+              "description": "Door-side clear space perpendicular dimension for sliding door"
+            },
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_04",
+              "parameter": "door_side_clear_space_perpendicular_other",
+              "value": 1120.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "side_clear_space_perpendicular_other_mm",
+              "description": "Door-side clear space perpendicular dimension for other door cases"
+            },
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_05",
+              "parameter": "sliding_door_latch_clearance_perpendicular",
+              "value": 45.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "latch_clearance_perpendicular_mm",
+              "description": "Sliding door latch-side clearance for perpendicular approach"
+            },
+            {
+              "fact_id": "Unit_521_suite_entry_space_fact_06",
+              "parameter": "sliding_door_latch_clearance_lateral",
+              "value": 505.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_suite_entry_space_unit521_entry_slider",
+              "source_element_label": "unit521_entry_slider",
+              "source_property": "latch_clearance_lateral_mm",
+              "description": "Sliding door latch-side clearance for lateral approach"
+            }
+          ]
+        },
+        {
+          "space_id": "Unit_521_entry_controls_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Entry Controls",
+          "room_type": "Residential Controls",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_suite_entry_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 0.0,
+            "y_mm": 2200.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "entry_controls.json",
+          "source_room_id": "Unit_521_Entry_Controls",
+          "raw_properties": {
+            "source_room_type": "Residential Controls",
+            "compliance_room_type": "Residential Controls",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_entry_controls_space_floor_slab",
+              "source_label": "Unit_521_Entry_Controls_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 2200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_entry_controls_space_service_wall",
+              "source_label": "Unit_521_Entry_Controls_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 1200.0,
+                "y_mm": 2200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_entry_controls_space_exterior_wall",
+              "source_label": "Unit_521_Entry_Controls_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 3200.0,
+                "y_mm": 2200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_entry_controls_space_entry_wall",
+              "source_label": "Unit_521_Entry_Controls_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_entry_controls_space_ceiling_plane",
+              "source_label": "Unit_521_Entry_Controls_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 0.0,
+                "y_mm": 2200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_entry_controls_space_unit521_entry_wall",
+              "source_label": "unit521_entry_wall",
+              "semantic_type": "wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_entry_controls_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 300.0,
+                "y_mm": 2400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "length_mm": 2400,
+                "note": "Control devices not yet modeled."
+              }
+            }
+          ],
+          "derived_facts": []
+        },
+        {
+          "space_id": "Unit_521_balcony_main_space",
+          "unit_id": "Unit_521",
+          "name": "Unit 521 Balcony Main",
+          "room_type": "Residential Balcony",
+          "ifc_type": "IfcSpace",
+          "revit_category": "Rooms",
+          "level_id": "Level_05",
+          "contained_in_unit": "Unit_521",
+          "adjacent_to": [
+            "Unit_521_living_room_space"
+          ],
+          "placement": {
+            "level_id": "Level_05",
+            "level_name": "Level 05",
+            "x_mm": 4200.0,
+            "y_mm": -3200.0,
+            "z_mm": 15000.0,
+            "rotation_deg": 0.0
+          },
+          "source_scene": "balcony_main.json",
+          "source_room_id": "Unit_521_Balcony_Main",
+          "raw_properties": {
+            "source_room_type": "Residential Balcony",
+            "compliance_room_type": "Residential Balcony",
+            "legacy_scene_format": "room_scene_json"
+          },
+          "elements": [
+            {
+              "element_id": "Unit_521_balcony_main_space_floor_slab",
+              "source_label": "Unit_521_Balcony_Main_floor_slab",
+              "semantic_type": "floor_slab",
+              "ifc_type": "IfcSlab",
+              "revit_category": "Floors",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": -3200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_service_wall",
+              "source_label": "Unit_521_Balcony_Main_service_wall",
+              "semantic_type": "service_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 5400.0,
+                "y_mm": -3200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_exterior_wall",
+              "source_label": "Unit_521_Balcony_Main_exterior_wall",
+              "semantic_type": "exterior_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 7400.0,
+                "y_mm": -3200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_entry_wall",
+              "source_label": "Unit_521_Balcony_Main_entry_wall",
+              "semantic_type": "entry_wall",
+              "ifc_type": "IfcWall",
+              "revit_category": "Walls",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": -2400.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 90.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_ceiling_plane",
+              "source_label": "Unit_521_Balcony_Main_ceiling_plane",
+              "semantic_type": "ceiling_plane",
+              "ifc_type": "IfcCovering",
+              "revit_category": "Ceilings",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": null,
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4200.0,
+                "y_mm": -3200.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "generated_shell": true
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_unit521_balcony_main_clearance",
+              "source_label": "unit521_balcony_main_clearance",
+              "semantic_type": "floor_space",
+              "ifc_type": "IfcSpatialZone",
+              "revit_category": "Areas",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": "Unit_521_balcony_main_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4500.0,
+                "y_mm": -3000.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "balcony_diameter_mm": 1500
+              }
+            },
+            {
+              "element_id": "Unit_521_balcony_main_space_unit521_balcony_main_guard",
+              "source_label": "unit521_balcony_main_guard",
+              "semantic_type": "guard",
+              "ifc_type": "IfcRailing",
+              "revit_category": "Railings",
+              "contained_in_space": "Unit_521_balcony_main_space",
+              "hosted_by": "Unit_521_balcony_main_space_floor_slab",
+              "adjacent_to": [],
+              "placement": {
+                "level_id": "Level_05",
+                "level_name": "Level 05",
+                "x_mm": 4800.0,
+                "y_mm": -2800.0,
+                "z_mm": 15000.0,
+                "rotation_deg": 0.0
+              },
+              "raw_properties": {
+                "height_mm": 1070
+              }
+            }
+          ],
+          "derived_facts": [
+            {
+              "fact_id": "Unit_521_balcony_main_space_fact_01",
+              "parameter": "balcony_clear_floor_space_diameter",
+              "value": 1500.0,
+              "unit": "mm",
+              "source_element_id": "Unit_521_balcony_main_space_unit521_balcony_main_clearance",
+              "source_element_label": "unit521_balcony_main_clearance",
+              "source_property": "balcony_diameter_mm",
+              "description": "Balcony clear floor space diameter"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "profile": "Synthetic two-bedroom apartment with consistent naming, failures, and multiple missing-data cases",
+        "ifc_inspired_structure": [
+          "IfcProject",
+          "IfcBuildingStorey",
+          "IfcSpace",
+          "IfcRelContainedInSpatialStructure",
+          "IfcLocalPlacement"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source_standard_references": [
+      "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcProject.htm",
+      "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcBuildingStorey.htm",
+      "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcSpace.htm",
+      "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcRelContainedInSpatialStructure.htm",
+      "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcLocalPlacement.htm",
+      "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/concepts/Object_Connectivity/Spatial_Structure/content.html"
+    ],
+    "notes": [
+      "This is a normalized intermediate schema, not raw IFC serialization.",
+      "This artifact is the canonical synthetic BIM input for compliance auditing in this repo."
+    ]
+  }
+}

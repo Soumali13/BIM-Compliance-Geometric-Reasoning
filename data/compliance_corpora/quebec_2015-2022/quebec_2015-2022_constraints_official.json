@@ -1,0 +1,109 @@
+{
+  "source": "Derived deterministically from official article chunks in quebec_2015-2022_articles.json.",
+  "derived_from": "data/compliance_corpora/quebec_2015-2022/quebec_2015-2022_articles.json",
+  "articles": [
+    {
+      "article": "3.8.3.15",
+      "article_id": "3.8.3.15",
+      "title": "Lavatories and Mirrors",
+      "authority": "QUEBEC_2015_2022",
+      "jurisdiction": "Quebec",
+      "priority": 3,
+      "effective_date": "2022-01-08",
+      "amends_article": null,
+      "patch_action": "replace",
+      "applies_if": {
+        "jurisdiction": "Quebec"
+      },
+      "room_types": [
+        "Residential Bathroom",
+        "Residential Washroom"
+      ],
+      "text": "1) Lavatories required by Sentence 3.8.2.8.(7) shall a) be equipped with faucets complying with Sentence 3.7.2.3.(4), b) be located so that the distance between the centre line of the lavatory and any side wall is not less than 460 mm, c) have a rim height not more than 865 mm above the floor, d) have a clearance beneath the lavatory not less than i) 760 mm wide, ii) 735 mm high at the front edge, iii) 685 mm high at a point 200 mm back from the front edge, and iv) 230 mm high over the distance from a point 280 mm to a point 430 mm back from the front edge, (see Note A-3.8.3.15.(1)(d)) e) have insulated water supply and drain pipes where these pipes are exposed (see Note A-3.8.3.15.(1)(e)), f) have a soap dispenser that i) is automatic, or ii) complies with Clause 3.8.3.8.(1)(b) and is located not more than 1 100 mm above the floor, within 500 mm from the front of the lavatory (see Note A-3.8.3.15.(1)(f)), and g) have a towel dispenser or other hand-drying equipment located close to the lavatory, not more than 1 200 mm above the floor in an area that is accessible to persons in wheelchairs. 2) Mirrors required by Sentence 3.8.2.8.(8) shall be a) mounted with their bottom edge not more than 1 000 mm above the floor, or b) fixed in an inclined position so as to be usable by a person in a wheelchair.",
+      "constraints": [
+        {
+          "parameter": "lavatory_side_wall_distance",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_rim_height",
+          "operator": "<=",
+          "value": 865.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "article": "3.8.3.16",
+      "article_id": "3.8.3.16",
+      "title": "Showers",
+      "authority": "QUEBEC_2015_2022",
+      "jurisdiction": "Quebec",
+      "priority": 3,
+      "effective_date": "2022-01-08",
+      "amends_article": null,
+      "patch_action": "replace",
+      "applies_if": {
+        "jurisdiction": "Quebec"
+      },
+      "room_types": [
+        "Residential Bathroom"
+      ],
+      "text": "1) Showers required by Sentence 3.8.2.8.(10) shall a) be not less than 1 500 mm wide and 900 mm deep, b) have a clear floor space at the entrance to the shower that is not less than 900 mm deep and the same width as the shower, except that fixtures are permitted to project into that space provided they do not restrict access to the shower (see Note A-3.8.3.16.(1)(b)), c) have no doors or curtains that obstruct the controls or the clear floor space at the entrance to the shower, d) have a slip-resistant floor surface, e) have a threshold not more than 13 mm higher than the finished floor, and where it is higher than 6 mm, beveled to a slope no steeper than 1 in 2 (50%), f) have 2 grab bars that i) conform to Sentence 3.7.2.8.(1), Amended Page \u00a9 His Majesty the King in Right of Canada, as represented by the National Research Council of Canada, 2022 \u00a9 Sa Majest\u00e9 le Roi du chef du Canada, repr\u00e9sent\u00e9 par le Conseil national de recherches du Canada, 2022 ii) one of which is not less than 1 000 mm long and located vertically on the side wall 50 mm to 80 mm from the adjacent clear floor space, with its lower end 600 mm to 650 mm above the floor, and, iii) one of which is L-shaped and located on the wall opposite the entrance to the shower, with a horizontal member not less than 1 000 mm long mounted 750 mm to 870 mm above the floor and a vertical member not less than 750 mm long mounted 400 mm to 500 mm from the side wall on which the other vertical grab bar is mounted, (see Note A-3.8.3.16.(1)(f)), g) have a hinged seat that is not spring-loaded or a fixed seat with a smooth, slip-resistant surface and no rough edges, the seat being i) not less than 450 mm wide and 400 mm deep, ii) mounted on the same side wall as the vertical grab bar, at 460 mm to 480 mm above the floor, and iii) designed to carry a minimum load of 1.3 kN, h) be equipped with faucets and other controls that i) comply with Clause 3.8.3.8.(1)(b), ii) are mounted on the wall opposite the entrance to the shower at not more than 1 200 mm above the floor and within reach of the seat, i) have a hand-held shower head with not less than 1 800 mm of flexible hose located so that it i) can be reached from a seated position, ii) can be used in a fixed position at a height of 1 200 mm and 2 030 mm, and iii) does not obstruct the use of the grab bars, and j) have recessed soap holders that can be reached from the seated position.",
+      "constraints": [
+        {
+          "parameter": "shower_floor_width",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_floor_length",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_front_clearance_length",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "article": "3.8.3.8",
+      "article_id": "3.8.3.8",
+      "title": "Controls",
+      "authority": "QUEBEC_2015_2022",
+      "jurisdiction": "Quebec",
+      "priority": 3,
+      "effective_date": "2022-01-08",
+      "amends_article": null,
+      "patch_action": "replace",
+      "applies_if": {
+        "jurisdiction": "Quebec"
+      },
+      "room_types": [
+        "Residential Controls"
+      ],
+      "text": "1) Controls described in this Section shall a) where located in a barrier-free path of travel, and unless otherwise stated, i) be mounted 400 mm to 1 200 mm above the floor, ii) be adjacent to and centered on either the length or the width of a clear floor space of 1 350 mm by 800 mm, and b) be operable i) with one hand in a closed fist position, without requiring tight grasping, pinching with fingers, or twisting of the wrist, and ii) unless otherwise stated, with a force not more than 22 N.",
+      "constraints": [
+        {
+          "parameter": "control_height",
+          "operator": ">=",
+          "value": 400.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "control_height",
+          "operator": "<=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ]
+}

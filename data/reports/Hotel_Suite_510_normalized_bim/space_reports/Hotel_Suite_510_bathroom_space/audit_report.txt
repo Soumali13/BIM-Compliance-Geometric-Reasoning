@@ -1,0 +1,28 @@
+Scene: Hotel_Suite_510_bathroom_space (Hotel Bathroom)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The hotel bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+
+
+[PASS] Articles 3.8.6.4 - accessible_towel_rack.height_mm
+  fact: 1150.0 mm
+  requirement: <= 1200.0 mm
+  reason: Towel rack height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.6.4 Bathrooms
+  override trace: QCC_B11_R2:3.8.6.4 <= 1200.0 mm -> QUEBEC_2020_ABOVE:3.8.6.4 <= 1200.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Hotel_Suite_510_normalized_bim.json
+- Unit ID: Hotel_Suite_510
+- Space ID: Hotel_Suite_510_bathroom_space
+- Space name: Hotel Suite 510 Bathroom
+- Retrieved articles: 3.8.6.4, 3.8.6.4, 27.1, 14, 23
+- Derived constraints: 15
+- Findings: 1

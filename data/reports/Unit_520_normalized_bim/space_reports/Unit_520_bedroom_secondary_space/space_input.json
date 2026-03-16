@@ -1,0 +1,222 @@
+{
+  "space_id": "Unit_520_bedroom_secondary_space",
+  "unit_id": "Unit_520",
+  "name": "Unit 520 Bedroom Secondary",
+  "room_type": "Residential Bedroom",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Unit_520",
+  "adjacent_to": [
+    "Unit_520_living_room_space",
+    "Unit_520_bathroom_hall_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 10800.0,
+    "y_mm": 3600.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "bedroom_secondary.json",
+  "source_room_id": "Unit_520_Bedroom_Secondary",
+  "raw_properties": {
+    "source_room_type": "Residential Bedroom",
+    "compliance_room_type": "Residential Bedroom",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_floor_slab",
+      "source_label": "Unit_520_Bedroom_Secondary_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 10800.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_service_wall",
+      "source_label": "Unit_520_Bedroom_Secondary_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 12000.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_exterior_wall",
+      "source_label": "Unit_520_Bedroom_Secondary_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 14000.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_entry_wall",
+      "source_label": "Unit_520_Bedroom_Secondary_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 10800.0,
+        "y_mm": 4400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_ceiling_plane",
+      "source_label": "Unit_520_Bedroom_Secondary_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 10800.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_zone",
+      "source_label": "unit520_bedroom_secondary_zone",
+      "semantic_type": "bedroom",
+      "ifc_type": "IfcSpatialZone",
+      "revit_category": "Areas",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": "Unit_520_bedroom_secondary_space_floor_slab",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 11100.0,
+        "y_mm": 3800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "area_m2": 11.5,
+        "length_m": 3.2,
+        "width_m": 3.1
+      }
+    },
+    {
+      "element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_window",
+      "source_label": "unit520_bedroom_secondary_window",
+      "semantic_type": "window",
+      "ifc_type": "IfcWindow",
+      "revit_category": "Windows",
+      "contained_in_space": "Unit_520_bedroom_secondary_space",
+      "hosted_by": "Unit_520_bedroom_secondary_space_exterior_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 11400.0,
+        "y_mm": 4000.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "sill_height_mm": 950
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Unit_520_bedroom_secondary_space_fact_01",
+      "parameter": "bedroom_area",
+      "value": 11.5,
+      "unit": "m2",
+      "source_element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_zone",
+      "source_element_label": "unit520_bedroom_secondary_zone",
+      "source_property": "area_m2",
+      "description": "Bedroom area"
+    },
+    {
+      "fact_id": "Unit_520_bedroom_secondary_space_fact_02",
+      "parameter": "bedroom_length",
+      "value": 3.2,
+      "unit": "m",
+      "source_element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_zone",
+      "source_element_label": "unit520_bedroom_secondary_zone",
+      "source_property": "length_m",
+      "description": "Bedroom length"
+    },
+    {
+      "fact_id": "Unit_520_bedroom_secondary_space_fact_03",
+      "parameter": "bedroom_width",
+      "value": 3.1,
+      "unit": "m",
+      "source_element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_zone",
+      "source_element_label": "unit520_bedroom_secondary_zone",
+      "source_property": "width_m",
+      "description": "Bedroom width"
+    },
+    {
+      "fact_id": "Unit_520_bedroom_secondary_space_fact_04",
+      "parameter": "window_sill_height",
+      "value": 950.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bedroom_secondary_space_unit520_bedroom_secondary_window",
+      "source_element_label": "unit520_bedroom_secondary_window",
+      "source_property": "sill_height_mm",
+      "description": "Window sill height"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "space_id": "Unit_520_bathroom_primary_space",
+  "unit_id": "Unit_520",
+  "name": "Unit 520 Bathroom Primary",
+  "room_type": "Residential Bathroom",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Unit_520",
+  "adjacent_to": [
+    "Unit_520_bedroom_primary_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 6500.0,
+    "y_mm": 3600.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "bathroom_primary.json",
+  "source_room_id": "Unit_520_Bathroom_Primary",
+  "raw_properties": {
+    "source_room_type": "Residential Bathroom",
+    "compliance_room_type": "Residential Bathroom",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_520_bathroom_primary_space_floor_slab",
+      "source_label": "Unit_520_Bathroom_Primary_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_service_wall",
+      "source_label": "Unit_520_Bathroom_Primary_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7700.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_exterior_wall",
+      "source_label": "Unit_520_Bathroom_Primary_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 9700.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_entry_wall",
+      "source_label": "Unit_520_Bathroom_Primary_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 4400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_ceiling_plane",
+      "source_label": "Unit_520_Bathroom_Primary_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_turning_circle",
+      "source_label": "unit520_bathroom_primary_turning_circle",
+      "semantic_type": "floor_space",
+      "ifc_type": "IfcSpatialZone",
+      "revit_category": "Areas",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": "Unit_520_bathroom_primary_space_floor_slab",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6800.0,
+        "y_mm": 3800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "diameter_mm": 1515
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_sink",
+      "source_label": "unit520_bathroom_primary_sink",
+      "semantic_type": "lavatory",
+      "ifc_type": "IfcSanitaryTerminal",
+      "revit_category": "Plumbing Fixtures",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": "Unit_520_bathroom_primary_space_service_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7100.0,
+        "y_mm": 4000.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "rim_height_mm": 845,
+        "side_wall_distance_mm": 500,
+        "trap_bottom_height_mm": 245,
+        "trap_entry_back_wall_distance_mm": 305
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_wc",
+      "source_label": "unit520_bathroom_primary_wc",
+      "semantic_type": "water_closet",
+      "ifc_type": "IfcSanitaryTerminal",
+      "revit_category": "Plumbing Fixtures",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": "Unit_520_bathroom_primary_space_service_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7400.0,
+        "y_mm": 4200.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "to_lavatory_trap_distance_mm": 1445,
+        "side_wall_or_equipment_distance_mm": 1130,
+        "rear_reinforcement_width_mm": 1010,
+        "rear_reinforcement_height_mm": 1120
+      }
+    },
+    {
+      "element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_label": "unit520_bathroom_primary_shower",
+      "semantic_type": "shower",
+      "ifc_type": "IfcSanitaryTerminal",
+      "revit_category": "Plumbing Fixtures",
+      "contained_in_space": "Unit_520_bathroom_primary_space",
+      "hosted_by": "Unit_520_bathroom_primary_space_service_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7700.0,
+        "y_mm": 4400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "floor_width_mm": 930,
+        "floor_length_mm": 940,
+        "front_clearance_width_mm": 810,
+        "front_clearance_length_mm": 1240,
+        "wall_reinforcement_height_mm": 1810
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_01",
+      "parameter": "turning_circle_diameter",
+      "value": 1515.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_turning_circle",
+      "source_element_label": "unit520_bathroom_primary_turning_circle",
+      "source_property": "diameter_mm",
+      "description": "Turning diameter"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_02",
+      "parameter": "lavatory_rim_height",
+      "value": 845.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_sink",
+      "source_element_label": "unit520_bathroom_primary_sink",
+      "source_property": "rim_height_mm",
+      "description": "Lavatory rim height"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_03",
+      "parameter": "lavatory_side_wall_distance",
+      "value": 500.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_sink",
+      "source_element_label": "unit520_bathroom_primary_sink",
+      "source_property": "side_wall_distance_mm",
+      "description": "Lavatory side-wall clearance"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_04",
+      "parameter": "lavatory_trap_bottom_height",
+      "value": 245.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_sink",
+      "source_element_label": "unit520_bathroom_primary_sink",
+      "source_property": "trap_bottom_height_mm",
+      "description": "Lavatory trap bottom height"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_05",
+      "parameter": "lavatory_trap_entry_back_wall_distance",
+      "value": 305.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_sink",
+      "source_element_label": "unit520_bathroom_primary_sink",
+      "source_property": "trap_entry_back_wall_distance_mm",
+      "description": "Lavatory trap entry distance from back wall"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_06",
+      "parameter": "water_closet_to_lavatory_trap_distance",
+      "value": 1445.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_wc",
+      "source_element_label": "unit520_bathroom_primary_wc",
+      "source_property": "to_lavatory_trap_distance_mm",
+      "description": "Water closet to lavatory trap distance"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_07",
+      "parameter": "water_closet_side_wall_or_equipment_distance",
+      "value": 1130.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_wc",
+      "source_element_label": "unit520_bathroom_primary_wc",
+      "source_property": "side_wall_or_equipment_distance_mm",
+      "description": "Water closet to side wall or equipment distance"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_08",
+      "parameter": "water_closet_rear_reinforcement_width",
+      "value": 1010.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_wc",
+      "source_element_label": "unit520_bathroom_primary_wc",
+      "source_property": "rear_reinforcement_width_mm",
+      "description": "Water closet rear reinforcement width"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_09",
+      "parameter": "water_closet_rear_reinforcement_height",
+      "value": 1120.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_wc",
+      "source_element_label": "unit520_bathroom_primary_wc",
+      "source_property": "rear_reinforcement_height_mm",
+      "description": "Water closet rear reinforcement height"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_10",
+      "parameter": "shower_floor_width",
+      "value": 930.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_element_label": "unit520_bathroom_primary_shower",
+      "source_property": "floor_width_mm",
+      "description": "Shower floor width"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_11",
+      "parameter": "shower_floor_length",
+      "value": 940.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_element_label": "unit520_bathroom_primary_shower",
+      "source_property": "floor_length_mm",
+      "description": "Shower floor length"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_12",
+      "parameter": "shower_front_clearance_width",
+      "value": 810.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_element_label": "unit520_bathroom_primary_shower",
+      "source_property": "front_clearance_width_mm",
+      "description": "Shower front clearance width"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_13",
+      "parameter": "shower_front_clearance_length",
+      "value": 1240.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_element_label": "unit520_bathroom_primary_shower",
+      "source_property": "front_clearance_length_mm",
+      "description": "Shower front clearance length"
+    },
+    {
+      "fact_id": "Unit_520_bathroom_primary_space_fact_14",
+      "parameter": "bathtub_shower_reinforcement_height",
+      "value": 1810.0,
+      "unit": "mm",
+      "source_element_id": "Unit_520_bathroom_primary_space_unit520_bathroom_primary_shower",
+      "source_element_label": "unit520_bathroom_primary_shower",
+      "source_property": "wall_reinforcement_height_mm",
+      "description": "Shower wall reinforcement height"
+    }
+  ]
+}

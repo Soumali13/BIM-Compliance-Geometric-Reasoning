@@ -1,0 +1,240 @@
+{
+  "scene_id": "Unit_521_dining_room_space",
+  "room_type": "Residential Dining Room",
+  "status": "UNKNOWN",
+  "passed": false,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "window_sill_height",
+      "source_element": null,
+      "source_measurement": null,
+      "fact_value": null,
+      "fact_unit": null,
+      "operator": "<=",
+      "required_value": 1000.0,
+      "required_unit": "mm",
+      "status": "UNKNOWN",
+      "reason": "Required fact for window_sill_height was not found in the scene.",
+      "expected_element_types": [
+        "window"
+      ],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential dining room is unknown because required evidence is missing, including window_sill_height.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.",
+    "recommended_next_measurements": [
+      "window_sill_height"
+    ],
+    "finding_explanations": [
+      {
+        "parameter": "window_sill_height",
+        "status": "UNKNOWN",
+        "explanation": "window_sill_height is unknown because the required measurement was not found from window, so the active QUEBEC_2020_ABOVE rule could not be evaluated."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_521_dining_room_space",
+      "room_type": "Residential Dining Room",
+      "status": "UNKNOWN",
+      "facts_used": [],
+      "active_resolved_rules": [
+        {
+          "parameter": "window_sill_height",
+          "article": "3.8.5.8",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "window_sill_height",
+          "status": "UNKNOWN",
+          "reason": "Required fact for window_sill_height was not found in the scene.",
+          "operator": "<=",
+          "required_value": 1000.0,
+          "required_unit": "mm",
+          "fact_value": null,
+          "fact_unit": null
+        }
+      ],
+      "missing_facts": [
+        "window_sill_height"
+      ],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "snippet": "1) In a living room and dining room referred to in Sentence 3.8.5.2.(1), a window sill, where provided, shall be installed not more than 1 000 mm above the floor, except where the spaces are located in the basement."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.8",
+          "title": "Living Rooms and Dining Rooms",
+          "snippet": "1) In a living room and dining room referred to in Sentence 3.8.5.2.(1), a window sill, where provided, shall be installed not more than 1 000 mm above the floor, except where the spaces are located in the basement."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "These Regulations are amended by adding after section 14 the following sections: \"14.1. Despite section 14, natural second-day lighting of a room in a dwelling is permitted when the following conditions are met in addition to the requirements set out in subparagraphs (a) and (b) of paragraph 4 of..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "23",
+          "title": "Article 23",
+          "snippet": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 un..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 0,
+    "matched_constraint_count": 0,
+    "evaluated_rule_count": 1,
+    "finding_count": 1,
+    "retrieved_article_count": 6,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.5.8",
+      "MTL_11_018:14",
+      "QCC_B11_R2:3.8.5.8",
+      "MTL_11_018_X:14",
+      "MTL_11_018_X:23",
+      "MTL_11_018_X:27.1"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.8",
+        "title": "Living Rooms and Dining Rooms",
+        "priority": 3,
+        "overlap_score": 0.0,
+        "similarity_score": 0.497706,
+        "final_score": 0.348394
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.476087,
+        "final_score": 0.333261
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.8",
+        "title": "Living Rooms and Dining Rooms",
+        "priority": 2,
+        "overlap_score": 0.0,
+        "similarity_score": 0.463562,
+        "final_score": 0.324494
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.401073,
+        "final_score": 0.280751
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.060027,
+        "final_score": 0.042019
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.036902,
+        "final_score": 0.025831
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "QCC_B11_R2",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 13,
+    "override_count": 2,
+    "normalized_space_name": "Unit 521 Dining Room",
+    "source_room_type": "Residential Dining Room",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

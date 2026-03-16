@@ -1,0 +1,191 @@
+{
+  "space_id": "Hotel_Suite_510_bathroom_space",
+  "unit_id": "Hotel_Suite_510",
+  "name": "Hotel Suite 510 Bathroom",
+  "room_type": "Hotel Bathroom",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Hotel_Suite_510",
+  "adjacent_to": [
+    "Hotel_Suite_510_closet_space",
+    "Hotel_Suite_510_entrance_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 6500.0,
+    "y_mm": 3600.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "bathroom.json",
+  "source_room_id": "Hotel_Suite_510_Bathroom",
+  "raw_properties": {
+    "source_room_type": "Hotel Bathroom",
+    "compliance_room_type": "Hotel Bathroom",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_floor_slab",
+      "source_label": "Hotel_Suite_510_Bathroom_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_service_wall",
+      "source_label": "Hotel_Suite_510_Bathroom_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7700.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_exterior_wall",
+      "source_label": "Hotel_Suite_510_Bathroom_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 9700.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_entry_wall",
+      "source_label": "Hotel_Suite_510_Bathroom_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 4400.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_ceiling_plane",
+      "source_label": "Hotel_Suite_510_Bathroom_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6500.0,
+        "y_mm": 3600.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_accessible_towel_rack",
+      "source_label": "accessible_towel_rack",
+      "semantic_type": "towel_rack",
+      "ifc_type": "IfcFurnishingElement",
+      "revit_category": "Specialty Equipment",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": "Hotel_Suite_510_bathroom_space_service_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 6800.0,
+        "y_mm": 3800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "height_mm": 1150,
+        "mounting_surface": "tile"
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_bathroom_space_soap_dispenser",
+      "source_label": "soap_dispenser",
+      "semantic_type": "lavatory_accessory",
+      "ifc_type": "IfcBuildingElementProxy",
+      "revit_category": "Generic Models",
+      "contained_in_space": "Hotel_Suite_510_bathroom_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 7100.0,
+        "y_mm": 4000.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "height_mm": 1080
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Hotel_Suite_510_bathroom_space_fact_01",
+      "parameter": "towel_rack_height",
+      "value": 1150.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_bathroom_space_accessible_towel_rack",
+      "source_element_label": "accessible_towel_rack",
+      "source_property": "height_mm",
+      "description": "Towel rack height"
+    }
+  ]
+}

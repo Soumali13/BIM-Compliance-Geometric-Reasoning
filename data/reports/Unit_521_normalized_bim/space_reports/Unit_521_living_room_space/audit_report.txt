@@ -1,0 +1,28 @@
+Scene: Unit_521_living_room_space (Residential Living Room)
+Overall status: FAIL
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential living room failed because one or more active requirements were violated, including window_sill_height.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+
+
+[FAIL] Articles 3.8.5.8 - unit521_living_room_window.sill_height_mm
+  fact: 1080.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height is above maximum.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
+- Unit ID: Unit_521
+- Space ID: Unit_521_living_room_space
+- Space name: Unit 521 Living Room
+- Retrieved articles: 3.8.5.8, 3.8.5.8, 18, 14, 27.1, 14, 23
+- Derived constraints: 24
+- Findings: 1

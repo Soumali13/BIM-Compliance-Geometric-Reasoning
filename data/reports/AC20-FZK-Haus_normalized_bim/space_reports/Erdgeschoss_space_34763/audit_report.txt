@@ -1,0 +1,54 @@
+Scene: Erdgeschoss_space_34763 (Residential Kitchen)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height
+
+[UNKNOWN] Articles 3.8.5.7 - missing.kitchen_clear_floor_space_diameter
+  fact: missing
+  requirement: >= 1500.0 mm
+  reason: Required fact for kitchen_clear_floor_space_diameter was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.7 Kitchens
+  override trace: QCC_B11_R2:3.8.5.7 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.7 >= 1500.0 mm
+  expected from: floor_space
+
+[UNKNOWN] Articles 3.8.5.7 - missing.kitchen_sink_trap_bottom_height
+  fact: missing
+  requirement: == 230.0 mm
+  reason: Required fact for kitchen_sink_trap_bottom_height was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.7 Kitchens
+  override trace: QCC_B11_R2:3.8.5.7 == 230.0 mm -> QUEBEC_2020_ABOVE:3.8.5.7 == 230.0 mm
+  expected from: kitchen_sink
+
+Unmatched facts:
+  - EG-Fenster-7.overall_width_m -> ifc_overall_width
+  - EG-Fenster-7.overall_height_m -> ifc_overall_height
+  - EG-Fenster-7.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-7.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-7.geometry_bbox_min_z_mm -> window_sill_height
+  - EG-Fenster-4.overall_width_m -> ifc_overall_width
+  - EG-Fenster-4.overall_height_m -> ifc_overall_height
+  - EG-Fenster-4.geometry_bbox_width_mm -> ifc_geometry_bbox_width
+  - EG-Fenster-4.geometry_bbox_height_mm -> ifc_geometry_bbox_height
+  - EG-Fenster-4.geometry_bbox_min_z_mm -> window_sill_height
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_length
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_width
+  - derived_space_fact.geometry_bbox_width_depth_mm -> ifc_space_bbox_area
+  - derived_space_fact.geometry_bbox_height_mm -> ifc_space_bbox_height
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
+- Unit ID: Erdgeschoss
+- Space ID: Erdgeschoss_space_34763
+- Space name: Küche
+- Retrieved articles: 3.8.5.7, 3.8.5.7, 14, 27.1, 14, 23
+- Derived constraints: 18
+- Findings: 2

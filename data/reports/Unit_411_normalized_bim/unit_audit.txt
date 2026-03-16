@@ -1,0 +1,28 @@
+Project: Montreal Accessibility Demo Tower
+Project ID: Montreal_Accessibility_Demo
+Units: Unit_411
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_411_normalized_bim.json
+Overall unit status: FAIL
+Audited space count: 6
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Unit_411 :: Unit_411_bathroom_primary_space (Unit 411 Bathroom Primary): FAIL
+  reason: The residential bathroom failed because one or more active requirements were violated, including turning_circle_diameter, lavatory_rim_height, lavatory_side_wall_distance.
+- Unit_411 :: Unit_411_kitchen_open_plan_space (Unit 411 Kitchen): UNKNOWN
+  reason: The residential kitchen is unknown because required evidence is missing, including kitchen_sink_trap_bottom_height.
+  next measurements: kitchen_sink_trap_bottom_height
+- Unit_411 :: Unit_411_bedroom_primary_space (Unit 411 Bedroom Primary): FAIL
+  reason: The residential bedroom failed because one or more active requirements were violated, including bedroom_area, bedroom_length, bedroom_width.
+- Unit_411 :: Unit_411_suite_entry_space (Unit 411 Entry): FAIL
+  reason: The residential door area failed because one or more active requirements were violated, including door_side_clear_space_diameter, door_side_clear_space_perpendicular_swing, door_side_clear_space_perpendicular_sliding.
+- Unit_411 :: Unit_411_entry_controls_space (Unit 411 Controls): UNKNOWN
+  reason: The residential controls is unknown because required evidence is missing, including control_height, control_inside_corner_distance.
+  next measurements: control_height, control_inside_corner_distance
+- Unit_411 :: Unit_411_balcony_space (Unit 411 Balcony): PASS
+
+Status counts:
+- PASS: 1
+- FAIL: 3
+- UNKNOWN: 2

@@ -1,0 +1,55 @@
+Scene: Unit_411_bedroom_primary_space (Residential Bedroom)
+Overall status: FAIL
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bedroom failed because one or more active requirements were violated, including bedroom_area, bedroom_length, bedroom_width.
+  Precedence: The active rules came from QCC_B11_R2 with no higher-priority override applied.
+
+
+[FAIL] Articles 3.8.5.6 - primary_sleeping_area.area_m2
+  fact: 10.4 m2
+  requirement: >= 11.0 m2
+  reason: Bedroom area is below minimum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 11.0 m2
+
+
+[FAIL] Articles 3.8.5.6 - primary_sleeping_area.length_m
+  fact: 2.9 m
+  requirement: >= 3.0 m
+  reason: Bedroom length is below minimum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[FAIL] Articles 3.8.5.6 - primary_sleeping_area.width_m
+  fact: 3.0 m
+  requirement: >= 3.0 m
+  reason: Bedroom width is below minimum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[FAIL] Articles 3.8.5.6 - east_window.sill_height_mm
+  fact: 1090.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height is above maximum.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_411_normalized_bim.json
+- Unit ID: Unit_411
+- Space ID: Unit_411_bedroom_primary_space
+- Space name: Unit 411 Bedroom Primary
+- Retrieved articles: 3.8.5.6, 18, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 4

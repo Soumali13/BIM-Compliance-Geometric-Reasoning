@@ -1,0 +1,64 @@
+{
+  "corpora": [
+    {
+      "authority": "NBC_2020",
+      "jurisdiction": "Canada",
+      "priority": 1,
+      "files": [
+        "data/compliance_corpora/nbc_2020/nbc_2020.pdf",
+        "data/compliance_corpora/nbc_2020/nbc_2020_articles.json",
+        "data/compliance_corpora/nbc_2020/nbc_2020_constraints_official.json"
+      ]
+    },
+    {
+      "authority": "QCC_B11_R2",
+      "jurisdiction": "Quebec",
+      "priority": 2,
+      "files": [
+        "data/compliance_corpora/quebec_b11_r2/quebec_b11_r2.pdf",
+        "data/compliance_corpora/quebec_b11_r2/quebec_b11_r2_articles.json",
+        "data/compliance_corpora/quebec_b11_r2/quebec_b11_r2_constraints_official.json"
+      ]
+    },
+    {
+      "authority": "QUEBEC_2015_2022",
+      "jurisdiction": "Quebec",
+      "priority": 3,
+      "files": [
+        "data/compliance_corpora/quebec_2015-2022/quebec_2015-2022.pdf",
+        "data/compliance_corpora/quebec_2015-2022/quebec_2015-2022_articles.json",
+        "data/compliance_corpora/quebec_2015-2022/quebec_2015-2022_constraints_official.json"
+      ]
+    },
+    {
+      "authority": "QUEBEC_2020_ABOVE",
+      "jurisdiction": "Quebec",
+      "priority": 3,
+      "files": [
+        "data/compliance_corpora/quebec_2020_above/quebec_2020_above.pdf",
+        "data/compliance_corpora/quebec_2020_above/quebec_2020_above_articles.json",
+        "data/compliance_corpora/quebec_2020_above/quebec_2020_above_constraints_official.json"
+      ]
+    },
+    {
+      "authority": "MTL_11_018",
+      "jurisdiction": "Montreal",
+      "priority": 4,
+      "files": [
+        "data/compliance_corpora/montreal_11_018/montreal_11_018.pdf",
+        "data/compliance_corpora/montreal_11_018/montreal_11_018_articles.json",
+        "data/compliance_corpora/montreal_11_018/montreal_11_018_constraints_official.json"
+      ]
+    },
+    {
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "files": [
+        "data/compliance_corpora/montreal_11_018_x/montreal_11_018_x.pdf",
+        "data/compliance_corpora/montreal_11_018_x/montreal_11_018_x_articles.json",
+        "data/compliance_corpora/montreal_11_018_x/montreal_11_018_x_constraints_official.json"
+      ]
+    }
+  ]
+}

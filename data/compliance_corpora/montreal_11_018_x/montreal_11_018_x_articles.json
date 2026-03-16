@@ -1,0 +1,1591 @@
+{
+  "authority": "MTL_11_018_X",
+  "jurisdiction": "Montreal",
+  "priority": 5,
+  "effective_date": "2024-01-01",
+  "patch_action": "override",
+  "source_pdf": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/compliance_corpora/montreal_11_018_x/montreal_11_018_x.pdf",
+  "scope": [
+    "11-018-X"
+  ],
+  "generated_by": "scripts/translate_article_corpus.py",
+  "articles": [
+    {
+      "article": "1",
+      "article_id": "1",
+      "title": "Article 1",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 1 of the Regulations is amended by: 1. replacing the definition of \"competent authority\" with the following: \"competent authority\": within the meaning of the Code and these Regulations, the Director of the Planning and Mobility Service; in the Code, a reference to the \"Building Authority\" or \"the Board\" must be understood as a reference to the competent authority when it is a requirement for which the city has jurisdiction; and 2. replacing the definition of \"exempt building\" with the following: \"exempt building\":\nBuilding of the Quebec Construction Code by section 1.04 of the Quebec Construction Code;\"; 3. the replacement of the definition of \"Code\" by the following: \"Code\": the National Building Code – Canada 2010 (NRC 53301E) published by the Canadian Commission on Building and Fire Codes of the National Research Council of Canada, as adopted and amended by Order-in-Council 953-2000, 293-2008 and 347-2015, also known as the Quebec Construction Code, (RLRQ, c. B-1.1, r.2) (Chapter I, Building, and National Building Code – Canada 2010 (amended)).\nThis Code is attached to Schedule A to these Regulations;\"; 4° l , added after the definition of \"construction\", the following paragraph: \"Unless otherwise specified, the terms \"construction\" or \"built\" used for the purpose of the construction action include the terms \"transformation\" or \"converted\"; 5° l, added after the definition of \"construction\", the following definition: \"habitation space\" means a space or room intended for the preparation or consumption of meals, sleep or living room, excluding, but not limited to, a bathroom, toilet, storage, wardrobe and laundry room;\";\n6° l-Add, after the definition of \"flooding plain\", the following definitions: \"useful surface\" means the surface of living spaces measured between the faces of walls that are in accordance with the minimum heights of Table 9.5.3.1 of Division B of the Code excluding the surface occupied by kitchen cabinets, the floor area intended for use by a stove, refrigerator, freezer, washing machine and dryer, the dressers incorporated and the hangings; \"vegetated roof\" means a part of a roof covering system that is designed to allow vegetation to grow; \"Type 1 vegetated roof\" means:\n\"Vegetable roof\" means a vegetated roof with a growth substrate of more than 150 mm in thickness;\"",
+      "amends_article_id": "1"
+    },
+    {
+      "article": "2",
+      "article_id": "2",
+      "title": "Article 2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        2
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 3 of these Regulations is replaced by the following: \"3. Unless otherwise specified, these Regulations apply to all buildings and buildings, both those to which the Code applies under the Building Act (QLR, c. B-1.1) and those exempted from the application of Chapter I of Division I-Building of the Quebec Construction Code by section 1.04 of the Code.\"",
+      "amends_article_id": "3"
+    },
+    {
+      "article": "3",
+      "article_id": "3",
+      "title": "Article 3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 4 of these Regulations is replaced by the following: \"4. Subject to section 4.2 and with the exception of Part 11 of Division B, the Code applies to an exempt vessel. Any amendment or new edition of the Code applies in respect of an exempt vessel from the date established by resolution of the City Council.\"",
+      "amends_article_id": "4"
+    },
+    {
+      "article": "4",
+      "article_id": "4",
+      "title": "Article 4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding after section 4 the following sections: \"4.1. Subject to section 13, the construction or alteration of a building shall be carried out in accordance with the provisions of these Regulations and the relevant acceptable solutions of Division B of the Code.",
+      "amends_article_id": "4"
+    },
+    {
+      "article": "4.2",
+      "article_id": "4.2",
+      "title": "Article 4.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The requirements of the 2017 NFPA-130 Standard – \"Standard for Fixed Guideway Transit and Passenger Rail Systems\" attached to Appendix B to these Regulations replace the Code requirements for all construction and transformation work at metro stations.\"",
+      "amends_article_id": null
+    },
+    {
+      "article": "5",
+      "article_id": "5",
+      "title": "Article 5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 5 of these Regulations is replaced by the following: \"5. The sections of this Division apply to all buildings.\"",
+      "amends_article_id": "5"
+    },
+    {
+      "article": "6",
+      "article_id": "6",
+      "title": "Article 6",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 7 of these Regulations is replaced by the following: \"7. A wall constructed at the property boundary not bordering a highway, except that of a garage or a secondary building referred to in paragraphs 4 and 5 of section 9.10.14.5. of Division B of the Code, shall be covered by a concrete or masonry wall bound by mortar, not less than 90 mm thick, and shall have at least half the fire resistance required for a fire-resistant wall required according to the intended primary use.\"",
+      "amends_article_id": "7"
+    },
+    {
+      "article": "7",
+      "article_id": "7",
+      "title": "Article 7",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 8 of these Regulations is amended to replace the words \"d-a snow-shield or any other necessary device or system\" with the words \"d-a device\".",
+      "amends_article_id": "8"
+    },
+    {
+      "article": "8",
+      "article_id": "8",
+      "title": "Article 8",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Regulations are amended by adding, after section 9, the following section: \"9.1. Clause 4 of section 9.10.914. of Division B of the Code relating to the possibility of replacing fire-stop separations with smoke-tight barriers, for buildings of up to 3 dwellings and up to 2 floors, do not apply.\"",
+      "amends_article_id": "9"
+    },
+    {
+      "article": "9",
+      "article_id": "9",
+      "title": "Article 9",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 10 of the Regulations is amended by: 1° the addition of the words \"and floor area of garages\" in the first paragraph after the words \"part of garages\"; 2° the replacement of the words \"free space\" in the third paragraph of the second paragraph by the words \"free space\" in the third paragraph of the second paragraph; 3° the replacement of the word \"free air\" in the third paragraph of the third paragraph of the first paragraph of the first paragraph of the first paragraph of the first paragraph of the first paragraph of the first paragraph of the first paragraph of the first paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph of the second paragraph",
+      "amends_article_id": "10"
+    },
+    {
+      "article": "10",
+      "article_id": "10",
+      "title": "Article 10",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 11 of the Regulation is amended by inserting the words \"and paragraph 1 of Article 3.2.5.6\" after the words \"Article 3.2.5.5.\"",
+      "amends_article_id": "11"
+    },
+    {
+      "article": "11",
+      "article_id": "11",
+      "title": "Article 11",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding, after section 11, the following section: \"11.1. Except in the case of a horizontal exit in accordance with sections 3.4.1.6 and 3.4.6.10. of Division B of the Code, any route of a required exit from a vessel shall be situated entirely on the property it serves.\"",
+      "amends_article_id": "11"
+    },
+    {
+      "article": "12",
+      "article_id": "12",
+      "title": "Article 12",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 13 of the Regulations is replaced by the following: \"13. If the competent authority is shown that the conditions of accommodation and occupancy of a building and the requirements set out in the Code cannot be reasonably applied, the Code may apply different measures or alternatives to those conditions if it is of the opinion that such measures or solutions provide a sufficient degree of safety and security.",
+      "amends_article_id": "13"
+    },
+    {
+      "article": "13",
+      "article_id": "13",
+      "title": "Article 13",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 14 of that Regulation is amended by deleting the third paragraph.",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14",
+      "article_id": "14",
+      "title": "Article 14",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding after section 14 the following sections: \"14.1. Despite section 14, natural second-day lighting of a room in a dwelling is permitted when the following conditions are met in addition to the requirements set out in subparagraphs (a) and (b) of paragraph 4 of section 9.7.2.3. of Division B of the Code: 1° second-day illuminated area and 1° second-day illuminated area with the glass surface providing natural lighting form parts combined within the meaning of the Code; 2° opening between the two areas shall be free from obstacles; 3° the glass surface providing natural lighting shall be at least 10% of the total surface of the combined rooms.",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14.2",
+      "article_id": "14.2",
+      "title": "Article 14.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "No projection that can intercept light, such as a balcony, cornice or other construction, located less than 1.5 m above a required window shall project over more than 2 m, unless the minimum required glazed area is increased according to Table 14.2. TABLE 14.2 Percentage of fenestration with projection capable of intercepting light Projection of projection 2 m and less 2 m - 2.5m - 2.5m -3m 3m -3.5m 3.5 -4m more than 4m % fenestration required according to Article 14 8 9 10 11 12 13 5 5 6 7 8 9 10 10 10 11 12 13 14 15",
+      "amends_article_id": "14"
+    },
+    {
+      "article": "14.3",
+      "article_id": "14.3",
+      "title": "Article 14.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Any glass surface required shall give a free clearance in accordance with the following conditions: 1o be at least 1.5 m deep over a width equal to the width of glazed surface but not less than 1.5 m; 2o be open from the top of the glazed surface; 3o be adjacent to or separated from the glazed surface by a clear space, balcony, gallery or open staircase; this clearance shall not encroach outside the lateral or rear limits of the ground, but may encroach on the open road; Cornices and foregates may encroach on the clearance at a maximum depth of 600 mm.",
+      "amends_article_id": null
+    },
+    {
+      "article": "14.4",
+      "article_id": "14.4",
+      "title": "Article 14.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "For each room of a dwelling with all rooms located below the floor level or a bedroom house with a portion of the free height below the floor level, the floor level in front of each required window shall be at least 1 m below the ceiling of that room. The floor level shall be determined without regard to localized depressions such as loupes.",
+      "amends_article_id": null
+    },
+    {
+      "article": "14.5",
+      "article_id": "14.5",
+      "title": "Article 14.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "When a new dwelling is fitted, the support of the windows required by section 9.9.10.1 of Division B of the Code, which are intended to be used as an emergency exit to a room, shall be not more than 1.5 m from the floor.\"",
+      "amends_article_id": "9.9"
+    },
+    {
+      "article": "15",
+      "article_id": "15",
+      "title": "Article 15",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 16 of these Regulations is amended by replacing the words \"in Table 9.6.3.1.\" with the words \"in Table 9.5.5.1.\"",
+      "amends_article_id": "16"
+    },
+    {
+      "article": "16",
+      "article_id": "16",
+      "title": "Article 16",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        5,
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 17 of these Regulations is amended by adding the following two paragraphs after the last paragraph: \"Bathrooms and toilets in a room house shall be in separate rooms, which shall be accessible without the need to climb or descend more than one floor from the rooms served. When a room in a room house is provided with one or more of the following sanitary appliances: W.C., bath or shower, they shall be installed in a closed space.\"",
+      "amends_article_id": "17"
+    },
+    {
+      "article": "17",
+      "article_id": "17",
+      "title": "Article 17",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding after section 17 the following sections: \"17.1. The requirements of Part 9 of Division B of the Code apply to all dwellings in respect of: 1o sanitary equipment; 2o lighting; 3o heating.",
+      "amends_article_id": "17"
+    },
+    {
+      "article": "17.2",
+      "article_id": "17.2",
+      "title": "Article 17.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Inside a dwelling, at least one toilet, bathtub or shower, and a washbasin shall be located in one or more enclosed spaces.",
+      "amends_article_id": null
+    },
+    {
+      "article": "17.3",
+      "article_id": "17.3",
+      "title": "Article 17.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A room or space for the preparation of meals shall be fitted with: 1o a low cabinet with a working surface of at least 1 m2, excluding the surface occupied by the sink; 2o a cabinet with a volume of at least 1.25 m3, including that required by paragraph 1.\"",
+      "amends_article_id": null
+    },
+    {
+      "article": "18",
+      "article_id": "18",
+      "title": "Article 18",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 18 of that Regulation is replaced by the following: \"18. The surfaces and dimensions of areas and rooms of a dwelling shall have a useful surface of at least 1o 13.5 m2, with no dimension less than 3 m, if it is a living area, whether it is a separate room or a combined area; 2o 3.25 m2, with no dimension less than 2.3 m measured between the face of the walls or between the face of a wall and the face of an incorporated wardrobe or apparatus, if it is a dining area combined with another area;\n3o 7 m2, with no dimension less than 2.3 m measured between the faces of the walls or between the face of a wall and that of an incorporated cabinet or apparatus, if it is a single dining room; 4o 3.2 m2, with no dimension less than 2.3 m, if it is a kitchen, whether isolated or combined with other areas, except in dwellings where only one or two persons can sleep, in which case the minimum useful surface is 2.7 m2, with no dimension less than 1.7 m; 5o 9.8 m2, with no dimension less than 2.7 m, if it is the master bedroom; 6o 7 m2, with no dimension less than 2 m, if it is a chamber other than the master bedroom.\"",
+      "amends_article_id": "18"
+    },
+    {
+      "article": "19",
+      "article_id": "19",
+      "title": "Article 19",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding after section 18 the following sections: \"18.1. The corridor inside a dwelling shall be at least 900 mm wide.",
+      "amends_article_id": "18"
+    },
+    {
+      "article": "18.2",
+      "article_id": "18.2",
+      "title": "Article 18.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A separate 2 living rooms unit must have a useful area of at least 20m2 and a minimum additional area of 3m2 for each additional living room.",
+      "amends_article_id": null
+    },
+    {
+      "article": "18.3",
+      "article_id": "18.3",
+      "title": "Article 18.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The useful surface of a bedroom of a room house must be at least 9 m2, unless the room is occupied by more than one person, in which case the useful surface must be at least 7 m2 per person and the room house must be provided with a common space such as a kitchen or living room.\"",
+      "amends_article_id": null
+    },
+    {
+      "article": "20",
+      "article_id": "20",
+      "title": "Article 20",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Regulations are amended by adding after section 19 the following section: \"19.1. A temporary storage space for residual materials shall be fitted in any building: 1° built after (indicate the date of entry into force of these Regulations) and occupied by more than 11 dwellings; 2° modified for residential use after (indicate the date of entry into force of these Regulations) and comprising more than 11 dwellings; 3° processed resulting in an increase in building height, building floor or floor floor area and comprising more than 11 dwellings after construction;\n4° having an establishment having an area of 100 m2 or more where food is prepared or consumed and which is either (i) fitted out after (indicate the date of entry into force of these Regulations); (ii) redeveloped after (indicate the date of entry into force of these Regulations) and whose value of the work exceeds $100,000.\"",
+      "amends_article_id": "19"
+    },
+    {
+      "article": "21",
+      "article_id": "21",
+      "title": "Article 21",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 20 of the Regulations is amended by adding the following subparagraph after subparagraph 4(d): \"(e) the pumping capacity to discharge the water from infiltration.\"",
+      "amends_article_id": "20"
+    },
+    {
+      "article": "22",
+      "article_id": "22",
+      "title": "Article 22",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 21 of the Regulations is amended by: 1° add, after paragraph 2o of the following paragraph: \"3° A rainfall shall not be connected directly or indirectly to the drainage pipe of the foundation soles.\"; 2° add, after the first subparagraph, the following paragraph: \"Despite paragraph 1° of the first subparagraph, the drainage pipe may be installed inside the foundations in the case of a wall or an external wall built at the property boundary.\"",
+      "amends_article_id": "21"
+    },
+    {
+      "article": "23",
+      "article_id": "23",
+      "title": "Article 23",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding, after section 25, the following subsection and sections: \"SECTION VII SUSTAINABLE CONSTRUCTION\" 25.1. The roof structure of an uncombustible building of more than 3 floors in building height and more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units on the horizontal (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+      "amends_article_id": "25"
+    },
+    {
+      "article": "25.2",
+      "article_id": "25.2",
+      "title": "Article 25.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "When an increase in the area of buildings of more than 250 m2 to an uncombustible building of more than 3 floors in building height, the roof structure of the enlarged part must, when the slope of roof is less than 2 units vertically in 12 units horizontal (2:12) or 16.7%, be designed to receive a type 1 vegetated roof in addition to the loads prescribed by the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.3",
+      "article_id": "25.3",
+      "title": "Article 25.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        8
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Articles 25.1 and 25.2 do not apply to roofs: 1° of a roof-out construction; 2° of a mezzanine whose area does not exceed 40% of the floor that it overcomes.",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.4",
+      "article_id": "25.4",
+      "title": "Article 25.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The total thermal strength of the roof of a building having a primary use of Group C, as defined in the Code, shall be equal to or greater than RSIT 9.0 (R-51).",
+      "amends_article_id": null
+    },
+    {
+      "article": "25.5",
+      "article_id": "25.5",
+      "title": "Article 25.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite the provisions of Part 11 of the Code, window-doors, windows and window-doors serving a dwelling must comply with the \"Energystar\" certification according to the criteria established by Natural Resources Canada for Climate Zone 2 attached to Appendix C to these Regulations.\"",
+      "amends_article_id": null
+    },
+    {
+      "article": "24",
+      "article_id": "24",
+      "title": "Article 24",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 26 of these Regulations is replaced by the following: \"26. Despite any other requirement of Parts 1 to 10 of Division B of the Code, the sections of this Division apply to exempt vessels.\"",
+      "amends_article_id": "26"
+    },
+    {
+      "article": "25",
+      "article_id": "25",
+      "title": "Article 25",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding the following subsections and sections after section 27: \"Sub-SECTION I SUSTAINABLE CONSTRUCTION – TOO VEGETALIZED",
+      "amends_article_id": "27"
+    },
+    {
+      "article": "27.1",
+      "article_id": "27.1",
+      "title": "Article 27.1",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.2",
+      "article_id": "27.2",
+      "title": "Article 27.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "When an increase in the area of a building of more than 250 m2 to a building with a building height of more than 3 floors, the structure of the roof of the enlarged part shall, when the slope of the roof is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.3",
+      "article_id": "27.3",
+      "title": "Article 27.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Articles 27.1 and 27.2 do not apply to roofs: 1° of a roof-out construction; 2° of a mezzanine whose area does not exceed 40% of the floor that it overcomes.",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.4",
+      "article_id": "27.4",
+      "title": "Article 27.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Except for a roof that is made up of a concrete slab and has a height of more than 2 m, measured between the average ground level and the highest part of the seal membrane, a vegetated roof shall meet the following standards: 1. consist of the following components installed above a traditional roof assembly: (a) vegetation; (b) a substrate or growth medium; (c) a filter layer; (d) a drainage system; (e) a water retention system or layer;\n(f) a barrier that prevents the roots from piercing the roof seal membrane and that complies with ANSI/GRHC/SPRI VR-1 2011 \"Procedure for investigating resistance to root penetration on vegetative roofs\" attached to Annex D to these Regulations; 2° not to be fitted on a roof with shingles or tiles; 3° subject to paragraph 4o, to be fitted on an incombustible building; 4° to be type 1 when fitted on a fuel building;\n5° form a fire-resistant separation of a fire-resistant level equal to that required by the Code, but not less than 45 minutes, when the fire-resistant separation is made above the roof of a building that is of a fuel-built construction and is not protected by sprinklers; 6° include openings in the roof deck to allow the gas and smoke to be removed when the fire-resistant opening is above a roof vacuum that is of a fuel-built construction and is not protected by sprinklers; these openings shall: (a) have a minimum surface area of 0.7 m2 and no dimension less than 760 mm; (b) be protected from weather;\n(c) be fitted with a lid which can be easily removed without the use of a special tool; (d) be easily accessible and properly identified; (e) be provided for an opening per vacuum compartment under roof referred to in paragraph 7o; and 7° in the case where a vacuum under a fuel-built roof is not protected by sprinklers and has an area of more than 300 m2, be divided into compartments of which individual is not more than 300 m2. These compartments shall be insulated from each other by fire-stops in accordance with paragraph 1 of Article 3.1.11.7 of Division B of the Code.\nHowever, such openings are not required when the following characteristics are met: (a) the building has a building area of not more than 300 m2; (b) the vegetated roof occupies not more than 50% of the total surface of a roof or that of a section of roof when isolated from the rest of the roof; and (b) the 8° area, subject to paragraph 9o, includes suitable devices, designed and positioned to erode components when fitted on an inclined roof which is more than 10 degrees (17%) in relation to the horizontal;\nto prevent 9° from incorporating suitable devices, designed and positioned to prevent erosion of components and their slipping when fitted on an inclined roof which is more than 14 degrees (25 per cent) from the horizontal; 10° to be fitted on a roof designed, in accordance with the requirements of Part 4 of Division B of the Code and those of the standards mentioned in this sub-section; 11° to be subject to paragraphs 12o and 13o, in addition to the loads and overloads mentioned in section 4.1.\nThe calculation of Division B of the Code shall also take into account the loads associated with a plant-based roof in full saturation, which are determined in accordance with ASTM E2397-11 \"Standard practice for determination of dead loads and live loads associated with vegetable (green) roof systems\" and ASTM E2399-11 \"Standard test method for maximum media density for dead load analysis of vegetable (green) roof systems\" attached to Annex E to this Regulation;\n12° where the load associated with the saturated growth substrate cannot be determined according to the standards mentioned in paragraph 11o, it shall be calculated on the basis of a density of 2,000 kg/m3 (or 125 pounds/ft3); 13° calculations of the structural resistance of the roof shall also take into account: (a) overloads due to other materials and equipment intended for a vegetated roof; (b) overloads due to use when the vegetated roof is accessible in accordance with sub-section 4.1.8. of Division B of the Code;\n14° be designed to withstand the wind-induced uplift and erosion effects, in accordance with the rules of art, in particular those described in ANSI/SPRI RP-14 \"Wind Design Standard for Vegetative Roofing Systems\" attached to Annex F to these Regulations; 15° the calculations referred to in paragraphs 13 and 14o shall be made by a person competent in this matter; 16° the hydraulic load from the roof water shall be calculated in accordance with Chapter III, Plumbing, of the Code, assuming that the vegetated roof is fully saturated with water before the 15 minute precipitation, as determined by the climatic data referred to in section 1.1.3.\nDivision B of the Code; 17° drainage shall be adequately under the growth substrate layer and shall not permit any infiltration of this substrate or any other material into roof swallows; 18° within a vegetated roof basin or a vegetated roof section, the drains shall not be of a controlled flow type defined in Chapter III, Plumbing, of the Code; 19° the drainage system shall be selected according to ASTM E2398- 11 \"Standard Test Method for Water Capture and Media Retention of Geo- composite Drain Layers for Green Roof Systems\" attached to Appendix G to these Regulations;\n20° where parapets are provided on the edge of a roof, analyses and calculations shall be made in accordance with the requirements of section 4.1.6.4 of Division B of the Code, to ensure that the structural capacity of the roof can withstand the load of accumulated rainwater, should the roof swallows be blocked; 21° individual area of a vegetated roof or a section of a green roof shall not exceed: (a) 300 m2 when the building is of combustible construction; (b) 900 m2 when the building is of non-combustible construction; 22° no dimension of a vegetated roof or a section of a vegetated roof shall be greater than 30 m;\n23° where the building has a type 2 green roof or a building area greater than 300 m2 and a type 1 green roof, a vegetation-free area of (a) not less than 0.5 m around the roof drains, measured from the centre of the swallowing site; (b) not less than 0.5 m around a vegetated roof or a vegetated roof section; (c) not less than 0.5 m between a vegetated roof and any equipment on the roof, including plumbing and ventilation equipment, pipes, pipes, antennas and expansion joints; (d) not less than 1 m between 2 contiguous sections of vegetated roof defined in paragraphs 21o or 22o;\n(e) at least 1.2 m between a vegetated roof and: (i) a roof-out construction; (ii) the axis of a fire-proof wall; (iii) an external wall belonging to the same building; (iv) a property boundary, except that which is bordered by a public road; (v) lanterns, pergolas, terraces; 24° where the building has a building area of not more than 300 m2 and has a type 1 green roof, a vegetation-free area of not less than 0.35 m wide around a roof-outer measured from the centre of the swallow; (b) at least 0.5 m around a vegetated roof or a vegetated roof section;\n(c) not less than 0.3 m between a vegetated roof and any equipment on the roof, including plumbing and ventilation equipment, pipes, ducts, antennas, expansion joints and lanterns; (d) not less than 0.5 m between a vegetated roof and an off-roof construction; 25° a zone free of vegetation required shall be isolated from the adjacent section of the vegetated roof by a border whose upper part must be at least the same level as the top of the growing substrate and whose presence does not affect the drainage of the roof; 26° the areas free of vegetation required shall be covered with non-combustible materials;\n27° the top of a vegetation-free area required around a swallow shall be made of non-combustible materials that facilitate drainage; 28° the width of vegetation-free areas may be reduced to 0.5 m where the elements referred to in subparagraphs (i), (ii), and (v) of subparagraph (e) of paragraph 23o are non-combustible or are covered by non-combustible materials; 29° when a green roof is accessible, it shall be considered to be used within the meaning of the Code. A green roof shall be considered accessible where persons may have access to it for functions other than maintenance;\n30° a green roof shall be fitted with an integrated irrigation system or at least one watering tap, installed on the roof or at any other suitable location; 31° before the installation of a green roof, the owner shall carry out or have carried out, at his own expense, a leakproof test according to one of the methods recognized by the industry; This article does not apply to roofs or roofing parts intended for growing vegetation in greenhouses, bins or pots. SUB-SECTION II COMBUSTIBLE WELLS – HERITAGE",
+      "amends_article_id": "3.1"
+    },
+    {
+      "article": "27.5",
+      "article_id": "27.5",
+      "title": "Article 27.5",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite section 3.1.10.7, paragraph 2, of Division B of the Code, a fuel project of a fuel vessel may be within 1.2 m of the axis of the firewall or a property boundary in the following cases: 1o the projection is 1m or less above ground level; 2o the building has a maximum of 2 housing units and the projection is not less than 1.2 m from the axis of another firewall or other property boundary not bordering a highway.",
+      "amends_article_id": "3.1"
+    },
+    {
+      "article": "27.6",
+      "article_id": "27.6",
+      "title": "Article 27.6",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite articles 27.5 and 3.2.3.6, paragraph 6 of article 9.10.14.5. and paragraph 5 of article 9.10.15.5. of division B of the Code, handrails and stairs on an external wall facing a street serving a floor area not more than 1 floor above the first floor may be of a fuel-built type.",
+      "amends_article_id": "27.5"
+    },
+    {
+      "article": "27.7",
+      "article_id": "27.7",
+      "title": "Article 27.7",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The guardrails required by section 9.8.8.1. of Division B of the Code, serving a non-industrial use and protecting a level at a height of not more than 4.2 m above the adjacent level may not meet the requirements for the design of guardrails in section 3.3.1.18, paragraph 3, and section 9.8.8.6. of Division B of the Code.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "27.8",
+      "article_id": "27.8",
+      "title": "Article 27.8",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "A storage cabinet installed on a balcony may be treated as a projection under the following conditions: 1° its area shall be not more than 2.5 m2; 2° the part of the outer wall of the building to which it is attached shall have the same composition as that of the whole wall; 3° except for a building which has not more than 2 units, any part of the floor and roof within 1.2 m of a boundary of ownership or axis of a fire-resistant wall shall be of uncombustible construction;\n4° the inner side of the wall adjacent to or within 1.2 m from a boundary of ownership not bordering a highway or the axis of a firewall shall be covered by non-combustible material ensuring a fire resistance of at least 1 hour; 5° the outer side of the wall adjacent to or within 1.2 m from a boundary of ownership not bordering a highway or the axis of a firewall shall be covered by non-combustible material ensuring fire resistance of at least 1 hour and an uncombustible weather-resistant trim;\n6° when 2 storage cabinets are superimposed, the lower part of the floor-ceiling assembly separating them shall be covered with non-combustible material ensuring fire resistance of at least 1 hour. SUB-DIVISION III CONCEPT OF THE AIRES AND SPACE IN A HEAT",
+      "amends_article_id": null
+    },
+    {
+      "article": "27.9",
+      "article_id": "27.9",
+      "title": "Article 27.9",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite the second paragraph of Article 14.1, in a fire-proof suite with a complete mechanical ventilation system including the second-day illuminated area, the opening between the two areas forming combined parts may be fitted with doors provided that they do not reduce the area of the prescribed opening when they are in an open position.\"",
+      "amends_article_id": "14.1"
+    },
+    {
+      "article": "26",
+      "article_id": "26",
+      "title": "Article 26",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        15
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 28 of the Regulations is amended by: 1. the first paragraph of the words \"n-is not\" is replaced by the words \"may not be\"; 2. the second paragraph of the first paragraph of the following paragraph is replaced by the following: \"6° each suite with a mezzanine shall be isolated from the rest of the building by a fire-stop separation of at least 1 hour\"; 3. the second paragraph shall be replaced by the following: \"However, for the purposes of subsections 9.9.9. and 9.10.18. of Division B of the Code, the mezzanines referred to in the first subparagraph shall constitute a floor\"; 4. the third paragraph of the first paragraph shall be replaced by the words \"consisting of\";\n5° the last paragraph shall be replaced by the following: \"Despite paragraph 2 of section 9.10.18.2. of Division B of the Code, a fire alarm system shall be required in a dwelling which has mezzanine referred to in the first paragraph where the building has more than 3 floor levels other than those below the first floor and contains more than 4 units. Where such a fire alarm system is required, in addition to the components required by the Code, a heat detector allowing both the detection of a maximum fixed temperature and the rise of temperature shall be installed in each dwelling and in each room not forming part of a dwelling.\n\"",
+      "amends_article_id": "28"
+    },
+    {
+      "article": "27",
+      "article_id": "27",
+      "title": "Article 27",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding the following heading after section 28: \"Sub-SECTION IV AVERAGE AVERAGE\".",
+      "amends_article_id": "28"
+    },
+    {
+      "article": "28",
+      "article_id": "28",
+      "title": "Article 28",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended by adding after section 29 the following sections: \"29.1. Despite section 9.8.3.1 of Division B of the Code, an outside staircase that serves only dwellings and that does not constitute their only exit may be turned in full or rotated in one or more parts on the following conditions: 1° it serves a level not more than one floor above the first floor; 2° it serves not more than 2 units per floor; 3° it has equal giras of not less than 225 mm when measured at 500 mm from the narrowest end; 4° the rotation between 2 levels is carried out in the same direction.",
+      "amends_article_id": "29"
+    },
+    {
+      "article": "29.2",
+      "article_id": "29.2",
+      "title": "Article 29.2",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Notwithstanding section 9.8.3.1. of Division B of the Code, a helical staircase authorized under subsections 3 or 4 of section 9.8.4.5. of Division B of the Code may be turned in whole or in one or more parts where each rotating part allows the rotation of at least 180 degrees.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29.3",
+      "article_id": "29.3",
+      "title": "Article 29.3",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite section 9.8.2.1. of Division B of the Code, where a dwelling has at least 2 means of evacuation, one of the accommodation may be an outside staircase with a minimum free width of 760 mm, on the following conditions: 1° stairs shall be used only for housing; 2° stairs shall be used for up to 2 units per floor area.",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29.4",
+      "article_id": "29.4",
+      "title": "Article 29.4",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Despite paragraph 1 of Article 9.8.4.3 of Division B of the Code, it is not mandatory that dancing steps of an outer exit staircase serving not more than two housing units per floor conform to Article 3.4.6.9 of Division B of the Code, if they meet the following conditions: 1° they have a giron of at least 150 mm measured at the narrowest point; 2° they have a giron of at least 230 mm measured at 300 mm from the narrowest point; 3° they rotate in the same direction.\"",
+      "amends_article_id": "9.8"
+    },
+    {
+      "article": "29",
+      "article_id": "29",
+      "title": "Article 29",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Regulations are amended by inserting the following heading after new Article 29.4: \"Subsidiarity V MISCELLANEOUS PROVISIONS\".",
+      "amends_article_id": null
+    },
+    {
+      "article": "30",
+      "article_id": "30",
+      "title": "Article 30",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 30 of the Regulations is amended by replacing the words \"must satisfy all the following requirements\" in the first paragraph with the words \"may derogate from section 10.4.1.3. of Division B of the Code if the following requirements are met\".",
+      "amends_article_id": "30"
+    },
+    {
+      "article": "31",
+      "article_id": "31",
+      "title": "Article 31",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 31 of that Regulation is amended by replacing the first paragraph with the following:\n\"In respect of a transformation other than an expansion into a building area, floor area or building height, to a building or part of a building that has been issued a building permit before (indicate the date of entry into force of these Regulations), the requirements for the fit-up of rooms and safety set out in Chapter VII, IX and Chapter X.I, Division I of the City of Montreal's Safe, Maintenance and Safety of Housing Regulations (03-096) may be applied instead of those set out in the Code, in any of the following situations:\".",
+      "amends_article_id": "31"
+    },
+    {
+      "article": "32",
+      "article_id": "32",
+      "title": "Article 32",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 32 of that Regulation is amended by deleting the words \"who is\" in paragraph 3 of the first subparagraph.",
+      "amends_article_id": "32"
+    },
+    {
+      "article": "33",
+      "article_id": "33",
+      "title": "Article 33",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 33 of the Regulations is replaced by the following: \" 33. Despite section 32, a permit is not required: 1° for the installation or construction of a temporary building on a site necessary for the carrying out of construction work or used for the sale or rental of housing units; 2° for the installation, construction or expansion of a secondary building with a total area of not more than 15 m2. \"",
+      "amends_article_id": "33"
+    },
+    {
+      "article": "34",
+      "article_id": "34",
+      "title": "Article 34",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        17,
+        18
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 34 of these Regulations is amended by: 1. the replacement in paragraph 5 of the second subparagraph of paragraph 5 of the second subparagraph of the words \"and the telephone number\" by the words \", the telephone number and the email address\"; 2. the replacement in subparagraph 6(b) of the second subparagraph of the words \"and the cut\" by the words \", cut and detail\"; 3. the addition after subparagraph 6(b) of the second subparagraph of paragraph 6(b) of the following subparagraph: \"(c) subparagraph (a) does not apply to the following work: (i) the replacement of doors and windows without modification of their dimensions; (ii) the replacement of a roof covering; and (iii) the fitting of a green roof;\n(iv) any other work which is not considered to be a transformation within the meaning of the Code.\"; 4. the replacement of the words \"plan d'implantation\" in subparagraph 7(a) of the second subparagraph by the words \"plan d'implantation\"; 5. the replacement of subparagraph 7(b) of the second subparagraph by the following: \"(b) in the case of an expansion of an existing building: (i) a plan d'implantation project containing the same information as required in paragraph 7(b) of the second subparagraph of this article when necessary to enable the project to be verified as to whether it complies with the applicable municipal regulations;\n(ii) a certificate of location;\"; 6° the replacement of paragraph 9° of the second subparagraph by the following: \"9° in the case of an application for a licence by an agent, be accompanied by a power of attorney from the owner of the building. In the case of a building held in a divided condominium, the applicant or his agent shall provide the authorization of the condominium union for any work to be performed in a common part.\"; 7° the addition after paragraph 4° of the third subparagraph of the following paragraph:\n\"5° in the case of the development of a vegetated roof referred to in the first paragraph of the first paragraph of section 27.4, be accompanied by the following documents: (a) the vegetated roof sheet duly completed and signed by the designer in respect of structural resistance, wind-induced lifting effects and roof-bearing capacity when parapets are required; and (b) the roof structure plans and elements supporting it.\"",
+      "amends_article_id": "34"
+    },
+    {
+      "article": "35",
+      "article_id": "35",
+      "title": "Article 35",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 35 of the Regulations is replaced by the following: \"35. The Executive Committee may determine by order: (1) the form and content of the document entitled \"building sheet/declaration of conformity\" required under subparagraph 6(a) of the second paragraph of Article 34; (2) the form and content of the document entitled \"vegetated roof sheet\" required under subparagraph 5(a) of the third paragraph of Article 34.\".",
+      "amends_article_id": "35"
+    },
+    {
+      "article": "36",
+      "article_id": "36",
+      "title": "Article 36",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 36 of these Regulations is amended by adding the following paragraph after the second paragraph: \"The requirement of the first paragraph does not apply where the amendment to the description of the work results from a comment or an application for amendment from a decision-making body or from a City Advisory Committee.\"",
+      "amends_article_id": "36"
+    },
+    {
+      "article": "37",
+      "article_id": "37",
+      "title": "Article 37",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 38 of the Regulations is amended by: 1. the replacement in subsections 1°, 2o and 4o of the first paragraph of the alphanumeric designation (R.S.Q., c. A-19.1) by the following alphanumeric designation \" (RLRQ, c. A-19.1); 2. the replacement in paragraph 3° of the first paragraph of the alphanumeric designation (R.S.Q., c. Q-2) by the following alphanumeric designation \" (RLRQ, c. Q-2); 3. the addition after paragraph 5° of the first paragraph of the paragraph of the following paragraph: \"6° the application for a permit shall be accompanied by any authorization required under a by-law.\"",
+      "amends_article_id": "38"
+    },
+    {
+      "article": "38",
+      "article_id": "38",
+      "title": "Article 38",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 40 of the Regulation is replaced by the following: \"40. Upon receipt of a written request from the owner or his representative, submitted before the expiry of the expiry period, the competent authority may extend the periods of 18 and 36 months referred to in paragraph 3 of the first subparagraph of Article 39, respectively, by 6 and 12 months.\"",
+      "amends_article_id": "40"
+    },
+    {
+      "article": "39",
+      "article_id": "39",
+      "title": "Article 39",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        19,
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 53 of the Regulations is replaced by the following: \"53. The owner and, if applicable, the contractor shall: 1. ensure that plans and specifications as approved in respect of the work covered by the permit are available on the site of the work at any time during working hours for inspection by the competent authority; 2. post the permit or a true copy of the permit on the site in a visible manner throughout the duration of the work; 3. inform the competent authority of the commencement of the work.\"",
+      "amends_article_id": "53"
+    },
+    {
+      "article": "40",
+      "article_id": "40",
+      "title": "Article 40",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 56 of the Regulations is replaced by the following: \"56. The competent authority may, by notice, order the owner, the contractor or any other interested person to suspend construction work: 1° without a permit; 2° not in accordance with the permit issued; 3° not in accordance with the regulations.\"",
+      "amends_article_id": "56"
+    },
+    {
+      "article": "41",
+      "article_id": "41",
+      "title": "Article 41",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Subsection II of Section III of Chapter III of these Regulations is amended by replacing the heading \"CERTIFICATE OF LOCATION\" with the following heading: \"CERTIFICATES AND CERTIFICATES\".",
+      "amends_article_id": null
+    },
+    {
+      "article": "42",
+      "article_id": "42",
+      "title": "Article 42",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 57 of the Regulations is amended by adding the following paragraph after paragraph 6°: \"7° any other rating or measure to verify that the work complies with the applicable municipal regulations.\"",
+      "amends_article_id": "57"
+    },
+    {
+      "article": "43",
+      "article_id": "43",
+      "title": "Article 43",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 58 of the Regulation is replaced by the following: \"58. Following construction work in a flood-risk area, the owner shall submit to the competent authority a certificate of conformity of the construction with the immunisation measures provided for in Article 20. This certificate shall be produced by a person competent in this field.\"",
+      "amends_article_id": "58"
+    },
+    {
+      "article": "44",
+      "article_id": "44",
+      "title": "Article 44",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "The Regulations are amended by adding after section 60 the following section: \"60.1. When developing a green roof, the owner shall produce to the competent authority a copy of the report of the leakproofness test required by section 27.4, paragraph 31o\".",
+      "amends_article_id": "60"
+    },
+    {
+      "article": "45",
+      "article_id": "45",
+      "title": "Article 45",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 62 of these Regulations is amended by replacing the words \"in accordance with the Code and the regulations in force at the time of such reconstruction or rehabilitation\" with the words \"in accordance with these Regulations\".",
+      "amends_article_id": "62"
+    },
+    {
+      "article": "46",
+      "article_id": "46",
+      "title": "Article 46",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 69 of these Regulations is replaced by the following: \"69. Every person who contravenes section 68 commits an offence and is liable to: (a) for a first offence, a fine of $1,000; (b) for a recidivism, a fine of $2,000; and (b) for a first offence, a fine of $2,000; and (c) for a recidivism, a fine of $4,000.\"",
+      "amends_article_id": "69"
+    },
+    {
+      "article": "47",
+      "article_id": "47",
+      "title": "Article 47",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Article 70 of that Regulation is repealed.",
+      "amends_article_id": "70"
+    },
+    {
+      "article": "48",
+      "article_id": "48",
+      "title": "Article 48",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "Section 72 of these Regulations is amended by adding the following paragraph after the first paragraph: \"The normative requirements of the Regulations in force before the coming into force of an amendment to these Regulations may be used in lieu of those provided for in the new Regulations, provided that the application for a licence, including all accompanying documents required by these Regulations, is submitted to the City for approval within 6 months of the coming into force of this regulatory amendment.\"",
+      "amends_article_id": "72"
+    },
+    {
+      "article": "49",
+      "article_id": "49",
+      "title": "Article 49",
+      "section": "",
+      "section_title": "",
+      "source_pages": [
+        21,
+        22
+      ],
+      "source_pdf": "montreal_11_018_x.pdf",
+      "authority": "MTL_11_018_X",
+      "jurisdiction": "Montreal",
+      "priority": 5,
+      "effective_date": "2024-01-01",
+      "patch_action": "override",
+      "applies_if": {
+        "jurisdiction": "Montreal"
+      },
+      "text": "These Regulations are amended to add the following schedules: ANNEX A: Quebec Construction Code, (QLR, c. B-1.1, r.2) (Chapter I, Building, and National Building Code – Canada 2010 (amended)). ANNEX B: NFPA-130 – 2017 edition, \"Standard for Fixed Guideway Transit and Passenger Rail Systems\". ANNEX C: Energystar Certification (criteria established by Natural Resources Canada for the Climate Zone 2). ANNEX D: ANSI/GRHC/SPRI VR-1 2011 \"Procedure for investigating resistance to root thought on vegetative roofs\". ANNEX E:\nASTM E2397-11 \"Standard practice for determination of dead loads and live loads associated with vegetable (green) roof systems\" and ASTM E2399-11 \"Standard test method for maximum media density for dead load analysis of vegetable (green) root systems\". ANNEX F: ANSI/SPRI RP-14 \"Wind Design Standard for Vegetative Roofing Systems\". ANNEX G: ASTM E2398-11 \"Standard Test Method for Water Capture and Media Retention of Geo-composite Drain Layers for Green Roof Systems\". _____________________________ This regulation was promulgated by the Public Notice posted at City Hall and published in Le Devoir on ..... GDD 1184188001",
+      "amends_article_id": null
+    }
+  ],
+  "source_language": "fr",
+  "target_language": "en",
+  "translation_model": "Helsinki-NLP/opus-mt-fr-en",
+  "translated_from": "data/compliance_corpora/montreal_11_018_x/montreal_11_018_x_articles_fr.json"
+}

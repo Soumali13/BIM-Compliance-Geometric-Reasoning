@@ -1,0 +1,259 @@
+{
+  "space_id": "Erdgeschoss_space_34763",
+  "unit_id": "Erdgeschoss",
+  "name": "K\u00fcche",
+  "room_type": "K\u00fcche",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Storey_479",
+  "contained_in_unit": "Erdgeschoss",
+  "adjacent_to": [
+    "Erdgeschoss_space_20909",
+    "Erdgeschoss_space_21283",
+    "Erdgeschoss_space_21640",
+    "Erdgeschoss_space_33774",
+    "Erdgeschoss_space_34191"
+  ],
+  "placement": {
+    "level_id": "Storey_479",
+    "level_name": "Erdgeschoss",
+    "x_mm": 300.0,
+    "y_mm": 4010.0,
+    "z_mm": 0.0,
+    "rotation_deg": -90.0
+  },
+  "source_scene": "#34763",
+  "source_room_id": "6",
+  "raw_properties": {
+    "ifc_entity_id": "#34763",
+    "ifc_name": "6",
+    "ifc_long_name": "K\u00fcche",
+    "ifc_composition_type": "ELEMENT",
+    "compliance_room_type": "Residential Kitchen",
+    "geometry_bbox_min_x_mm": 300.0,
+    "geometry_bbox_max_x_mm": 4695.00000002,
+    "geometry_bbox_min_y_mm": 299.99999999999983,
+    "geometry_bbox_max_y_mm": 4010.0,
+    "geometry_bbox_min_z_mm": 0.0,
+    "geometry_bbox_max_z_mm": 2500.0,
+    "geometry_bbox_width_mm": 4395.00000002,
+    "geometry_bbox_depth_mm": 3710.0,
+    "geometry_bbox_height_mm": 2500.0
+  },
+  "elements": [
+    {
+      "element_id": "ifc_23944",
+      "source_label": "EG-Fenster-7",
+      "semantic_type": "window",
+      "ifc_type": "IFCWINDOW",
+      "revit_category": "Windows",
+      "contained_in_space": "Erdgeschoss_space_34763",
+      "hosted_by": "ifc_22107",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_479",
+        "level_name": "Erdgeschoss",
+        "x_mm": 1205.0,
+        "y_mm": 0.0,
+        "z_mm": 950.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#23944",
+        "ifc_guid": "0B1RwEzzP3CfME5NR$Vqh5",
+        "overall_height_m": 1.2,
+        "overall_width_m": 2.0,
+        "tag": "E5AC7902-7454-439D-AF-DD-A1E5E37A0D08",
+        "geometry_bbox_min_x_mm": 120.0,
+        "geometry_bbox_max_x_mm": 195.0,
+        "geometry_bbox_min_y_mm": 1205.0,
+        "geometry_bbox_max_y_mm": 3205.0,
+        "geometry_bbox_min_z_mm": 950.0,
+        "geometry_bbox_max_z_mm": 2150.0,
+        "geometry_bbox_width_mm": 75.0,
+        "geometry_bbox_depth_mm": 2000.0,
+        "geometry_bbox_height_mm": 1200.0,
+        "sill_height_mm": 950.0,
+        "height_mm": 1200.0
+      }
+    },
+    {
+      "element_id": "ifc_27833",
+      "source_label": "EG-Fenster-4",
+      "semantic_type": "window",
+      "ifc_type": "IFCWINDOW",
+      "revit_category": "Windows",
+      "contained_in_space": "Erdgeschoss_space_34763",
+      "hosted_by": "ifc_27487",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_479",
+        "level_name": "Erdgeschoss",
+        "x_mm": 20210.0,
+        "y_mm": 0.0,
+        "z_mm": 950.0,
+        "rotation_deg": 180.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#27833",
+        "ifc_guid": "25nJxEpYf8LRDJNkMUVO0m",
+        "overall_height_m": 1.2,
+        "overall_width_m": 2.0,
+        "tag": "436D2D20-7879-42FD-A7-70-F2BECB09D642",
+        "geometry_bbox_min_x_mm": 1789.999999999999,
+        "geometry_bbox_max_x_mm": 3789.999999999999,
+        "geometry_bbox_min_y_mm": 120.0,
+        "geometry_bbox_max_y_mm": 195.0,
+        "geometry_bbox_min_z_mm": 950.0,
+        "geometry_bbox_max_z_mm": 2150.0,
+        "geometry_bbox_width_mm": 2000.0,
+        "geometry_bbox_depth_mm": 75.0,
+        "geometry_bbox_height_mm": 1200.0,
+        "sill_height_mm": 950.0,
+        "height_mm": 1200.0
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "ifc_23944_fact_01",
+      "parameter": "ifc_overall_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element_id": "ifc_23944",
+      "source_element_label": "EG-Fenster-7",
+      "source_property": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "fact_id": "ifc_23944_fact_02",
+      "parameter": "ifc_overall_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element_id": "ifc_23944",
+      "source_element_label": "EG-Fenster-7",
+      "source_property": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "fact_id": "ifc_23944_fact_03",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 75.0,
+      "unit": "mm",
+      "source_element_id": "ifc_23944",
+      "source_element_label": "EG-Fenster-7",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_23944_fact_04",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element_id": "ifc_23944",
+      "source_element_label": "EG-Fenster-7",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_23944_fact_05",
+      "parameter": "window_sill_height",
+      "value": 950.0,
+      "unit": "mm",
+      "source_element_id": "ifc_23944",
+      "source_element_label": "EG-Fenster-7",
+      "source_property": "geometry_bbox_min_z_mm",
+      "description": "Window sill height derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "ifc_27833_fact_06",
+      "parameter": "ifc_overall_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element_id": "ifc_27833",
+      "source_element_label": "EG-Fenster-4",
+      "source_property": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "fact_id": "ifc_27833_fact_07",
+      "parameter": "ifc_overall_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element_id": "ifc_27833",
+      "source_element_label": "EG-Fenster-4",
+      "source_property": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "fact_id": "ifc_27833_fact_08",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 2000.0,
+      "unit": "mm",
+      "source_element_id": "ifc_27833",
+      "source_element_label": "EG-Fenster-4",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_27833_fact_09",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 1200.0,
+      "unit": "mm",
+      "source_element_id": "ifc_27833",
+      "source_element_label": "EG-Fenster-4",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_27833_fact_10",
+      "parameter": "window_sill_height",
+      "value": 950.0,
+      "unit": "mm",
+      "source_element_id": "ifc_27833",
+      "source_element_label": "EG-Fenster-4",
+      "source_property": "geometry_bbox_min_z_mm",
+      "description": "Window sill height derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Erdgeschoss_space_34763_fact_11",
+      "parameter": "ifc_space_bbox_length",
+      "value": 4395.00000002,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space long dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Erdgeschoss_space_34763_fact_12",
+      "parameter": "ifc_space_bbox_width",
+      "value": 3710.0,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space short dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Erdgeschoss_space_34763_fact_13",
+      "parameter": "ifc_space_bbox_area",
+      "value": 16.3054500000742,
+      "unit": "m2",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Approximate space footprint area derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Erdgeschoss_space_34763_fact_14",
+      "parameter": "ifc_space_bbox_height",
+      "value": 2500.0,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_height_mm",
+      "description": "Space height derived from IFC shape bounding box"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "space_id": "Level_2_space_1218",
+  "unit_id": "Level_2",
+  "name": "Bedroom 2",
+  "room_type": "Bedroom 2",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Storey_43",
+  "contained_in_unit": "Level_2",
+  "adjacent_to": [
+    "Level_2_space_1059",
+    "Level_2_space_1442",
+    "Level_2_space_3013",
+    "Level_2_space_3197",
+    "Level_2_space_819"
+  ],
+  "placement": {
+    "level_id": "Storey_43",
+    "level_name": "Level 2",
+    "x_mm": 0.0,
+    "y_mm": 0.0,
+    "z_mm": 3100.000000000378,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "#1218",
+  "source_room_id": "A203",
+  "raw_properties": {
+    "ifc_entity_id": "#1218",
+    "ifc_name": "A203",
+    "ifc_long_name": "Bedroom 2",
+    "ifc_composition_type": "ELEMENT",
+    "compliance_room_type": "Residential Bedroom",
+    "geometry_bbox_min_x_mm": 4674.999999999976,
+    "geometry_bbox_max_x_mm": 8382.99999999999,
+    "geometry_bbox_min_y_mm": -17382.999999999996,
+    "geometry_bbox_max_y_mm": -11134.000000000013,
+    "geometry_bbox_min_z_mm": 3119.0000000001965,
+    "geometry_bbox_max_z_mm": 5700.000000000379,
+    "geometry_bbox_width_mm": 3708.0000000000146,
+    "geometry_bbox_depth_mm": 6248.999999999984,
+    "geometry_bbox_height_mm": 2581.000000000183
+  },
+  "elements": [
+    {
+      "element_id": "ifc_20958",
+      "source_label": "Floor:Finish Floor - Wood:169308",
+      "semantic_type": "slab",
+      "ifc_type": "IFCSLAB",
+      "revit_category": "Floors",
+      "contained_in_space": "Level_2_space_1218",
+      "hosted_by": "ifc_43",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_43",
+        "level_name": "Level 2",
+        "x_mm": 4674.999999999973,
+        "y_mm": -17383.0,
+        "z_mm": 3100.000000000378,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#20958",
+        "ifc_guid": "2OBrcmyk58NupXoVOHUtBP",
+        "tag": "169308",
+        "geometry_bbox_min_x_mm": 4674.999999999973,
+        "geometry_bbox_max_x_mm": 8383.0,
+        "geometry_bbox_min_y_mm": -17383.0,
+        "geometry_bbox_max_y_mm": -11118.000000000005,
+        "geometry_bbox_min_z_mm": 3100.000000000378,
+        "geometry_bbox_max_z_mm": 3119.0000000003783,
+        "geometry_bbox_width_mm": 3708.0000000000273,
+        "geometry_bbox_depth_mm": 6264.9999999999945,
+        "geometry_bbox_height_mm": 19.000000000000455,
+        "predefined_type": "FLOOR"
+      }
+    },
+    {
+      "element_id": "ifc_22396",
+      "source_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "semantic_type": "window",
+      "ifc_type": "IFCWINDOW",
+      "revit_category": "Windows",
+      "contained_in_space": "Level_2_space_1218",
+      "hosted_by": "ifc_22382",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_43",
+        "level_name": "Level 2",
+        "x_mm": 20365.5,
+        "y_mm": -208.5000000000172,
+        "z_mm": 3200.0000000001965,
+        "rotation_deg": -90.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#22396",
+        "ifc_guid": "1l0GAJtRTFv8$zmKJOH4aS",
+        "overall_height_m": 2.199999999999997,
+        "overall_width_m": 0.7499999999999984,
+        "tag": "181930",
+        "geometry_bbox_min_x_mm": 8382.999999999984,
+        "geometry_bbox_max_x_mm": 8799.999999999982,
+        "geometry_bbox_min_y_mm": -12524.00000000001,
+        "geometry_bbox_max_y_mm": -11774.000000000007,
+        "geometry_bbox_min_z_mm": 3200.0000000002087,
+        "geometry_bbox_max_z_mm": 5400.000000000201,
+        "geometry_bbox_width_mm": 416.9999999999982,
+        "geometry_bbox_depth_mm": 750.0000000000018,
+        "geometry_bbox_height_mm": 2199.9999999999923,
+        "sill_height_mm": 3200.0000000002087,
+        "height_mm": 2199.9999999999923
+      }
+    },
+    {
+      "element_id": "ifc_5548",
+      "source_label": "Basic Wall:Exterior - Brick on Block:143534",
+      "semantic_type": "wall",
+      "ifc_type": "IFCWALLSTANDARDCASE",
+      "revit_category": "Walls",
+      "contained_in_space": "Level_2_space_1218",
+      "hosted_by": "ifc_43",
+      "adjacent_to": [
+        "Level_2_space_3013"
+      ],
+      "placement": {
+        "level_id": "Storey_43",
+        "level_name": "Level 2",
+        "x_mm": 8799.999999999975,
+        "y_mm": -17591.5,
+        "z_mm": 3100.000000000378,
+        "rotation_deg": 180.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#5548",
+        "ifc_guid": "2O2Fr$t4X7Zf8NOew3FLOH",
+        "tag": "143534",
+        "geometry_bbox_min_x_mm": 0.0,
+        "geometry_bbox_max_x_mm": 8799.999999999975,
+        "geometry_bbox_min_y_mm": -17800.000000000004,
+        "geometry_bbox_max_y_mm": -17383.0,
+        "geometry_bbox_min_z_mm": 3100.000000000378,
+        "geometry_bbox_max_z_mm": 6000.00000000039,
+        "geometry_bbox_width_mm": 8799.999999999975,
+        "geometry_bbox_depth_mm": 417.00000000000364,
+        "geometry_bbox_height_mm": 2900.0000000000123
+      }
+    },
+    {
+      "element_id": "ifc_7795",
+      "source_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "semantic_type": "window",
+      "ifc_type": "IFCWINDOW",
+      "revit_category": "Windows",
+      "contained_in_space": "Level_2_space_1218",
+      "hosted_by": "ifc_7781",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_43",
+        "level_name": "Level 2",
+        "x_mm": 10124.999999999976,
+        "y_mm": -17799.999999999996,
+        "z_mm": 3200.000000000201,
+        "rotation_deg": 180.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#7795",
+        "ifc_guid": "1hOSvn6df7F8_7GcBWlS_W",
+        "overall_height_m": 2.409999999999996,
+        "overall_width_m": 2.8,
+        "tag": "149278",
+        "geometry_bbox_min_x_mm": 4674.999999999964,
+        "geometry_bbox_max_x_mm": 7474.9999999999645,
+        "geometry_bbox_min_y_mm": -17799.999999999996,
+        "geometry_bbox_max_y_mm": -17383.000000000004,
+        "geometry_bbox_min_z_mm": 3200.0000000002137,
+        "geometry_bbox_max_z_mm": 5610.000000000206,
+        "geometry_bbox_width_mm": 2800.000000000001,
+        "geometry_bbox_depth_mm": 416.9999999999927,
+        "geometry_bbox_height_mm": 2409.999999999992,
+        "sill_height_mm": 3200.0000000002137,
+        "height_mm": 2409.999999999992
+      }
+    },
+    {
+      "element_id": "ifc_7847",
+      "source_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "semantic_type": "window",
+      "ifc_type": "IFCWINDOW",
+      "revit_category": "Windows",
+      "contained_in_space": "Level_2_space_1218",
+      "hosted_by": "ifc_7833",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_43",
+        "level_name": "Level 2",
+        "x_mm": 9216.999999999975,
+        "y_mm": -17800.0,
+        "z_mm": 3200.0000000002015,
+        "rotation_deg": 180.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#7847",
+        "ifc_guid": "1hOSvn6df7F8_7GcBWlS2V",
+        "overall_height_m": 0.758999999999998,
+        "overall_width_m": 0.8190000000000001,
+        "tag": "149537",
+        "geometry_bbox_min_x_mm": 7563.9999999999645,
+        "geometry_bbox_max_x_mm": 8382.999999999965,
+        "geometry_bbox_min_y_mm": -17799.999999999996,
+        "geometry_bbox_max_y_mm": -17383.0,
+        "geometry_bbox_min_z_mm": 3200.0000000002137,
+        "geometry_bbox_max_z_mm": 3959.000000000208,
+        "geometry_bbox_width_mm": 819.0000000000009,
+        "geometry_bbox_depth_mm": 416.99999999999636,
+        "geometry_bbox_height_mm": 758.9999999999941,
+        "sill_height_mm": 3200.0000000002137,
+        "height_mm": 758.9999999999941
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "ifc_5548_fact_01",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 8799.999999999975,
+      "unit": "mm",
+      "source_element_id": "ifc_5548",
+      "source_element_label": "Basic Wall:Exterior - Brick on Block:143534",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_5548_fact_02",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2900.0000000000123,
+      "unit": "mm",
+      "source_element_id": "ifc_5548",
+      "source_element_label": "Basic Wall:Exterior - Brick on Block:143534",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_7795_fact_03",
+      "parameter": "ifc_overall_width",
+      "value": 2800.0,
+      "unit": "mm",
+      "source_element_id": "ifc_7795",
+      "source_element_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "source_property": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "fact_id": "ifc_7795_fact_04",
+      "parameter": "ifc_overall_height",
+      "value": 2409.9999999999964,
+      "unit": "mm",
+      "source_element_id": "ifc_7795",
+      "source_element_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "source_property": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "fact_id": "ifc_7795_fact_05",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 2800.000000000001,
+      "unit": "mm",
+      "source_element_id": "ifc_7795",
+      "source_element_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_7795_fact_06",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2409.999999999992,
+      "unit": "mm",
+      "source_element_id": "ifc_7795",
+      "source_element_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_7795_fact_07",
+      "parameter": "window_sill_height",
+      "value": 3200.0000000002137,
+      "unit": "mm",
+      "source_element_id": "ifc_7795",
+      "source_element_label": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "source_property": "geometry_bbox_min_z_mm",
+      "description": "Window sill height derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "ifc_7847_fact_08",
+      "parameter": "ifc_overall_width",
+      "value": 819.0000000000001,
+      "unit": "mm",
+      "source_element_id": "ifc_7847",
+      "source_element_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "source_property": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "fact_id": "ifc_7847_fact_09",
+      "parameter": "ifc_overall_height",
+      "value": 758.999999999998,
+      "unit": "mm",
+      "source_element_id": "ifc_7847",
+      "source_element_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "source_property": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "fact_id": "ifc_7847_fact_10",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 819.0000000000009,
+      "unit": "mm",
+      "source_element_id": "ifc_7847",
+      "source_element_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_7847_fact_11",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 758.9999999999941,
+      "unit": "mm",
+      "source_element_id": "ifc_7847",
+      "source_element_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_7847_fact_12",
+      "parameter": "window_sill_height",
+      "value": 3200.0000000002137,
+      "unit": "mm",
+      "source_element_id": "ifc_7847",
+      "source_element_label": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "source_property": "geometry_bbox_min_z_mm",
+      "description": "Window sill height derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "ifc_20958_fact_13",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 3708.0000000000273,
+      "unit": "mm",
+      "source_element_id": "ifc_20958",
+      "source_element_label": "Floor:Finish Floor - Wood:169308",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCSLAB geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_20958_fact_14",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 19.000000000000455,
+      "unit": "mm",
+      "source_element_id": "ifc_20958",
+      "source_element_label": "Floor:Finish Floor - Wood:169308",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCSLAB geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_22396_fact_15",
+      "parameter": "ifc_overall_width",
+      "value": 749.9999999999984,
+      "unit": "mm",
+      "source_element_id": "ifc_22396",
+      "source_element_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "source_property": "overall_width_m",
+      "description": "IFCWINDOW overall width"
+    },
+    {
+      "fact_id": "ifc_22396_fact_16",
+      "parameter": "ifc_overall_height",
+      "value": 2199.9999999999973,
+      "unit": "mm",
+      "source_element_id": "ifc_22396",
+      "source_element_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "source_property": "overall_height_m",
+      "description": "IFCWINDOW overall height"
+    },
+    {
+      "fact_id": "ifc_22396_fact_17",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 416.9999999999982,
+      "unit": "mm",
+      "source_element_id": "ifc_22396",
+      "source_element_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWINDOW geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_22396_fact_18",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2199.9999999999923,
+      "unit": "mm",
+      "source_element_id": "ifc_22396",
+      "source_element_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWINDOW geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_22396_fact_19",
+      "parameter": "window_sill_height",
+      "value": 3200.0000000002087,
+      "unit": "mm",
+      "source_element_id": "ifc_22396",
+      "source_element_label": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "source_property": "geometry_bbox_min_z_mm",
+      "description": "Window sill height derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_20",
+      "parameter": "ifc_space_bbox_length",
+      "value": 6248.999999999984,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space long dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_21",
+      "parameter": "ifc_space_bbox_width",
+      "value": 3708.0000000000146,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space short dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_22",
+      "parameter": "ifc_space_bbox_area",
+      "value": 23.17129200000003,
+      "unit": "m2",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Approximate space footprint area derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_23",
+      "parameter": "bedroom_length",
+      "value": 6.248999999999984,
+      "unit": "m",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Bedroom length derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_24",
+      "parameter": "bedroom_width",
+      "value": 3.7080000000000144,
+      "unit": "m",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Bedroom width derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_25",
+      "parameter": "bedroom_area",
+      "value": 23.17129200000003,
+      "unit": "m2",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Bedroom area derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_2_space_1218_fact_26",
+      "parameter": "ifc_space_bbox_height",
+      "value": 2581.000000000183,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_height_mm",
+      "description": "Space height derived from IFC shape bounding box"
+    }
+  ]
+}

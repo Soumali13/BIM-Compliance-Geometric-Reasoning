@@ -1,0 +1,26 @@
+Project: Projekt-FZK-Haus
+Project ID: 0lY6P5Ur90TAQnnnI6wtnb
+Units: Erdgeschoss, Dachgeschoss
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/AC20-FZK-Haus_normalized_bim.json
+Overall unit status: UNKNOWN
+Audited space count: 5
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Erdgeschoss :: Erdgeschoss_space_20909 (Schlafzimmer): PASS
+- Erdgeschoss :: Erdgeschoss_space_21283 (Bad): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.
+  next measurements: bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance, lavatory_trap_bottom_height, lavatory_trap_entry_back_wall_distance, shower_floor_length, shower_floor_width, shower_front_clearance_length, shower_front_clearance_width, turning_circle_diameter, water_closet_rear_reinforcement_height, water_closet_rear_reinforcement_width, water_closet_side_wall_or_equipment_distance, water_closet_to_lavatory_trap_distance
+- Erdgeschoss :: Erdgeschoss_space_33774 (Wohnen): PASS
+- Erdgeschoss :: Erdgeschoss_space_34191 (Flur): UNKNOWN
+  reason: The residential corridor is unknown because required evidence is missing, including turning_circle_diameter.
+  next measurements: turning_circle_diameter
+- Erdgeschoss :: Erdgeschoss_space_34763 (Küche): UNKNOWN
+  reason: The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.
+  next measurements: kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height
+
+Status counts:
+- PASS: 2
+- FAIL: 0
+- UNKNOWN: 3

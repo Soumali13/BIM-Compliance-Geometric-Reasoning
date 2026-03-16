@@ -1,0 +1,29 @@
+Scene: Unit_521_dining_room_space (Residential Dining Room)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential dining room is unknown because required evidence is missing, including window_sill_height.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+  Recommended next measurements: window_sill_height
+
+[UNKNOWN] Articles 3.8.5.8 - missing.window_sill_height
+  fact: missing
+  requirement: <= 1000.0 mm
+  reason: Required fact for window_sill_height was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.8 Living Rooms and Dining Rooms
+  override trace: QCC_B11_R2:3.8.5.8 <= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.8 <= 1000.0 mm
+  expected from: window
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
+- Unit ID: Unit_521
+- Space ID: Unit_521_dining_room_space
+- Space name: Unit 521 Dining Room
+- Retrieved articles: 3.8.5.8, 14, 3.8.5.8, 14, 23, 27.1
+- Derived constraints: 18
+- Findings: 1

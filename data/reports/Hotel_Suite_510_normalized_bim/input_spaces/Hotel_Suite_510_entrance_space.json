@@ -1,0 +1,225 @@
+{
+  "space_id": "Hotel_Suite_510_entrance_space",
+  "unit_id": "Hotel_Suite_510",
+  "name": "Hotel Suite 510 Entrance",
+  "room_type": "Hotel Suite Entrance",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_05",
+  "contained_in_unit": "Hotel_Suite_510",
+  "adjacent_to": [
+    "Hotel_Suite_510_bathroom_space",
+    "Hotel_Suite_510_closet_space"
+  ],
+  "placement": {
+    "level_id": "Level_05",
+    "level_name": "Level 05",
+    "x_mm": 0.0,
+    "y_mm": 0.0,
+    "z_mm": 15000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "entrance.json",
+  "source_room_id": "Hotel_Suite_510_Entrance",
+  "raw_properties": {
+    "source_room_type": "Hotel Suite Entrance",
+    "compliance_room_type": "Hotel Suite Entrance",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_floor_slab",
+      "source_label": "Hotel_Suite_510_Entrance_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_service_wall",
+      "source_label": "Hotel_Suite_510_Entrance_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 1200.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_exterior_wall",
+      "source_label": "Hotel_Suite_510_Entrance_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 3200.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_entry_wall",
+      "source_label": "Hotel_Suite_510_Entrance_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 0.0,
+        "y_mm": 800.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_ceiling_plane",
+      "source_label": "Hotel_Suite_510_Entrance_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_label": "suite_entry_door",
+      "semantic_type": "door",
+      "ifc_type": "IfcDoor",
+      "revit_category": "Doors",
+      "contained_in_space": "Hotel_Suite_510_entrance_space",
+      "hosted_by": "Hotel_Suite_510_entrance_space_entry_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_05",
+        "level_name": "Level 05",
+        "x_mm": 300.0,
+        "y_mm": 200.0,
+        "z_mm": 15000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "side_clear_space_diameter_mm": 1710,
+        "side_clear_space_perpendicular_swing_mm": 1110,
+        "side_clear_space_perpendicular_sliding_mm": 1110,
+        "side_clear_space_perpendicular_other_mm": 1270,
+        "latch_clearance_perpendicular_mm": 65,
+        "latch_clearance_lateral_mm": 575,
+        "hardware_type": "lever"
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_01",
+      "parameter": "door_side_clear_space_diameter",
+      "value": 1710.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "side_clear_space_diameter_mm",
+      "description": "Door-side clear space diameter"
+    },
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_02",
+      "parameter": "door_side_clear_space_perpendicular_swing",
+      "value": 1110.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "side_clear_space_perpendicular_swing_mm",
+      "description": "Door-side clear space perpendicular dimension for swinging door"
+    },
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_03",
+      "parameter": "door_side_clear_space_perpendicular_sliding",
+      "value": 1110.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "side_clear_space_perpendicular_sliding_mm",
+      "description": "Door-side clear space perpendicular dimension for sliding door"
+    },
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_04",
+      "parameter": "door_side_clear_space_perpendicular_other",
+      "value": 1270.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "side_clear_space_perpendicular_other_mm",
+      "description": "Door-side clear space perpendicular dimension for other door cases"
+    },
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_05",
+      "parameter": "sliding_door_latch_clearance_perpendicular",
+      "value": 65.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "latch_clearance_perpendicular_mm",
+      "description": "Sliding door latch-side clearance for perpendicular approach"
+    },
+    {
+      "fact_id": "Hotel_Suite_510_entrance_space_fact_06",
+      "parameter": "sliding_door_latch_clearance_lateral",
+      "value": 575.0,
+      "unit": "mm",
+      "source_element_id": "Hotel_Suite_510_entrance_space_suite_entry_door",
+      "source_element_label": "suite_entry_door",
+      "source_property": "latch_clearance_lateral_mm",
+      "description": "Sliding door latch-side clearance for lateral approach"
+    }
+  ]
+}

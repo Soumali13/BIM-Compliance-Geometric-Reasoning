@@ -1,0 +1,38 @@
+Project: Montreal Accessibility Demo Tower
+Project ID: Montreal_Accessibility_Demo
+Units: Unit_521
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
+Overall unit status: FAIL
+Audited space count: 10
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Unit_521 :: Unit_521_bathroom_primary_space (Unit 521 Bathroom Primary): UNKNOWN
+  reason: The residential bathroom is unknown because required evidence is missing, including lavatory_trap_entry_back_wall_distance.
+  next measurements: lavatory_trap_entry_back_wall_distance
+- Unit_521 :: Unit_521_bathroom_hall_space (Unit 521 Bathroom Hall): FAIL
+  reason: The residential bathroom failed because one or more active requirements were violated, including turning_circle_diameter, lavatory_rim_height, lavatory_side_wall_distance.
+- Unit_521 :: Unit_521_kitchen_open_plan_space (Unit 521 Kitchen Open Plan): UNKNOWN
+  reason: The residential kitchen is unknown because required evidence is missing, including kitchen_sink_trap_bottom_height.
+  next measurements: kitchen_sink_trap_bottom_height
+- Unit_521 :: Unit_521_bedroom_primary_space (Unit 521 Bedroom Primary): PASS
+- Unit_521 :: Unit_521_bedroom_secondary_space (Unit 521 Bedroom Secondary): UNKNOWN
+  reason: The residential bedroom is unknown because required evidence is missing, including window_sill_height.
+  next measurements: window_sill_height
+- Unit_521 :: Unit_521_living_room_space (Unit 521 Living Room): FAIL
+  reason: The residential living room failed because one or more active requirements were violated, including window_sill_height.
+- Unit_521 :: Unit_521_dining_room_space (Unit 521 Dining Room): UNKNOWN
+  reason: The residential dining room is unknown because required evidence is missing, including window_sill_height.
+  next measurements: window_sill_height
+- Unit_521 :: Unit_521_suite_entry_space (Unit 521 Suite Entry): FAIL
+  reason: The residential door area failed because one or more active requirements were violated, including door_side_clear_space_diameter, door_side_clear_space_perpendicular_swing, door_side_clear_space_perpendicular_sliding.
+- Unit_521 :: Unit_521_entry_controls_space (Unit 521 Entry Controls): UNKNOWN
+  reason: The residential controls is unknown because required evidence is missing, including control_height, control_inside_corner_distance.
+  next measurements: control_height, control_inside_corner_distance
+- Unit_521 :: Unit_521_balcony_main_space (Unit 521 Balcony Main): PASS
+
+Status counts:
+- PASS: 2
+- FAIL: 3
+- UNKNOWN: 5

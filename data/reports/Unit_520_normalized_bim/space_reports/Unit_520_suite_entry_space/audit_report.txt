@@ -1,0 +1,73 @@
+Scene: Unit_520_suite_entry_space (Residential Door Area)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential door area passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE, ending with QUEBEC_2020_ABOVE as the controlling authority where applicable.
+
+
+[PASS] Articles 3.8.5.3 - unit520_entry_slider.side_clear_space_diameter_mm
+  fact: 1515.0 mm
+  requirement: >= 1500.0 mm
+  reason: Door-side clear space diameter satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.5.3 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 1500.0 mm
+
+
+[PASS] Articles 3.8.4.3, 3.8.5.3 - unit520_entry_slider.side_clear_space_perpendicular_swing_mm
+  fact: 1115.0 mm
+  requirement: >= 1050.0 mm
+  reason: Door-side clear space perpendicular dimension for swinging door satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.3 Doorways and Doors; 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.4.3 >= 1050.0 mm -> QCC_B11_R2:3.8.5.3 >= 1050.0 mm -> QUEBEC_2020_ABOVE:3.8.4.3 >= 1050.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 1050.0 mm
+
+
+[PASS] Articles 3.8.4.3, 3.8.5.3 - unit520_entry_slider.side_clear_space_perpendicular_sliding_mm
+  fact: 1110.0 mm
+  requirement: >= 1050.0 mm
+  reason: Door-side clear space perpendicular dimension for sliding door satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.3 Doorways and Doors; 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.4.3 >= 1050.0 mm -> QCC_B11_R2:3.8.5.3 >= 1050.0 mm -> QUEBEC_2020_ABOVE:3.8.4.3 >= 1050.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 1050.0 mm
+
+
+[PASS] Articles 3.8.4.3, 3.8.5.3 - unit520_entry_slider.side_clear_space_perpendicular_other_mm
+  fact: 1265.0 mm
+  requirement: >= 1200.0 mm
+  reason: Door-side clear space perpendicular dimension for other door cases satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.3 Doorways and Doors; 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.4.3 >= 1200.0 mm -> QCC_B11_R2:3.8.5.3 >= 1200.0 mm -> QUEBEC_2020_ABOVE:3.8.4.3 >= 1200.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 1200.0 mm
+
+
+[PASS] Articles 3.8.4.3, 3.8.5.3 - unit520_entry_slider.latch_clearance_perpendicular_mm
+  fact: 70.0 mm
+  requirement: >= 50.0 mm
+  reason: Sliding door latch-side clearance for perpendicular approach satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.3 Doorways and Doors; 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.4.3 >= 50.0 mm -> QCC_B11_R2:3.8.5.3 >= 50.0 mm -> QUEBEC_2020_ABOVE:3.8.4.3 >= 50.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 50.0 mm
+
+
+[PASS] Articles 3.8.4.3, 3.8.5.3 - unit520_entry_slider.latch_clearance_lateral_mm
+  fact: 565.0 mm
+  requirement: >= 540.0 mm
+  reason: Sliding door latch-side clearance for lateral approach satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.4.3 Doorways and Doors; 3.8.5.3 Doorways and Doors
+  override trace: QCC_B11_R2:3.8.4.3 >= 540.0 mm -> QCC_B11_R2:3.8.5.3 >= 540.0 mm -> QUEBEC_2020_ABOVE:3.8.4.3 >= 540.0 mm -> QUEBEC_2020_ABOVE:3.8.5.3 >= 540.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_520_normalized_bim.json
+- Unit ID: Unit_520
+- Space ID: Unit_520_suite_entry_space
+- Space name: Unit 520 Suite Entry
+- Retrieved articles: 3.8.5.3, 3.8.5.3, 3.8.4.3, 3.8.4.3, 14, 23, 27.1
+- Derived constraints: 35
+- Findings: 6

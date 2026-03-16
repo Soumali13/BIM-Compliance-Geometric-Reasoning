@@ -1,0 +1,1669 @@
+{
+  "scene_id": "Unit_411_bathroom_primary_space",
+  "room_type": "Residential Bathroom",
+  "status": "FAIL",
+  "passed": false,
+  "checks": [
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "turning_circle_diameter",
+      "source_element": "turning_circle",
+      "source_measurement": "diameter_mm",
+      "fact_value": 1410.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1500.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Turning diameter is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.3.15",
+          "title": "Lavatories and Mirrors",
+          "authority": "QUEBEC_2015_2022"
+        }
+      ],
+      "parameter": "lavatory_rim_height",
+      "source_element": "sink",
+      "source_measurement": "rim_height_mm",
+      "fact_value": 880.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 865.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Lavatory rim height is above maximum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2015_2022",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.16",
+          "title": "Lavatories and Mirrors",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": "<=",
+          "value": 865.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.15",
+          "title": "Lavatories and Mirrors",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 865.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "lavatory_side_wall_distance",
+      "source_element": "sink",
+      "source_measurement": "side_wall_distance_mm",
+      "fact_value": 420.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 460.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Lavatory side-wall clearance is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.16",
+          "title": "Lavatories and Mirrors",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.15",
+          "title": "Lavatories and Mirrors",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "lavatory_trap_bottom_height",
+      "source_element": "sink",
+      "source_measurement": "trap_bottom_height_mm",
+      "fact_value": 315.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 300.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Lavatory trap bottom height is above maximum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 300.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "lavatory_trap_bottom_height",
+      "source_element": "sink",
+      "source_measurement": "trap_bottom_height_mm",
+      "fact_value": 315.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 230.0,
+      "required_unit": "mm",
+      "status": "PASS",
+      "reason": "Lavatory trap bottom height satisfies the requirement.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 230.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 230.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "lavatory_trap_entry_back_wall_distance",
+      "source_element": "sink",
+      "source_measurement": "trap_entry_back_wall_distance_mm",
+      "fact_value": 390.0,
+      "fact_unit": "mm",
+      "operator": "<=",
+      "required_value": 330.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Lavatory trap entry distance from back wall is above maximum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 330.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 330.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "water_closet_to_lavatory_trap_distance",
+      "source_element": "wc",
+      "source_measurement": "to_lavatory_trap_distance_mm",
+      "fact_value": 1330.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1400.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Water closet to lavatory trap distance is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1400.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1400.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "water_closet_side_wall_or_equipment_distance",
+      "source_element": "wc",
+      "source_measurement": "side_wall_or_equipment_distance_mm",
+      "fact_value": 1010.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1100.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Water closet to side wall or equipment distance is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "water_closet_rear_reinforcement_width",
+      "source_element": "wc",
+      "source_measurement": "rear_reinforcement_width_mm",
+      "fact_value": 920.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1000.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Water closet rear reinforcement width is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1000.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "water_closet_rear_reinforcement_height",
+      "source_element": "wc",
+      "source_measurement": "rear_reinforcement_height_mm",
+      "fact_value": 1030.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1100.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Water closet rear reinforcement height is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "shower_floor_width",
+      "source_element": "corner_shower",
+      "source_measurement": "floor_width_mm",
+      "fact_value": 860.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 900.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Shower floor width is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "shower_floor_length",
+      "source_element": "corner_shower",
+      "source_measurement": "floor_length_mm",
+      "fact_value": 870.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 900.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Shower floor length is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "shower_front_clearance_width",
+      "source_element": "corner_shower",
+      "source_measurement": "front_clearance_width_mm",
+      "fact_value": 710.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 750.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Shower front clearance width is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 750.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 750.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "shower_front_clearance_length",
+      "source_element": "corner_shower",
+      "source_measurement": "front_clearance_length_mm",
+      "fact_value": 1110.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1200.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Shower front clearance length is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "authority": "NBC_2020",
+          "jurisdiction": "Canada",
+          "priority": 1,
+          "effective_date": "2020-01-01",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2022-01-08",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "citations": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE"
+        }
+      ],
+      "parameter": "bathtub_shower_reinforcement_height",
+      "source_element": "corner_shower",
+      "source_measurement": "wall_reinforcement_height_mm",
+      "fact_value": 1710.0,
+      "fact_unit": "mm",
+      "operator": ">=",
+      "required_value": 1800.0,
+      "required_unit": "mm",
+      "status": "FAIL",
+      "reason": "Shower wall reinforcement height is below minimum.",
+      "expected_element_types": [],
+      "active_authority": "QUEBEC_2020_ABOVE",
+      "active_jurisdiction": "Quebec",
+      "override_trace": [
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QCC_B11_R2",
+          "jurisdiction": "Quebec",
+          "priority": 2,
+          "effective_date": "2015-11-27",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1800.0,
+          "unit": "mm"
+        },
+        {
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "priority": 3,
+          "effective_date": "2025-04-17",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1800.0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ],
+  "unmatched_facts": [],
+  "llm_reasoning": {
+    "generation_mode": "deterministic",
+    "summary": "The residential bathroom failed because one or more active requirements were violated, including turning_circle_diameter, lavatory_rim_height, lavatory_side_wall_distance.",
+    "precedence_explanation": "The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE -> NBC_2020 -> QUEBEC_2015_2022, ending with QUEBEC_2015_2022 as the controlling authority where applicable.",
+    "recommended_next_measurements": [],
+    "finding_explanations": [
+      {
+        "parameter": "turning_circle_diameter",
+        "status": "FAIL",
+        "explanation": "turning_circle_diameter failed because the measured value 1410.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1500.0 mm."
+      },
+      {
+        "parameter": "lavatory_rim_height",
+        "status": "FAIL",
+        "explanation": "lavatory_rim_height failed because the measured value 880.0 mm did not satisfy the active QUEBEC_2015_2022 requirement of <= 865.0 mm."
+      },
+      {
+        "parameter": "lavatory_side_wall_distance",
+        "status": "FAIL",
+        "explanation": "lavatory_side_wall_distance failed because the measured value 420.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 460.0 mm."
+      },
+      {
+        "parameter": "lavatory_trap_bottom_height",
+        "status": "FAIL",
+        "explanation": "lavatory_trap_bottom_height failed because the measured value 315.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of <= 300.0 mm."
+      },
+      {
+        "parameter": "lavatory_trap_bottom_height",
+        "status": "PASS",
+        "explanation": "lavatory_trap_bottom_height passed because the measured value 315.0 mm met the active QUEBEC_2020_ABOVE requirement of >= 230.0 mm."
+      },
+      {
+        "parameter": "lavatory_trap_entry_back_wall_distance",
+        "status": "FAIL",
+        "explanation": "lavatory_trap_entry_back_wall_distance failed because the measured value 390.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of <= 330.0 mm."
+      },
+      {
+        "parameter": "water_closet_to_lavatory_trap_distance",
+        "status": "FAIL",
+        "explanation": "water_closet_to_lavatory_trap_distance failed because the measured value 1330.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1400.0 mm."
+      },
+      {
+        "parameter": "water_closet_side_wall_or_equipment_distance",
+        "status": "FAIL",
+        "explanation": "water_closet_side_wall_or_equipment_distance failed because the measured value 1010.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1100.0 mm."
+      },
+      {
+        "parameter": "water_closet_rear_reinforcement_width",
+        "status": "FAIL",
+        "explanation": "water_closet_rear_reinforcement_width failed because the measured value 920.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1000.0 mm."
+      },
+      {
+        "parameter": "water_closet_rear_reinforcement_height",
+        "status": "FAIL",
+        "explanation": "water_closet_rear_reinforcement_height failed because the measured value 1030.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1100.0 mm."
+      },
+      {
+        "parameter": "shower_floor_width",
+        "status": "FAIL",
+        "explanation": "shower_floor_width failed because the measured value 860.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 900.0 mm."
+      },
+      {
+        "parameter": "shower_floor_length",
+        "status": "FAIL",
+        "explanation": "shower_floor_length failed because the measured value 870.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 900.0 mm."
+      },
+      {
+        "parameter": "shower_front_clearance_width",
+        "status": "FAIL",
+        "explanation": "shower_front_clearance_width failed because the measured value 710.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 750.0 mm."
+      },
+      {
+        "parameter": "shower_front_clearance_length",
+        "status": "FAIL",
+        "explanation": "shower_front_clearance_length failed because the measured value 1110.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1200.0 mm."
+      },
+      {
+        "parameter": "bathtub_shower_reinforcement_height",
+        "status": "FAIL",
+        "explanation": "bathtub_shower_reinforcement_height failed because the measured value 1710.0 mm did not satisfy the active QUEBEC_2020_ABOVE requirement of >= 1800.0 mm."
+      }
+    ],
+    "prompt_context": {
+      "scene_id": "Unit_411_bathroom_primary_space",
+      "room_type": "Residential Bathroom",
+      "status": "FAIL",
+      "facts_used": [
+        {
+          "parameter": "turning_circle_diameter",
+          "value": 1410.0,
+          "unit": "mm",
+          "source_element": "turning_circle",
+          "source_measurement": "diameter_mm",
+          "description": "Turning diameter"
+        },
+        {
+          "parameter": "lavatory_rim_height",
+          "value": 880.0,
+          "unit": "mm",
+          "source_element": "sink",
+          "source_measurement": "rim_height_mm",
+          "description": "Lavatory rim height"
+        },
+        {
+          "parameter": "lavatory_side_wall_distance",
+          "value": 420.0,
+          "unit": "mm",
+          "source_element": "sink",
+          "source_measurement": "side_wall_distance_mm",
+          "description": "Lavatory side-wall clearance"
+        },
+        {
+          "parameter": "lavatory_trap_bottom_height",
+          "value": 315.0,
+          "unit": "mm",
+          "source_element": "sink",
+          "source_measurement": "trap_bottom_height_mm",
+          "description": "Lavatory trap bottom height"
+        },
+        {
+          "parameter": "lavatory_trap_entry_back_wall_distance",
+          "value": 390.0,
+          "unit": "mm",
+          "source_element": "sink",
+          "source_measurement": "trap_entry_back_wall_distance_mm",
+          "description": "Lavatory trap entry distance from back wall"
+        },
+        {
+          "parameter": "water_closet_to_lavatory_trap_distance",
+          "value": 1330.0,
+          "unit": "mm",
+          "source_element": "wc",
+          "source_measurement": "to_lavatory_trap_distance_mm",
+          "description": "Water closet to lavatory trap distance"
+        },
+        {
+          "parameter": "water_closet_side_wall_or_equipment_distance",
+          "value": 1010.0,
+          "unit": "mm",
+          "source_element": "wc",
+          "source_measurement": "side_wall_or_equipment_distance_mm",
+          "description": "Water closet to side wall or equipment distance"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_width",
+          "value": 920.0,
+          "unit": "mm",
+          "source_element": "wc",
+          "source_measurement": "rear_reinforcement_width_mm",
+          "description": "Water closet rear reinforcement width"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_height",
+          "value": 1030.0,
+          "unit": "mm",
+          "source_element": "wc",
+          "source_measurement": "rear_reinforcement_height_mm",
+          "description": "Water closet rear reinforcement height"
+        },
+        {
+          "parameter": "shower_floor_width",
+          "value": 860.0,
+          "unit": "mm",
+          "source_element": "corner_shower",
+          "source_measurement": "floor_width_mm",
+          "description": "Shower floor width"
+        },
+        {
+          "parameter": "shower_floor_length",
+          "value": 870.0,
+          "unit": "mm",
+          "source_element": "corner_shower",
+          "source_measurement": "floor_length_mm",
+          "description": "Shower floor length"
+        },
+        {
+          "parameter": "shower_front_clearance_width",
+          "value": 710.0,
+          "unit": "mm",
+          "source_element": "corner_shower",
+          "source_measurement": "front_clearance_width_mm",
+          "description": "Shower front clearance width"
+        },
+        {
+          "parameter": "shower_front_clearance_length",
+          "value": 1110.0,
+          "unit": "mm",
+          "source_element": "corner_shower",
+          "source_measurement": "front_clearance_length_mm",
+          "description": "Shower front clearance length"
+        },
+        {
+          "parameter": "bathtub_shower_reinforcement_height",
+          "value": 1710.0,
+          "unit": "mm",
+          "source_element": "corner_shower",
+          "source_measurement": "wall_reinforcement_height_mm",
+          "description": "Shower wall reinforcement height"
+        }
+      ],
+      "active_resolved_rules": [
+        {
+          "parameter": "turning_circle_diameter",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_rim_height",
+          "article": "3.8.3.15",
+          "authority": "QUEBEC_2015_2022",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 865.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_side_wall_distance",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_bottom_height",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_bottom_height",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 230.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_entry_back_wall_distance",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": "<=",
+          "value": 330.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "water_closet_to_lavatory_trap_distance",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1400.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "water_closet_side_wall_or_equipment_distance",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_width",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_height",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_floor_width",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_floor_length",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_front_clearance_width",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 750.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "shower_front_clearance_length",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "parameter": "bathtub_shower_reinforcement_height",
+          "article": "3.8.5.5",
+          "authority": "QUEBEC_2020_ABOVE",
+          "jurisdiction": "Quebec",
+          "operator": ">=",
+          "value": 1800.0,
+          "unit": "mm"
+        }
+      ],
+      "overridden_rules": [
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.16",
+          "title": "Lavatories and Mirrors",
+          "patch_action": "add",
+          "operator": "<=",
+          "value": 865.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.16",
+          "title": "Lavatories and Mirrors",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.15",
+          "title": "Lavatories and Mirrors",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 460.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 300.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 230.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": "<=",
+          "value": 330.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1400.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1100.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1000.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1500.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "patch_action": "add",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 900.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 750.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1200.0,
+          "unit": "mm"
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "patch_action": "replace",
+          "operator": ">=",
+          "value": 1800.0,
+          "unit": "mm"
+        }
+      ],
+      "findings": [
+        {
+          "parameter": "turning_circle_diameter",
+          "status": "FAIL",
+          "reason": "Turning diameter is below minimum.",
+          "operator": ">=",
+          "required_value": 1500.0,
+          "required_unit": "mm",
+          "fact_value": 1410.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "lavatory_rim_height",
+          "status": "FAIL",
+          "reason": "Lavatory rim height is above maximum.",
+          "operator": "<=",
+          "required_value": 865.0,
+          "required_unit": "mm",
+          "fact_value": 880.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "lavatory_side_wall_distance",
+          "status": "FAIL",
+          "reason": "Lavatory side-wall clearance is below minimum.",
+          "operator": ">=",
+          "required_value": 460.0,
+          "required_unit": "mm",
+          "fact_value": 420.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_bottom_height",
+          "status": "FAIL",
+          "reason": "Lavatory trap bottom height is above maximum.",
+          "operator": "<=",
+          "required_value": 300.0,
+          "required_unit": "mm",
+          "fact_value": 315.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_bottom_height",
+          "status": "PASS",
+          "reason": "Lavatory trap bottom height satisfies the requirement.",
+          "operator": ">=",
+          "required_value": 230.0,
+          "required_unit": "mm",
+          "fact_value": 315.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "lavatory_trap_entry_back_wall_distance",
+          "status": "FAIL",
+          "reason": "Lavatory trap entry distance from back wall is above maximum.",
+          "operator": "<=",
+          "required_value": 330.0,
+          "required_unit": "mm",
+          "fact_value": 390.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "water_closet_to_lavatory_trap_distance",
+          "status": "FAIL",
+          "reason": "Water closet to lavatory trap distance is below minimum.",
+          "operator": ">=",
+          "required_value": 1400.0,
+          "required_unit": "mm",
+          "fact_value": 1330.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "water_closet_side_wall_or_equipment_distance",
+          "status": "FAIL",
+          "reason": "Water closet to side wall or equipment distance is below minimum.",
+          "operator": ">=",
+          "required_value": 1100.0,
+          "required_unit": "mm",
+          "fact_value": 1010.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_width",
+          "status": "FAIL",
+          "reason": "Water closet rear reinforcement width is below minimum.",
+          "operator": ">=",
+          "required_value": 1000.0,
+          "required_unit": "mm",
+          "fact_value": 920.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "water_closet_rear_reinforcement_height",
+          "status": "FAIL",
+          "reason": "Water closet rear reinforcement height is below minimum.",
+          "operator": ">=",
+          "required_value": 1100.0,
+          "required_unit": "mm",
+          "fact_value": 1030.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "shower_floor_width",
+          "status": "FAIL",
+          "reason": "Shower floor width is below minimum.",
+          "operator": ">=",
+          "required_value": 900.0,
+          "required_unit": "mm",
+          "fact_value": 860.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "shower_floor_length",
+          "status": "FAIL",
+          "reason": "Shower floor length is below minimum.",
+          "operator": ">=",
+          "required_value": 900.0,
+          "required_unit": "mm",
+          "fact_value": 870.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "shower_front_clearance_width",
+          "status": "FAIL",
+          "reason": "Shower front clearance width is below minimum.",
+          "operator": ">=",
+          "required_value": 750.0,
+          "required_unit": "mm",
+          "fact_value": 710.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "shower_front_clearance_length",
+          "status": "FAIL",
+          "reason": "Shower front clearance length is below minimum.",
+          "operator": ">=",
+          "required_value": 1200.0,
+          "required_unit": "mm",
+          "fact_value": 1110.0,
+          "fact_unit": "mm"
+        },
+        {
+          "parameter": "bathtub_shower_reinforcement_height",
+          "status": "FAIL",
+          "reason": "Shower wall reinforcement height is below minimum.",
+          "operator": ">=",
+          "required_value": 1800.0,
+          "required_unit": "mm",
+          "fact_value": 1710.0,
+          "fact_unit": "mm"
+        }
+      ],
+      "missing_facts": [],
+      "retrieved_article_snippets": [
+        {
+          "authority": "QUEBEC_2020_ABOVE",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "snippet": "1) A bathroom referred to in Sentence 3.8.5.2.(1) shall be provided with a water closet located so that the distance between the centre line of the floor flange and a) the centre line of the lavatory trap is not less than 1 400 mm, or b) any side wall or equipment is not less than 1 100 mm. (See..."
+        },
+        {
+          "authority": "QCC_B11_R2",
+          "article": "3.8.5.5",
+          "title": "Bathrooms",
+          "snippet": "1) A bathroom referred to in Sentence 3.8.5.2.(1) shall be provided with a water closet located so that the distance between the centre line of the floor flange and a) the centre line of the lavatory trap is not less than 1 400 mm, or b) any side wall or equipment is not less than 1 100 mm. (See..."
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.17",
+          "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+          "snippet": "1) Showers required by Sentence 3.8.2.8.(12) shall a) be not less than 1 500 mm wide and 900 mm deep, b) have a clear floor space at the entrance to the shower that is not less than 900 mm deep and the same width as the shower, except that fixtures are permitted to project into that space provide..."
+        },
+        {
+          "authority": "NBC_2020",
+          "article": "3.8.3.16",
+          "title": "Lavatories and Mirrors",
+          "snippet": "1) Lavatories required by Sentence 3.8.2.8.(8) shall a) be equipped with faucets complying with Sentence 3.7.2.3.(4), b) be located so that the distance between the centre line of the lavatory and any side wall is not less than 460 mm, c) have a clear floor space in front of the lavatory that is..."
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.16",
+          "title": "Showers",
+          "snippet": "1) Showers required by Sentence 3.8.2.8.(10) shall a) be not less than 1 500 mm wide and 900 mm deep, b) have a clear floor space at the entrance to the shower that is not less than 900 mm deep and the same width as the shower, except that fixtures are permitted to project into that space provide..."
+        },
+        {
+          "authority": "QUEBEC_2015_2022",
+          "article": "3.8.3.15",
+          "title": "Lavatories and Mirrors",
+          "snippet": "1) Lavatories required by Sentence 3.8.2.8.(7) shall a) be equipped with faucets complying with Sentence 3.7.2.3.(4), b) be located so that the distance between the centre line of the lavatory and any side wall is not less than 460 mm, c) have a rim height not more than 865 mm above the floor, d)..."
+        },
+        {
+          "authority": "MTL_11_018",
+          "article": "14",
+          "title": "Article 14",
+          "snippet": "The minimum glass floor area providing natural lighting of rooms in a dwelling must be: 1\u00b0 10% of the area served by the following rooms: living room, dining room, living room and sleeping space combined with another space; 2\u00b0 5% of the area served by rooms and other rooms not mentioned above; 3\u00b0..."
+        },
+        {
+          "authority": "MTL_11_018_X",
+          "article": "27.1",
+          "title": "Article 27.1",
+          "snippet": "The roof structure of a building with a height of more than 3 floors and a height of more than 250 m2 shall, when the roof slope is less than 2 units vertically in 12 units horizontally (2:12) or 16.7%, be designed to receive a type 1 green roof in addition to the loads prescribed by the Code."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "constraint_source": "runtime_derived",
+    "retrieval_mode": "hybrid",
+    "reasoning_mode": "deterministic",
+    "fact_count": 14,
+    "matched_constraint_count": 39,
+    "evaluated_rule_count": 15,
+    "finding_count": 15,
+    "retrieved_article_count": 9,
+    "retrieved_articles": [
+      "QUEBEC_2020_ABOVE:3.8.5.5",
+      "QCC_B11_R2:3.8.5.5",
+      "NBC_2020:3.8.3.17",
+      "NBC_2020:3.8.3.16",
+      "QUEBEC_2015_2022:3.8.3.16",
+      "QUEBEC_2015_2022:3.8.3.15",
+      "MTL_11_018:14",
+      "MTL_11_018_X:27.1",
+      "MTL_11_018_X:23"
+    ],
+    "retrieved_article_scores": [
+      {
+        "authority": "QUEBEC_2020_ABOVE",
+        "article": "3.8.5.5",
+        "title": "Bathrooms",
+        "priority": 3,
+        "overlap_score": 0.928571,
+        "similarity_score": 0.582303,
+        "final_score": 0.686183
+      },
+      {
+        "authority": "QCC_B11_R2",
+        "article": "3.8.5.5",
+        "title": "Bathrooms",
+        "priority": 2,
+        "overlap_score": 0.928571,
+        "similarity_score": 0.575196,
+        "final_score": 0.681209
+      },
+      {
+        "authority": "NBC_2020",
+        "article": "3.8.3.17",
+        "title": "universal washrooms, 3.8.2.8., 3.8.3.13.",
+        "priority": 1,
+        "overlap_score": 0.285714,
+        "similarity_score": 0.497637,
+        "final_score": 0.43406
+      },
+      {
+        "authority": "NBC_2020",
+        "article": "3.8.3.16",
+        "title": "Lavatories and Mirrors",
+        "priority": 1,
+        "overlap_score": 0.142857,
+        "similarity_score": 0.541969,
+        "final_score": 0.422235
+      },
+      {
+        "authority": "QUEBEC_2015_2022",
+        "article": "3.8.3.16",
+        "title": "Showers",
+        "priority": 3,
+        "overlap_score": 0.214286,
+        "similarity_score": 0.468794,
+        "final_score": 0.392442
+      },
+      {
+        "authority": "QUEBEC_2015_2022",
+        "article": "3.8.3.15",
+        "title": "Lavatories and Mirrors",
+        "priority": 3,
+        "overlap_score": 0.142857,
+        "similarity_score": 0.484175,
+        "final_score": 0.381779
+      },
+      {
+        "authority": "MTL_11_018",
+        "article": "14",
+        "title": "Article 14",
+        "priority": 4,
+        "overlap_score": 0.0,
+        "similarity_score": 0.250485,
+        "final_score": 0.17534
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "27.1",
+        "title": "Article 27.1",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.146938,
+        "final_score": 0.102857
+      },
+      {
+        "authority": "MTL_11_018_X",
+        "article": "23",
+        "title": "Article 23",
+        "priority": 5,
+        "overlap_score": 0.0,
+        "similarity_score": 0.142419,
+        "final_score": 0.099693
+      }
+    ],
+    "retrieved_authorities": [
+      "MTL_11_018",
+      "MTL_11_018_X",
+      "NBC_2020",
+      "QCC_B11_R2",
+      "QUEBEC_2015_2022",
+      "QUEBEC_2020_ABOVE"
+    ],
+    "resolved_rule_count": 28,
+    "override_count": 17,
+    "normalized_space_name": "Unit 411 Bathroom Primary",
+    "source_room_type": "Residential Bathroom",
+    "reasoning_generation_mode": "deterministic"
+  }
+}

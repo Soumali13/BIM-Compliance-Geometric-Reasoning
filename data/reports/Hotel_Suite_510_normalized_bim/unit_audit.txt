@@ -1,0 +1,18 @@
+Project: Montreal Accessibility Demo Tower
+Project ID: Montreal_Accessibility_Demo
+Units: Hotel_Suite_510
+Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Hotel_Suite_510_normalized_bim.json
+Overall unit status: PASS
+Audited space count: 3
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+
+Space summary:
+- Hotel_Suite_510 :: Hotel_Suite_510_bathroom_space (Hotel Suite 510 Bathroom): PASS
+- Hotel_Suite_510 :: Hotel_Suite_510_closet_space (Hotel Suite 510 Closet): PASS
+- Hotel_Suite_510 :: Hotel_Suite_510_entrance_space (Hotel Suite 510 Entrance): PASS
+
+Status counts:
+- PASS: 3
+- FAIL: 0
+- UNKNOWN: 0

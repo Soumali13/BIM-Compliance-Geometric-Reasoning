@@ -1,0 +1,122 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "project_name": "Montreal Accessibility Demo Tower",
+  "unit_ids": [
+    "Unit_410"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:27-04:00",
+  "space_reports": [
+    {
+      "space_id": "Unit_410_bathroom_primary_space",
+      "space_name": "Unit 410 Bathroom Primary",
+      "room_type": "Residential Bathroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_410_kitchen_open_plan_space",
+      "space_name": "Unit 410 Kitchen",
+      "room_type": "Residential Kitchen",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_410_bedroom_primary_space",
+      "space_name": "Unit 410 Bedroom Primary",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_410_suite_entry_space",
+      "space_name": "Unit 410 Entry",
+      "room_type": "Residential Door Area",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential door area passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_410_entry_controls_space",
+      "space_name": "Unit 410 Controls",
+      "room_type": "Residential Controls",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential controls passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Unit_410_balcony_space",
+      "space_name": "Unit 410 Balcony",
+      "room_type": "Residential Balcony",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}

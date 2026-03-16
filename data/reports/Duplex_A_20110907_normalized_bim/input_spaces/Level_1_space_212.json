@@ -1,0 +1,301 @@
+{
+  "space_id": "Level_1_space_212",
+  "unit_id": "Level_1",
+  "name": "Kitchen",
+  "room_type": "Kitchen",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Storey_39",
+  "contained_in_unit": "Level_1",
+  "adjacent_to": [
+    "Level_1_space_2108",
+    "Level_1_space_355",
+    "Level_1_space_3586",
+    "Level_1_space_514",
+    "Level_1_space_67"
+  ],
+  "placement": {
+    "level_id": "Storey_39",
+    "level_name": "Level 1",
+    "x_mm": 0.0,
+    "y_mm": 0.0,
+    "z_mm": 0.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "#212",
+  "source_room_id": "A103",
+  "raw_properties": {
+    "ifc_entity_id": "#212",
+    "ifc_name": "A103",
+    "ifc_long_name": "Kitchen",
+    "ifc_composition_type": "ELEMENT",
+    "compliance_room_type": "Residential Kitchen",
+    "geometry_bbox_min_x_mm": 417.0000000000007,
+    "geometry_bbox_max_x_mm": 6226.0,
+    "geometry_bbox_min_y_mm": -12600.000000000002,
+    "geometry_bbox_max_y_mm": -10370.000000000018,
+    "geometry_bbox_min_z_mm": 12.99999999999975,
+    "geometry_bbox_max_z_mm": 2600.000000000001,
+    "geometry_bbox_width_mm": 5808.999999999999,
+    "geometry_bbox_depth_mm": 2229.9999999999836,
+    "geometry_bbox_height_mm": 2587.0000000000014
+  },
+  "elements": [
+    {
+      "element_id": "ifc_21449",
+      "source_label": "Floor:Finish Floor - Ceramic Tile:170785",
+      "semantic_type": "slab",
+      "ifc_type": "IFCSLAB",
+      "revit_category": "Floors",
+      "contained_in_space": "Level_1_space_212",
+      "hosted_by": "ifc_39",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_39",
+        "level_name": "Level 1",
+        "x_mm": 416.9999999999951,
+        "y_mm": -12599.99999999999,
+        "z_mm": 0.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#21449",
+        "ifc_guid": "2OBrcmyk58NupXoVOHUtoa",
+        "tag": "170785",
+        "geometry_bbox_min_x_mm": 416.99999999999494,
+        "geometry_bbox_max_x_mm": 6225.999999999999,
+        "geometry_bbox_min_y_mm": -12599.99999999999,
+        "geometry_bbox_max_y_mm": -10370.000000000036,
+        "geometry_bbox_min_z_mm": 0.0,
+        "geometry_bbox_max_z_mm": 13.0,
+        "geometry_bbox_width_mm": 5809.000000000005,
+        "geometry_bbox_depth_mm": 2229.9999999999545,
+        "geometry_bbox_height_mm": 13.0,
+        "predefined_type": "FLOOR"
+      }
+    },
+    {
+      "element_id": "ifc_24813",
+      "source_label": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "semantic_type": "wall",
+      "ifc_type": "IFCWALLSTANDARDCASE",
+      "revit_category": "Walls",
+      "contained_in_space": "Level_1_space_212",
+      "hosted_by": "ifc_39",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Storey_39",
+        "level_name": "Level 1",
+        "x_mm": 416.9999999999992,
+        "y_mm": -10294.0,
+        "z_mm": 0.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#24813",
+        "ifc_guid": "0iEHWY1$XA8eQeeULq4jE6",
+        "tag": "190933",
+        "geometry_bbox_min_x_mm": 416.9999999999992,
+        "geometry_bbox_max_x_mm": 4617.999999999998,
+        "geometry_bbox_min_y_mm": -10370.000000000002,
+        "geometry_bbox_max_y_mm": -10218.0,
+        "geometry_bbox_min_z_mm": 0.0,
+        "geometry_bbox_max_z_mm": 2795.000000000196,
+        "geometry_bbox_width_mm": 4200.999999999999,
+        "geometry_bbox_depth_mm": 152.00000000000182,
+        "geometry_bbox_height_mm": 2795.000000000196
+      }
+    },
+    {
+      "element_id": "ifc_4508",
+      "source_label": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "semantic_type": "wall",
+      "ifc_type": "IFCWALLSTANDARDCASE",
+      "revit_category": "Walls",
+      "contained_in_space": "Level_1_space_212",
+      "hosted_by": "ifc_39",
+      "adjacent_to": [
+        "Level_1_space_355",
+        "Level_1_space_514"
+      ],
+      "placement": {
+        "level_id": "Storey_39",
+        "level_name": "Level 1",
+        "x_mm": 6287.999999999999,
+        "y_mm": -10995.00000000004,
+        "z_mm": 0.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#4508",
+        "ifc_guid": "2O2Fr$t4X7Zf8NOew3FKST",
+        "tag": "139682",
+        "geometry_bbox_min_x_mm": 6225.999999999999,
+        "geometry_bbox_max_x_mm": 6350.0,
+        "geometry_bbox_min_y_mm": -10995.00000000004,
+        "geometry_bbox_max_y_mm": -8074.999999999999,
+        "geometry_bbox_min_z_mm": 0.0,
+        "geometry_bbox_max_z_mm": 2795.000000000196,
+        "geometry_bbox_width_mm": 124.00000000000091,
+        "geometry_bbox_depth_mm": 2920.000000000041,
+        "geometry_bbox_height_mm": 2795.000000000196
+      }
+    },
+    {
+      "element_id": "ifc_4553",
+      "source_label": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "semantic_type": "wall",
+      "ifc_type": "IFCWALLSTANDARDCASE",
+      "revit_category": "Walls",
+      "contained_in_space": "Level_1_space_212",
+      "hosted_by": "ifc_39",
+      "adjacent_to": [
+        "Level_1_space_355"
+      ],
+      "placement": {
+        "level_id": "Storey_39",
+        "level_name": "Level 1",
+        "x_mm": 4769.999999999999,
+        "y_mm": -10308.000000000031,
+        "z_mm": 0.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "ifc_entity_id": "#4553",
+        "ifc_guid": "2O2Fr$t4X7Zf8NOew3FKIu",
+        "tag": "139783",
+        "geometry_bbox_min_x_mm": 4769.999999999999,
+        "geometry_bbox_max_x_mm": 6225.999999999999,
+        "geometry_bbox_min_y_mm": -10370.000000000031,
+        "geometry_bbox_max_y_mm": -10246.00000000003,
+        "geometry_bbox_min_z_mm": 0.0,
+        "geometry_bbox_max_z_mm": 2795.000000000196,
+        "geometry_bbox_width_mm": 1456.0,
+        "geometry_bbox_depth_mm": 124.00000000000182,
+        "geometry_bbox_height_mm": 2795.000000000196
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "ifc_4508_fact_01",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 124.00000000000091,
+      "unit": "mm",
+      "source_element_id": "ifc_4508",
+      "source_element_label": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_4508_fact_02",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2795.000000000196,
+      "unit": "mm",
+      "source_element_id": "ifc_4508",
+      "source_element_label": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_4553_fact_03",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 1456.0,
+      "unit": "mm",
+      "source_element_id": "ifc_4553",
+      "source_element_label": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_4553_fact_04",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2795.000000000196,
+      "unit": "mm",
+      "source_element_id": "ifc_4553",
+      "source_element_label": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_21449_fact_05",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 5809.000000000005,
+      "unit": "mm",
+      "source_element_id": "ifc_21449",
+      "source_element_label": "Floor:Finish Floor - Ceramic Tile:170785",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCSLAB geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_21449_fact_06",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 13.0,
+      "unit": "mm",
+      "source_element_id": "ifc_21449",
+      "source_element_label": "Floor:Finish Floor - Ceramic Tile:170785",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCSLAB geometry bounding-box height"
+    },
+    {
+      "fact_id": "ifc_24813_fact_07",
+      "parameter": "ifc_geometry_bbox_width",
+      "value": 4200.999999999999,
+      "unit": "mm",
+      "source_element_id": "ifc_24813",
+      "source_element_label": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "source_property": "geometry_bbox_width_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box width"
+    },
+    {
+      "fact_id": "ifc_24813_fact_08",
+      "parameter": "ifc_geometry_bbox_height",
+      "value": 2795.000000000196,
+      "unit": "mm",
+      "source_element_id": "ifc_24813",
+      "source_element_label": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "source_property": "geometry_bbox_height_mm",
+      "description": "IFCWALLSTANDARDCASE geometry bounding-box height"
+    },
+    {
+      "fact_id": "Level_1_space_212_fact_09",
+      "parameter": "ifc_space_bbox_length",
+      "value": 5808.999999999999,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space long dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_1_space_212_fact_10",
+      "parameter": "ifc_space_bbox_width",
+      "value": 2229.9999999999836,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Space short dimension derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_1_space_212_fact_11",
+      "parameter": "ifc_space_bbox_area",
+      "value": 12.954069999999904,
+      "unit": "m2",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_width_depth_mm",
+      "description": "Approximate space footprint area derived from IFC shape bounding box"
+    },
+    {
+      "fact_id": "Level_1_space_212_fact_12",
+      "parameter": "ifc_space_bbox_height",
+      "value": 2587.0000000000014,
+      "unit": "mm",
+      "source_element_id": null,
+      "source_element_label": null,
+      "source_property": "geometry_bbox_height_mm",
+      "description": "Space height derived from IFC shape bounding box"
+    }
+  ]
+}

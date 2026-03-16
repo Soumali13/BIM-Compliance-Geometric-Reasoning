@@ -1,0 +1,55 @@
+Scene: Unit_520_bedroom_primary_space (Residential Bedroom)
+Overall status: PASS
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.
+  Precedence: The active rules came from QCC_B11_R2 with no higher-priority override applied.
+
+
+[PASS] Articles 3.8.5.6 - unit520_bedroom_primary_zone.area_m2
+  fact: 12.8 m2
+  requirement: >= 11.0 m2
+  reason: Bedroom area satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 11.0 m2
+
+
+[PASS] Articles 3.8.5.6 - unit520_bedroom_primary_zone.length_m
+  fact: 3.7 m
+  requirement: >= 3.0 m
+  reason: Bedroom length satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - unit520_bedroom_primary_zone.width_m
+  fact: 3.3 m
+  requirement: >= 3.0 m
+  reason: Bedroom width satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 >= 3.0 m
+
+
+[PASS] Articles 3.8.5.6 - unit520_bedroom_primary_window.sill_height_mm
+  fact: 900.0 mm
+  requirement: <= 1000.0 mm
+  reason: Window sill height satisfies the requirement.
+  active authority: QCC_B11_R2 (Quebec)
+  citations: 3.8.5.6 Bedrooms
+  override trace: QCC_B11_R2:3.8.5.6 <= 1000.0 mm
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_520_normalized_bim.json
+- Unit ID: Unit_520
+- Space ID: Unit_520_bedroom_primary_space
+- Space name: Unit 520 Bedroom Primary
+- Retrieved articles: 3.8.5.6, 18, 14, 14, 27.1, 23
+- Derived constraints: 24
+- Findings: 4

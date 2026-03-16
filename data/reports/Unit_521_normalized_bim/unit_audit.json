@@ -1,0 +1,131 @@
+{
+  "project_id": "Montreal_Accessibility_Demo",
+  "project_name": "Montreal Accessibility Demo Tower",
+  "unit_ids": [
+    "Unit_521"
+  ],
+  "source_normalized_project": "/Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json",
+  "overall_status": "FAIL",
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:29-04:00",
+  "space_count": 10,
+  "status_counts": {
+    "PASS": 2,
+    "FAIL": 3,
+    "UNKNOWN": 5
+  },
+  "spaces": [
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_bathroom_primary_space",
+      "space_name": "Unit 521 Bathroom Primary",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including lavatory_trap_entry_back_wall_distance.",
+      "recommended_next_measurements": [
+        "lavatory_trap_entry_back_wall_distance"
+      ]
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_bathroom_hall_space",
+      "space_name": "Unit 521 Bathroom Hall",
+      "room_type": "Residential Bathroom",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom failed because one or more active requirements were violated, including turning_circle_diameter, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": []
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_kitchen_open_plan_space",
+      "space_name": "Unit 521 Kitchen Open Plan",
+      "room_type": "Residential Kitchen",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen is unknown because required evidence is missing, including kitchen_sink_trap_bottom_height.",
+      "recommended_next_measurements": [
+        "kitchen_sink_trap_bottom_height"
+      ]
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_bedroom_primary_space",
+      "space_name": "Unit 521 Bedroom Primary",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": []
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_bedroom_secondary_space",
+      "space_name": "Unit 521 Bedroom Secondary",
+      "room_type": "Residential Bedroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom is unknown because required evidence is missing, including window_sill_height.",
+      "recommended_next_measurements": [
+        "window_sill_height"
+      ]
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_living_room_space",
+      "space_name": "Unit 521 Living Room",
+      "room_type": "Residential Living Room",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential living room failed because one or more active requirements were violated, including window_sill_height.",
+      "recommended_next_measurements": []
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_dining_room_space",
+      "space_name": "Unit 521 Dining Room",
+      "room_type": "Residential Dining Room",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential dining room is unknown because required evidence is missing, including window_sill_height.",
+      "recommended_next_measurements": [
+        "window_sill_height"
+      ]
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_suite_entry_space",
+      "space_name": "Unit 521 Suite Entry",
+      "room_type": "Residential Door Area",
+      "status": "FAIL",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential door area failed because one or more active requirements were violated, including door_side_clear_space_diameter, door_side_clear_space_perpendicular_swing, door_side_clear_space_perpendicular_sliding.",
+      "recommended_next_measurements": []
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_entry_controls_space",
+      "space_name": "Unit 521 Entry Controls",
+      "room_type": "Residential Controls",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential controls is unknown because required evidence is missing, including control_height, control_inside_corner_distance.",
+      "recommended_next_measurements": [
+        "control_height",
+        "control_inside_corner_distance"
+      ]
+    },
+    {
+      "unit_id": "Unit_521",
+      "space_id": "Unit_521_balcony_main_space",
+      "space_name": "Unit 521 Balcony Main",
+      "room_type": "Residential Balcony",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential balcony passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": []
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+Scene: Unit_521_bathroom_primary_space (Residential Bathroom)
+Overall status: UNKNOWN
+Constraint source: runtime_derived
+Retrieval mode: hybrid
+Reasoning mode: deterministic
+Reasoning generation: deterministic
+
+Reasoning summary:
+  The residential bathroom is unknown because required evidence is missing, including lavatory_trap_entry_back_wall_distance.
+  Precedence: The active rule set followed the precedence chain QCC_B11_R2 -> QUEBEC_2020_ABOVE -> NBC_2020 -> QUEBEC_2015_2022, ending with QUEBEC_2015_2022 as the controlling authority where applicable.
+  Recommended next measurements: lavatory_trap_entry_back_wall_distance
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_turning_circle.diameter_mm
+  fact: 1505.0 mm
+  requirement: >= 1500.0 mm
+  reason: Turning diameter satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1500.0 mm
+
+
+[PASS] Articles 3.8.3.15 - unit521_bathroom_primary_sink.rim_height_mm
+  fact: 845.0 mm
+  requirement: <= 865.0 mm
+  reason: Lavatory rim height satisfies the requirement.
+  active authority: QUEBEC_2015_2022 (Quebec)
+  citations: 3.8.3.15 Lavatories and Mirrors
+  override trace: NBC_2020:3.8.3.16 <= 865.0 mm -> QUEBEC_2015_2022:3.8.3.15 <= 865.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_sink.side_wall_distance_mm
+  fact: 490.0 mm
+  requirement: >= 460.0 mm
+  reason: Lavatory side-wall clearance satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: NBC_2020:3.8.3.16 >= 460.0 mm -> QCC_B11_R2:3.8.5.5 >= 460.0 mm -> QUEBEC_2015_2022:3.8.3.15 >= 460.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 460.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_sink.trap_bottom_height_mm
+  fact: 245.0 mm
+  requirement: <= 300.0 mm
+  reason: Lavatory trap bottom height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 <= 300.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 <= 300.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_sink.trap_bottom_height_mm
+  fact: 245.0 mm
+  requirement: >= 230.0 mm
+  reason: Lavatory trap bottom height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 230.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 230.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_wc.to_lavatory_trap_distance_mm
+  fact: 1420.0 mm
+  requirement: >= 1400.0 mm
+  reason: Water closet to lavatory trap distance satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1400.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1400.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_wc.side_wall_or_equipment_distance_mm
+  fact: 1110.0 mm
+  requirement: >= 1100.0 mm
+  reason: Water closet to side wall or equipment distance satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1100.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1100.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_wc.rear_reinforcement_width_mm
+  fact: 1010.0 mm
+  requirement: >= 1000.0 mm
+  reason: Water closet rear reinforcement width satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1000.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1000.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_wc.rear_reinforcement_height_mm
+  fact: 1115.0 mm
+  requirement: >= 1100.0 mm
+  reason: Water closet rear reinforcement height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1100.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1100.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_shower.floor_width_mm
+  fact: 910.0 mm
+  requirement: >= 900.0 mm
+  reason: Shower floor width satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: NBC_2020:3.8.3.17 >= 1500.0 mm -> QCC_B11_R2:3.8.5.5 >= 900.0 mm -> QUEBEC_2015_2022:3.8.3.16 >= 1500.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 900.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_shower.floor_length_mm
+  fact: 920.0 mm
+  requirement: >= 900.0 mm
+  reason: Shower floor length satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: NBC_2020:3.8.3.17 >= 900.0 mm -> QCC_B11_R2:3.8.5.5 >= 900.0 mm -> QUEBEC_2015_2022:3.8.3.16 >= 900.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 900.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_shower.front_clearance_width_mm
+  fact: 760.0 mm
+  requirement: >= 750.0 mm
+  reason: Shower front clearance width satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: NBC_2020:3.8.3.17 >= 1500.0 mm -> QCC_B11_R2:3.8.5.5 >= 750.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 750.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_shower.front_clearance_length_mm
+  fact: 1220.0 mm
+  requirement: >= 1200.0 mm
+  reason: Shower front clearance length satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: NBC_2020:3.8.3.17 >= 900.0 mm -> QCC_B11_R2:3.8.5.5 >= 1200.0 mm -> QUEBEC_2015_2022:3.8.3.16 >= 900.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1200.0 mm
+
+
+[PASS] Articles 3.8.5.5 - unit521_bathroom_primary_shower.wall_reinforcement_height_mm
+  fact: 1805.0 mm
+  requirement: >= 1800.0 mm
+  reason: Shower wall reinforcement height satisfies the requirement.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 >= 1800.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 >= 1800.0 mm
+
+
+[UNKNOWN] Articles 3.8.5.5 - missing.lavatory_trap_entry_back_wall_distance
+  fact: missing
+  requirement: <= 330.0 mm
+  reason: Required fact for lavatory_trap_entry_back_wall_distance was not found in the scene.
+  active authority: QUEBEC_2020_ABOVE (Quebec)
+  citations: 3.8.5.5 Bathrooms
+  override trace: QCC_B11_R2:3.8.5.5 <= 330.0 mm -> QUEBEC_2020_ABOVE:3.8.5.5 <= 330.0 mm
+  expected from: lavatory
+
+Metadata
+- Source normalized BIM: /Users/soumaliroychowdhury/Codes/BIM-Compliance-Geometric-Reasoning/data/artifacts/normalized_bim/Unit_521_normalized_bim.json
+- Unit ID: Unit_521
+- Space ID: Unit_521_bathroom_primary_space
+- Space name: Unit 521 Bathroom Primary
+- Retrieved articles: 3.8.5.5, 3.8.5.5, 3.8.3.17, 3.8.3.16, 3.8.3.16, 3.8.3.15, 14, 23, 27.1
+- Derived constraints: 58
+- Findings: 15

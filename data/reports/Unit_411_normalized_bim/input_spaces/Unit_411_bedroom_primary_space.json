@@ -1,0 +1,224 @@
+{
+  "space_id": "Unit_411_bedroom_primary_space",
+  "unit_id": "Unit_411",
+  "name": "Unit 411 Bedroom Primary",
+  "room_type": "Residential Bedroom",
+  "ifc_type": "IfcSpace",
+  "revit_category": "Rooms",
+  "level_id": "Level_04",
+  "contained_in_unit": "Unit_411",
+  "adjacent_to": [
+    "Unit_411_living_room_space",
+    "Unit_411_bathroom_primary_space"
+  ],
+  "placement": {
+    "level_id": "Level_04",
+    "level_name": "Level 04",
+    "x_mm": 4200.0,
+    "y_mm": 3600.0,
+    "z_mm": 12000.0,
+    "rotation_deg": 0.0
+  },
+  "source_scene": "bedroom_primary.json",
+  "source_room_id": "Unit_411_Bedroom_Primary",
+  "raw_properties": {
+    "source_room_type": "Residential Bedroom",
+    "compliance_room_type": "Residential Bedroom",
+    "legacy_scene_format": "room_scene_json"
+  },
+  "elements": [
+    {
+      "element_id": "Unit_411_bedroom_primary_space_floor_slab",
+      "source_label": "Unit_411_Bedroom_Primary_floor_slab",
+      "semantic_type": "floor_slab",
+      "ifc_type": "IfcSlab",
+      "revit_category": "Floors",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 4200.0,
+        "y_mm": 3600.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_service_wall",
+      "source_label": "Unit_411_Bedroom_Primary_service_wall",
+      "semantic_type": "service_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 5400.0,
+        "y_mm": 3600.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_exterior_wall",
+      "source_label": "Unit_411_Bedroom_Primary_exterior_wall",
+      "semantic_type": "exterior_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 7400.0,
+        "y_mm": 3600.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_entry_wall",
+      "source_label": "Unit_411_Bedroom_Primary_entry_wall",
+      "semantic_type": "entry_wall",
+      "ifc_type": "IfcWall",
+      "revit_category": "Walls",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 4200.0,
+        "y_mm": 4400.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 90.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_ceiling_plane",
+      "source_label": "Unit_411_Bedroom_Primary_ceiling_plane",
+      "semantic_type": "ceiling_plane",
+      "ifc_type": "IfcCovering",
+      "revit_category": "Ceilings",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": null,
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 4200.0,
+        "y_mm": 3600.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "generated_shell": true
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_primary_sleeping_area",
+      "source_label": "primary_sleeping_area",
+      "semantic_type": "bedroom",
+      "ifc_type": "IfcSpatialZone",
+      "revit_category": "Areas",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": "Unit_411_bedroom_primary_space_floor_slab",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 4500.0,
+        "y_mm": 3800.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "area_m2": 10.4,
+        "length_m": 2.9,
+        "width_m": 2.95,
+        "bed_size": "double"
+      }
+    },
+    {
+      "element_id": "Unit_411_bedroom_primary_space_east_window",
+      "source_label": "east_window",
+      "semantic_type": "window",
+      "ifc_type": "IfcWindow",
+      "revit_category": "Windows",
+      "contained_in_space": "Unit_411_bedroom_primary_space",
+      "hosted_by": "Unit_411_bedroom_primary_space_exterior_wall",
+      "adjacent_to": [],
+      "placement": {
+        "level_id": "Level_04",
+        "level_name": "Level 04",
+        "x_mm": 4800.0,
+        "y_mm": 4000.0,
+        "z_mm": 12000.0,
+        "rotation_deg": 0.0
+      },
+      "raw_properties": {
+        "sill_height_mm": 1090,
+        "operable": true
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "Unit_411_bedroom_primary_space_fact_01",
+      "parameter": "bedroom_area",
+      "value": 10.4,
+      "unit": "m2",
+      "source_element_id": "Unit_411_bedroom_primary_space_primary_sleeping_area",
+      "source_element_label": "primary_sleeping_area",
+      "source_property": "area_m2",
+      "description": "Bedroom area"
+    },
+    {
+      "fact_id": "Unit_411_bedroom_primary_space_fact_02",
+      "parameter": "bedroom_length",
+      "value": 2.9,
+      "unit": "m",
+      "source_element_id": "Unit_411_bedroom_primary_space_primary_sleeping_area",
+      "source_element_label": "primary_sleeping_area",
+      "source_property": "length_m",
+      "description": "Bedroom length"
+    },
+    {
+      "fact_id": "Unit_411_bedroom_primary_space_fact_03",
+      "parameter": "bedroom_width",
+      "value": 2.95,
+      "unit": "m",
+      "source_element_id": "Unit_411_bedroom_primary_space_primary_sleeping_area",
+      "source_element_label": "primary_sleeping_area",
+      "source_property": "width_m",
+      "description": "Bedroom width"
+    },
+    {
+      "fact_id": "Unit_411_bedroom_primary_space_fact_04",
+      "parameter": "window_sill_height",
+      "value": 1090.0,
+      "unit": "mm",
+      "source_element_id": "Unit_411_bedroom_primary_space_east_window",
+      "source_element_label": "east_window",
+      "source_property": "sill_height_mm",
+      "description": "Window sill height"
+    }
+  ]
+}

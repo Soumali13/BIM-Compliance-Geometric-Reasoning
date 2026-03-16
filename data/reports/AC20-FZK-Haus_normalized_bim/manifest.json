@@ -1,0 +1,144 @@
+{
+  "project_id": "0lY6P5Ur90TAQnnnI6wtnb",
+  "project_name": "Projekt-FZK-Haus",
+  "unit_ids": [
+    "Erdgeschoss",
+    "Dachgeschoss"
+  ],
+  "artifacts": [
+    "source_normalized_project.json",
+    "unit_audit.json",
+    "unit_audit.txt",
+    "unit_audit.pdf",
+    "input_spaces/",
+    "space_reports/"
+  ],
+  "retrieval_mode": "hybrid",
+  "reasoning_mode": "deterministic",
+  "generated_at": "2026-03-15T13:11:23-04:00",
+  "space_reports": [
+    {
+      "space_id": "Erdgeschoss_space_20909",
+      "space_name": "Schlafzimmer",
+      "room_type": "Residential Bedroom",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bedroom passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Erdgeschoss_space_21283",
+      "space_name": "Bad",
+      "room_type": "Residential Bathroom",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential bathroom is unknown because required evidence is missing, including bathtub_shower_reinforcement_height, lavatory_rim_height, lavatory_side_wall_distance.",
+      "recommended_next_measurements": [
+        "bathtub_shower_reinforcement_height",
+        "lavatory_rim_height",
+        "lavatory_side_wall_distance",
+        "lavatory_trap_bottom_height",
+        "lavatory_trap_entry_back_wall_distance",
+        "shower_floor_length",
+        "shower_floor_width",
+        "shower_front_clearance_length",
+        "shower_front_clearance_width",
+        "turning_circle_diameter",
+        "water_closet_rear_reinforcement_height",
+        "water_closet_rear_reinforcement_width",
+        "water_closet_side_wall_or_equipment_distance",
+        "water_closet_to_lavatory_trap_distance"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Erdgeschoss_space_33774",
+      "space_name": "Wohnen",
+      "room_type": "Residential Living Room",
+      "status": "PASS",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential living room passed because every evaluated measurement satisfied the active precedence-resolved rule set.",
+      "recommended_next_measurements": [
+        "ifc_geometry_bbox_width",
+        "ifc_geometry_bbox_height",
+        "ifc_overall_width",
+        "ifc_overall_height",
+        "ifc_space_bbox_length",
+        "ifc_space_bbox_width",
+        "ifc_space_bbox_area",
+        "ifc_space_bbox_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Erdgeschoss_space_34191",
+      "space_name": "Flur",
+      "room_type": "Residential Corridor",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential corridor is unknown because required evidence is missing, including turning_circle_diameter.",
+      "recommended_next_measurements": [
+        "turning_circle_diameter"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    },
+    {
+      "space_id": "Erdgeschoss_space_34763",
+      "space_name": "K\u00fcche",
+      "room_type": "Residential Kitchen",
+      "status": "UNKNOWN",
+      "reasoning_generation_mode": "deterministic",
+      "reasoning_summary": "The residential kitchen is unknown because required evidence is missing, including kitchen_clear_floor_space_diameter, kitchen_sink_trap_bottom_height.",
+      "recommended_next_measurements": [
+        "kitchen_clear_floor_space_diameter",
+        "kitchen_sink_trap_bottom_height"
+      ],
+      "artifacts": [
+        "space_input.json",
+        "retrieved_articles.json",
+        "derived_constraints.json",
+        "audit_report.json",
+        "audit_report.txt",
+        "audit_report.pdf"
+      ]
+    }
+  ]
+}
